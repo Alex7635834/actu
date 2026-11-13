@@ -170,22 +170,33 @@ UNE_SOURCES = 4       # articles max rattachés à un sujet à la une
 
 SYSTEM_SELECT = f"""Tu es le rédacteur en chef d'une veille d'actualité quotidienne pour un
 ingénieur francophone. On te fournit des articles candidats (identifiant, source, titre, extrait
-du flux RSS) classés par catégorie.
+du flux RSS) classés par catégorie, puis une liste « Art et culture ».
 
 1. « picks » : pour chaque catégorie, les identifiants des articles à publier, du plus important
    au moins important. Donnes-en 3 de plus que le nombre demandé (ils servent de réserve).
    - Privilégie ce qui est important et instructif ; écarte promotions, bons plans, tests de
      produits mineurs et contenus sans information.
-   - Un seul article par sujet : si plusieurs sources couvrent le même événement, garde le plus
-     complet.
+   - RÈGLE STRICTE : un seul article par sujet. Si plusieurs sources couvrent le même événement
+     (par exemple une même panne, une même démission, une même annonce), n'en garde qu'UN, le
+     plus complet, et choisis les autres articles sur des sujets différents.
    - Varie les sources : pas plus de {SOURCE_CAP} articles d'une même source par catégorie.
    - Un même événement ne doit apparaître que dans une seule catégorie, la plus pertinente,
      sauf si un autre article l'aborde sous un angle réellement différent.
-2. « une » : les {UNE_TOPICS} sujets majeurs du jour, toutes catégories confondues, en
-   privilégiant tech, IA et cybersécurité quand l'actualité s'y prête. Un sujet couvert par
-   plusieurs sources est un signal d'importance. Pour chaque sujet, donne dans « ids » les
-   identifiants des articles candidats qui en parlent (1 à {UNE_SOURCES}, de sources différentes,
-   toutes catégories confondues, qu'ils soient ou non dans « picks »)."""
+   - L'intelligence artificielle a sa propre catégorie : dans les autres, ne retiens un sujet lié
+     à l'IA que s'il est vraiment majeur, et varie les thèmes (matériel, logiciel, spatial,
+     énergie, science, industrie, régulation…).
+2. « une » : les {UNE_TOPICS} sujets majeurs du jour, toutes catégories confondues, choisis pour
+   leur importance réelle et sur des thèmes différents (au plus un sujet centré sur l'IA). Un
+   sujet couvert par plusieurs sources est un signal d'importance. Pour chaque sujet, donne dans
+   « ids » les identifiants des articles candidats qui en parlent (1 à {UNE_SOURCES}, de sources
+   différentes, toutes catégories confondues, qu'ils soient ou non dans « picks »).
+3. « art » : l'identifiant d'UN article de la liste « Art et culture ». Choisis en priorité un
+   film qui fait parler de lui en ce moment (sortie, succès en salles, événement) ; à défaut une
+   série, un événement sportif marquant, un livre ou une actualité d'Hollywood. Écarte les
+   contenus promotionnels, les directs et les programmes télé.
+4. « pays » : un pays au cœur de l'actualité internationale du jour, hors France, États-Unis et
+   Canada, et hors de la liste « pays déjà présentés ». Donne « nom » (son nom français, tel que
+   le titre de sa page Wikipédia en français) et « id » (un article candidat qui en parle)."""
 
 SCHEMA_SELECT = {
     "type": "object",
@@ -195,8 +206,12 @@ SCHEMA_SELECT = {
             "type": "object",
             "properties": {"ids": {"type": "array", "items": {"type": "integer"}}},
             "required": ["ids"]}},
+        "art": {"type": "integer"},
+        "pays": {"type": "object",
+                 "properties": {"nom": {"type": "string"}, "id": {"type": "integer"}},
+                 "required": ["nom", "id"]},
     },
-    "required": ["picks", "une"],
+    "required": ["picks", "une", "art", "pays"],
 }
 
 
@@ -215,21 +230,32 @@ def fallback_picks(categories, cands):
     return {c["id"]: cap_sources(cands[c["id"]], c["picks"]) for c in categories}
 
 
-def select(key, categories, cands):
-    """Renvoie (picks par catégorie, groupes à la une) ou None si l'IA est indisponible."""
+def recent(today: str, block: str, field: str, days: int = 21) -> list[str]:
+    """Valeurs récentes d'un bloc (concepts, pays…) pour éviter les répétitions."""
+    previous = [p for p in sorted(DATA.glob("*.json")) if p.stem < today][-days:]
+    values = [(json.loads(p.read_text()).get(block) or {}).get(field) for p in previous]
+    return [v for v in values if v]
+
+
+def select(key, categories, cands, past_countries):
+    """Renvoie un dict (picks, groups, art, pays) ou None si l'IA est indisponible."""
     parts = []
     for cat in categories:
         parts.append(f"## {cat['name']} : publier {cat['picks']} articles")
         parts += [f"[{i['id']}] {i['source']} | {i['title']} | {i['desc'] or '(pas d extrait)'}"
                   for i in cands[cat["id"]]]
+    parts.append("## Art et culture (bloc à part) : choisir 1 article")
+    parts += [f"[{i['id']}] {i['source']} | {i['title']} | {i['desc'] or '(pas d extrait)'}"
+              for i in cands["art"]]
+    parts.append("## Pays déjà présentés : " + (", ".join(past_countries) or "(aucun)"))
     answer = ask_gemini(key, SYSTEM_SELECT, "\n".join(parts), SCHEMA_SELECT)
     if not answer or not isinstance(answer.get("picks"), list):
         return None
     by_id = {i["id"]: (cid, i) for cid, items in cands.items() for i in items}
     ranked, used = {c["id"]: [] for c in categories}, set()
     for pid in answer["picks"]:
-        if pid in by_id and pid not in used:  # identifiant inventé ou en double : ignoré
-            used.add(pid)
+        if pid in by_id and pid not in used and by_id[pid][0] in ranked:
+            used.add(pid)  # identifiant inventé, en double ou hors catégorie : ignoré
             ranked[by_id[pid][0]].append(by_id[pid][1])
     backup = fallback_picks(categories, cands)
     picks = {c["id"]: cap_sources(ranked[c["id"]], c["picks"]) or backup[c["id"]]
@@ -239,15 +265,20 @@ def select(key, categories, cands):
         ids = topic.get("ids") if isinstance(topic, dict) else None
         items, sources = [], set()
         for pid in ids if isinstance(ids, list) else []:
-            if pid in by_id and by_id[pid][1]["source"] not in sources:
+            if pid in by_id and by_id[pid][0] != "art" and by_id[pid][1]["source"] not in sources:
                 items.append(by_id[pid][1])
                 sources.add(by_id[pid][1]["source"])
         if items and len(groups) < UNE_TOPICS:
             groups.append(items[:UNE_SOURCES])
-    return picks, groups
+    art = by_id.get(answer.get("art"))
+    country, raw = None, answer.get("pays")
+    if isinstance(raw, dict) and raw.get("nom") and raw.get("id") in by_id:
+        country = {"nom": clean(str(raw["nom"])), "item": by_id[raw["id"]][1]}
+    return {"picks": picks, "groups": groups,
+            "art": art[1] if art and art[0] == "art" else None, "pays": country}
 
 
-# ---------- étape 2 : lecture des articles ----------
+# ---------- étape 2 : lecture des articles et des sources des blocs ----------
 
 ARTICLE_CHARS = 4000  # longueur max du texte d'article envoyé à l'IA
 BROWSER_UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -320,122 +351,228 @@ def read_articles(items: list[dict]) -> None:
     print(f"  {full}/{len(items)} articles lus en entier (les autres : extrait RSS)")
 
 
+def fetch_json(url: str) -> dict:
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        return json.loads(resp.read())
+
+
+def on_this_day(now: datetime) -> list[dict]:
+    """Événements du jour d'après Wikipédia en français ([] si l'API ne répond pas)."""
+    events = []
+    for kind in ("selected", "events"):
+        try:
+            data = fetch_json("https://api.wikimedia.org/feed/v1/wikipedia/fr/onthisday/"
+                              f"{kind}/{now:%m/%d}")
+        except Exception as exc:
+            print(f"  ! Wikipédia ({kind}) : {exc}", file=sys.stderr)
+            continue
+        for event in data.get(kind) or []:
+            page = (event.get("pages") or [{}])[0]
+            url = ((page.get("content_urls") or {}).get("desktop") or {}).get("page", "")
+            if event.get("year") and event.get("text") and url.startswith("https://"):
+                events.append({"annee": event["year"], "texte": clean(event["text"]),
+                               "extrait": clean(page.get("extract", ""), 500), "link": url})
+    return events[:18]
+
+
+def country_page(name: str) -> dict | None:
+    """Introduction de la page Wikipédia du pays, ou None si elle est introuvable."""
+    try:
+        data = fetch_json("https://fr.wikipedia.org/api/rest_v1/page/summary/"
+                          + urllib.parse.quote(name.replace(" ", "_"), safe=""))
+    except Exception as exc:
+        print(f"  ! Wikipédia (pays « {name} ») : {exc}", file=sys.stderr)
+        return None
+    url = ((data.get("content_urls") or {}).get("desktop") or {}).get("page", "")
+    if data.get("type") != "standard" or not data.get("extract") or not url.startswith("https://"):
+        return None
+    image = (data.get("thumbnail") or {}).get("source", "")
+    return {"nom": clean(data.get("title", name)), "extrait": clean(data["extract"], 1500),
+            "link": url, "image": image if image.startswith("https://") else ""}
+
+
 # ---------- étape 3 : rédaction ----------
 
 SYSTEM_WRITE = """Tu es le rédacteur d'une veille d'actualité quotidienne pour un ingénieur
-francophone. On te fournit les articles retenus aujourd'hui : identifiant, source, titre original,
-puis le texte de l'article (ou seulement l'extrait RSS quand le texte est inaccessible), ainsi
-que les sujets « à la une » avec les articles qui s'y rapportent.
+francophone. On te fournit les articles retenus aujourd'hui, regroupés par catégorie :
+identifiant, source, titre original, puis le texte de l'article (ou seulement l'extrait RSS quand
+le texte est inaccessible). On te fournit aussi les sujets « à la une » et de quoi rédiger des
+blocs annexes.
 
-1. « articles » : pour CHAQUE article fourni, une entrée avec :
+1. « articles » : pour CHAQUE article fourni dans les catégories, une entrée avec :
    - « titre » : le titre en français. S'il est en anglais, traduis-le fidèlement, sans
      l'embellir ni le dramatiser ; s'il est déjà en français, reprends-le tel quel. Garde les
      noms propres, noms de produits et sigles dans leur forme d'origine.
-   - « resume » : 2 à 3 phrases en français, 60 mots maximum : les faits essentiels (qui, quoi,
+   - « resume » : 2 phrases en français, 45 mots maximum : les faits essentiels (qui, quoi,
      chiffres clés), puis ce que cela change. Ne répète pas le titre.
 2. « une » : pour chaque sujet à la une, « sujet » (son numéro), « titre » (titre court en
    français) et « resume » (3 à 4 phrases, 80 mots maximum) : une synthèse de ce que rapportent
    les articles rattachés, en signalant ce qui reste incertain ou ce sur quoi ils divergent.
-3. « concept » : choisis UN terme ou mécanisme technique (informatique, IA, cybersécurité ou
+3. « bref » : pour chaque catégorie, « categorie » (son identifiant entre parenthèses) et
+   « texte » : 2 à 3 phrases, 50 mots maximum, qui donnent l'essentiel de la catégorie à
+   quelqu'un qui ne lira pas les articles. Relie les sujets entre eux plutôt que de les énumérer,
+   et ne répète pas ce qui est déjà dit dans « à la une ».
+4. « concept » : choisis UN terme ou mécanisme technique (informatique, IA, cybersécurité ou
    finance) qui apparaît dans les articles du jour et qu'un ingénieur gagne à comprendre. Évite
    les termes de la liste « déjà expliqués ». Donne « terme », « id » (l'article où il apparaît)
-   et « explication » : 4 à 6 phrases en français, soit ce que c'est, comment ça fonctionne, et
-   pourquoi on en parle aujourd'hui.
+   et « explication » : 4 phrases en français, 90 mots maximum, soit ce que c'est, comment ça
+   fonctionne, et pourquoi on en parle aujourd'hui.
+5. « art » : à partir de l'article « Art et culture », donne « rubrique » (Cinéma, Série, Sport,
+   Livre ou Culture), « titre » (court, en français) et « texte » (3 phrases, 70 mots maximum) :
+   de quoi il s'agit et pourquoi on en parle.
+6. « histoire » : choisis UN événement de la liste « Ce jour-là », le plus marquant ou le plus
+   instructif. Donne « evenement » (son numéro), « titre » (court, sans l'année) et « texte »
+   (3 phrases, 70 mots maximum) : ce qui s'est passé et pourquoi cela a compté.
+7. « pays » : à partir de la fiche Wikipédia du pays et de l'article d'actualité associé, donne
+   « capitale » (en français) et « texte » (3 à 4 phrases, 80 mots maximum) : où il se situe et
+   quelques repères utiles (voisins, population, régime ou économie), puis pourquoi il est dans
+   l'actualité aujourd'hui.
 
 Règles de fiabilité :
-- Titres, résumés et synthèses s'appuient uniquement sur le texte fourni : n'ajoute aucun fait,
-  chiffre, nom ou citation qui n'y figure pas. Si seul un extrait est disponible, reste bref.
-- Écris les résumés directement, sans formule comme « selon cet extrait » ou « l'article
-  indique » ; ne commente jamais le fait que le texte fourni est partiel.
-- Pour l'explication du concept, tu peux t'appuyer sur tes connaissances générales, mais
-  n'affirme que ce dont tu es sûr ; en cas de doute sur un détail, omets-le."""
-
-SCHEMA_WRITE = {
-    "type": "object",
-    "properties": {
-        "articles": {"type": "array", "items": {
-            "type": "object",
-            "properties": {"id": {"type": "integer"}, "titre": {"type": "string"},
-                           "resume": {"type": "string"}},
-            "required": ["id", "titre", "resume"]}},
-        "une": {"type": "array", "items": {
-            "type": "object",
-            "properties": {"sujet": {"type": "integer"}, "titre": {"type": "string"},
-                           "resume": {"type": "string"}},
-            "required": ["sujet", "titre", "resume"]}},
-        "concept": {
-            "type": "object",
-            "properties": {"terme": {"type": "string"}, "explication": {"type": "string"},
-                           "id": {"type": "integer"}},
-            "required": ["terme", "explication", "id"]},
-    },
-    "required": ["articles", "une", "concept"],
-}
+- Tout s'appuie uniquement sur les textes fournis : n'ajoute aucun fait, chiffre, date, nom ou
+  citation qui n'y figure pas. Si seul un extrait est disponible, reste bref.
+- Seule exception : pour l'explication du concept, tu peux t'appuyer sur tes connaissances
+  générales, mais n'affirme que ce dont tu es sûr ; en cas de doute sur un détail, omets-le.
+- Écris directement, sans formule comme « selon cet extrait » ou « l'article indique » ; ne
+  commente jamais le fait que le texte fourni est partiel.
+- Si un bloc annexe n'a pas de matière fournie, renvoie des chaînes vides pour ce bloc."""
 
 
-def recent_concepts(today: str, days: int = 21) -> list[str]:
-    previous = [p for p in sorted(DATA.glob("*.json")) if p.stem < today][-days:]
-    terms = [(json.loads(p.read_text()).get("concept") or {}).get("terme") for p in previous]
-    return [t for t in terms if t]
+def _obj(**fields) -> dict:
+    return {"type": "object", "properties": fields, "required": list(fields)}
 
 
-def write(key, items: list[dict], groups: list[list[dict]], already: list[str]):
-    """Renvoie (textes par id, textes à la une, concept) ou None si l'IA est indisponible."""
+_STR, _INT = {"type": "string"}, {"type": "integer"}
+SCHEMA_WRITE = _obj(
+    articles={"type": "array", "items": _obj(id=_INT, titre=_STR, resume=_STR)},
+    une={"type": "array", "items": _obj(sujet=_INT, titre=_STR, resume=_STR)},
+    bref={"type": "array", "items": _obj(categorie=_STR, texte=_STR)},
+    concept=_obj(terme=_STR, explication=_STR, id=_INT),
+    art=_obj(rubrique=_STR, titre=_STR, texte=_STR),
+    histoire=_obj(evenement=_INT, titre=_STR, texte=_STR),
+    pays=_obj(capitale=_STR, texte=_STR),
+)
+
+
+def article_block(item: dict) -> str:
+    body = (f"Texte : {item['text']}" if item.get("text")
+            else f"Extrait seulement : {item['desc'] or '(aucun)'}")
+    return f"\n[{item['id']}] {item['source']} | {item['title']}\n{body}"
+
+
+def text_of(raw, *fields) -> list[str] | None:
+    """Champs texte nettoyés d'un objet renvoyé par l'IA, ou None s'il en manque un."""
+    if not isinstance(raw, dict):
+        return None
+    values = [clean(str(raw.get(f) or "")) for f in fields]
+    return values if all(values) else None
+
+
+def write(key, categories, sel, events, country, already):
+    """Renvoie un dict de textes rédigés, ou None si l'IA est indisponible."""
+    picks, groups = sel["picks"], sel["groups"]
     parts = ["### SUJETS À LA UNE"]
     parts += [f"Sujet {n} : articles " + ", ".join(f"[{i['id']}]" for i in group)
               for n, group in enumerate(groups, 1)]
     parts.append("\n### CONCEPTS DÉJÀ EXPLIQUÉS\n" + (", ".join(already) or "(aucun)"))
-    parts.append("\n### ARTICLES")
-    for item in items:
-        body = (f"Texte : {item['text']}" if item["text"]
-                else f"Extrait seulement : {item['desc'] or '(aucun)'}")
-        parts.append(f"\n[{item['id']}] {item['source']} | {item['title']}\n{body}")
+    in_cats = set()
+    for cat in categories:
+        parts.append(f"\n### CATÉGORIE {cat['name']} ({cat['id']})")
+        for item in picks[cat["id"]]:
+            in_cats.add(item["id"])
+            parts.append(article_block(item))
+    extra = [i for group in groups for i in group if i["id"] not in in_cats]
+    if extra:
+        parts.append("\n### AUTRES ARTICLES DES SUJETS À LA UNE (sans entrée dans « articles »)")
+        parts += [article_block(i) for i in {i["id"]: i for i in extra}.values()]
+    parts.append("\n### ART ET CULTURE")
+    parts.append(article_block(sel["art"]) if sel["art"] else "(rien)")
+    parts.append("\n### CE JOUR-LÀ (source : Wikipédia)")
+    parts += [f"Événement {n} : {e['annee']} — {e['texte']} | {e['extrait']}"
+              for n, e in enumerate(events, 1)] or ["(rien)"]
+    parts.append("\n### PAYS DU JOUR")
+    if country:
+        parts.append(f"{country['nom']} — fiche Wikipédia : {country['extrait']}\n"
+                     f"Article d'actualité associé : [{country['item']['id']}] "
+                     f"{country['item']['title']} | "
+                     f"{country['item'].get('text') or country['item']['desc']}")
+    else:
+        parts.append("(rien)")
     answer = ask_gemini(key, SYSTEM_WRITE, "\n".join(parts), SCHEMA_WRITE)
     if not answer or not isinstance(answer.get("articles"), list):
         return None
-    by_id = {i["id"]: i for i in items}
-    texts = {}
+
+    by_id = {i["id"]: i for items in picks.values() for i in items}
+    out = {"articles": {}, "une": {}, "bref": {}, "concept": None, "art": None,
+           "histoire": None, "pays": None}
     for entry in answer["articles"]:
-        if isinstance(entry, dict) and entry.get("id") in by_id and entry.get("resume"):
-            texts[entry["id"]] = (clean(str(entry.get("titre") or "")), clean(str(entry["resume"])))
-    une = {}
+        got = text_of(entry, "titre", "resume")
+        if got and entry.get("id") in by_id:
+            out["articles"][entry["id"]] = got
     for entry in answer.get("une") or []:
-        if isinstance(entry, dict) and entry.get("titre") and entry.get("resume"):
-            une[entry.get("sujet")] = (clean(str(entry["titre"])), clean(str(entry["resume"])))
-    concept, raw = None, answer.get("concept")
-    if isinstance(raw, dict) and raw.get("terme") and raw.get("explication"):
-        linked = by_id.get(raw.get("id"))
-        concept = {"terme": clean(str(raw["terme"])), "explication": clean(str(raw["explication"])),
-                   "link": linked["link"] if linked else "",
-                   "source": linked["source"] if linked else ""}
-    return texts, une, concept
+        got = text_of(entry, "titre", "resume")
+        if got:
+            out["une"][entry.get("sujet")] = got
+    for entry in answer.get("bref") or []:
+        got = text_of(entry, "categorie", "texte")
+        if got:
+            out["bref"][got[0]] = got[1]
+    got = text_of(answer.get("concept"), "terme", "explication")
+    if got:
+        linked = by_id.get(answer["concept"].get("id"))
+        out["concept"] = {"terme": got[0], "explication": got[1],
+                          "link": linked["link"] if linked else "",
+                          "source": linked["source"] if linked else ""}
+    got = text_of(answer.get("art"), "rubrique", "titre", "texte")
+    if got and sel["art"]:
+        out["art"] = {"rubrique": got[0], "titre": got[1], "texte": got[2],
+                      "link": sel["art"]["link"], "source": sel["art"]["source"]}
+    got = text_of(answer.get("histoire"), "titre", "texte")
+    number = (answer.get("histoire") or {}).get("evenement")
+    if got and isinstance(number, int) and 1 <= number <= len(events):
+        event = events[number - 1]
+        out["histoire"] = {"annee": event["annee"], "titre": got[0], "texte": got[1],
+                           "link": event["link"], "source": "Wikipédia"}
+    got = text_of(answer.get("pays"), "capitale", "texte")
+    if got and country:
+        out["pays"] = {"nom": country["nom"], "capitale": got[0], "texte": got[1],
+                       "image": country["image"], "wiki": country["link"],
+                       "link": country["item"]["link"], "source": country["item"]["source"]}
+    return out
 
 
 # ---------- rendu ----------
 
 CSS = """
-:root{--bg:#f7f6f3;--card:#fff;--fg:#1c1b19;--muted:#6b6862;--line:#e4e1da;--accent:#b4451f;--soft:#f1ede6}
-@media(prefers-color-scheme:dark){:root{--bg:#141413;--card:#1e1d1b;--fg:#ecebe7;--muted:#9b978f;--line:#2e2c29;--accent:#e8825c;--soft:#23211e}}
+:root{--bg:#f7f6f3;--card:#fff;--fg:#1c1b19;--muted:#6b6862;--line:#e4e1da;--accent:#b4451f}
+@media(prefers-color-scheme:dark){:root{--bg:#141413;--card:#1e1d1b;--fg:#ecebe7;--muted:#9b978f;--line:#2e2c29;--accent:#e8825c}}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:56px}
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
-main,header,footer{max-width:720px;margin:0 auto;padding:0 16px}
+header,footer,.wrap{max-width:720px;margin:0 auto;padding:0 16px}
 header{padding-top:28px}
 h1{font:700 1.9rem/1.15 Georgia,"Times New Roman",serif;margin:0}
 .date{color:var(--muted);margin:4px 0 0}
-nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:1}
+nav{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:2}
 nav div{max-width:720px;margin:0 auto;padding:10px 16px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
 nav a{flex:none;padding:4px 12px;border:1px solid var(--line);border-radius:999px;color:var(--fg);text-decoration:none;font-size:.85rem;background:var(--card)}
 .label{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 6px}
-.box{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;padding:14px 18px;margin:20px 0}
+/* Téléphone : une seule colonne, les blocs s'intercalent dans le flux grâce à « order ». */
+.wrap{display:flex;flex-direction:column}
+.wrap>aside,.wrap>main{display:contents}
+.box{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;padding:14px 18px;margin:14px 0 6px;font-size:.95rem}
 .box ul{margin:0;padding-left:18px}.box li{margin:6px 0}
-.box h3{font:700 1.15rem/1.3 Georgia,serif;margin:0 0 6px}.box p{margin:0}
+.box h3{font:700 1.1rem/1.3 Georgia,serif;margin:0 0 6px}.box p{margin:0}
+.box img{float:right;width:84px;height:auto;margin:0 0 6px 10px;border-radius:4px;background:#fff}
+.box .meta{color:var(--muted);font-size:.85rem;margin-bottom:4px}
 .une{margin-top:22px}
 .une article{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px 18px;margin:10px 0}
 .une h3{font:700 1.2rem/1.3 Georgia,serif;margin:0 0 6px}
 .une p{margin:0}
-.refs{font-size:.85rem;color:var(--muted);margin-top:8px}
+.refs{font-size:.85rem;color:var(--muted);margin-top:8px;clear:both}
 .refs a{color:var(--accent);text-decoration:none;font-weight:600}
-section h2{font:700 1.3rem Georgia,serif;margin:32px 0 4px;padding-bottom:6px;border-bottom:2px solid var(--fg)}
+section h2{font:700 1.3rem Georgia,serif;margin:28px 0 4px;padding-bottom:6px;border-bottom:2px solid var(--fg)}
+.bref{margin:10px 0 2px;padding:10px 14px;background:var(--card);border-radius:8px;border:1px solid var(--line)}
 .list article{padding:14px 0;border-bottom:1px solid var(--line)}
 .list article>a{color:var(--fg);text-decoration:none;font-weight:650;font-size:1.05rem;line-height:1.3;display:block}
 .list article>a:hover{color:var(--accent);text-decoration:underline}
@@ -446,6 +583,14 @@ footer{color:var(--muted);font-size:.85rem;padding:28px 16px 40px}
 footer a{color:var(--accent)}
 .days{list-style:none;padding:0}.days li{padding:10px 0;border-bottom:1px solid var(--line)}
 .days a{color:var(--fg);font-weight:600;text-decoration:none}
+/* Ordinateur : flux au centre, deux blocs de chaque côté. */
+@media(min-width:1180px){
+.wrap{display:grid;grid-template-columns:270px minmax(0,720px) 270px;gap:32px;max-width:1360px;align-items:start;justify-content:center}
+.wrap>aside,.wrap>main{display:block}
+.wrap>aside{position:sticky;top:60px;max-height:calc(100vh - 72px);overflow-y:auto;padding-top:14px;scrollbar-width:thin}
+.wrap>.left{grid-column:1;grid-row:1}.wrap>main{grid-column:2;grid-row:1}.wrap>.right{grid-column:3;grid-row:1}
+.box{margin:8px 0 16px}
+}
 """
 
 ICON = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" '
@@ -492,41 +637,72 @@ def link(href: str, text: str) -> str:
     return f'<a href="{esc(href)}" target="_blank" rel="noopener">{esc(text)}</a>'
 
 
+def side_blocks(day: dict) -> dict[str, str]:
+    """HTML des blocs annexes présents ce jour-là, par nom."""
+    def box(name, label, title, text, ref, order, before="", after=""):
+        return (f'<div class="box" id="{name}" style="order:{order}"><p class="label">{label}</p>'
+                f'{before}<h3>{esc(title)}</h3>{after}<p>{esc(text)}</p>'
+                f'<div class="refs">{ref}</div></div>')
+    out = {}
+    c = day.get("concept")
+    if c:
+        ref = f'Vu dans : {link(c["link"], c["source"])}' if c.get("link") else ""
+        out["concept"] = box("concept", "Concept du jour", c["terme"], c["explication"], ref, 20)
+    a = day.get("art")
+    if a:
+        out["art"] = box("art", esc(a["rubrique"]), a["titre"], a["texte"],
+                         f'Source : {link(a["link"], a["source"])}', 21)
+    h = day.get("histoire")
+    if h:
+        out["histoire"] = box("histoire", f'Ce jour-là · {esc(str(h["annee"]))}', h["titre"],
+                              h["texte"], f'Source : {link(h["link"], h["source"])}', 40)
+    p = day.get("pays")
+    if p:
+        img = f'<img src="{esc(p["image"])}" alt="" loading="lazy">' if p.get("image") else ""
+        ref = f'{link(p["wiki"], "Wikipédia")} · Actualité : {link(p["link"], p["source"])}'
+        out["pays"] = box("pays", "Le pays du jour", p["nom"], p["texte"], ref, 41,
+                          img, f'<div class="meta">Capitale : {esc(p["capitale"])}</div>')
+    return out
+
+
 def render_day(day: dict, prev: str | None) -> str:
     cats = [c for c in day["categories"] if c["items"]]
-    une, concept = day.get("une") or [], day.get("concept")
-    chips = ([("une", "À la une")] if une else []) + ([("concept", "Concept")] if concept else []) \
-        + [(c["id"], c["name"]) for c in cats]
+    une, blocks = day.get("une") or [], side_blocks(day)
+    chips = ([("une", "À la une")] if une else []) + [(c["id"], c["name"]) for c in cats]
     nav = "<nav><div>" + "".join(f'<a href="#{i}">{esc(n)}</a>' for i, n in chips) + "</div></nav>"
-    body = [f'<header><h1>Actu du jour</h1><p class="date">{date_fr(day["date"])}</p></header><main>']
+    main = []
     if une:
-        body.append('<section class="une" id="une"><p class="label">À la une</p>')
+        main.append('<section class="une" id="une" style="order:10"><p class="label">À la une</p>')
         for topic in une:
             refs = " · ".join(link(s["link"], s["source"]) for s in topic["sources"])
-            body.append(f'<article><h3>{esc(topic["titre"])}</h3><p>{esc(topic["resume"])}</p>'
+            main.append(f'<article><h3>{esc(topic["titre"])}</h3><p>{esc(topic["resume"])}</p>'
                         f'<div class="refs">Sources : {refs}</div></article>')
-        body.append("</section>")
+        main.append("</section>")
     if day.get("essentiel"):  # ancien format, conservé pour les archives
-        body.append('<div class="box"><p class="label">L\'essentiel</p><ul>'
+        main.append('<div class="box" style="order:11"><p class="label">L\'essentiel</p><ul>'
                     + "".join(f"<li>{esc(s)}</li>" for s in day["essentiel"]) + "</ul></div>")
-    if concept:
-        ref = (f'<div class="refs">Vu dans : {link(concept["link"], concept["source"])}</div>'
-               if concept.get("link") else "")
-        body.append(f'<div class="box" id="concept"><p class="label">Concept du jour</p>'
-                    f'<h3>{esc(concept["terme"])}</h3><p>{esc(concept["explication"])}</p>{ref}</div>')
-    for cat in cats:
-        body.append(f'<section class="list" id="{cat["id"]}"><h2>{esc(cat["name"])}</h2>')
+    for rank, cat in enumerate(cats):
+        # Sur téléphone, les trois premières catégories passent avant les blocs histoire et pays.
+        order = 30 + rank if rank < 3 else 50 + rank
+        main.append(f'<section class="list" id="{cat["id"]}" style="order:{order}">'
+                    f'<h2>{esc(cat["name"])}</h2>')
+        if cat.get("bref"):
+            main.append(f'<p class="bref">{esc(cat["bref"])}</p>')
         for item in cat["items"]:
             resume = f"<p>{esc(item['resume'])}</p>" if item["resume"] else ""
             partial = " <span>· d'après l'extrait</span>" if item.get("full") is False else ""
-            body.append(f'<article><div class="src">{esc(item["source"])}{partial}</div>'
+            main.append(f'<article><div class="src">{esc(item["source"])}{partial}</div>'
                         f'{link(item["link"], item.get("titre") or item["title"])}{resume}</article>')
-        body.append("</section>")
+        main.append("</section>")
+    left = "".join(blocks.get(k, "") for k in ("histoire", "pays"))
+    right = "".join(blocks.get(k, "") for k in ("concept", "art"))
     links = (f'<a href="{prev}.html">← Jour précédent</a> · ' if prev else "") \
         + '<a href="archives.html">Archives</a>'
-    body.append(f'</main><footer><p>{footnote(day)}</p>'
-                f'<p>{links} · Mis à jour à {day["generated_at"]}</p></footer>')
-    return page(f"Actu du {date_fr(day['date'])}", "".join(body), nav)
+    body = (f'<header><h1>Actu du jour</h1><p class="date">{date_fr(day["date"])}</p></header>'
+            f'<div class="wrap"><aside class="left">{left}</aside><main>{"".join(main)}</main>'
+            f'<aside class="right">{right}</aside></div>'
+            f'<footer><p>{footnote(day)}</p><p>{links} · Mis à jour à {day["generated_at"]}</p></footer>')
+    return page(f"Actu du {date_fr(day['date'])}", body, nav)
 
 
 def render_site() -> None:
@@ -542,7 +718,7 @@ def render_site() -> None:
                    for d in reversed(days))
     (OUT / "archives.html").write_text(page(
         "Archives", f'<header><h1>Archives</h1><p class="date"><a href="index.html">'
-                    f'← Aujourd\'hui</a></p></header><main><ul class="days">{rows}</ul></main>'))
+                    f'← Aujourd\'hui</a></p></header><div class="wrap"><ul class="days">{rows}</ul></div>'))
     (OUT / "icon.svg").write_text(ICON)
     (OUT / "manifest.webmanifest").write_text(json.dumps(MANIFEST))
 
@@ -550,14 +726,17 @@ def render_site() -> None:
 # ---------- main ----------
 
 def main() -> None:
-    categories = tomllib.loads((ROOT / "sources.toml").read_text())["category"]
+    config = tomllib.loads((ROOT / "sources.toml").read_text())
+    categories = config["category"]
+    art = {"id": "art", "name": "Art et culture", "picks": 1,
+           "feeds": (config.get("art") or {}).get("feeds", [])}
     now = datetime.now(TZ)
     today = now.strftime("%Y-%m-%d")
     DATA.mkdir(exist_ok=True)
 
     print("Collecte des flux…")
-    cands = collect(categories, today)
-    if sum(len(v) for v in cands.values()) == 0:
+    cands = collect(categories + [art], today)
+    if sum(len(cands[c["id"]]) for c in categories) == 0:
         sys.exit("Aucun article collecté (réseau coupé ?) : on ne publie rien.")
 
     key = os.environ.get("GEMINI_API_KEY")
@@ -566,34 +745,50 @@ def main() -> None:
         print("GEMINI_API_KEY absente : digest sans IA")
     else:
         print("Sélection…")
-        selection = select(key, categories, cands)
-        if selection:
-            picks, groups = selection
+        sel = select(key, categories, cands, recent(today, "pays", "nom"))
+        if sel:
+            picks, groups = sel["picks"], sel["groups"]
             wanted = {i["id"]: i for items in picks.values() for i in items}
             wanted.update({i["id"]: i for group in groups for i in group})
+            if sel["art"]:
+                wanted[sel["art"]["id"]] = sel["art"]
+            country = None
+            if sel["pays"]:
+                wanted[sel["pays"]["item"]["id"]] = sel["pays"]["item"]
+                country = country_page(sel["pays"]["nom"])
+                if country:
+                    country["item"] = sel["pays"]["item"]
             print("Lecture des articles…")
             read_articles(list(wanted.values()))
+            events = on_this_day(now)
+            print(f"  blocs : {len(events)} événements historiques, "
+                  f"pays = {country['nom'] if country else 'aucun'}, "
+                  f"art = {'oui' if sel['art'] else 'non'}")
             print("Rédaction…")
-            written = write(key, list(wanted.values()), groups, recent_concepts(today))
-    texts, une_texts, concept = written or ({}, {}, None)
+            written = write(key, categories, sel, events, country,
+                            recent(today, "concept", "terme"))
+    w = written or {"articles": {}, "une": {}, "bref": {}}
 
     def entry(item: dict) -> dict:
-        titre, resume = texts.get(item["id"], ("", ""))
+        titre, resume = w["articles"].get(item["id"], ("", ""))
         return {"title": item["title"], "titre": titre or item["title"], "link": item["link"],
                 "source": item["source"], "resume": resume or clean(item["desc"], 220),
                 "full": bool(item.get("text")) if written else None}
 
     day = {"date": today, "generated_at": now.strftime("%H:%M"), "ai": bool(written),
-           "une": [{"titre": une_texts[n][0], "resume": une_texts[n][1],
+           "une": [{"titre": w["une"][n][0], "resume": w["une"][n][1],
                     "sources": [{"source": i["source"], "link": i["link"]} for i in group]}
-                   for n, group in enumerate(groups, 1) if n in une_texts],
-           "concept": concept,
-           "categories": [{"id": c["id"], "name": c["name"],
+                   for n, group in enumerate(groups, 1) if n in w["une"]],
+           "concept": w.get("concept"), "art": w.get("art"),
+           "histoire": w.get("histoire"), "pays": w.get("pays"),
+           "categories": [{"id": c["id"], "name": c["name"], "bref": w["bref"].get(c["id"], ""),
                            "items": [entry(i) for i in picks[c["id"]]]} for c in categories]}
     (DATA / f"{today}.json").write_text(json.dumps(day, ensure_ascii=False, indent=1))
     render_site()
+    blocks = [b for b in ("concept", "art", "histoire", "pays") if day[b]]
     print(f"OK : {sum(len(c['items']) for c in day['categories'])} articles, "
-          f"{len(day['une'])} sujets à la une -> {OUT}/index.html")
+          f"{len(day['une'])} sujets à la une, blocs : {', '.join(blocks) or 'aucun'} "
+          f"-> {OUT}/index.html")
 
 
 if __name__ == "__main__":
