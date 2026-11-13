@@ -12,6 +12,7 @@ import json
 import os
 import smtplib
 import sys
+import time
 from email.message import EmailMessage
 from html import escape as esc
 from pathlib import Path
@@ -79,10 +80,28 @@ def main() -> None:
     msg["To"] = os.environ.get("MAIL_TO") or user
     msg.set_content(text_body)
     msg.add_alternative(html_body, subtype="html")
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30) as smtp:
-        smtp.login(user, password.replace(" ", ""))
-        smtp.send_message(msg)
-    print("Mail envoyé.")
+    password = "".join(password.split())  # Google affiche le code avec des espaces
+    print(f"Mot de passe d'application : {len(password)} caractères (attendu : 16)")
+    errors = []
+    for attempt in range(3):  # Gmail coupe parfois la connexion : on réessaie, en alternant le port
+        try:
+            if attempt % 2 == 0:
+                smtp = smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30)
+            else:
+                smtp = smtplib.SMTP("smtp.gmail.com", 587, timeout=30)
+                smtp.starttls()
+            with smtp:
+                smtp.login(user, password)
+                smtp.send_message(msg)
+            print("Mail envoyé.")
+            return
+        except smtplib.SMTPAuthenticationError as exc:
+            sys.exit(f"Gmail refuse l'identifiant ou le mot de passe d'application : {exc}")
+        except (smtplib.SMTPException, OSError) as exc:
+            errors.append(f"{type(exc).__name__}: {exc}")
+            print(f"  ! tentative {attempt + 1} : {errors[-1]}", file=sys.stderr)
+            time.sleep(15)
+    sys.exit("Envoi impossible après 3 tentatives.")
 
 
 if __name__ == "__main__":
