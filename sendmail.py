@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Envoie le digest du jour par mail via le SMTP de Gmail.
+"""Envoie le digest du jour par mail via l'API Resend (HTTPS).
 
-Variables d'environnement : GMAIL_USER (compte expéditeur), GMAIL_APP_PASSWORD (mot de passe
-d'application Google), MAIL_TO (destinataire, par défaut GMAIL_USER), SITE_URL (facultatif).
+Variables d'environnement : RESEND_API_KEY, MAIL_TO (destinataire), MAIL_FROM (facultatif :
+expéditeur sur un domaine vérifié chez Resend), SITE_URL (facultatif).
 Usage : python sendmail.py            -> envoie
         python sendmail.py apercu.html -> écrit seulement le HTML dans ce fichier
 """
@@ -10,10 +10,10 @@ from __future__ import annotations
 
 import json
 import os
-import smtplib
 import sys
 import time
-from email.message import EmailMessage
+import urllib.error
+import urllib.request
 from html import escape as esc
 from pathlib import Path
 
@@ -70,39 +70,34 @@ def main() -> None:
         print(f"Aperçu écrit dans {sys.argv[1]}")
         return
 
-    user, password = os.environ.get("GMAIL_USER"), os.environ.get("GMAIL_APP_PASSWORD")
-    if not user or not password:
-        print("GMAIL_USER ou GMAIL_APP_PASSWORD absent : pas d'envoi de mail.")
+    key, to = os.environ.get("RESEND_API_KEY"), os.environ.get("MAIL_TO")
+    if not key or not to:
+        print("RESEND_API_KEY ou MAIL_TO absent : pas d'envoi de mail.")
         return
-    msg = EmailMessage()
-    msg["Subject"] = f"Actu du {date_fr(day['date'])}"
-    msg["From"] = f"Actu du jour <{user}>"
-    msg["To"] = os.environ.get("MAIL_TO") or user
-    msg.set_content(text_body)
-    msg.add_alternative(html_body, subtype="html")
-    password = "".join(password.split())  # Google affiche le code avec des espaces
-    print(f"Mot de passe d'application : {len(password)} caractères (attendu : 16)")
-    errors = []
-    for attempt in range(3):  # Gmail coupe parfois la connexion : on réessaie, en alternant le port
+    body = json.dumps({
+        "from": os.environ.get("MAIL_FROM") or "Actu du jour <onboarding@resend.dev>",
+        "to": [to],
+        "subject": f"Actu du {date_fr(day['date'])}",
+        "html": html_body,
+        "text": text_body,
+    }).encode()
+    for attempt in range(3):
+        req = urllib.request.Request("https://api.resend.com/emails", data=body, headers={
+            "Authorization": f"Bearer {key}", "Content-Type": "application/json",
+            "User-Agent": "actu-digest/1.0"})
         try:
-            if attempt % 2 == 0:
-                smtp = smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30)
-            else:
-                smtp = smtplib.SMTP("smtp.gmail.com", 587, timeout=30)
-                smtp.starttls()
-            with smtp:
-                smtp.login(user, password)
-                smtp.send_message(msg)
-            print("Mail envoyé.")
-            return
-        except smtplib.SMTPAuthenticationError as exc:
-            sys.exit(f"Gmail refuse l'identifiant ou le mot de passe d'application : {exc}")
-        except (smtplib.SMTPException, OSError) as exc:
-            errors.append(f"{type(exc).__name__}: {exc}")
-            print(f"  ! tentative {attempt + 1} : {errors[-1]}", file=sys.stderr)
-            time.sleep(15)
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                print(f"Mail envoyé (id {json.loads(resp.read()).get('id')}).")
+                return
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode(errors="replace")[:300]
+            if exc.code != 429 and exc.code < 500:
+                sys.exit(f"Resend refuse l'envoi : HTTP {exc.code} {detail}")
+            print(f"  ! tentative {attempt + 1} : HTTP {exc.code} {detail}", file=sys.stderr)
+        except (urllib.error.URLError, TimeoutError) as exc:
+            print(f"  ! tentative {attempt + 1} : {exc}", file=sys.stderr)
+        time.sleep(15)
     sys.exit("Envoi impossible après 3 tentatives.")
-
 
 if __name__ == "__main__":
     main()
