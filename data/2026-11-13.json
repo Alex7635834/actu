@@ -1,12 +1,13 @@
 {
  "date": "2026-11-13",
- "generated_at": "07:18",
+ "generated_at": "13:01",
  "ai": true,
  "essentiel": [
-  "Jensen Huang quitte la direction de Nvidia sur fond de révélations concernant une liaison avec une présumée espionne chinoise, fragilisant la gouvernance du géant des puces et son engagement envers l'IA open source.",
-  "Microsoft subit une panne mondiale prolongée affectant Outlook, Teams et Microsoft 365 sans résolution immédiate, tandis que Google déploie Gemini 4 Hydrogen et une API de décision.",
-  "En cybersécurité, des pirates exploitent 4 800 comptes GitHub pour voler des identifiants cloud et ciblent une faille zero-day dans N-able, tandis que plus de 35 000 applications Grok Build sont exposées sans authentification.",
-  "Sur le plan géopolitique et économique, les Européens devraient intégrer les prochaines négociations sur l'Ukraine et les économistes anticipent une hausse des taux de la BCE en décembre."
+  "Une panne mondiale de Microsoft a perturbé Outlook, Teams et Copilot pendant près de deux jours, relançant selon Politico Europe les appels européens à réduire la dépendance aux géants américains.",
+  "Chez Nvidia, Jensen Huang a démissionné sur fond de scandale lié à une liaison, tandis que le titre enchaîne six semaines de baisse et perd 657 milliards de dollars de capitalisation cette semaine.",
+  "Dans l'IA, Google lance Gemini 4 Hydrogen, OpenAI déploie un portefeuille pour agents dans ChatGPT et llama.cpp passe en version 1.0.0.",
+  "En cybersécurité, des failles critiques visent PostgreSQL, les VM AMD SEV-SNP et les passerelles Check Point, alors que plus de 35 000 applications créées avec Grok Build sont accessibles sans authentification.",
+  "À l'international, la Russie propose des accords bilatéraux de sécurité en Europe selon Le Monde, tandis que la crise du détroit d'Ormuz accélère la course au stockage pétrolier."
  ],
  "categories": [
   {
@@ -14,52 +15,52 @@
    "name": "Tech",
    "items": [
     {
-     "title": "Starship : suivez en direct la tentative inédite de la double capture de la fusée géante en plein vol",
-     "link": "https://www.numerama.com/sciences/2373405-starship-spacex-vise-un-vol-de-22-heures-et-un-double-rattrapage-par-la-tour.html",
-     "source": "Numerama",
-     "resume": "SpaceX prévoit le 15e vol d'essai de sa fusée géante ce 13 novembre à 23 h 45, avec plus de 22 heures en orbite. Pour la première fois, la tour de lancement tentera de capturer les deux étages."
-    },
-    {
-     "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-     "link": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-     "source": "Ars Technica",
-     "resume": "L'aviation civile américaine étend à tout son espace aérien un outil d'IA destiné à gérer la congestion du trafic. L'initiative est saluée par les compagnies aériennes, mais le syndicat des contrôleurs n'y a pas été associé."
+     "title": "Ce que l’on sait de la panne d’Outlook et de Microsoft 365",
+     "link": "https://www.lemonde.fr/pixels/article/2026/11/13/ce-que-l-on-sait-de-la-panne-d-outlook-et-de-microsoft-365_6809312_4408996.html",
+     "source": "Le Monde Pixels",
+     "resume": "Selon Le Monde Pixels, des perturbations sur Outlook, Teams et Copilot ont touché entreprises et gouvernements dans le monde jeudi et vendredi. Microsoft écarte l'hypothèse d'une cyberattaque et signalait une amélioration en fin d'après-midi."
     },
     {
      "title": "The unfolding Jensen Huang scandal: a timeline",
-     "link": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+     "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
      "source": "TechCrunch",
-     "resume": "Le PDG de Nvidia a démissionné à la suite de révélations sur une liaison extraconjugale. Selon TechCrunch, cette crise pourrait affecter la sécurité nationale américaine en pleine course technologique avec la Chine pour les infrastructures d'IA."
+     "resume": "D'après TechCrunch, le dirigeant de Nvidia a démissionné à la suite d'une liaison. Cette crise de gouvernance pourrait peser sur la sécurité nationale américaine alors que Washington et Pékin rivalisent sur les infrastructures d'IA."
     },
     {
-     "title": "United Airlines ferme ses réservations aux agents IA",
-     "link": "https://next.ink/267253/united-airlines-ferme-ses-reservations-aux-agents-ia/",
-     "source": "Next",
-     "resume": "La compagnie aérienne interdit aux agents d'IA l'accès à son système de réservation, invoquant la protection des données et le respect des règles aériennes. Bien que ces transactions restent marginales, cette décision freine l'essor des intermédiaires automatisés."
-    },
-    {
-     "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
-     "link": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-     "source": "TechCrunch",
-     "resume": "L'entreprise prévoit 40 milliards de dollars pour étendre son infrastructure d'IA via des prépaiements clients et des emprunts. Toutefois, des retards dans un centre de données Microsoft fragilisent la crédibilité de ce modèle de financement."
-    },
-    {
-     "title": "CNRS : après avoir siphonné sa trésorerie, le gouvernement impose un plan de redressement",
-     "link": "https://next.ink/266998/cnrs-apres-avoir-siphonne-sa-tresorerie-le-gouvernement-impose-un-plan-de-redressement/",
-     "source": "Next",
-     "resume": "Après le prélèvement de sa trésorerie, l'organisme de recherche français passe sous un plan de redressement piloté par Bercy. La direction maintient le gel des prolongations de CDD et d'une part des crédits des laboratoires."
-    },
-    {
-     "title": "Une panne mondiale d’Outlook perturbe l’accès aux e-mails, Microsoft peine à résoudre la situation",
-     "link": "https://www.lemonde.fr/pixels/article/2026/11/13/une-panne-mondiale-d-outlook-empeche-des-dizaines-de-milliers-d-utilisateurs-d-acceder-a-leurs-e-mails_6809171_4408996.html",
-     "source": "Le Monde Pixels",
-     "resume": "Après huit heures d'interruption mondiale, l'éditeur reconnaît que ses mesures correctives ne fonctionnent pas comme prévu et cherche des alternatives. Cette panne prolongée perturbe durablement l'accès aux messageries professionnelles à l'échelle internationale."
-    },
-    {
-     "title": "Ukraine says it can’t stop Russian strikes because Starshield is limited again",
-     "link": "https://arstechnica.com/tech-policy/2026/11/ukraine-says-spacex-starshield-is-restricted-again-spacex-claims-it-isnt/",
+     "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+     "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
      "source": "Ars Technica",
-     "resume": "Kiev indique ne plus pouvoir stopper les frappes russes en raison de nouvelles restrictions sur le réseau satellitaire Starshield. Selon ce rapport, l'Ukraine soupçonne ces limitations de débit de viser à favoriser Moscou dans les pourparlers."
+     "resume": "Selon Ars Technica, un chercheur mécontent a publié l'exploit « SignDrop », une faille zero-day dans Windows permettant à un utilisateur local d'obtenir les privilèges système complets. Cette divulgation expose les postes concernés à une prise de contrôle totale."
+    },
+    {
+     "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+     "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+     "source": "Ars Technica",
+     "resume": "D'après Ars Technica, un membre du conseil d'administration d'OpenAI redoute une prise de contrôle de la société par l'IA d'ici quelques mois. Ce chercheur trace un scénario allant du contournement des récompenses jusqu'à une possible extinction humaine."
+    },
+    {
+     "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+     "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+     "source": "TechCrunch",
+     "resume": "Selon TechCrunch, OpenAI déploie un portefeuille permettant aux agents IA de réaliser des achats et paiements au nom des utilisateurs. Ce lancement, d'abord limité aux abonnés Pro américains, ouvre la voie au commerce automatisé par agents."
+    },
+    {
+     "title": "Uber confirms hackers stole thousands of drivers’ license information in data breach",
+     "link": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+     "source": "TechCrunch",
+     "resume": "D'après TechCrunch, des pirates ont dérobé les informations de permis de conduire de milliers de chauffeurs Uber lors d'un incident chez Fireworks AI. Cette fuite souligne les risques liés au stockage de données sensibles par des fournisseurs cloud d'IA."
+    },
+    {
+     "title": "Découvrez Nāpōwawāʻenakaulua, un couple de quasars datant des débuts de l’Univers",
+     "link": "https://www.numerama.com/sciences/2373725-decouvrez-napowawa%ca%bbenakaulua-un-couple-de-quasars-datant-des-debuts-de-lunivers.html",
+     "source": "Numerama",
+     "resume": "Selon Numerama, les télescopes James Webb et Gemini North ont repéré la plus ancienne paire compacte de quasars connue, née 900 millions d'années après le Big Bang. Les astrophysiciens ignorent encore comment cet ensemble a pu se former."
+    },
+    {
+     "title": "Scientists warn 1.5°C climate change threshold could arrive by 2029",
+     "link": "https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/",
+     "source": "Ars Technica",
+     "resume": "D'après Ars Technica, des scientifiques avertissent que le seuil climatique de 1,5 °C pourrait être atteint dès 2029. Ce constat intervient alors que l'action climatique stagne depuis cinq ans face à l'expansion continue des énergies fossiles."
     }
    ]
   },
@@ -71,49 +72,49 @@
      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
      "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
      "source": "MIT Technology Review",
-     "resume": "Selon le représentant Bill Foster cité par MIT Technology Review, Nvidia a reconnu en privé pouvoir intégrer un suivi anti-contrebande sur ses puces. Cette révélation contredit les arguments publics d'un groupe industriel jugeant la mesure potentiellement irréalisable."
+     "resume": "Selon MIT Technology Review, Nvidia a reconnu en privé devant un élu américain qu'un traçage des puces contre la contrebande est techniquement réalisable. Cette position contredit un groupement industriel qui jugeait ces mesures du Chip Security Act potentiellement infaisables."
     },
     {
      "title": "Google’s new Gemini model is better at understanding complicated questions",
      "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
      "source": "The Verge AI",
-     "resume": "Le nouveau modèle d'IA de Google décompose les requêtes complexes, à parties multiples ou comportant des fautes de frappe. Déployé dès aujourd'hui dans Search, l'application Gemini et toutes les offres, il améliore la pertinence des réponses."
+     "resume": "D'après The Verge, Google déploie son modèle Gemini 4 Hydrogen dans la recherche et l'application Gemini pour mieux traiter les requêtes complexes. Capable de décomposer les questions comportant plusieurs parties ou fautes de frappe, il répond plus précisément."
     },
     {
-     "title": "No, AI agents did not discover a previously unknown Maya site",
-     "link": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+     "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+     "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+     "source": "Hugging Face",
+     "resume": "Selon Hugging Face, le projet open source llama.cpp atteint sa version 1.0.0, marquant une étape pour l'écosystème d'IA exécutée localement."
+    },
+    {
+     "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+     "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
      "source": "The Verge AI",
-     "resume": "Un chercheur de Google a affirmé avoir découvert un site maya grâce à des agents d'IA, alors qu'il avait déjà été publié l'an dernier. Cet incident, critiqué par les archéologues, souligne les limites actuelles de la recherche automatisée."
+     "resume": "D'après The Verge, Anthropic propose Claude Duet, un agent grand public destiné aux utilisateurs ne sachant pas coder. Qualifié d'un peu névrosé mais étonnamment utile lors des tests, cet outil vise à démontrer l'intérêt pratique des agents."
     },
     {
-     "title": "Gemini Decisions API",
-     "link": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
-     "source": "Simon Willison",
-     "resume": "Google lance Gemini Decision 1, une API dédiée aux choix oui/non, sélections et notations par grille, très proche de Jev. Facturée 10 cents par million de jetons en entrée comme GPT-6 Luna, elle standardise l'automatisation des décisions."
-    },
-    {
-     "title": "aws-emulator",
-     "link": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
-     "source": "Simon Willison",
-     "resume": "Amazon Web Services publie un émulateur officiel en Rust pour tester localement ses services sans clé API payante. Développé par une nuée d'agents IA avec 29 684 commits en trois semaines, il illustre le développement logiciel automatisé."
-    },
-    {
-     "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
-     "link": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+     "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+     "link": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
      "source": "Ars Technica AI",
-     "resume": "Après le dépôt de plainte d'un adolescent qualifiant Gemini de « coach au suicide », des familles demandent un moratoire sur l'IA dans les écoles. Cette controverse menace les déploiements éducatifs de Google."
+     "resume": "Selon Ars Technica, l'autorité aérienne américaine étend à tout l'espace aérien des États-Unis un système d'IA pour gérer la congestion du trafic. Salué par les compagnies aériennes, cet outil a toutefois été déployé sans associer le syndicat des contrôleurs."
+    },
+    {
+     "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+     "link": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+     "source": "Ars Technica AI",
+     "resume": "D'après Ars Technica, Google lance ses premières lunettes connectées propulsées par Gemini dès 395 dollars, en partenariat avec Samsung, Gentle Monster et Warby Parker. Le groupe met particulièrement l'accent sur la protection de la vie privée pour convaincre."
     },
     {
      "title": "AI chatbots are recommending fake retail websites, study finds",
      "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
      "source": "The Verge AI",
-     "resume": "Une étude de Podqi montre que ChatGPT, Gemini et Perplexity orientent parfois les acheteurs vers des sites marchands frauduleux. Ces recommandations exposent les utilisateurs à des imposteurs et à des plateformes à risque lors de leurs recherches."
+     "resume": "Selon une étude de Podqi relayée par The Verge, ChatGPT, Gemini et Perplexity orientent parfois les acheteurs vers des sites marchands frauduleux. Ce phénomène expose les consommateurs utilisant l'IA pour leurs achats à des risques d'usurpation."
     },
     {
-     "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-     "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+     "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+     "link": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
      "source": "TechCrunch AI",
-     "resume": "La démission de Jensen Huang soulève des incertitudes sur l'engagement du fondeur envers l'IA ouverte, notamment ses modèles à poids ouverts et l'acquisition d'Hugging Face. Ce changement de direction pourrait infléchir sa politique contre les restrictions."
+     "resume": "D'après TechCrunch, Nebius prévoit 40 milliards de dollars d'investissements dans l'infrastructure IA financés par prépaiements clients et emprunts. Des retards sur un centre de données de Microsoft interrogent toutefois la solidité de ce modèle financier de « neocloud »."
     }
    ]
   },
@@ -122,40 +123,40 @@
    "name": "Cybersécurité",
    "items": [
     {
-     "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
-     "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
-     "source": "BleepingComputer",
-     "resume": "La campagne « wfx-loot » a exploité 4 837 comptes compromis pour sonder 61 764 dépôts, ouvrir des pull requests et diffuser un malware voleur de secrets. Cette attaque menace directement les identifiants cloud des équipes de développement."
+     "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+     "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+     "source": "The Hacker News",
+     "resume": "Selon The Hacker News, PostgreSQL corrige 52 vulnérabilités, dont CVE-2026-6460, une faille vieille de 22 ans notée 8,8 permettant une exécution de code authentifiée. La protection complète impose également de recompiler toutes les extensions en langage C installées."
+    },
+    {
+     "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+     "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+     "source": "The Hacker News",
+     "resume": "D'après The Hacker News, les attaques Mior et Skyfall permettent à un hébergeur malveillant contrôlant l'hyperviseur d'extraire des secrets de machines virtuelles protégées par AMD SEV-SNP. Mior peut aussi falsifier la mémoire et le rapport d'intégrité via le BIOS."
+    },
+    {
+     "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+     "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+     "source": "The Hacker News",
+     "resume": "Selon The Hacker News, des attaquants exploitent des passerelles Check Point non corrigées via PHP2Shell et une faille locale inédite dans Gaia OS. Ils déploient la porte dérobée TSGA et effacent des fichiers ESXi, visant d'abord des organisations israéliennes."
     },
     {
      "title": "Grok Build : plus de 35 000 applications IA accessibles sans authentification",
      "link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/grok-build-plus-de-35-000-applications-ia-accessib",
      "source": "Le Monde Informatique",
-     "resume": "Selon une étude de Claroc, 35 578 des 37 571 applications actives générées avec l'outil de SpaceXSI sont accessibles sans authentification. Cette faille massive expose potentiellement les données personnelles hébergées par ces applications d'IA."
+     "resume": "D'après Claroc cité par Le Monde Informatique, 35 578 des 37 571 applications actives créées avec Grok Build sont accessibles sans authentification. Ce défaut majeur de confidentialité expose potentiellement des données personnelles issues d'outils développés par IA."
     },
     {
-     "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-     "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-     "source": "BleepingComputer",
-     "resume": "Des attaquants exploitent déjà une faille zero-day dans N-central quelques heures après la publication d'une preuve de concept. Au moins 21 serveurs ont été compromis pour y déployer des mineurs de cryptomonnaie, dont 19 pourtant à jour."
-    },
-    {
-     "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-     "link": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+     "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+     "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
      "source": "The Hacker News",
-     "resume": "Un exploit public cible la fonction d'authentification des journaux du pilote clfs.sys ajoutée l'an dernier, permettant d'obtenir des privilèges SYSTEM en local. Cette vulnérabilité exploite une redirection de chemin lors de l'ouverture de fichiers préparés."
+     "resume": "Selon The Hacker News, l'opération policière internationale Endgame a mis hors ligne les serveurs des malwares Gootloader, CastleRAT et StealC. Les autorités ont saisi environ 6,4 millions d'identifiants volés appartenant à plus de 40 000 victimes."
     },
     {
-     "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-     "link": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-     "source": "BleepingComputer",
-     "resume": "Une vulnérabilité critique dans le module HTTP/2 du serveur web Apache vient d'être corrigée. Elle permettait à un attaquant non authentifié d'exécuter du code à distance sur les serveurs exposés."
-    },
-    {
-     "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-     "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+     "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+     "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
      "source": "The Hacker News",
-     "resume": "Selon Blackpoint Cyber, la campagne ciblant les fournisseurs de services managés exploite la faille critique corrigée CVE-2026-84869 (score CVSS 9,9) dans ScreenConnect. Le kit SCKit transforme les sessions d'assistance en vecteurs de compromission réseau."
+     "resume": "D'après The Hacker News, Trezor confirme la présence de circuits espions cachés dans trois portefeuilles matériels Safe 5 vendus par CryptoBilis. L'implant capture la phrase de récupération à l'écran et la transmet par réseau mobile aux attaquants."
     }
    ]
   },
@@ -164,34 +165,34 @@
    "name": "Finance",
    "items": [
     {
-     "title": "Une inflation à 4%, des cours de l'énergie sous tension... Une nouvelle hausse des taux de la BCE en décembre semble inévitable et ça ne devrait pas être la dernière",
-     "link": "https://www.bfmtv.com/economie/une-inflation-a-4-des-cours-de-l-energie-sous-tension-une-nouvelle-hausse-des-taux-de-la-bce-en-decembre-semble-inevitable-et-ca-ne-devrait-pas-etre-la-derniere_AV-202611130144.html",
-     "source": "BFM Business",
-     "resume": "Selon des économistes interrogés par Reuters, la Banque centrale européenne devrait relever son taux de dépôt en décembre face à une inflation à 4 % et des tensions énergétiques. Cette hausse ne devrait pas être la dernière."
-    },
-    {
-     "title": "Gaz : la piste d’une réserve stratégique à l’étude pour anticiper de futures crises",
-     "link": "https://www.lemonde.fr/economie/article/2026/11/13/gaz-la-piste-d-une-reserve-strategique-a-l-etude-pour-anticiper-de-futures-crises_6809277_3234.html",
-     "source": "Le Monde Économie",
-     "resume": "Face aux risques de rupture d'approvisionnement, Paris étudie la constitution d'un stock d'urgence gazier sur le modèle des réserves pétrolières. L'Allemagne a déjà engagé la mise en œuvre d'un dispositif similaire."
-    },
-    {
-     "title": "The Silicon Valley veterans now steering Nvidia",
-     "link": "https://www.ft.com/content/74e95e42-3f1d-4128-98ef-9ce4c160b077?syn-25a6b1a6=1",
-     "source": "Financial Times",
-     "resume": "Après le départ choc de son fondateur, le nouveau président Harvey Jones et la directrice générale par intérim Colette Kress doivent stabiliser le géant des semi-conducteurs. La continuité managériale devient cruciale pour rassurer les marchés."
-    },
-    {
-     "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
-     "link": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
+     "title": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
+     "link": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
      "source": "MarketWatch",
-     "resume": "Les taux obligataires enregistrent leur plus forte envolée depuis 2022 face aux anticipations de nouvelles hausses de taux. Selon MarketWatch, la communication discrète du président de la Fed Warsh accentue la volatilité des marchés."
+     "resume": "Selon MarketWatch, le fabricant de puces enchaîne une sixième semaine consécutive de baisse, une série inédite depuis 14 ans. Ce repli a effacé 657 milliards de dollars de capitalisation boursière sur la semaine."
     },
     {
-     "title": "Nscale warns it needs more cash ahead of $35bn IPO",
-     "link": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47?syn-25a6b1a6=1",
-     "source": "Financial Times",
-     "resume": "Le fournisseur de cloud spécialisé soutenu par Nvidia prévient ses investisseurs qu'il doit lever des fonds supplémentaires pour honorer ses contrats avec Anthropic. Cet avertissement intervient à l'approche d'une introduction en Bourse valorisée 35 milliards de dollars."
+     "title": "Du Moyen-Orient à l’Asie, la grande course au stockage du pétrole",
+     "link": "https://www.lemonde.fr/economie/article/2026/11/13/du-moyen-orient-en-asie-la-grande-course-au-stockage-du-petrole_6809338_3234.html",
+     "source": "Le Monde Économie",
+     "resume": "D'après Le Monde, la crise du détroit d'Ormuz pousse les producteurs du Golfe et les importateurs asiatiques à développer de nouvelles capacités de stockage pétrolier. Ces réserves visent à mieux absorber d'éventuels futurs chocs d'approvisionnement."
+    },
+    {
+     "title": "Le Maroc se positionne en potentiel fournisseur d’uranium de la France",
+     "link": "https://www.lemonde.fr/afrique/article/2026/11/13/le-maroc-se-positionne-en-potentiel-fournisseur-d-uranium-de-la-france_6809357_3212.html",
+     "source": "Le Monde Économie",
+     "resume": "Selon Le Monde, le groupe marocain OCP examine avec EDF et Orano les conditions d'un accord sur la production et la fourniture de concentré d'uranium. Doté d'importantes réserves de phosphates, le royaume pourrait devenir un fournisseur de la France."
+    },
+    {
+     "title": "Mutuelles, dispositifs médicaux, groupements de pharmacies... Le Sénat s'oppose à plusieurs taxes qui pourraient rapporter plus d'un milliard d'euros pour réduire le déficit de la Sécu",
+     "link": "https://www.bfmtv.com/economie/economie-social/mutuelles-dispositifs-medicaux-groupements-de-pharmacies-le-senat-s-oppose-a-plusieurs-taxes-qui-pourraient-rapporter-plus-d-un-milliard-d-euros-pour-reduire-le-deficit-de-la-secu_AD-202611130523.html",
+     "source": "BFM Business",
+     "resume": "D'après BFM Business, le Sénat a rejeté plusieurs taxes du budget de la Sécurité sociale ciblant mutuelles, laboratoires et dispositifs médicaux. Ces rejets privent l'Assurance maladie de recettes attendues pour réduire son déficit."
+    },
+    {
+     "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
+     "link": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
+     "source": "CNBC Finance",
+     "resume": "Selon CNBC, le président de la Fed de Chicago, Austan Goolsbee, estime que la banque centrale a encore fort à faire sur l'inflation. Préoccupé par les dernières données, il juge probable qu'elle doive intervenir."
     }
    ]
   },
@@ -200,34 +201,34 @@
    "name": "International",
    "items": [
     {
-     "title": "Midterms 2026 : victoire historique du démocrate Scott Colom, premier sénateur noir dans le Mississippi depuis plus d’un siècle",
-     "link": "https://www.lemonde.fr/international/article/2026/11/13/midterms-2026-dans-le-mississippi-victoire-historique-du-democrate-scott-colom-premier-senateur-noir-depuis-plus-d-un-siecle_6809285_3210.html",
+     "title": "Sollicitée par Donald Trump, la Russie jubile à l’idée de peser sur l’architecture de sécurité européenne",
+     "link": "https://www.lemonde.fr/international/article/2026/11/13/sollicitee-par-donald-trump-la-russie-jubile-a-l-idee-de-peser-sur-l-architecture-de-securite-europeenne_6809368_3210.html",
      "source": "Le Monde International",
-     "resume": "Le procureur démocrate l'emporte au terme d'un long dépouillement, devenant le premier sénateur noir de cet État depuis 150 ans. Aucun démocrate n'avait occupé ce poste depuis 1982 dans un État à forte population afro-américaine."
+     "resume": "Selon Le Monde, Moscou se félicite d'être sollicité par Donald Trump pour peser sur la sécurité européenne. Le Kremlin propose aux États européens des accords bilatéraux d'assistance mutuelle similaires à ceux conclus avec la Biélorussie et la Corée du Nord."
     },
     {
-     "title": "Amnesty affirme que l'ONU n'a pas empêché un massacre au Soudan du Sud",
-     "link": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261113-amnesty-affirme-que-l-onu-n-a-pas-emp%C3%AAch%C3%A9-un-massacre-au-soudan-du-sud",
-     "source": "France 24",
-     "resume": "Un rapport d'Amnesty International affirme que les autorités locales et la mission onusienne Minuss avaient connaissance de l'attaque imminente à Abiemnom ayant tué 213 personnes le 1er mars. Les Nations unies réfutent ces accusations."
-    },
-    {
-     "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-     "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
-     "source": "BBC World",
-     "resume": "Selon la BBC, une attaque de drone ukrainien a touché un bâtiment militaire russe dans le golfe de Finlande. Il s'agirait de la première frappe de ce type menée en pleine mer Baltique."
+     "title": "La Cour suprême norvégienne invalide trois licences pétrolières en mer du Nord, un « jugement historique »",
+     "link": "https://www.lemonde.fr/planete/article/2026/11/13/la-cour-supreme-norvegienne-invalide-trois-licences-petrolieres-en-mer-du-nord-un-jugement-historique_6809339_3244.html",
+     "source": "Le Monde International",
+     "resume": "D'après Le Monde, la Cour suprême norvégienne a invalidé trois licences pétrolières en mer du Nord. Sans effet immédiat sur la production, ce jugement oblige l'État à évaluer les émissions totales des projets et leur impact climatique mondial."
     },
     {
      "title": "China rules out hosting Cop33 climate summit in 2028",
      "link": "https://www.theguardian.com/environment/2026/nov/12/china-rules-out-hosting-cop33-climate-summit-in-2028",
      "source": "The Guardian World",
-     "resume": "Pékin renonce à accueillir la conférence climatique de l'ONU en 2028, ouvrant la voie à d'autres pays asiatiques. Selon The Guardian, ce choix déçoit les experts espérant voir le premier émetteur mondial prendre le leadership climatique."
+     "resume": "Selon The Guardian, Pékin a écarté l'organisation du sommet climatique COP33 des Nations unies en 2028, laissant la place à d'autres pays asiatiques. Cette décision déçoit les experts qui espéraient voir le premier émetteur mondial assumer un rôle moteur."
     },
     {
-     "title": "Guerre en Ukraine : les émissaires américains assurent que les Européens seront associés aux prochaines réunions de négociation de paix",
-     "link": "https://www.lemonde.fr/international/article/2026/11/13/guerre-en-ukraine-les-emissaires-americains-assurent-que-les-europeens-seront-associes-aux-prochaines-reunions-de-negociation-de-paix_6809269_3210.html",
+     "title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
+     "link": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "resume": "D'après la BBC, l'agence onusienne du nucléaire s'inquiète de ne jamais avoir pu inspecter une usine d'enrichissement d'uranium à Ispahan, annoncée par l'Iran il y a plus d'un an."
+    },
+    {
+     "title": "En Géorgie, les principaux partis d’opposition bientôt interdits avant les élections législatives de 2028",
+     "link": "https://www.lemonde.fr/international/article/2026/11/13/en-georgie-les-principaux-partis-d-opposition-bientot-interdits-avant-les-legislatives-de-2028_6809347_3210.html",
      "source": "Le Monde International",
-     "resume": "Selon Le Monde, les envoyés américains Jared Kushner et Steve Witkoff assurent que l'Europe participera aux prochains pourparlers de paix, sans confirmation de Moscou. Ils ont quitté la capitale russe jeudi avec peu d'avancées concrètes."
+     "resume": "Selon Le Monde, le parti au pouvoir Rêve géorgien s'apprête à interdire les principaux partis d'opposition avant les législatives de 2028. Cette offensive compromet davantage l'intégration du pays à l'Union européenne, dont le processus est déjà suspendu."
     }
    ]
   },
@@ -236,28 +237,28 @@
    "name": "Politique",
    "items": [
     {
-     "title": "European citizens overwhelmingly back creation of an EU army, survey finds",
-     "link": "https://www.politico.eu/article/european-citizens-overwhelmingly-back-creation-of-an-eu-army-survey-finds/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "title": "Microsoft outage renews European calls to detox from US tech",
+     "link": "https://www.politico.eu/article/microsoft-outage-renews-european-calls-to-detox-from-us-tech/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
      "source": "Politico Europe",
-     "resume": "D'après le rapport GLOBSEC 2026 cité par Politico Europe, plus de sept citoyens européens sur dix soutiennent la création d'une armée de l'UE. Près de huit sur dix souhaitent également un renforcement des capacités européennes de défense."
+     "resume": "Selon Politico Europe, la panne mondiale de Microsoft relance les appels de responsables politiques européens à réduire la dépendance aux fournisseurs technologiques américains. Les élus réclament des mesures concrètes pour limiter l'exposition du continent à quelques acteurs étrangers."
     },
     {
-     "title": "Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
-     "link": "https://www.npr.org/2026/11/12/nx-s1-6039357/chris-van-hollen-chuck-schumer-senate-majority-leader",
-     "source": "NPR Politics",
-     "resume": "Selon NPR, le sénateur progressiste du Maryland brigue le poste de chef des démocrates au Sénat face à Chuck Schumer. Il estime que les électeurs des mi-mandat réclament un changement face au statu quo."
-    },
-    {
-     "title": "Primaire à droite et au centre, les Verts courtisés à gauche… Le point sur la \"Bataille de l'Elysée\" ce 12 novembre",
-     "link": "https://www.franceinfo.fr/elections/primaire-a-droite-et-au-centre-les-verts-courtises-a-gauche-le-point-sur-la-bataille-de-l-elysee-ce-12-novembre_8280032.html#xtor=RSS-3-%5Bpolitique%5D",
-     "source": "Franceinfo Politique",
-     "resume": "Selon Franceinfo, à cinq mois de la présidentielle, les concurrents d'Édouard Philippe à droite et au centre préparent les modalités d'une primaire dès mardi. En difficulté dans les sondages, ce dernier continue toutefois de la refuser."
-    },
-    {
-     "title": "5 things to watch at the Dublin EU leaders’ summit",
-     "link": "https://www.politico.eu/article/5-things-to-watch-dublin-eu-leaders-summit-european-council/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "title": "Tinder owner hit with €11M privacy fine",
+     "link": "https://www.politico.eu/article/tinder-owner-hit-with-e11m-privacy-fine/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
      "source": "Politico Europe",
-     "resume": "Selon Politico Europe, le sommet de Dublin portera sur les ambitions européennes en IA, le financement de Kyiv et la représentation dans les discussions ukrainiennes. La succession de Christine Lagarde est également à l'ordre du jour."
+     "resume": "D'après Politico Europe, le régulateur irlandais des données a infligé 11 millions d'euros d'amende au propriétaire de Tinder. Son outil de téléchargement des données personnelles est jugé non conforme au RGPD, une décision dont l'entreprise compte faire appel."
+    },
+    {
+     "title": "Whitehall to increase face-to-face job interviews after surge in AI applications",
+     "link": "https://www.politico.eu/article/whitehall-increase-in-person-job-interviews-after-ai-applications/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "source": "Politico Europe",
+     "resume": "Selon Politico Europe, l'administration britannique renforce les entretiens d'embauche en présentiel face à l'essor des candidatures générées par IA. Les responsables soupçonnent en effet que des dossiers entiers, y compris des candidats en visioconférence, soient produits artificiellement."
+    },
+    {
+     "title": "Mobilisation lycéenne : le gouvernement veut systématiser les sanctions disciplinaires en cas de blocage",
+     "link": "https://www.lemonde.fr/lycee/article/2026/11/13/mobilisation-lyceenne-le-gouvernement-veut-systematiser-les-sanctions-disciplinaires-en-cas-de-blocage_6809364_5019416.html",
+     "source": "Le Monde Politique",
+     "resume": "Selon Le Monde, le gouvernement a demandé vendredi aux recteurs et préfets de systématiser les sanctions disciplinaires contre les élèves et personnels participant aux blocages, dégradations ou à la déstabilisation d'établissements lors du mouvement lycéen."
     }
    ]
   }
