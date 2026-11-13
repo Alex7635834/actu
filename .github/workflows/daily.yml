@@ -2,7 +2,10 @@ name: Actu du jour
 
 on:
   schedule:
-    - cron: "17 4 * * *"   # 04:17 UTC = 05:17 à Paris l'hiver, 06:17 l'été
+    # GitHub planifie en UTC : deux horaires pour viser 05:50 à Toronto toute l'année
+    # (digest prêt pour 6h). Le job "horaire" ne laisse passer que celui de la saison.
+    - cron: "50 9 * * *"    # 05:50 à Toronto en heure d'été (UTC-4)
+    - cron: "50 10 * * *"   # 05:50 à Toronto en heure d'hiver (UTC-5)
   workflow_dispatch:        # bouton "Run workflow" pour lancer à la main
 
 permissions:
@@ -15,7 +18,24 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  horaire:
+    runs-on: ubuntu-latest
+    outputs:
+      go: ${{ steps.check.outputs.go }}
+    steps:
+      - id: check
+        env:
+          EVENT: ${{ github.event_name }}
+          CRON: ${{ github.event.schedule }}
+        run: |
+          if [ "$(TZ=America/Toronto date +%z)" = "-0400" ]; then attendu="50 9 * * *"; else attendu="50 10 * * *"; fi
+          if [ "$EVENT" != "schedule" ] || [ "$CRON" = "$attendu" ]; then go=true; else go=false; fi
+          echo "événement=$EVENT cron=$CRON attendu=$attendu go=$go"
+          echo "go=$go" >> "$GITHUB_OUTPUT"
+
   build:
+    needs: horaire
+    if: needs.horaire.outputs.go == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

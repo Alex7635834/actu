@@ -23,7 +23,7 @@ import feedparser
 ROOT = Path(__file__).parent
 DATA = ROOT / "data"
 OUT = ROOT / "_site"
-TZ = ZoneInfo("Europe/Paris")
+TZ = ZoneInfo("America/Toronto")  # fuseau de la date et de l'heure affichées
 MAX_AGE_H = 36          # on ignore les articles plus vieux
 PER_FEED = 8            # articles max lus par flux
 PER_CATEGORY = 40       # candidats max envoyés à l'IA par catégorie
