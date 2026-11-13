@@ -1,0 +1,260 @@
+{
+ "date": "2026-11-13",
+ "generated_at": "06:39",
+ "ai": true,
+ "essentiel": [
+  "La démission de Jensen Huang à la tête de Nvidia, sur fond d'affaires personnelles et de soupçons d'espionnage liés à la Chine, ouvre une transition délicate pour le secteur de l'IA.",
+  "Dans l'infrastructure numérique, AMD lance ses processeurs EPYC de 6e génération jusqu'à 256 cœurs et Google déploie Gemini 4 Hydrogen, tandis qu'une panne mondiale prolongée paralyse Microsoft Outlook.",
+  "Côté cybersécurité, des failles critiques touchent Apache HTTP Server, Red Hat Quay et les puces AMD Turin sur Google Cloud, alors que 35 000 applications Grok Build sont exposées sans authentification et que des milliers de comptes GitHub sont compromis.",
+  "Sur les marchés, le financement des néoclouds comme Nebius et Nscale suscite des interrogations, tandis qu'en Europe et aux États-Unis, l'inflation et les tensions énergétiques ravivent les anticipations de hausses de taux.",
+  "À l'international, la participation européenne aux prochains pourparlers sur l'Ukraine reste suspendue à l'accord de Moscou, tandis que le sommet de l'UE s'ouvre à Dublin sur les enjeux d'IA et de soutien à Kyiv."
+ ],
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "items": [
+    {
+     "title": "[MàJ] Jensen Huang démissionne de son poste de CEO de NVIDIA",
+     "link": "https://next.ink/266926/nvidia-se-prepare-a-pousser-son-ceo-jensen-huang-vers-la-sortie/",
+     "source": "Next",
+     "resume": "Le cofondateur quitte la direction du groupe après des révélations sur sa proximité avec une entrepreneuse soupçonnée d'espionner pour Pékin et une liaison avec une subordonnée. Ce départ soulève la question critique de sa succession."
+    },
+    {
+     "title": "AMD lance ses EPYC de 6e génération, jusqu’à 256 cœurs Zen 6(c) en 2 nm : quoi de neuf ?",
+     "link": "https://next.ink/267012/amd-lance-ses-epyc-de-6e-generation-jusqua-256-coeurs-zen-6c-en-2-nm-quoi-de-neuf/",
+     "source": "Next",
+     "resume": "Ces nouveaux processeurs pour datacenters atteignent 512 threads par CPU et inaugurent le socket SP7. Cette commercialisation concrétise l'architecture présentée lors de la conférence Advancing AI 2026."
+    },
+    {
+     "title": "Une panne mondiale d’Outlook perturbe l’accès aux e-mails",
+     "link": "https://www.lemonde.fr/pixels/article/2026/11/13/une-panne-mondiale-d-outlook-empeche-des-dizaines-de-milliers-d-utilisateurs-d-acceder-a-leurs-e-mails_6809171_4408996.html",
+     "source": "Le Monde Pixels",
+     "resume": "Après environ huit heures de blocage, Microsoft a reconnu que ses premières mesures correctives ne fonctionnaient pas comme prévu et recherche des alternatives, prolongeant l'indisponibilité du service."
+    },
+    {
+     "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+     "link": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+     "source": "TechCrunch",
+     "resume": "L'entreprise prévoit de financer une expansion de 40 milliards de dollars dans l'infrastructure IA par des prêts et des prépaiements clients. Les retards d'un centre de données Microsoft interrogent toutefois la solidité de ce modèle financier."
+    },
+    {
+     "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+     "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+     "source": "TechCrunch",
+     "resume": "Propulsé par le nouveau modèle Gemini 4 Hydrogen, l'AI Mode du moteur de recherche améliore sa compréhension des requêtes complexes, l'affichage des liens pertinents et les réponses visuelles."
+    },
+    {
+     "title": "Ukraine says it can’t stop Russian strikes because Starshield is limited again",
+     "link": "https://arstechnica.com/tech-policy/2026/11/ukraine-says-spacex-starshield-is-restricted-again-spacex-claims-it-isnt/",
+     "source": "Ars Technica",
+     "resume": "Kyiv affirme ne plus pouvoir stopper les frappes russes en raison de nouvelles limitations du réseau satellitaire, et soupçonne que ces bridages de débit visent à favoriser la Russie lors des pourparlers de paix."
+    },
+    {
+     "title": "CNRS : après avoir siphonné sa trésorerie, le gouvernement impose un plan de redressement",
+     "link": "https://next.ink/266998/cnrs-apres-avoir-siphonne-sa-tresorerie-le-gouvernement-impose-un-plan-de-redressement/",
+     "source": "Next",
+     "resume": "Lors d'un conseil d'administration exceptionnel sur le budget 2026, la direction a maintenu le gel des prolongations de CDD et d'une part des crédits aux laboratoires, actant une reprise en main budgétaire par Bercy."
+    },
+    {
+     "title": "United Airlines ferme ses réservations aux agents IA",
+     "link": "https://next.ink/267253/united-airlines-ferme-ses-reservations-aux-agents-ia/",
+     "source": "Next",
+     "resume": "La compagnie aérienne interdit aux assistants automatisés d'accéder à son système de billetterie, invoquant la sécurité des données et la conformité aérienne, bien que ces intermédiaires génèrent encore peu de transactions."
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "items": [
+    {
+     "title": "llm-gemini 0.37",
+     "link": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+     "source": "Simon Willison",
+     "resume": "Simon Willison met à jour son outil pour intégrer Gemini 4 Hydrogen, le modèle le plus économique de cette gamme Google. Il souligne toutefois une grille tarifaire complexe et des coûts proches de ses grands frères Carbon et Argon."
+    },
+    {
+     "title": "Browse tools.simonwillison.net by tag",
+     "link": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+     "source": "Simon Willison",
+     "resume": "Le développeur a utilisé Fable 5.2 et tree-sitter pour analyser ses 244 outils générés par IA et classer automatiquement leurs API et bibliothèques JavaScript par nuages de mots-clés sur sa page d'accueil."
+    },
+    {
+     "title": "AI chatbots are recommending fake retail websites, study finds",
+     "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+     "source": "The Verge AI",
+     "resume": "Selon une étude de Podqi, ChatGPT, Gemini et Perplexity orientent parfois les acheteurs vers des sites marchands frauduleux ou risqués. Ce constat souligne les lacunes de fiabilité des agents conversationnels pour la recherche commerciale."
+    },
+    {
+     "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+     "link": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+     "source": "Ars Technica AI",
+     "resume": "Conçues avec Samsung, Gentle Monster et Warby Parker à partir de 395 dollars, ces lunettes connectées intègrent l'assistant IA tout en mettant en avant la protection de la vie privée."
+    },
+    {
+     "title": "More game developers are starting to use generative AI",
+     "link": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+     "source": "The Verge AI",
+     "resume": "D'après l'enquête annuelle de la GDC, 40 % des créateurs de jeux vidéo utilisent désormais ces outils dans leur travail, contre 36 % en 2025. L'adoption continue ainsi de progresser dans l'industrie."
+    },
+    {
+     "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+     "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+     "source": "Ars Technica AI",
+     "resume": "Le fondeur taïwanais va injecter un milliard de dollars dans les deux laboratoires d'IA américains. Cette opération illustre le financement circulaire du secteur à un moment où les valeurs liées à l'IA montrent des signes de fragilité."
+    },
+    {
+     "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+     "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+     "source": "TechCrunch AI",
+     "resume": "La démission du dirigeant interroge la pérennité des engagements ouverts du groupe, notamment le rachat d'Hugging Face et le développement de modèles à poids ouverts, durant la transition à la tête de l'entreprise."
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "items": [
+    {
+     "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+     "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+     "source": "BleepingComputer",
+     "resume": "La campagne « wfx-loot » a exploité 4 837 comptes compromis pour sonder plus de 61 000 dépôts, ouvrir des pull requests et diffuser un logiciel malveillant ciblant les secrets cloud des développeurs."
+    },
+    {
+     "title": "Grok Build : plus de 35 000 applications IA accessibles sans authentification",
+     "link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/grok-build-plus-de-35-000-applications-ia-accessib",
+     "source": "Le Monde Informatique",
+     "resume": "Une étude de Claroc révèle que 35 578 des 37 571 applications actives générées avec l'outil de SpaceXSI (ex-xAI) sont ouvertes sans authentification, exposant potentiellement des données personnelles à tout visiteur."
+    },
+    {
+     "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+     "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+     "source": "BleepingComputer",
+     "resume": "Des attaquants exploitent activement cette faille critique dans N-able N-central pour installer des mineurs de cryptomonnaies sur des serveurs. Fait préoccupant, 19 des 21 systèmes déjà compromis disposaient pourtant de la dernière mise à jour de sécurité."
+    },
+    {
+     "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+     "link": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+     "source": "The Hacker News",
+     "resume": "Cette faille critique permet de lire et d'écraser les images privées de tous les dépôts d'un registre, sans même de compte lorsque l'accès anonyme par défaut est actif. Red Hat a publié des correctifs pour huit versions."
+    },
+    {
+     "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+     "link": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+     "source": "BleepingComputer",
+     "resume": "Un correctif d'urgence comble une vulnérabilité critique dans le module HTTP/2 du serveur web, qui permettait à un attaquant non authentifié d'exécuter du code à distance sur les serveurs exposés."
+    },
+    {
+     "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+     "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+     "source": "The Hacker News",
+     "resume": "Trois failles par canal auxiliaire sur puces AMD Turin exposent les VM à des fuites de données entre processus ou noyau. Google a isolé les hôtes mais demande aux clients de patcher et redémarrer leurs instances."
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "items": [
+    {
+     "title": "AI boom will lift Nvidia even after Huang’s exit, investors say",
+     "link": "https://www.ft.com/content/ecb2b4ed-1b61-4c8a-a2e7-a6f9c85a59ff?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Selon le Financial Times, l'action du groupe a effacé l'essentiel de ses pertes dès jeudi soir, les investisseurs ayant acheté la baisse en misant sur la dynamique continue de l'IA malgré le départ du fondateur."
+    },
+    {
+     "title": "Nscale warns it needs more cash ahead of $35bn IPO",
+     "link": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "D'après le Financial Times, le spécialiste du cloud soutenu par Nvidia a prévenu les investisseurs qu'il devait lever des fonds supplémentaires avant son introduction en Bourse à 35 milliards de dollars pour honorer ses contrats avec Anthropic."
+    },
+    {
+     "title": "Une inflation à 4%, des cours de l'énergie sous tension... Une nouvelle hausse des taux de la BCE en décembre semble inévitable et ça ne devrait pas être la dernière",
+     "link": "https://www.bfmtv.com/economie/une-inflation-a-4-des-cours-de-l-energie-sous-tension-une-nouvelle-hausse-des-taux-de-la-bce-en-decembre-semble-inevitable-et-ca-ne-devrait-pas-etre-la-derniere_AV-202611130144.html",
+     "source": "BFM Business",
+     "resume": "D'après une enquête Reuters citée par BFM Business, la majorité des économistes anticipent un nouveau relèvement du taux de dépôt en décembre, porté par une inflation à 4 % et des tensions sur les prix de l'énergie."
+    },
+    {
+     "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
+     "link": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "resume": "Selon MarketWatch, les rendements obligataires américains enregistrent leur plus forte hausse depuis 2022 face aux anticipations de nouveaux tours de vis de la Fed, la communication discrète de son président Warsh accentuant la volatilité."
+    },
+    {
+     "title": "Gaz : la piste d’une réserve stratégique à l’étude pour anticiper de futures crises",
+     "link": "https://www.lemonde.fr/economie/article/2026/11/13/gaz-la-piste-d-une-reserve-strategique-a-l-etude-pour-anticiper-de-futures-crises_6809277_3234.html",
+     "source": "Le Monde Économie",
+     "resume": "Selon Le Monde, la France envisage de constituer un stock d'urgence gazier sur le modèle du pétrole, à l'instar de l'Allemagne, afin de sécuriser ses approvisionnements face aux risques de rupture."
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "items": [
+    {
+     "title": "Guerre en Ukraine : les émissaires américains assurent que les Européens seront associés aux prochaines réunions de négociation de paix",
+     "link": "https://www.lemonde.fr/international/article/2026/11/13/guerre-en-ukraine-les-emissaires-americains-assurent-que-les-europeens-seront-associes-aux-prochaines-reunions-de-negociation-de-paix_6809269_3210.html",
+     "source": "Le Monde International",
+     "resume": "Selon Le Monde, les envoyés spéciaux américains Jared Kushner et Steve Witkoff ont quitté Moscou avec peu d'avancées tout en promettant d'associer l'Europe aux prochains pourparlers, un format que la Russie n'a toutefois pas confirmé."
+    },
+    {
+     "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+     "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "resume": "D'après la BBC, cette frappe constituerait la première attaque menée par des drones ukrainiens contre un bâtiment militaire russe en zone ouverte de la mer Baltique."
+    },
+    {
+     "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
+     "link": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "resume": "Selon le FBI cité par la BBC, l'opération baptisée FaceStealer a piégé plus de 900 victimes en 18 mois via de fausses visioconférences, illustrant la sophistication des vols de cryptomonnaies liés aux pirates nord-coréens."
+    },
+    {
+     "title": "China rules out hosting Cop33 climate summit in 2028",
+     "link": "https://www.theguardian.com/environment/2026/nov/12/china-rules-out-hosting-cop33-climate-summit-in-2028",
+     "source": "The Guardian World",
+     "resume": "Selon The Guardian, Pékin renonce à organiser le sommet climatique de l'ONU en 2028 après plusieurs mois de réflexion, décevant les observateurs qui espéraient voir le premier émetteur mondial assumer un rôle moteur."
+    },
+    {
+     "title": "Iran says it targeted US radar site in Bahrain",
+     "link": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain?traffic_source=rss",
+     "source": "Al Jazeera",
+     "resume": "D'après Al Jazeera, les Gardiens de la révolution iraniens affirment avoir frappé cette installation en représailles à une attaque aérienne ennemie contre une tour de télécommunications dans la province du Hormozgan."
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "items": [
+    {
+     "title": "5 things to watch at the Dublin EU leaders’ summit",
+     "link": "https://www.politico.eu/article/5-things-to-watch-dublin-eu-leaders-summit-european-council/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "source": "Politico Europe",
+     "resume": "D'après Politico Europe, les dirigeants européens réunis à Dublin doivent aborder les ambitions de l'UE dans l'IA, le financement de Kyiv, la désignation d'un représentant pour les pourparlers sur l'Ukraine et la succession de Christine Lagarde."
+    },
+    {
+     "title": "What will a female president mean for Germany and Europe?",
+     "link": "https://www.politico.eu/podcast/brussels-playbook-podcast/what-will-a-female-president-mean-for-germany-and-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "source": "Politico Europe",
+     "resume": "Selon Politico Europe, la nomination de la conservatrice bavaroise Ilse Aigner rassemble la coalition de Friedrich Merz, les sociaux-démocrates et les Verts, lui ouvrant la voie pour devenir la première présidente d'Allemagne."
+    },
+    {
+     "title": "Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+     "link": "https://www.npr.org/2026/11/12/nx-s1-6039357/chris-van-hollen-chuck-schumer-senate-majority-leader",
+     "source": "NPR Politics",
+     "resume": "D'après NPR, le sénateur progressiste du Maryland brigue la direction de la majorité démocrate au Sénat, affirmant que les électeurs ont exprimé lors des élections de mi-mandat un besoin de changement face au statu quo."
+    },
+    {
+     "title": "Jean-Luc Mélenchon a été interdit d’entrée en Israël en raison de la « position extrêmement hostile » de LFI",
+     "link": "https://www.lemonde.fr/international/article/2026/11/12/israel-interdit-a-jean-luc-melenchon-l-entree-sur-son-territoire-jugeant-lfi-extremement-hostile-a-son-egard_6809141_3210.html",
+     "source": "Le Monde Politique",
+     "resume": "Selon Le Monde, la diplomatie israélienne a annoncé interdire son territoire au dirigeant de La France insoumise ainsi qu'à toute personne jugée hostile à ses intérêts ou incitant à la haine contre ses citoyens."
+    }
+   ]
+  }
+ ]
+}

@@ -28,8 +28,9 @@ MAX_AGE_H = 36          # on ignore les articles plus vieux
 PER_FEED = 8            # articles max lus par flux
 PER_CATEGORY = 40       # candidats max envoyés à l'IA par catégorie
 SEEN_DAYS = 3           # un article déjà publié ces N derniers jours n'est pas repris
-MODEL = os.environ.get("ACTU_MODEL") or "mistral-large-latest"
-API_URL = "https://api.mistral.ai/v1/chat/completions"
+# Modèles Gemini essayés dans l'ordre (tous disponibles dans l'offre gratuite).
+MODELS = (os.environ.get("ACTU_MODELS") or "gemini-4-hydrogen,gemini-3.8-flash,gemini-3.5-flash-lite").split(",")
+API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 UA = "Mozilla/5.0 (compatible; actu-digest/1.0)"
 
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
@@ -153,56 +154,62 @@ SCHEMA = {
         "picks": {"type": "array", "items": {
             "type": "object",
             "properties": {"id": {"type": "integer"}, "resume": {"type": "string"}},
-            "required": ["id", "resume"], "additionalProperties": False}},
+            "required": ["id", "resume"]}},
     },
-    "required": ["essentiel", "picks"], "additionalProperties": False,
+    "required": ["essentiel", "picks"],
 }
 
 
-def ask_mistral(key: str, prompt: str) -> dict | None:
-    """Appelle l'API Mistral ; réessaie sur quota (429) ou erreur serveur. None si échec."""
+def call_gemini(key: str, model: str, prompt: str) -> dict:
     body = json.dumps({
-        "model": MODEL,
-        "temperature": 0.2,
-        "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}],
-        "response_format": {"type": "json_schema", "json_schema": {
-            "name": "digest", "strict": True, "schema": SCHEMA}},
+        "system_instruction": {"parts": [{"text": SYSTEM}]},
+        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+        "generationConfig": {"responseMimeType": "application/json", "responseSchema": SCHEMA},
     }).encode()
-    for attempt in range(4):
-        req = urllib.request.Request(API_URL, data=body, headers={
-            "Authorization": f"Bearer {key}", "Content-Type": "application/json",
-            "Accept": "application/json"})
-        try:
-            with urllib.request.urlopen(req, timeout=180) as resp:
-                data = json.loads(resp.read())
-            usage = data.get("usage", {})
-            print(f"  IA ({data.get('model', MODEL)}) : {usage.get('prompt_tokens')} tokens lus, "
-                  f"{usage.get('completion_tokens')} écrits")
-            return json.loads(data["choices"][0]["message"]["content"])
-        except urllib.error.HTTPError as exc:
-            detail = exc.read().decode(errors="replace")[:300]
-            print(f"  ! IA : HTTP {exc.code} {detail}", file=sys.stderr)
-            if exc.code != 429 and exc.code < 500:
-                return None  # clé invalide, requête refusée : inutile de réessayer
-        except (urllib.error.URLError, TimeoutError, ValueError, KeyError, IndexError) as exc:
-            print(f"  ! IA : {type(exc).__name__} {exc}", file=sys.stderr)
-        if attempt < 3:
-            time.sleep(20 * (attempt + 1))
+    req = urllib.request.Request(API_URL.format(model=model), data=body, headers={
+        "x-goog-api-key": key, "Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=300) as resp:
+        data = json.loads(resp.read())
+    parts = data["candidates"][0]["content"]["parts"]
+    digest = json.loads("".join(p.get("text", "") for p in parts if not p.get("thought")))
+    usage = data.get("usageMetadata", {})
+    print(f"  IA ({model}) : {usage.get('promptTokenCount')} tokens lus, "
+          f"{usage.get('totalTokenCount')} au total")
+    return digest
+
+
+def ask_gemini(key: str, prompt: str) -> dict | None:
+    """Essaie chaque modèle de MODELS dans l'ordre, deux fois chacun. None si tout échoue."""
+    for model in MODELS:
+        for attempt in range(2):
+            try:
+                return call_gemini(key, model, prompt)
+            except urllib.error.HTTPError as exc:
+                detail = exc.read().decode(errors="replace")[:300]
+                print(f"  ! IA ({model}) : HTTP {exc.code} {detail}", file=sys.stderr)
+                if exc.code in (401, 403):
+                    return None  # clé invalide : aucun modèle ne marchera
+                if exc.code != 429 and exc.code < 500:
+                    break        # requête refusée par ce modèle : on passe au suivant
+            except (urllib.error.URLError, TimeoutError, ValueError, KeyError, IndexError) as exc:
+                print(f"  ! IA ({model}) : {type(exc).__name__} {exc}", file=sys.stderr)
+            if attempt == 0:
+                time.sleep(30)
     return None
 
 
 def summarize(categories, cands):
     """Renvoie (essentiel, picks) ou None si l'IA est indisponible."""
-    key = os.environ.get("MISTRAL_API_KEY")
+    key = os.environ.get("GEMINI_API_KEY")
     if not key:
-        print("  MISTRAL_API_KEY absente : digest sans résumés IA")
+        print("  GEMINI_API_KEY absente : digest sans résumés IA")
         return None
     parts = []
     for cat in categories:
         parts.append(f"## {cat['name']} : retenir {cat['picks']} articles")
         parts += [f"[{i['id']}] {i['source']} | {i['title']} | {i['desc'] or '(pas d extrait)'}"
                   for i in cands[cat["id"]]]
-    digest = ask_mistral(key, "\n".join(parts))
+    digest = ask_gemini(key, "\n".join(parts))
     if not isinstance(digest, dict) or not isinstance(digest.get("picks"), list):
         return None
 

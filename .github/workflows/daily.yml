@@ -30,8 +30,8 @@ jobs:
       - name: Générer le digest
         run: python build.py
         env:
-          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
-          ACTU_MODEL: ${{ vars.ACTU_MODEL }}   # variable de dépôt facultative pour changer de modèle
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ACTU_MODELS: ${{ vars.ACTU_MODELS }}   # variable de dépôt facultative : modèles séparés par des virgules
       - name: Enregistrer l'historique
         run: |
           git config user.name "github-actions[bot]"
