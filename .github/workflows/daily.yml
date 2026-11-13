@@ -1,0 +1,47 @@
+name: Actu du jour
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # 04:17 UTC = 05:17 à Paris l'hiver, 06:17 l'été
+  workflow_dispatch:        # bouton "Run workflow" pour lancer à la main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Générer le digest
+        run: python build.py
+        env:
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          ACTU_MODEL: ${{ vars.ACTU_MODEL }}   # variable de dépôt facultative pour changer de modèle
+      - name: Enregistrer l'historique
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Digest du $(date -u +%F)"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4

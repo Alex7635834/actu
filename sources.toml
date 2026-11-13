@@ -1,0 +1,80 @@
+# Catégories dans l'ordre d'importance. "picks" = nombre d'articles retenus par jour.
+# Pour ajouter une source : une ligne {name = "...", url = "<flux RSS>"} dans la bonne catégorie.
+
+[[category]]
+id = "tech"
+name = "Tech"
+picks = 8
+feeds = [
+  {name = "Hacker News", url = "https://hnrss.org/frontpage?points=200"},
+  {name = "The Verge", url = "https://www.theverge.com/rss/index.xml"},
+  {name = "Ars Technica", url = "https://feeds.arstechnica.com/arstechnica/index"},
+  {name = "TechCrunch", url = "https://techcrunch.com/feed/"},
+  {name = "Numerama", url = "https://www.numerama.com/feed/"},
+  {name = "Next", url = "https://next.ink/feed/"},
+  {name = "Le Monde Pixels", url = "https://www.lemonde.fr/pixels/rss_full.xml"},
+]
+
+[[category]]
+id = "ia"
+name = "IA"
+picks = 8
+feeds = [
+  {name = "MIT Technology Review", url = "https://www.technologyreview.com/topic/artificial-intelligence/feed"},
+  {name = "The Verge AI", url = "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"},
+  {name = "Ars Technica AI", url = "https://arstechnica.com/ai/feed/"},
+  {name = "Google AI", url = "https://blog.google/technology/ai/rss/"},
+  {name = "TechCrunch AI", url = "https://techcrunch.com/category/artificial-intelligence/feed/"},
+  {name = "Simon Willison", url = "https://simonwillison.net/atom/everything/"},
+  {name = "Hugging Face", url = "https://huggingface.co/blog/feed.xml"},
+  {name = "ActuIA", url = "https://www.actuia.com/feed/"},
+]
+
+[[category]]
+id = "cyber"
+name = "Cybersécurité"
+picks = 6
+feeds = [
+  {name = "BleepingComputer", url = "https://www.bleepingcomputer.com/feed/"},
+  {name = "The Hacker News", url = "https://feeds.feedburner.com/TheHackersNews"},
+  {name = "Krebs on Security", url = "https://krebsonsecurity.com/feed/"},
+  {name = "The Record", url = "https://therecord.media/feed"},
+  {name = "CERT-FR", url = "https://www.cert.ssi.gouv.fr/feed/"},
+  {name = "Le Monde Informatique", url = "https://www.lemondeinformatique.fr/flux-rss/thematique/securite/rss.xml"},
+]
+
+[[category]]
+id = "finance"
+name = "Finance"
+picks = 5
+feeds = [
+  {name = "Financial Times", url = "https://www.ft.com/rss/home"},
+  {name = "BFM Business", url = "https://www.bfmtv.com/rss/economie/"},
+  {name = "Le Monde Économie", url = "https://www.lemonde.fr/economie/rss_full.xml"},
+  {name = "BBC Business", url = "https://feeds.bbci.co.uk/news/business/rss.xml"},
+  {name = "CNBC Finance", url = "https://www.cnbc.com/id/10000664/device/rss/rss.html"},
+  {name = "MarketWatch", url = "https://feeds.content.dowjones.io/public/rss/mw_topstories"},
+]
+
+[[category]]
+id = "monde"
+name = "International"
+picks = 5
+feeds = [
+  {name = "Le Monde International", url = "https://www.lemonde.fr/international/rss_full.xml"},
+  {name = "BBC World", url = "https://feeds.bbci.co.uk/news/world/rss.xml"},
+  {name = "France 24", url = "https://www.france24.com/fr/rss"},
+  {name = "The Guardian World", url = "https://www.theguardian.com/world/rss"},
+  {name = "Al Jazeera", url = "https://www.aljazeera.com/xml/rss/all.xml"},
+]
+
+[[category]]
+id = "politique"
+name = "Politique"
+picks = 4
+feeds = [
+  {name = "Le Monde Politique", url = "https://www.lemonde.fr/politique/rss_full.xml"},
+  {name = "Franceinfo Politique", url = "https://www.francetvinfo.fr/politique.rss"},
+  {name = "Politico Europe", url = "https://www.politico.eu/feed/"},
+  {name = "NPR Politics", url = "https://feeds.npr.org/1014/rss.xml"},
+]
