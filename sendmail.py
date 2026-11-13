@@ -17,43 +17,71 @@ import urllib.request
 from html import escape as esc
 from pathlib import Path
 
-from build import DATA, date_fr
+from build import DATA, date_fr, footnote
 
 ACCENT = "#b4451f"
 
 
+def a(href: str, text: str, style: str) -> str:
+    return f'<a href="{esc(href)}" style="{style}">{esc(text)}</a>'
+
+
 def render(day: dict, site_url: str) -> tuple[str, str]:
     """Renvoie (html, texte brut). Styles en ligne : les messageries ignorent souvent <style>."""
+    label = f"font-size:12px;letter-spacing:1px;color:{ACCENT};font-weight:bold"
+    serif = "font-family:Georgia,serif;font-weight:bold"
     h = [f'<div style="max-width:640px;margin:0 auto;font-family:Arial,Helvetica,sans-serif;'
          f'color:#1c1b19;font-size:15px;line-height:1.5">'
-         f'<h1 style="font-family:Georgia,serif;font-size:26px;margin:0">Actu du jour</h1>'
+         f'<h1 style="{serif};font-size:26px;margin:0">Actu du jour</h1>'
          f'<p style="color:#6b6862;margin:2px 0 18px">{date_fr(day["date"])}</p>']
     t = [f"ACTU DU JOUR - {date_fr(day['date'])}", ""]
-    if day["essentiel"]:
+    if day.get("une"):
+        h.append(f'<div style="{label}">À LA UNE</div>')
+        t += ["À LA UNE", ""]
+        for topic in day["une"]:
+            refs = " · ".join(a(s["link"], s["source"], f"color:{ACCENT};text-decoration:none")
+                              for s in topic["sources"])
+            h.append(f'<div style="border:1px solid #e4e1da;border-radius:8px;padding:12px 16px;'
+                     f'margin:8px 0"><div style="{serif};font-size:18px;line-height:1.3">'
+                     f'{esc(topic["titre"])}</div><div style="margin-top:5px">'
+                     f'{esc(topic["resume"])}</div><div style="font-size:13px;color:#6b6862;'
+                     f'margin-top:6px">Sources : {refs}</div></div>')
+            t += [topic["titre"], topic["resume"]] + [s["link"] for s in topic["sources"]] + [""]
+    if day.get("essentiel"):  # ancien format
         h.append(f'<div style="border-left:4px solid {ACCENT};background:#f7f6f3;padding:12px 16px">'
-                 f'<div style="font-size:12px;letter-spacing:1px;color:{ACCENT};font-weight:bold">'
-                 f"L'ESSENTIEL</div><ul style=\"margin:6px 0 0;padding-left:18px\">"
+                 f'<div style="{label}">L\'ESSENTIEL</div><ul style="margin:6px 0 0;padding-left:18px">'
                  + "".join(f'<li style="margin:5px 0">{esc(s)}</li>' for s in day["essentiel"])
                  + "</ul></div>")
         t += ["L'ESSENTIEL"] + [f"- {s}" for s in day["essentiel"]] + [""]
+    concept = day.get("concept")
+    if concept:
+        ref = (f'<div style="font-size:13px;color:#6b6862;margin-top:6px">Vu dans : '
+               + a(concept["link"], concept["source"], f"color:{ACCENT};text-decoration:none")
+               + "</div>") if concept.get("link") else ""
+        h.append(f'<div style="border-left:4px solid {ACCENT};background:#f7f6f3;padding:12px 16px;'
+                 f'margin-top:16px"><div style="{label}">CONCEPT DU JOUR</div>'
+                 f'<div style="{serif};font-size:17px;margin:4px 0">{esc(concept["terme"])}</div>'
+                 f'<div>{esc(concept["explication"])}</div>{ref}</div>')
+        t += ["CONCEPT DU JOUR : " + concept["terme"], concept["explication"], ""]
     for cat in day["categories"]:
         if not cat["items"]:
             continue
-        h.append(f'<h2 style="font-family:Georgia,serif;font-size:20px;margin:28px 0 0;'
+        h.append(f'<h2 style="{serif};font-size:20px;margin:28px 0 0;'
                  f'padding-bottom:5px;border-bottom:2px solid #1c1b19">{esc(cat["name"])}</h2>')
         t += [cat["name"].upper(), ""]
         for item in cat["items"]:
+            titre = item.get("titre") or item["title"]
+            partial = " · d'après l'extrait" if item.get("full") is False else ""
             h.append(f'<div style="padding:12px 0;border-bottom:1px solid #e4e1da">'
-                     f'<div style="font-size:11px;color:#6b6862;text-transform:uppercase;'
-                     f'letter-spacing:.5px">{esc(item["source"])}</div>'
-                     f'<a href="{esc(item["link"])}" style="color:#1c1b19;font-weight:bold;'
-                     f'font-size:16px;text-decoration:none">{esc(item["title"])}</a>'
-                     f'<div style="margin-top:4px;color:#3a3936">{esc(item["resume"])}</div></div>')
-            t += [f"{item['title']} ({item['source']})", item["resume"], item["link"], ""]
-    note = ("Sélection et résumés générés par IA à partir des titres et extraits des flux RSS."
-            if day["ai"] else "Résumés IA indisponibles ce jour : extraits bruts des flux RSS.")
-    link = f' · <a href="{esc(site_url)}" style="color:{ACCENT}">Voir sur le site</a>' if site_url else ""
-    h.append(f'<p style="color:#6b6862;font-size:12px;margin-top:24px">{note}{link}</p></div>')
+                     f'<div style="font-size:11px;color:#6b6862;letter-spacing:.5px">'
+                     f'{esc(item["source"].upper())}{partial}</div>'
+                     + a(item["link"], titre, "color:#1c1b19;font-weight:bold;font-size:16px;"
+                                              "text-decoration:none")
+                     + f'<div style="margin-top:4px;color:#3a3936">{esc(item["resume"])}</div></div>')
+            t += [f"{titre} ({item['source']})", item["resume"], item["link"], ""]
+    note = footnote(day)
+    more = (" · " + a(site_url, "Voir sur le site", f"color:{ACCENT}")) if site_url else ""
+    h.append(f'<p style="color:#6b6862;font-size:12px;margin-top:24px">{esc(note)}{more}</p></div>')
     t.append(note)
     return "".join(h), "\n".join(t)
 

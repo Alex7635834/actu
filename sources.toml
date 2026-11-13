@@ -54,6 +54,7 @@ feeds = [
   {name = "BBC Business", url = "https://feeds.bbci.co.uk/news/business/rss.xml"},
   {name = "CNBC Finance", url = "https://www.cnbc.com/id/10000664/device/rss/rss.html"},
   {name = "MarketWatch", url = "https://feeds.content.dowjones.io/public/rss/mw_topstories"},
+  {name = "CBC Business", url = "https://www.cbc.ca/webfeed/rss/rss-business"},
 ]
 
 [[category]]
@@ -71,8 +72,12 @@ feeds = [
 [[category]]
 id = "politique"
 name = "Politique"
-picks = 4
+picks = 5
 feeds = [
+  {name = "Radio-Canada", url = "https://ici.radio-canada.ca/rss/4175"},
+  {name = "La Presse", url = "https://www.lapresse.ca/actualites/politique/rss"},
+  {name = "CBC Politics", url = "https://www.cbc.ca/webfeed/rss/rss-politics"},
+  {name = "The Globe and Mail", url = "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/politics/"},
   {name = "Le Monde Politique", url = "https://www.lemonde.fr/politique/rss_full.xml"},
   {name = "Franceinfo Politique", url = "https://www.francetvinfo.fr/politique.rss"},
   {name = "Politico Europe", url = "https://www.politico.eu/feed/"},
