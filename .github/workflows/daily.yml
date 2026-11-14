@@ -2,11 +2,19 @@ name: Actu du jour
 
 on:
   schedule:
-    # GitHub planifie en UTC : deux horaires pour viser 05:50 à Toronto toute l'année
-    # (digest prêt pour 6h). Le job "horaire" ne laisse passer que celui de la saison.
-    - cron: "50 9 * * *"    # 05:50 à Toronto en heure d'été (UTC-4)
-    - cron: "50 10 * * *"   # 05:50 à Toronto en heure d'hiver (UTC-5)
-  workflow_dispatch:        # bouton "Run workflow" pour lancer à la main
+    # GitHub planifie en UTC, sans garantie d'heure ni même d'exécution : on multiplie donc les
+    # déclenchements. Le job "horaire" laisse passer le premier qui arrive à partir de 05:50 à
+    # Toronto, et les suivants ne font rien tant que le digest du jour est publié. Si un build
+    # échoue (panne réseau, mail refusé…), le déclenchement suivant réessaie.
+    - cron: "50 9-12 * * *"   # 09:50 UTC = 05:50 à Toronto en été, 10:50 UTC = 05:50 en hiver
+    - cron: "20 10-12 * * *"
+    - cron: "50 14 * * *"     # dernier filet de sécurité
+  workflow_dispatch:          # bouton "Run workflow" : reconstruit toujours, sauf si_absent
+    inputs:
+      si_absent:
+        description: "Ne construire que si le digest du jour n'est pas déjà publié (déclencheur externe)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -23,14 +31,25 @@ jobs:
     outputs:
       go: ${{ steps.check.outputs.go }}
     steps:
+      - uses: actions/checkout@v4
       - id: check
         env:
           EVENT: ${{ github.event_name }}
           CRON: ${{ github.event.schedule }}
+          SI_ABSENT: ${{ inputs.si_absent }}
         run: |
-          if [ "$(TZ=America/Toronto date +%z)" = "-0400" ]; then attendu="50 9 * * *"; else attendu="50 10 * * *"; fi
-          if [ "$EVENT" != "schedule" ] || [ "$CRON" = "$attendu" ]; then go=true; else go=false; fi
-          echo "événement=$EVENT cron=$CRON attendu=$attendu go=$go"
+          jour=$(TZ=America/Toronto date +%F)
+          heure=$(TZ=America/Toronto date +%H%M)
+          if [ "$EVENT" = "workflow_dispatch" ] && [ "$SI_ABSENT" != "true" ]; then
+            go=true; raison="lancement manuel"
+          elif [ "$heure" -lt 0545 ]; then
+            go=false; raison="trop tôt (avant 05:50 à Toronto)"
+          elif [ -f "data/$jour.json" ]; then
+            go=false; raison="digest du $jour déjà publié"
+          else
+            go=true; raison="pas encore de digest pour le $jour"
+          fi
+          echo "événement=$EVENT cron=$CRON Toronto=$jour $heure go=$go ($raison)"
           echo "go=$go" >> "$GITHUB_OUTPUT"
 
   build:
@@ -52,13 +71,6 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ACTU_MODELS: ${{ vars.ACTU_MODELS }}   # variable de dépôt facultative : modèles séparés par des virgules
-      - name: Enregistrer l'historique
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
-          git diff --cached --quiet || git commit -m "Digest du $(date -u +%F)"
-          git push
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -71,3 +83,13 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
           SITE_URL: ${{ vars.SITE_URL }}
+      # En dernier : le fichier data/<jour>.json poussé ici est ce qui marque le digest comme
+      # publié. Si le déploiement ou le mail a échoué, il n'est pas poussé et le cron suivant réessaie.
+      - name: Enregistrer l'historique
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Digest du $(TZ=America/Toronto date +%F)"
+          git pull --rebase
+          git push
