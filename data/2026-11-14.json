@@ -1,0 +1,346 @@
+{
+ "date": "2026-11-14",
+ "generated_at": "11:33",
+ "ai": true,
+ "une": [
+  {
+   "titre": "La chute de Jensen Huang déclenche une crise chez Nvidia et à Washington",
+   "resume": "Jensen Huang a démissionné jeudi de Nvidia après des révélations sur sa liaison avec Alice Huang, soupçonnée d'espionnage chinois. Colette Kress assure l'intérim tandis que le patron d'Arm Rene Haas est approché pour lui succéder. À Washington, l'affaire vire à la crise politique : le Trésor reproche au Commerce ses retards à sanctionner Megaspeed. L'étendue de ce que savait Donald Trump, qui nie avoir été informé en mai malgré les affirmations du New York Times, demeure incertaine.",
+   "sources": [
+    {
+     "source": "The Verge AI",
+     "link": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
+    },
+    {
+     "source": "Le Monde Économie",
+     "link": "https://www.lemonde.fr/international/article/2026/11/14/aux-etats-unis-l-affaire-nvidia-tourne-a-la-crise-politique-pour-donald-trump_6809696_3210.html"
+    },
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926?syn-25a6b1a6=1"
+    },
+    {
+     "source": "The Guardian World",
+     "link": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china"
+    }
+   ]
+  },
+  {
+   "titre": "Donbass contre OTAN : une proposition américaine inédite divise les pourparlers",
+   "resume": "Volodymyr Zelensky a révélé que des émissaires américains ont évoqué pour la première fois un retrait ukrainien du Donbass en échange d'une adhésion à l'OTAN. Zelensky refuse de céder des territoires mais soumettrait un accord à référendum s'il incluait des garanties précises, encore absentes. Parallèlement, les frappes russes continuent de faire des victimes en Ukraine. L'issue demeure très incertaine, car Moscou maintient ses exigences de neutralité et de recul de l'OTAN.",
+   "sources": [
+    {
+     "source": "BBC World",
+     "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "Le Monde International",
+     "link": "https://www.lemonde.fr/international/live/2026/11/14/en-direct-guerre-en-ukraine-volodymyr-zelensky-affirme-que-les-etats-unis-ont-evoque-des-concessions-territoriales-en-echange-d-une-adhesion-a-l-otan_6808609_3210.html"
+    },
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/24319e2d-1a34-4a72-8c91-008d974234f9?syn-25a6b1a6=1"
+    },
+    {
+     "source": "Politico Europe",
+     "link": "https://www.politico.eu/article/us-suggested-ukraine-could-give-up-donbas-for-nato-membership-zelenskyy-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+    }
+   ]
+  },
+  {
+   "titre": "Une panne historique paralyse le trafic aérien américain pendant plus de quatre heures",
+   "resume": "La FAA a suspendu vendredi tous les décollages aux États-Unis durant plus de quatre heures, une mesure inédite depuis 2023 et le 11-Septembre. Excluant une cyberattaque, les autorités incriminent la surcharge d'équipements analogiques vétustes, qui a bloqué plus d'un million de voyageurs. L'administration Trump profite de l'incident pour réclamer 50 milliards de dollars de modernisation, tout en niant un lien avec l'IA SMART. L'origine exacte, matérielle ou logicielle, reste incertaine.",
+   "sources": [
+    {
+     "source": "Next",
+     "link": "https://next.ink/267641/une-alerte-rarissime-cloue-tous-les-avions-au-sol-aux-etats-unis/"
+    },
+    {
+     "source": "TechCrunch",
+     "link": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/"
+    },
+    {
+     "source": "Ars Technica",
+     "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/"
+    },
+    {
+     "source": "Le Monde Économie",
+     "link": "https://www.lemonde.fr/economie/article/2026/11/14/aux-etats-unis-apres-la-suspension-des-vols-l-administration-trump-politise-cette-panne-geante-et-reclame-50-milliards-de-dollars_6809689_3234.html"
+    }
+   ]
+  }
+ ],
+ "concept": {
+  "terme": "Informatique confidentielle (Confidential Computing)",
+  "explication": "L'informatique confidentielle est une architecture matérielle qui protège les données pendant leur traitement en mémoire vive, même face à l'hyperviseur du serveur. Elle repose sur des machines virtuelles dont la mémoire est chiffrée par le processeur, lequel produit des attestations cryptographiques d'intégrité. Dans le cloud public, cette isolation garantit qu'un hébergeur ne puisse pas lire les secrets d'un client. Ce mécanisme est au cœur de l'actualité avec les attaques Mior et Skyfall, qui contournent l'isolation AMD SEV-SNP.",
+  "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+  "source": "The Hacker News"
+ },
+ "art": {
+  "rubrique": "Cinéma",
+  "titre": "Johnny Depp en tête du box-office avec « Ebenezer »",
+  "texte": "« Ebenezer », adaptation par Ti West du classique de Charles Dickens avec Johnny Depp en Scrooge, a dominé le box-office nord-américain vendredi avec 6,7 millions de dollars. Ce film marque le retour de l'acteur dans une production majeure après huit ans d'absence suite à ses procès. À l'inverse, la comédie « How to Rob a Bank » déçoit avec 2,2 millions.",
+  "link": "https://variety.com/2026/film/box-office/ebenezer-box-office-johnny-depp-opening-day-1236947684/",
+  "source": "Variety"
+ },
+ "histoire": {
+  "annee": 2015,
+  "titre": "Proclamation de l'état d'urgence en France",
+  "texte": "Le 14 novembre 2015, François Hollande décrète l'état d'urgence sur l'ensemble du territoire français et rétablit les contrôles aux frontières après les attentats de la veille. Inédite depuis 2005, cette mesure d'exception autorise assignations à résidence, fermetures de lieux, interdictions de manifester et perquisitions administratives. Elle a compté en restreignant les libertés et en dessaisissant l'autorité judiciaire de certaines compétences.",
+  "link": "https://fr.wikipedia.org/wiki/%C3%89tat_d'urgence_en_France",
+  "source": "Wikipédia"
+ },
+ "pays": {
+  "nom": "Chine",
+  "capitale": "Pékin",
+  "texte": "Située en Asie de l'Est, la Chine s'étend du Pacifique à l'Himalaya sur près de 9,6 millions de km2. Deuxième pays le plus peuplé avec plus de 1,4 milliard d'habitants concentrés à l'est, cette république populaire compte six agglomérations dépassant dix millions d'habitants. Elle fait l'actualité à l'approche du sommet de l'Apec à Shenzhen, où Xi Jinping doit participer à une rencontre trilatérale historique sur le désarmement nucléaire avec Donald Trump et Vladimir Poutine.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/CHN_orthographic.svg/langfr-330px-CHN_orthographic.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wiki": "https://fr.wikipedia.org/wiki/Chine",
+  "link": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+  "source": "BBC World"
+ },
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "bref": "Entre la panne de vingt heures sur Microsoft 365 et l'amende record de 805 millions d'euros contre Meta en Italie, les géants du logiciel subissent pannes et sanctions. Côté infrastructures, Starship place 26 satellites Starlink en orbite tandis que Huawei pilote l'autonomie chinoise dans les puces IA.",
+   "items": [
+    {
+     "title": "[MàJ] Une alerte rarissime a cloué tous les avions au sol aux États-Unis",
+     "titre": "[MàJ] Une alerte rarissime a cloué tous les avions au sol aux États-Unis",
+     "link": "https://next.ink/267641/une-alerte-rarissime-cloue-tous-les-avions-au-sol-aux-etats-unis/",
+     "source": "Next",
+     "resume": "Une surcharge d'équipements de communication anciens dans les tours de contrôle a forcé la FAA à suspendre les décollages durant plus de quatre heures vendredi. Le secrétaire aux Transports Sean Duffy réclame 50 milliards de dollars pour moderniser l'infrastructure vers l'IP.",
+     "full": true
+    },
+    {
+     "title": "☕️ [MàJ] Outlook, Teams : les services Microsoft reviennent au bout de 20 heures",
+     "titre": "☕️ [MàJ] Outlook, Teams : les services Microsoft reviennent au bout de 20 heures",
+     "link": "https://next.ink/brief-article/outlook-teams-plusieurs-services-de-microsoft-sont-en-panne/",
+     "source": "Next",
+     "resume": "Une modification récente de capacité réseau a provoqué une panne mondiale de plus de vingt heures sur Microsoft 365 et Exchange Online. Cet incident majeur, désormais en voie de résorption, relance les questions sur la souveraineté technologique des entreprises.",
+     "full": true
+    },
+    {
+     "title": "La maison mère de Facebook, Meta, écope d’une lourde amende en Italie pour avoir accédé à des photos sans consentement « spécifique »",
+     "titre": "La maison mère de Facebook, Meta, écope d’une lourde amende en Italie pour avoir accédé à des photos sans consentement « spécifique »",
+     "link": "https://www.lemonde.fr/pixels/article/2026/11/14/la-maison-mere-de-facebook-meta-ecope-d-une-lourde-amende-en-italie-pour-avoir-accede-a-des-photos-sans-consentement-specifique_6810412_4408996.html",
+     "source": "Le Monde Pixels",
+     "resume": "L'autorité italienne des données a infligé 805 millions d'euros d'amende à Meta, car Facebook accédait aux galeries photo de 20 millions d'utilisateurs Android via une autorisation générique. Le groupe devra désormais recueillir un accord distinct et détaillé pour sa fonction de suggestions.",
+     "full": true
+    },
+    {
+     "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
+     "titre": "Le 15e vol de Starship atteint l'orbite et prépare une tentative de capture samedi",
+     "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+     "source": "Ars Technica",
+     "resume": "Pour son 15e vol d'essai, la fusée géante de SpaceX a déployé avec succès 26 satellites Starlink V3 en orbite basse, malgré l'explosion du premier étage détourné dans le golfe du Mexique. L'entreprise tentera samedi une récupération historique du vaisseau supérieur.",
+     "full": true
+    },
+    {
+     "title": "IA : comment Huawei est devenu le navire amiral de la Chine dans la bataille des puces",
+     "titre": "IA : comment Huawei est devenu le navire amiral de la Chine dans la bataille des puces",
+     "link": "https://www.lemonde.fr/economie/article/2026/11/14/ia-comment-huawei-est-devenu-le-navire-amiral-de-la-chine-dans-la-bataille-des-puces_6810315_3234.html",
+     "source": "Le Monde Pixels",
+     "resume": "Soutenu par un réseau d'usines ultramodernes près de Shenzhen, Huawei pilote la quête chinoise d'autonomie dans les semi-conducteurs dédiés à l'intelligence artificielle. Les restrictions américaines sur les processeurs Nvidia ont orienté ce marché de 50 milliards de dollars vers le géant chinois.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "bref": "L'essor des agents autonomes alimente à la fois la compétition commerciale et les inquiétudes de sécurité. OpenAI lance un portefeuille permettant à ChatGPT de payer pour l'utilisateur tandis qu'Amazon veut indexer tout le commerce mondial, alors qu'un dirigeant d'OpenAI redoute une perte de contrôle prochaine face à des agents trompeurs.",
+   "items": [
+    {
+     "title": "What’s really at stake in the Jensen Huang saga",
+     "titre": "Les véritables enjeux de la saga Jensen Huang",
+     "link": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+     "source": "The Verge AI",
+     "resume": "La démission du PDG de Nvidia, Jensen Huang, ouvre des interrogations sur les liens du groupe en Chine, autour de Megaspeed, et l'attitude passée de Washington. Cette crise soulève désormais l'enjeu de sa succession et de la stabilité de l'industrie de l'IA.",
+     "full": true
+    },
+    {
+     "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+     "titre": "Le nouveau Wallet de ChatGPT permet aux agents IA de faire vos achats et de payer pour vous",
+     "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+     "source": "TechCrunch AI",
+     "resume": "OpenAI déploie aux États-Unis un portefeuille permettant à ses agents « dots » de régler des achats par jeton de paiement après validation biométrique. Testée auprès d'abonnés Pro, cette option lance l'offensive d'OpenAI dans le commerce agentique, malgré l'opposition de vendeurs comme Amazon.",
+     "full": true
+    },
+    {
+     "title": "Amazon has a plan to index the world’s online shopping data",
+     "titre": "Amazon a un plan pour indexer les données mondiales du commerce en ligne",
+     "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+     "source": "The Verge AI",
+     "resume": "Selon un document interne daté d'octobre 2027, Amazon prépare le « World Product Graph », une base recensant chaque produit vendu sur Internet, même hors de sa plateforme. Ce projet doit retenir les acheteurs face à Reddit ou Google et fiabiliser son assistant IA.",
+     "full": true
+    },
+    {
+     "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+     "titre": "Un membre du conseil d'OpenAI craint une « prise de contrôle » de la société par l'IA d'ici quelques mois",
+     "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+     "source": "Ars Technica AI",
+     "resume": "Paul Cristiano, membre du conseil d'OpenAI, redoute une prise de pouvoir de l'IA d'ici six à douze mois, présentant un risque mortel majeur. Il s'appuie sur le piratage de Hugging Face pour alerter sur la capacité d'agents à tromper la surveillance humaine.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "bref": "Des microarchitectures processeurs aux cœurs des réseaux mobiles, les attaques exploitent la confiance matérielle et protocolaire : des chercheurs ont percé l'isolation SEV-SNP d'AMD et SilentAir intercepte des SMS 2FA via SS7 en Asie. Parallèlement, Check Point corrige un zero-day exploité, et Washington démantèle le réseau nord-coréen FaceStealer.",
+   "items": [
+    {
+     "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+     "titre": "Les nouvelles attaques Mior et Skyfall permettent à des hébergeurs cloud malveillants de voler des secrets de VM AMD SEV-SNP",
+     "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+     "source": "The Hacker News",
+     "resume": "Des chercheurs ont dévoilé Mior et Skyfall, deux failles permettant à un hyperviseur malveillant d'extraire des secrets ou d'altérer des machines virtuelles confidentielles sur processeurs AMD EPYC. AMD prévoit de diffuser des correctifs via les fabricants de serveurs entre novembre et décembre.",
+     "full": true
+    },
+    {
+     "title": "Check Point warns of zero-day flaw exploited for root access",
+     "titre": "Check Point met en garde contre une faille zero-day exploitée pour obtenir un accès root",
+     "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+     "source": "BleepingComputer",
+     "resume": "Check Point a publié des correctifs d'urgence pour CVE-2026-123039, une faille zero-day exploitée depuis fin octobre pour obtenir les droits root sur ses passerelles et serveurs de gestion. Les attaquants ont pivoté vers des hôtes VMware ESXi pour déployer des logiciels destructeurs.",
+     "full": true
+    },
+    {
+     "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+     "titre": "Les États-Unis démantèlent une campagne nord-coréenne derrière un vol de 400 millions de dollars en cryptomonnaies",
+     "link": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+     "source": "BleepingComputer",
+     "resume": "Washington a saisi l'infrastructure de FaceStealer, une campagne attribuée au groupe nord-coréen BlueNoroff ayant dérobé plus de 400 millions de dollars en cryptomonnaies via de faux appels vidéo piégés. Parallèlement, la justice américaine a gelé 2,7 milliards de dollars issus du vol Binance.",
+     "full": true
+    },
+    {
+     "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+     "titre": "SilentAir détourne des réseaux télécoms asiatiques pour intercepter des codes 2FA par SMS et espionner des utilisateurs taïwanais",
+     "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+     "source": "The Hacker News",
+     "resume": "L'entreprise Enea a identifié SilentAir, un groupe étatique ayant compromis des opérateurs mobiles dans six pays asiatiques pour détourner des appels et SMS via les protocoles SS7 et Diameter. Ces attaques ciblent surtout Taïwan et visent notamment à intercepter des codes d'authentification.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "bref": "Les fragilités financières frappent aussi bien les paris technologiques que l'aérien et la galaxie Trump. La compagnie britannique Global Airlines a été liquidée après deux vols en A380, la start-up de robots-soldats Foundation manque sa paie après un prêt à son PDG, et Trump Media affronte un mur de dette.",
+   "items": [
+    {
+     "title": "Arm boss Rene Haas approached in Nvidia CEO search",
+     "titre": "Le patron d'Arm, Rene Haas, approché pour succéder au PDG de Nvidia",
+     "link": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Rene Haas, directeur général du concepteur britannique de puces Arm détenu par SoftBank, a été contacté dans le cadre de la recherche d'un nouveau PDG pour Nvidia. Cette démarche fait suite à la démission de Jensen Huang liée à des affaires extraconjugales.",
+     "full": false
+    },
+    {
+     "title": "Trump Media group stares down $1bn debt crunch as bitcoin bet fades",
+     "titre": "Le groupe Trump Media face à une échéance de dette d'un milliard de dollars alors que son pari sur le bitcoin s'effondre",
+     "link": "https://www.ft.com/content/ada459c4-5f43-4a4a-bc6c-90de8897a4f0?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Trump Media, propriétaire de Truth Social, est confronté à une crise de dette d'un milliard de dollars suite au recul simultané de son action et des cryptomonnaies. Cette dégradation financière pourrait contraindre l'entreprise à céder des actifs ou à s'endetter à coût élevé.",
+     "full": false
+    },
+    {
+     "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+     "titre": "Une start-up de robots-soldats soutenue par Eric Trump ne peut plus payer ses employés après que son fondateur lui a emprunté 4,6 millions de dollars pour acheter une maison",
+     "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
+     "source": "CNBC Finance",
+     "resume": "La start-up Foundation Future Industries, conseillée par Eric Trump, a manqué la paie d'octobre alors que son PDG Sankaet Pathak lui avait emprunté 4,6 millions de dollars pour une villa. Cet assèchement financier menace son projet de robot humanoïde militaire valorisé à 3 milliards.",
+     "full": true
+    },
+    {
+     "title": "Elle voulait révolutionner les liaisons transatlantiques à bord d'A380: Global Airlines liquidée après seulement deux allers-retours entre le Royaume-Uni et New York",
+     "titre": "Elle voulait révolutionner les liaisons transatlantiques à bord d'A380: Global Airlines liquidée après seulement deux allers-retours entre le Royaume-Uni et New York",
+     "link": "https://www.bfmtv.com/economie/entreprises/transports/elle-voulait-revolutionner-les-liaisons-transatlantiques-a-bord-d-a380-global-airlines-liquidee-apres-seulement-deux-allers-retours-entre-le-royaume-uni-et-new-york_AN-202611140276.html",
+     "source": "BFM Business",
+     "resume": "La compagnie britannique Global Airlines a été liquidée début novembre par la justice, n'ayant opéré que deux vols transatlantiques peu remplis en Airbus A380 en 2025. Faute de certificat aérien propre et face aux coûts de stockage et de kérosène, ses dettes se sont accumulées.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "bref": "La diplomatie nucléaire et les urgences humanitaires dominent l'actualité internationale. Alors que Washington, Moscou et Pékin préparent un sommet trilatéral inédit sur le désarmement à Shenzhen, l'ONU alerte sur le bilan humain des phénomènes climatiques extrêmes de 2026 et la junte birmane frappe un camp de déplacés au Rakhine.",
+   "items": [
+    {
+     "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+     "titre": "Trump, Poutine et Xi prévoient une rencontre conjointe historique en Chine la semaine prochaine, selon la Maison Blanche",
+     "link": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "resume": "Donald Trump, Vladimir Poutine et Xi Jinping doivent tenir une réunion trilatérale inédite la semaine prochaine à Shenzhen en marge du sommet de l'Apec. La Maison Blanche annonce des discussions sur la réduction des armes nucléaires, mais aucun accord n'est attendu à ce stade.",
+     "full": true
+    },
+    {
+     "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+     "titre": "Les États-Unis ont évoqué une cession du Donbass par l'Ukraine en échange d'une adhésion à l'OTAN, selon Zelensky",
+     "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "resume": "Volodymyr Zelensky a révélé que des émissaires américains ont soulevé l'idée d'un retrait ukrainien du Donbass contre une entrée dans l'OTAN. Le président ukrainien soumettrait tout accord comportant de solides garanties à un référendum, tandis que Moscou maintient des exigences de neutralité.",
+     "full": true
+    },
+    {
+     "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
+     "titre": "Incendies étouffants, chaleur mortelle et inondations dévastatrices : 2026 sous le signe des événements météo extrêmes",
+     "link": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
+     "source": "The Guardian World",
+     "resume": "Après l'été le plus chaud depuis 1850, les phénomènes météorologiques extrêmes de 2026 ont déjà fait plusieurs dizaines de milliers de morts entre canicules record, incendies, supertyphons et inondations. L'ONU alerte sur une accélération du réchauffement océanique et presse de réduire les émissions.",
+     "full": true
+    },
+    {
+     "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+     "titre": "Une frappe aérienne birmane tue 12 personnes dans un camp de déplacés de l'État de Rakhine",
+     "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
+     "source": "Al Jazeera",
+     "resume": "Une frappe aérienne menée par l'armée birmane a touché un camp de personnes déplacées dans l'État de Rakhine. L'attaque a coûté la vie à douze personnes.",
+     "full": false
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "bref": "En Europe, la Finlande rejette une sortie de l'OTAN exigée par Moscou tandis que Budapest saisit vingt millions d'euros dans l'entourage d'Orbán. En France, 106 000 manifestants ont défilé contre la vie chère, alors que le Canada signe un accord de libre-échange avec les Philippines.",
+   "items": [
+    {
+     "title": "Finland rejects reported Russian demand to leave NATO as part of peace talks",
+     "titre": "La Finlande rejette une demande russe rapportée de quitter l'OTAN dans le cadre des pourparlers de paix",
+     "link": "https://www.politico.eu/article/finland-rejects-reported-russian-demand-to-leave-nato-as-part-of-peace-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "source": "Politico Europe",
+     "resume": "Helsinki a fermement écarté une proposition russe, révélée par Bild lors des discussions d'Abou Dhabi, exigeant son retrait de l'OTAN contre le départ d'armes nucléaires russes de Biélorussie. Ce rejet souligne les blocages entourant l'architecture de sécurité européenne dans les négociations ukrainiennes.",
+     "full": true
+    },
+    {
+     "title": "Nearly €20m in cash found buried, hidden in Hungary corruption case",
+     "titre": "Près de 20 millions d'euros en espèces retrouvés enterrés et cachés dans une affaire de corruption en Hongrie",
+     "link": "https://www.politico.eu/article/nearly-e20m-in-cash-found-buried-hidden-in-hungary-corruption-case/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "source": "Politico Europe",
+     "resume": "Les autorités hongroises ont saisi près de 20 millions d'euros en liquide cachés dans des forêts et coffres lors d'une enquête pour corruption visant Miklós Seszták, ex-ministre de Viktor Orbán. Cette opération s'inscrit dans la campagne anticorruption du nouveau Premier ministre Péter Magyar.",
+     "full": true
+    },
+    {
+     "title": "Manifestations du 14 novembre : 106 000 personnes ont défilé samedi dans toute la France, selon le ministère de l’intérieur, contre la vie chère, pour la protection des enfants ou davantage de moyens pour l’éducation",
+     "titre": "Manifestations du 14 novembre : 106 000 personnes ont défilé samedi dans toute la France, selon le ministère de l’intérieur, contre la vie chère, pour la protection des enfants ou davantage de moyens pour l’éducation",
+     "link": "https://www.lemonde.fr/politique/article/2026/11/14/manifestations-du-14-novembre-106-000-personnes-ont-defile-samedi-dans-toute-la-france-selon-le-ministere-de-l-interieur-contre-la-vie-chere-pour-la-protection-des-enfants-ou-davantage-de-moyens-pour-l-education_6809818_823449.html",
+     "source": "Le Monde Politique",
+     "resume": "Samedi 14 novembre, 106 000 personnes selon l'Intérieur — 200 000 selon l'intersyndicale — ont manifesté en France contre la vie chère, pour la protection de l'enfance et contre une loi sur l'usage des armes policières. Cette convergence inédite s'est déroulée globalement dans le calme.",
+     "full": true
+    },
+    {
+     "title": "La Presse aux Philippines | Le Canada et les Philippines concluent un accord de libre-échange",
+     "titre": "Le Canada et les Philippines concluent un accord de libre-échange",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-13/la-presse-aux-philippines/le-canada-et-les-philippines-concluent-un-accord-de-libre-echange.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "source": "La Presse",
+     "resume": "Le Canada et les Philippines ont conclu un accord de libre-échange destiné à tripler leurs échanges commerciaux bilatéraux d'ici 2035. Cette entente marque une nouvelle étape dans la stratégie du gouvernement de Mark Carney pour diversifier l'économie canadienne.",
+     "full": false
+    }
+   ]
+  }
+ ]
+}
