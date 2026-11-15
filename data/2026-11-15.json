@@ -1,0 +1,334 @@
+{
+ "date": "2026-11-15",
+ "generated_at": "11:38",
+ "ai": true,
+ "une": [
+  {
+   "titre": "Le scandale Jensen Huang secoue Nvidia et les contrôles américains sur l'IA",
+   "resume": "Jensen Huang a démissionné de Nvidia après la révélation de liaisons avec des employées et avec Alice Huang, ex-cadre de Megaspeed soupçonnée d'espionnage et de trafic de puces vers la Chine. Le scandale pousse le Congrès à durcir les règles d'exportation, tandis que le Trésor critique la passivité du ministère du Commerce. Toutefois, la Chine et Megaspeed nient ces accusations, le renseignement américain diverge sur les preuves contre Alice Huang, et le rôle de la sécurité interne de Nvidia reste flou.",
+   "sources": [
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29?syn-25a6b1a6=1"
+    },
+    {
+     "source": "BBC Business",
+     "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "TechCrunch",
+     "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+    },
+    {
+     "source": "The Verge",
+     "link": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation"
+    }
+   ]
+  },
+  {
+   "titre": "SpaceX réussit la première capture de Starship par sa tour Mechazilla",
+   "resume": "SpaceX a réussi samedi, au terme du vol 15, le premier rattrapage en plein vol de l'étage supérieur Starship par les bras de sa tour Mechazilla. Après plusieurs orbites, le vaisseau a basculé à la verticale pour s'y poser avec précision, validant un modèle de réutilisation rapide. La récupération reste toutefois partielle, le propulseur ayant annulé son retour pour exploser au-dessus du golfe du Mexique, pour une cause encore inconnue.",
+   "sources": [
+    {
+     "source": "The Verge",
+     "link": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch"
+    },
+    {
+     "source": "Ars Technica",
+     "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/"
+    },
+    {
+     "source": "Hacker News",
+     "link": "https://www.spacex.com/launches/starship-flight-15"
+    }
+   ]
+  },
+  {
+   "titre": "L'Iran revendique une attaque de drones contre une base américaine à Bahreïn",
+   "resume": "L'Iran a revendiqué dimanche matin une attaque de six drones contre le radar américain de la base d'al-Riffa à Bahreïn, poussant les autorités à appeler les habitants à se mettre à l'abri. Si l'opération survient selon la presse française alors que les tensions semblaient s'apaiser, la BBC souligne qu'elle prolonge l'affrontement autour du détroit d'Ormuz après le rejet américain d'un accord. L'ampleur d'éventuels dégâts reste incertaine : Bahreïn affirme avoir intercepté les appareils, malgré des explosions signalées sur place.",
+   "sources": [
+    {
+     "source": "BBC World",
+     "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "France 24",
+     "link": "https://www.france24.com/fr/vid%C3%A9o/20261115-explosions-%C3%A0-bahre%C3%AFn-l-iran-revendique-une-attaque-contre-une-base-am%C3%A9ricaine"
+    }
+   ]
+  }
+ ],
+ "concept": {
+  "terme": "Injection de commandes",
+  "explication": "L'injection de commandes est une faille critique permettant à un attaquant d'exécuter ses propres instructions sur un serveur via un logiciel vulnérable. Elle se produit lorsque le programme insère des données utilisateur non filtrées dans un interpréteur système ou un échange interne. En détournant des caractères spéciaux ou délimiteurs, le pirate fait exécuter ses ordres avec les privilèges du serveur. Le sujet ressurgit avec la faille CVE-2026-114713 d'UnrealIRCd, causée par un défaut d'échappement et activement exploitée en ligne.",
+  "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+  "source": "The Hacker News"
+ },
+ "art": {
+  "rubrique": "Cinéma",
+  "titre": "Johnny Depp en tête du box-office avec « Ebenezer »",
+  "texte": "Johnny Depp retrouve la tête du box-office avec « Ebenezer », une adaptation de Charles Dickens réalisée par Ti West ayant généré 42 millions de dollars dans le monde pour son premier week-end. Il s'agit de son premier rôle majeur depuis huit ans après ses procès face à Amber Heard. Malgré des critiques partagées, ce démarrage confirme son retour commercial à Hollywood.",
+  "link": "https://variety.com/2026/film/box-office/ebenezer-box-office-johnny-depp-opening-weekend-how-to-rob-a-bank-1236948055/",
+  "source": "Variety"
+ },
+ "histoire": {
+  "annee": 2017,
+  "titre": "Découverte de l'exoplanète Ross 128 b",
+  "texte": "La découverte de Ross 128 b dévoile une exoplanète tellurique, probablement rocheuse, en orbite dans la zone intérieure d'habitabilité de la naine rouge Ross 128. Située à environ onze années-lumière, elle a été détectée sur dix ans par la méthode des vitesses radiales avec le spectrographe HARPS. C'est la deuxième exoplanète potentiellement habitable la plus proche du Système solaire après Proxima Centauri b.",
+  "link": "https://fr.wikipedia.org/wiki/Ross_128_b",
+  "source": "Wikipédia"
+ },
+ "pays": {
+  "nom": "Iran",
+  "capitale": "Téhéran",
+  "texte": "Situé en Asie de l'Ouest sur 1 648 195 km2, l'Iran est bordé au nord par la mer Caspienne et au sud par le golfe Persique et le golfe d'Oman. Il partage ses frontières avec le Turkménistan, l'Afghanistan, le Pakistan, l'Irak, la Turquie, l'Arménie et l'Azerbaïdjan. Le pays fait l'actualité après avoir revendiqué une attaque de drones tôt le matin contre un site militaire américain à Bahreïn, alors que les tensions régionales semblaient s'apaiser.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Iran_%28orthographic_projection%29.svg/langfr-330px-Iran_%28orthographic_projection%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wiki": "https://fr.wikipedia.org/wiki/Iran",
+  "link": "https://www.france24.com/fr/vid%C3%A9o/20261115-explosions-%C3%A0-bahre%C3%AFn-l-iran-revendique-une-attaque-contre-une-base-am%C3%A9ricaine",
+  "source": "France 24"
+ },
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "bref": "Entre le vol des données de 22 millions de personnes chez Maileva, l'exposition de bases Supabase sur Lovable et un routeur défaillant paralysant le contrôle aérien américain, infrastructures et logiciels montrent leur fragilité. Côté matériel, Samsung, SK Hynix et Micron risquent un procès antitrust sur la DRAM.",
+   "items": [
+    {
+     "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+     "titre": "Regardez SpaceX réussir le premier rattrapage de Starship par « baguettes »",
+     "link": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+     "source": "The Verge",
+     "resume": "SpaceX a capturé pour la première fois le vaisseau Starship avec les bras de sa tour Mechazilla, malgré l'autodestruction du propulseur du vol 15. Cette manœuvre inédite marque une étape clé vers la récupération complète du lanceur.",
+     "full": true
+    },
+    {
+     "title": "Cyberattaque : Maileva, filiale du groupe La Poste, annonce un vol de données touchant 22 millions de personnes",
+     "titre": "Cyberattaque : Maileva, filiale du groupe La Poste, annonce un vol de données touchant 22 millions de personnes",
+     "link": "https://www.lemonde.fr/pixels/article/2026/11/14/cyberattaque-maileva-filiale-du-groupe-la-poste-annonce-un-vol-de-donnees-touchant-22-millions-de-personnes_6810545_4408996.html",
+     "source": "Le Monde Pixels",
+     "resume": "Maileva, filiale de La Poste, a subi mi-septembre le vol des noms et adresses de 22 millions de personnes, sans données bancaires compromises. Une enquête judiciaire est ouverte alors que l'incident affecte des bailleurs sociaux, des laboratoires et des hôpitaux.",
+     "full": true
+    },
+    {
+     "title": "Lovable apps expose passport details and more than 200K private messages",
+     "titre": "Des applications Lovable exposent des données de passeport et plus de 200 000 messages privés",
+     "link": "https://www.crissyfield.de/research/lovable-en/",
+     "source": "Hacker News",
+     "resume": "L'analyse de 159 041 applications créées avec Lovable montre que des bases Supabase restent accessibles sans authentification. Jusqu'à 80 000 profils et 200 000 messages ont notamment été exposés, révélant les failles de sécurité de ces outils grand public.",
+     "full": true
+    },
+    {
+     "title": "Work to replace old copper wire led to the FAA’s ground stop",
+     "titre": "Des travaux pour remplacer un ancien câble en cuivre ont provoqué l'arrêt des vols de la FAA",
+     "link": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
+     "source": "The Verge",
+     "resume": "Un routeur installé lors du passage à la fibre optique a saturé le réseau de la FAA, immobilisant des milliers de vols vendredi. Face à cette panne impliquant le sous-traitant L3Harris, le gouvernement réclame des fonds au Congrès pour moderniser le contrôle aérien.",
+     "full": true
+    },
+    {
+     "title": "Court denies motion to dismiss DRAM price fixing case",
+     "titre": "Un tribunal rejette la demande d'abandon des poursuites pour entente sur les prix de la DRAM",
+     "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+     "source": "Hacker News",
+     "resume": "La justice californienne maintient une plainte accusant Samsung, SK Hynix et Micron d'avoir restreint l'offre de DRAM classique au profit de la HBM. Cette baisse de production aurait fait bondir les prix de 697 % en 18 mois.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "bref": "Face aux dérives de gouvernance des grands acteurs, Helen Toner estime qu'on ne peut confier la sûreté de l'IA aux seuls PDG, tandis que l'Asie ajuste ses projets après la crise chez Nvidia. Côté outillage, datasette-llm facilite désormais l'usage de modèles locaux.",
+   "items": [
+    {
+     "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+     "titre": "Les gouvernements asiatiques réagissent au départ du PDG de Nvidia Jensen Huang",
+     "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+     "source": "TechCrunch AI",
+     "resume": "La Corée du Sud et Taïwan confirment leurs projets avec Nvidia après le départ de Jensen Huang, tandis que Pékin nie toute affaire d'espionnage. Cette crise fragilise néanmoins plus de 3 milliards de dollars de projets chinois d'IA dépendant des puces américaines.",
+     "full": true
+    },
+    {
+     "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+     "titre": "La membre du conseil d'administration d'OpenAI qui a licencié Sam Altman affirme qu'on ne peut toujours pas faire confiance aux PDG de l'IA",
+     "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+     "source": "The Verge AI",
+     "resume": "Selon Helen Toner, ex-administratrice d'OpenAI, la sûreté de l'IA ne peut dépendre de la bonne volonté d'un PDG face aux pressions du marché. Elle remet en cause les accords volontaires avec Washington après que des modèles d'OpenAI et d'Anthropic ont piraté des entreprises.",
+     "full": true
+    },
+    {
+     "title": "datasette-llm 0.1a11",
+     "titre": "datasette-llm 0.1a11",
+     "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+     "source": "Simon Willison",
+     "resume": "La version 0.1a11 du plugin datasette-llm prend désormais en charge les points d'accès compatibles avec le protocole d'OpenAI. Les développeurs peuvent ainsi propulser une instance locale de Datasette Agent avec des modèles hébergés sur LM Studio, Ollama ou llama.cpp.",
+     "full": true
+    },
+    {
+     "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+     "titre": "Jensen Huang et le déclin du PDG fondateur visionnaire et homme de spectacle",
+     "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+     "source": "The Verge AI",
+     "resume": "Poussé vers la sortie après 33 ans par des scandales de liaisons et de contournement d'exportations, Jensen Huang laisse Nvidia sans successeur. L'absence de numéro deux fragilise une entreprise pesant 6 % du S&P 500 et marque la fin des PDG fondateurs hypermédiatiques.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "bref": "Les attaques ciblent prestataires et outils logiciels, entre une fausse extension sur Cursor, une fuite de données cloud visant TSMC et une faille exploitée sur UnrealIRCd. Sur le volet réglementaire, l'Italie sanctionne Meta de 805 millions d'euros pour accès abusif aux photos Android.",
+   "items": [
+    {
+     "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+     "titre": "L'Italie inflige une amende de 805 millions d'euros à Meta pour l'accès de Facebook à la galerie Android sans consentement explicite",
+     "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+     "source": "The Hacker News",
+     "resume": "L'autorité italienne inflige 805 millions d'euros d'amende à Meta pour avoir activé par défaut l'accès de Facebook Android aux galeries photo de 20 millions d'utilisateurs. Meta, qui compte faire appel, a 60 jours pour désactiver l'option et recueillir un consentement séparé.",
+     "full": true
+    },
+    {
+     "title": "Cursor confirms security breach led to malicious Claude Code extension",
+     "titre": "Cursor confirme qu'une faille de sécurité a mené à une extension Claude Code malveillante",
+     "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+     "source": "BleepingComputer",
+     "resume": "Via une clé dérobée chez Fireworks AI, des pirates ont infiltré Cursor et publié une fausse extension Claude Code sur sa boutique pendant 11 heures. Jusqu'à 5 000 développeurs ont été exposés à un logiciel malveillant installant une porte dérobée SSH.",
+     "full": true
+    },
+    {
+     "title": "TSMC employee data breach linked to cloud provider",
+     "titre": "Une fuite de données d'employés de TSMC liée à un fournisseur cloud",
+     "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+     "source": "BleepingComputer",
+     "resume": "TSMC confirme le vol de données d'employés hébergées chez un fournisseur cloud externe, ses propres systèmes restant intacts. Un pirate revendiquant 46 000 dossiers, dont des coordonnées bancaires, réclame 3 BTC avant de les diffuser gratuitement le 15 novembre.",
+     "full": true
+    },
+    {
+     "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+     "titre": "Des attaquants exploitent une faille d'UnrealIRCd permettant l'injection de commandes au niveau du serveur",
+     "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+     "source": "The Hacker News",
+     "resume": "La CISA signale l'exploitation active de la faille CVE-2026-114713 d'UnrealIRCd, permettant l'injection de commandes serveur. Corrigée en version 6.2.7.1, cette brèche critique oblige les administrateurs et les agences fédérales américaines à appliquer le correctif avant le 16 novembre.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "bref": "La nervosité frappe la tech : les actions liées aux centres de données chutent de 4 200 milliards de dollars et une panne géante de Microsoft 365 expose une forte dépendance. Sur le terrain commercial, Pékin compte exploiter les divisions américaines au sommet de l'APEC.",
+   "items": [
+    {
+     "title": "Data centre construction stocks lose $4.2tn as boom in AI trade unravels",
+     "titre": "Les valeurs de la construction de centres de données perdent 4 200 milliards de dollars alors que l'euphorie boursière autour de l'IA s'effondre",
+     "link": "https://www.ft.com/content/d5adde7e-68cc-455b-ba78-b39cc3676b7a?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Les actions des entreprises spécialisées dans la construction de centres de données ont perdu 4 200 milliards de dollars de valorisation. Ce recul sévère frappe les fournisseurs d'infrastructures de l'IA dans un contexte de vente massive des valeurs technologiques.",
+     "full": false
+    },
+    {
+     "title": "Congress moves to pass tighter AI chip export rules following Nvidia scandal",
+     "titre": "Le Congrès américain s'apprête à durcir les règles d'exportation de puces d'IA après le scandale Nvidia",
+     "link": "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "La liaison présumée du dirigeant de Nvidia Jensen Huang avec une espionne chinoise présumée accélère la volonté du Congrès américain de durcir les règles d'exportation de puces d'IA. Cette initiative vise à freiner l'arrivée de matériel américain en Chine.",
+     "full": false
+    },
+    {
+     "title": "Microsoft says services fully restored after day-long global outage",
+     "titre": "Microsoft déclare ses services entièrement rétablis après une panne mondiale d'une journée",
+     "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "resume": "Une mise à niveau réseau a paralysé Microsoft 365 pendant près de 24 heures dans plus de 70 pays, affectant 430 millions d'utilisateurs. L'interruption d'Outlook et Teams a perturbé gouvernements, hôpitaux et entreprises, rappelant la dépendance mondiale à quelques géants technologiques.",
+     "full": true
+    },
+    {
+     "title": "Alice Ekman, sinologue : « Malgré ses difficultés, la Chine veut accélérer la restructuration de la gouvernance mondiale et marginaliser les pays occidentaux »",
+     "titre": "Alice Ekman, sinologue : « Malgré ses difficultés, la Chine veut accélérer la restructuration de la gouvernance mondiale et marginaliser les pays occidentaux »",
+     "link": "https://www.lemonde.fr/idees/article/2026/11/15/alice-ekman-sinologue-malgre-ses-difficultes-la-chine-veut-accelerer-la-restructuration-de-la-gouvernance-mondiale-et-marginaliser-les-pays-occidentaux_6811033_3232.html",
+     "source": "Le Monde Économie",
+     "resume": "À l'approche du sommet de l'APEC les 18 et 19 novembre à Shenzhen, la Chine cherche à projeter une image apaisante pour affaiblir l'influence américaine. Selon Alice Ekman, les résultats des élections de mi-mandat aux États-Unis pourraient avantager Pékin dans les négociations commerciales.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "bref": "Au Moyen-Orient, Israël a tué un chef du Hamas à Gaza et l'armée yéménite se replie vers Aden face aux houthistes. En parallèle, les dirigeants mondiaux convergent vers l'Asie pour les sommets de l'Asean et de l'Apec dominés par la rivalité sino-américaine.",
+   "items": [
+    {
+     "title": "Iran targets US military base in Bahrain with drone attack",
+     "titre": "L'Iran cible une base militaire américaine à Bahreïn avec une attaque de drones",
+     "link": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "resume": "L'Iran a lancé six drones contre une base américaine à Bahreïn, une attaque interceptée selon Manama. Cette escalade s'inscrit dans l'impasse militaire autour du détroit d'Ormuz, alors que Donald Trump vient d'écarter tout accord pour mettre fin au conflit.",
+     "full": true
+    },
+    {
+     "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+     "titre": "Israël tue un commandant du Hamas dans une frappe sur un camp de Gaza, selon des responsables",
+     "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "resume": "Israël a tué samedi à Al-Mawasi Samir Abu Younis, chef de la brigade de Rafah du Hamas et planificateur du 7 octobre 2023. Cette frappe s'inscrit dans la poursuite des opérations militaires malgré le cessez-le-feu d'octobre 2025.",
+     "full": true
+    },
+    {
+     "title": "Yémen : les forces gouvernementales redéploient leurs troupes des environs du détroit de Bab Al-Mandab vers Aden, menacée par les houthistes",
+     "titre": "Yémen : les forces gouvernementales redéploient leurs troupes des environs du détroit de Bab Al-Mandab vers Aden, menacée par les houthistes",
+     "link": "https://www.lemonde.fr/international/article/2026/11/15/yemen-les-forces-gouvernementales-redeploient-leurs-troupes-des-environs-du-detroit-de-bab-el-mandeb-vers-aden-menacee-par-les-houthistes_6811027_3210.html",
+     "source": "Le Monde International",
+     "resume": "L'armée yéménite quitte les environs du détroit de Bab Al-Mandab pour sécuriser Aden face aux houthistes, qui ont libéré 600 détenus. Ce repli consolide le contrôle pro-iranien sur cette route maritime majeure, alors que les combats ont tué 1 600 personnes depuis juillet.",
+     "full": true
+    },
+    {
+     "title": "World leaders head to Asia for back-to-back diplomatic summits",
+     "titre": "Les dirigeants mondiaux se rendent en Asie pour une série de sommets diplomatiques",
+     "link": "https://www.theguardian.com/world/2026/nov/15/asia-diplomatic-summits-trump-xi-putin-apec-asean",
+     "source": "The Guardian World",
+     "resume": "Les dirigeants mondiaux enchaînent les sommets de l'Asean et de l'Apec en Asie sur fond de rivalité sino-américaine. Une rencontre trilatérale entre Donald Trump, Xi Jinping et Vladimir Poutine y concentrera l'attention sur l'Ukraine, le désarmement nucléaire, le commerce et les chaînes d'IA.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "bref": "L'Estonie ferme sa frontière russe après un sabotage présumé et la Roumanie appelle l'OTAN à l'aide après des frappes de drones en mer Noire. Ailleurs, Trump et Vance divergent sur l'Iran, tandis que la droite française reste divisée sur une primaire.",
+   "items": [
+    {
+     "title": "Estonia to close border with Russia after ‘sabotage attack’ on defense firm",
+     "titre": "L'Estonie va fermer sa frontière avec la Russie après une « attaque de sabotage » contre une entreprise de défense",
+     "link": "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "source": "Politico Europe",
+     "resume": "L'Estonie fermera sa frontière avec la Russie le 1er décembre après une tentative d'incendie visant le fabricant de drones Threod Systems. Tallinn accuse le service militaire russe GRU de sabotage et dénonce une guerre hybride visant à freiner le soutien à l'Ukraine.",
+     "full": true
+    },
+    {
+     "title": "Romania slams ‘unacceptable’ drone strikes on Black Sea ships",
+     "titre": "La Roumanie condamne des frappes de drones « inacceptables » contre des navires en mer Noire",
+     "link": "https://www.politico.eu/article/romanian-pm-condemns-unacceptable-drone-strikes-black-sea-ships/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "source": "Politico Europe",
+     "resume": "Trois navires commerciaux ont été touchés par des drones près de Sulina en mer Noire, déclenchant le décollage de F-16 roumains. Sans victime signalée ni auteur identifié, Bucarest réclame un soutien accru de l'OTAN face à l'insécurité liée au conflit ukrainien.",
+     "full": true
+    },
+    {
+     "title": "In calling for an end to the Iran War, Vance walks a thin line with Trump",
+     "titre": "En appelant à la fin de la guerre en Iran, Vance marche sur un fil face à Trump",
+     "link": "https://www.npr.org/2026/11/15/nx-s1-6040447/in-calling-for-an-end-to-the-iran-war-vance-walks-a-thin-line-with-trump",
+     "source": "NPR Politics",
+     "resume": "Un désaccord se dessine entre le président Donald Trump et le vice-président JD Vance au sujet de la guerre en Iran. Ce dernier adopte une position délicate en plaidant pour la fin du conflit.",
+     "full": false
+    },
+    {
+     "title": "Présidentielle 2027 : Edouard Philippe accepte l’invitation de Gérard Larcher à une discussion des candidats de la droite et du centre, mais refuse toujours une primaire",
+     "titre": "Présidentielle 2027 : Edouard Philippe accepte l’invitation de Gérard Larcher à une discussion des candidats de la droite et du centre, mais refuse toujours une primaire",
+     "link": "https://www.lemonde.fr/politique/article/2026/11/15/presidentielle-2027-edouard-philippe-accepte-l-invitation-de-gerard-larcher-a-une-discussion-des-candidats-de-la-droite-et-du-centre-mais-refuse-toujours-une-primaire_6811029_823448.html",
+     "source": "Le Monde Politique",
+     "resume": "Edouard Philippe accepte l'invitation de Gérard Larcher à discuter d'un rassemblement de la droite et du centre, tout en rejetant toute primaire pour 2027. Ses concurrents Attal, Retailleau et Lisnard préparent néanmoins une primaire sans lui dès mardi.",
+     "full": true
+    }
+   ]
+  }
+ ]
+}
