@@ -1,0 +1,334 @@
+{
+ "date": "2026-11-16",
+ "generated_at": "08:53",
+ "ai": true,
+ "une": [
+  {
+   "titre": "Campagne pour le retour de Jensen Huang à la tête de Nvidia",
+   "resume": "Démissionnaire la semaine dernière après la révélation de deux liaisons, dont une avec une espionne chinoise présumée, Jensen Huang discute d'un possible retour chez Nvidia. Elon Musk, des investisseurs et plus de 175 000 signataires réclament sa réintégration, jugeant son départ précipité. L'issue demeure très incertaine : des enquêtes interne et du FBI se poursuivent, le secrétaire au Trésor veut un PDG externe et le rôle passé d'Alice Huang chez Megaspeed reste flou.",
+   "sources": [
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1"
+    },
+    {
+     "source": "BBC Business",
+     "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "Next",
+     "link": "https://next.ink/267741/une-campagne-appelle-a-faire-revenir-jensen-huang-a-la-tete-de-nvidia/"
+    },
+    {
+     "source": "The Verge AI",
+     "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed"
+    }
+   ]
+  },
+  {
+   "titre": "Frappe sur le pont de Crimée lors d'une attaque record de drones",
+   "resume": "La Russie affirme avoir intercepté ou détruit 1 336 drones ukrainiens en vingt-quatre heures, un record depuis le début de la guerre. Selon Moscou, cette vague nocturne a néanmoins frappé le pont stratégique reliant le territoire russe à la péninsule de Crimée. Ces affirmations russes interviennent tandis que la Russie poursuit ses bombardements sur les infrastructures ukrainiennes, mais ni l'ampleur des dégâts sur l'ouvrage ni le bilan exact des drones n'ont fait l'objet de confirmation indépendante.",
+   "sources": [
+    {
+     "source": "France 24",
+     "link": "https://www.france24.com/fr/vid%C3%A9o/20261116-frappes-ukrainiennes-en-russie-le-pont-de-crim%C3%A9e-touch%C3%A9"
+    },
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/cf57a196-bcbc-4605-a977-73fa0498aeed?syn-25a6b1a6=1"
+    }
+   ]
+  },
+  {
+   "titre": "Échec de la fusée Vulcan et perte de 40 satellites Amazon Leo",
+   "resume": "La fusée Vulcan d'ULA a subi son premier échec total en vingt ans, perdant 40 satellites Amazon Leo. Ce revers fragilise Amazon face à Starlink, la défense américaine et le programme Artemis, alors que SpaceX réussit à récupérer un étage de Starship. ULA ignore encore la cause exacte de l'anomalie survenue à dix minutes de vol, mais des sources évoquent un problème du premier étage dont la durée d'immobilisation reste incertaine.",
+   "sources": [
+    {
+     "source": "The Verge",
+     "link": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites"
+    },
+    {
+     "source": "Ars Technica",
+     "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/"
+    },
+    {
+     "source": "Next",
+     "link": "https://next.ink/267739/ula-fait-pschit-avec-vulcan-pendant-que-spacex-recupere-letage-superieur-de-starship/"
+    }
+   ]
+  }
+ ],
+ "concept": {
+  "terme": "Condition de concurrence (race condition)",
+  "explication": "Une condition de concurrence survient lorsque le comportement d'un logiciel dépend de l'ordre imprévisible d'opérations exécutées en parallèle. Sans synchronisation stricte, plusieurs fils d'exécution peuvent manipuler simultanément une même zone mémoire, provoquant un état corrompu ou un plantage. Ce bogue reste difficile à déceler car il ne se déclenche que dans une fenêtre temporelle étroite. On l'évoque aujourd'hui avec la faille NoisyTCP du noyau Linux, où l'accès concurrent à des sockets TCP recyclés provoque un crash serveur.",
+  "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+  "source": "BleepingComputer"
+ },
+ "art": {
+  "rubrique": "Cinéma",
+  "titre": "Démarrage modeste pour « Ebenezer » avec Johnny Depp",
+  "texte": "La fable de Noël « Ebenezer », avec Johnny Depp, a dominé le box-office ce week-end avec un démarrage modeste de 19 millions de dollars sur le marché intérieur et 42 millions dans le monde. Ce score montre qu'une partie du public dépasse ses scandales judiciaires avec Amber Heard. Il révèle néanmoins les limites de son attrait commercial après son éviction des grandes productions hollywoodiennes.",
+  "link": "https://www.indiewire.com/news/box-office/box-office-ebenezer-opens-20-million-johnny-depp-comeback-1235228068/",
+  "source": "IndieWire"
+ },
+ "histoire": {
+  "annee": 2022,
+  "titre": "Lancement réussi de la mission lunaire Artemis I",
+  "texte": "En 2022, après plusieurs reports, la NASA lance avec succès le vol d'essai sans équipage Artemis I à destination de la Lune. Cette mission inaugurale place le vaisseau spatial Orion en orbite lunaire grâce au tout premier vol de la fusée géante Space Launch System (SLS). Elle lance concrètement le programme Artemis, dont l'objectif est de ramener des humains sur la surface lunaire et d'y établir une présence durable.",
+  "link": "https://fr.wikipedia.org/wiki/Artemis_I",
+  "source": "Wikipédia"
+ },
+ "pays": {
+  "nom": "République démocratique du Congo",
+  "capitale": "Kinshasa",
+  "texte": "Située en Afrique centrale, la république démocratique du Congo, anciennement Zaïre et souvent appelée RDC ou Congo-Kinshasa, est le quatrième pays le plus peuplé d'Afrique. Elle constitue aussi le pays francophone le plus peuplé. Le pays est aujourd'hui touché par une sévère épidémie d'Ebola déclarée le 15 mai. En six mois, cette dix-septième flambée a provoqué 5 471 décès sur 11 197 cas recensés, s'imposant comme la plus meurtrière de son histoire.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Democratic_Republic_of_the_Congo_%28orthographic_projection%29.svg/langfr-330px-Democratic_Republic_of_the_Congo_%28orthographic_projection%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wiki": "https://fr.wikipedia.org/wiki/R%C3%A9publique_d%C3%A9mocratique_du_Congo",
+  "link": "https://www.france24.com/fr/vid%C3%A9o/20261116-ebola-en-rdc-l-%C3%A9pid%C3%A9mie-a-fait-plus-de-5400-mort-en-six-mois",
+  "source": "France 24"
+ },
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "bref": "Côté spatial et mobilité, BepiColombo approche enfin de Mercure tandis que les robotaxis Zoox arrivent sur Uber à Las Vegas. Sur le front de la sécurité, une faille corrigée dans uBlock Origin permettait l'injection de scripts et une cyberattaque chez Maileva expose potentiellement 22 millions de personnes.",
+   "items": [
+    {
+     "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+     "titre": "Échec de la fusée Vulcan, détruisant 40 satellites Amazon Leo",
+     "link": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+     "source": "The Verge",
+     "resume": "La fusée Vulcan d'United Launch Alliance a subi une anomalie dix minutes après le décollage, perdant 40 satellites Amazon Leo. Ce premier échec d'ULA en vingt ans fragilise le calendrier des 38 lancements commandés par Amazon pour concurrencer Starlink.",
+     "full": true
+    },
+    {
+     "title": "Cyberattaque sur Maileva, filiale de la Poste : 22 millions de personnes exposées",
+     "titre": "Cyberattaque sur Maileva, filiale de la Poste : 22 millions de personnes exposées",
+     "link": "https://next.ink/267710/cyberattaque-sur-maileva-filiale-de-la-poste-22-millions-de-personnes-exposees/",
+     "source": "Next",
+     "resume": "Maileva, filiale de Docaposte spécialisée dans l'envoi de documents, a subi mi-septembre une cyberattaque exposant potentiellement les données de 22 millions de personnes. Le parquet de Paris a ouvert une enquête alors que des clients évoquent un accès possible aux courriers.",
+     "full": true
+    },
+    {
+     "title": "Après 8 ans de voyage vers Mercure, la mission BepiColombo touche enfin au but",
+     "titre": "Après 8 ans de voyage vers Mercure, la mission BepiColombo touche enfin au but",
+     "link": "https://www.numerama.com/sciences/2375073-apres-8-ans-de-voyage-vers-mercure-la-mission-bepicolombo-touche-enfin-au-but.html",
+     "source": "Numerama",
+     "resume": "Lancée en 2018 par l'ESA et la JAXA, BepiColombo doit entrer en orbite autour de Mercure le 21 novembre après 10 milliards de kilomètres. Ses deux orbiteurs se sépareront ensuite en décembre avant de démarrer leur phase scientifique en avril 2027.",
+     "full": true
+    },
+    {
+     "title": "Zoox robotaxis are now on the Uber app in Las Vegas",
+     "titre": "Les robotaxis de Zoox sont désormais disponibles sur l'application Uber à Las Vegas",
+     "link": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas/",
+     "source": "TechCrunch",
+     "resume": "Les robotaxis d'Amazon Zoox sont désormais accessibles via l'application Uber à Las Vegas grâce à un partenariat incluant aussi MGM Resorts. Cette alliance élargit l'offre autonome d'Uber avant un déploiement commercial prévu à Los Angeles en 2027, sans option dédiée dans l'immédiat.",
+     "full": true
+    },
+    {
+     "title": "Universal XSS in uBlock Origin from website-driven element picker",
+     "titre": "Faille XSS universelle dans uBlock Origin via le sélecteur d'éléments piloté par un site web",
+     "link": "https://iter.ca/post/ubo-uxss/",
+     "source": "Hacker News",
+     "resume": "Une faille corrigée dans uBlock Origin sur Firefox permettait à un site malveillant d'obtenir l'UUID de l'extension pour piloter son sélecteur d'éléments. En un clic, un attaquant pouvait ainsi injecter un filtre de confiance et exécuter du JavaScript sur tout domaine.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "bref": "L'écosystème des puces et de l'IA reste sous pression : le Congrès américain veut durcir les exportations après l'affaire Nvidia, tandis que l'indien Bharat Semi lève 24 millions pour ses capteurs. Parallèlement, Anthropic prépare son entrée au Nasdaq et Paris vote la transposition de NIS 2.",
+   "items": [
+    {
+     "title": "L'introduction en Bourse d'Anthropic à l'épreuve de l'affaire Nvidia",
+     "titre": "L'introduction en Bourse d'Anthropic à l'épreuve de l'affaire Nvidia",
+     "link": "https://www.actuia.com/actualite/lintroduction-en-bourse-danthropic-a-lepreuve-de-laffaire-nvidia/",
+     "source": "ActuIA",
+     "resume": "Anthropic doit fixer le 18 novembre le prix de son entrée au Nasdaq entre 70 et 78 dollars, accompagnée d'un placement privé de 26 milliards. Malgré le recul boursier lié à l'affaire Nvidia, la demande atteindrait six fois l'offre.",
+     "full": true
+    },
+    {
+     "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+     "titre": "Le Congrès veut durcir les règles d'exportation de puces d'IA après le scandale d'espionnage chez Nvidia",
+     "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+     "source": "The Verge AI",
+     "resume": "À la suite du scandale impliquant l'ancien PDG de Nvidia Jensen Huang et une espionne chinoise présumée, démocrates et républicains veulent restreindre davantage les exportations de puces d'IA. Les élus exigent le témoignage public de Huang et de dirigeants de Nvidia devant le Congrès.",
+     "full": true
+    },
+    {
+     "title": "NIS 2 : avant le vote du 17 novembre, ce qui est acquis et ce qui peut tomber",
+     "titre": "NIS 2 : avant le vote du 17 novembre, ce qui est acquis et ce qui peut tomber",
+     "link": "https://www.actuia.com/actualite/nis-2-avant-le-vote-du-17-novembre-ce-qui-est-acquis-et-ce-qui-peut-tomber/",
+     "source": "ActuIA",
+     "resume": "L'Assemblée vote le 17 novembre la transposition de NIS 2, plaçant jusqu'à 20 000 organisations sous supervision de l'ANSSI avec d'importantes amendes. Le retrait de l'article protégeant le chiffrement et l'obligation d'hébergement local restent encore susceptibles d'évoluer en commission mixte.",
+     "full": true
+    },
+    {
+     "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+     "titre": "La startup indienne de puces Bharat Semi lève 24 millions de dollars en amorçage pour viser le marché mondial des capteurs d'IA",
+     "link": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+     "source": "TechCrunch AI",
+     "resume": "Bharat Semi a levé 24 millions de dollars pour concevoir des capteurs d'image intégrant capture, traitement et IA sur une seule puce. Visant une production en 2027, la startup promet de réduire les coûts système d'au moins 70 % dans l'aérospatiale ou l'automatisation.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "bref": "Les vulnérabilités historiques côtoient les menaces automatisées : Linux et PostgreSQL corrigent des failles vieilles de 11 et 22 ans permettant déni de service ou exécution de code. Côté IA, une clé volée chez Fireworks AI a compromis Cursor, tandis que le FBI alerte sur l'outil offensif ARTEX.",
+   "items": [
+    {
+     "title": "New NoisyTCP vulnerability lets attackers crash Linux servers",
+     "titre": "Une nouvelle vulnérabilité NoisyTCP permet à des attaquants de faire planter des serveurs Linux",
+     "link": "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+     "source": "BleepingComputer",
+     "resume": "La faille NoisyTCP (CVE-2026-99288) du noyau Linux permet à des attaquants de provoquer à distance un crash système sur des serveurs Nginx, Apache ou SSH. Déjà corrigée dans le noyau principal, elle expose quasi toutes les distributions sans exécution de code.",
+     "full": true
+    },
+    {
+     "title": "PostgreSQL corrige 52 failles, dont une vieille de 22 ans",
+     "titre": "PostgreSQL corrige 52 failles, dont une vieille de 22 ans",
+     "link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/postgresql-corrige-52-failles-dont-une-vieille-de-",
+     "source": "Le Monde Informatique",
+     "resume": "PostgreSQL a corrigé 52 vulnérabilités, dont la faille CVE-2026-6460 présente depuis 2004 qui permet l'exécution de code arbitraire via les types composites. Ces versions marquent la fin du support de PostgreSQL 14 et exigent la recompilation des extensions en C.",
+     "full": true
+    },
+    {
+     "title": "Cursor : une clé volée chez Fireworks AI à l’origine d’une cyberattaque",
+     "titre": "Cursor : une clé volée chez Fireworks AI à l’origine d’une cyberattaque",
+     "link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cursor-une-cle-volee-chez-fireworks-ai-a-l-origine",
+     "source": "Le Monde Informatique",
+     "resume": "Une clé volée chez Fireworks AI a permis d'accéder aux historiques d'agents et outils SaaS de Cursor le 29 octobre. Les attaquants ont ensuite distribué des versions piégées de l'extension Claude Code à jusqu'à 5 000 utilisateurs avant la reconstruction de la marketplace.",
+     "full": true
+    },
+    {
+     "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+     "titre": "Le FBI avertit que l'outil de piratage par IA ARTEX alimente des cyberattaques mondiales",
+     "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+     "source": "BleepingComputer",
+     "resume": "Le FBI signale l'exploitation d'ARTEX, un framework open source pilotant des agents IA et des LLM externes pour automatiser les cyberattaques. Réduisant l'escalade de privilèges à moins de trois heures, cet outil a notamment touché des environnements Microsoft 365 via ConnectWise.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "bref": "Souveraineté et consolidation dominent les marchés : la France, l'Allemagne et les Pays-Bas cherchent des alternatives européennes d'IA militaire à Palantir, alors que Québecor propose 31 milliards de dollars pour racheter Telus. En Chine, le ralentissement intérieur s'aggrave malgré des exportations portées par l'IA.",
+   "items": [
+    {
+     "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+     "titre": "Jensen Huang discute avec des alliés d'un retour comme PDG de Nvidia",
+     "link": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Jensen Huang s'entretient avec ses alliés au sujet d'un éventuel retour à la tête de Nvidia. Des soutiens issus du secteur technologique font pression sur le conseil d'administration pour réintégrer l'ancien dirigeant, démissionnaire après une liaison avec une espionne chinoise présumée.",
+     "full": false
+    },
+    {
+     "title": "L'Europe veut se débarrasser de Palantir: la France, l'Allemagne et les Pays-Bas cherchent à remplacer le logiciel américain de surveillance, quitte à avoir moins efficace",
+     "titre": "L'Europe veut se débarrasser de Palantir: la France, l'Allemagne et les Pays-Bas cherchent à remplacer le logiciel américain de surveillance, quitte à avoir moins efficace",
+     "link": "https://www.bfmtv.com/economie/l-europe-veut-se-debarrasser-de-palantir-la-france-l-allemagne-et-les-pays-bas-cherchent-a-remplacer-le-logiciel-americain-de-surveillance-quitte-a-avoir-moins-efficace_AV-202611160558.html",
+     "source": "BFM Business",
+     "resume": "La France, l'Allemagne et les Pays-Bas développent ou évaluent des systèmes militaires d'IA souverains pour remplacer le logiciel américain Palantir. Sans équivalent immédiat de même envergure, ces pays acceptent une perte temporaire de capacités afin de garantir leur autonomie stratégique et leurs données.",
+     "full": true
+    },
+    {
+     "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+     "titre": "Le ralentissement économique de la Chine s'aggrave en octobre alors que la production industrielle, les ventes au détail et les investissements manquent les prévisions",
+     "link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
+     "source": "CNBC Finance",
+     "resume": "En octobre, la consommation (+0,4 %), l'industrie (+4,8 %) et l'investissement (-8,1 % sur dix mois) ont ralenti en Chine sur fond de crise immobilière. Dopée par l'IA, la croissance repose de plus en plus sur des exportations exposées aux tensions commerciales.",
+     "full": true
+    },
+    {
+     "title": "Quebecor makes $31B offer to acquire Telus",
+     "titre": "Québecor soumet une offre de 31 milliards de dollars pour acquérir Telus",
+     "link": "https://www.cbc.ca/news/business/quebecor-telus-acquisition-offer-9.7423299?cmp=rss",
+     "source": "CBC Business",
+     "resume": "Québecor a déposé une offre de 31 milliards de dollars pour racheter Telus, qui étudie une proposition bonifiée ce mois-ci. Cette fusion réunirait leurs réseaux et fréquences pour créer un concurrent pancanadien renforcé face aux grands opérateurs nationaux et étrangers.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "bref": "En Europe, la France renforce discrètement son dispositif d'appui militaire en Ukraine, tandis qu'une manifestation record de 400 000 personnes conteste la réforme de l'audiovisuel public en République tchèque. En Afrique centrale, une flambée d'Ebola particulièrement meurtrière frappe la République démocratique du Congo.",
+   "items": [
+    {
+     "title": "Frappes ukrainiennes en Russie : le pont de Crimée touché",
+     "titre": "Frappes ukrainiennes en Russie : le pont de Crimée touché",
+     "link": "https://www.france24.com/fr/vid%C3%A9o/20261116-frappes-ukrainiennes-en-russie-le-pont-de-crim%C3%A9e-touch%C3%A9",
+     "source": "France 24",
+     "resume": "La Russie a affirmé le 16 novembre avoir détruit 1 336 drones ukrainiens dans la nuit du 15 novembre, tout en signalant que le pont de Crimée a été touché. Cette offensive massive intervient alors que Moscou poursuit ses frappes contre les infrastructures ukrainiennes.",
+     "full": false
+    },
+    {
+     "title": "Des militaires français opèrent désormais en Ukraine",
+     "titre": "Des militaires français opèrent désormais en Ukraine",
+     "link": "https://www.lemonde.fr/international/article/2026/11/16/des-militaires-francais-operent-desormais-en-ukraine_6811865_3210.html",
+     "source": "Le Monde International",
+     "resume": "La France a récemment renforcé le noyau de forces conventionnelles effectuant des rotations en Ukraine pour la formation et la réparation de matériel. Il ne s'agit pas d'un déploiement militaire classique mais d'un appui à la cellule de coordination de l'ambassade de France à Kiev.",
+     "full": true
+    },
+    {
+     "title": "République tchèque : les images de la plus grande manifestation dans le pays depuis 1989",
+     "titre": "République tchèque : les images de la plus grande manifestation dans le pays depuis 1989",
+     "link": "https://www.lemonde.fr/international/video/2026/11/16/republique-tcheque-les-images-de-la-plus-grande-manifestation-dans-le-pays-depuis-1989_6811766_3210.html",
+     "source": "Le Monde International",
+     "resume": "Près de 400 000 personnes ont manifesté le 15 novembre 2026 en République tchèque contre la réforme de l'audiovisuel public d'Andrej Babis. Plus grand rassemblement depuis 1989, il conteste la suppression de la redevance et une coupe budgétaire de 15 % à 20 %.",
+     "full": true
+    },
+    {
+     "title": "Ebola en RDC : l'épidémie a fait plus de 5400 mort en six mois",
+     "titre": "Ebola en RDC : l'épidémie a fait plus de 5400 mort en six mois",
+     "link": "https://www.france24.com/fr/vid%C3%A9o/20261116-ebola-en-rdc-l-%C3%A9pid%C3%A9mie-a-fait-plus-de-5400-mort-en-six-mois",
+     "source": "France 24",
+     "resume": "En République démocratique du Congo, l'épidémie d'Ebola déclarée le 15 mai a causé 5 471 décès sur 11 197 cas recensés en six mois. Cette dix-septième flambée est désormais la plus meurtrière de l'histoire du pays.",
+     "full": false
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "bref": "Bruxelles prépare un prêt de 45 milliards d'euros à l'Ukraine pendant qu'un désaccord apparaît entre Trump et Vance sur l'Iran. Au Canada, Ottawa envisage des constructeurs chinois si les négociations américaines échouent, et Meta refuse tout affaiblissement du chiffrement sous C-22.",
+   "items": [
+    {
+     "title": "Brussels will present plan for €45B Ukraine loan backed by EU budget",
+     "titre": "Bruxelles va présenter un plan de prêt de 45 milliards d'euros à l'Ukraine garanti par le budget de l'UE",
+     "link": "https://www.politico.eu/article/brussels-plan-e45b-ukraine-loan-eu-budget/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "source": "Politico Europe",
+     "resume": "La Commission européenne présentera mercredi un prêt de 45 milliards d'euros pour maintenir l'Ukraine à flot financièrement. Garanti par le budget à long terme de l'UE, ce plan exige l'unanimité des dirigeants européens fin novembre malgré l'opposition de quatre pays.",
+     "full": true
+    },
+    {
+     "title": "Carney says Canada could turn to Chinese automakers if Trump trade talks fail",
+     "titre": "Carney affirme que le Canada pourrait se tourner vers les constructeurs automobiles chinois si les négociations commerciales avec Trump échouent",
+     "link": "https://www.cbc.ca/news/politics/canada-china-carney-auto-9.7423156?cmp=rss",
+     "source": "CBC Politics",
+     "resume": "Mark Carney a indiqué que le Canada pourrait solliciter des constructeurs chinois si les négociations avec Washington ne préservent pas son industrie automobile. Tout accord exigerait cependant une véritable fabrication locale et l'usage de minéraux critiques canadiens.",
+     "full": true
+    },
+    {
+     "title": "Meta says it would refuse government order if it forced company to weaken encryption",
+     "titre": "Meta affirme qu'il refuserait un ordre gouvernemental l'obligeant à affaiblir le chiffrement",
+     "link": "https://www.theglobeandmail.com/politics/article-meta-would-refuse-government-order-if-forced-weaken-encryption/",
+     "source": "The Globe and Mail",
+     "resume": "Meta refuserait tout arrêté ministériel l'obligeant à affaiblir le chiffrement de WhatsApp en vertu du projet de loi canadien C-22. Comme Signal qui menace de se retirer du Canada, le groupe exige des garanties malgré les assurances d'Ottawa contre les portes dérobées.",
+     "full": true
+    },
+    {
+     "title": "In calling for an end to the Iran War, Vance walks a fine line with Trump",
+     "titre": "En appelant à la fin de la guerre en Iran, Vance marche sur un fil avec Trump",
+     "link": "https://www.npr.org/2026/11/15/nx-s1-6040447/in-calling-for-an-end-to-the-iran-war-vance-walks-a-fine-line-with-trump",
+     "source": "NPR Politics",
+     "resume": "Un clivage s'ouvre entre le président Trump et le vice-président Vance à propos de la guerre en Iran. En appelant à la fin du conflit, Vance s'engage sur une ligne délicate vis-à-vis du président.",
+     "full": true
+    }
+   ]
+  }
+ ]
+}
