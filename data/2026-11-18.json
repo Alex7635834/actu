@@ -1,0 +1,346 @@
+{
+ "date": "2026-11-18",
+ "generated_at": "05:50",
+ "ai": true,
+ "une": [
+  {
+   "titre": "Sommet inédit entre Trump, Xi et Poutine à Shenzhen",
+   "resume": "Donald Trump est arrivé mercredi à Shenzhen pour un sommet tripartite inédit jeudi avec Xi Jinping et Vladimir Poutine, en marge de l'APEC. Chaleureusement accueilli à l'aéroport par Xi, contrairement à Poutine, le président américain espère aborder le nucléaire et la fin de la guerre en Ukraine. Toutefois, alors que Trump se dit optimiste sur un règlement ukrainien, les observateurs jugent toute percée improbable face à des intérêts stratégiques opposés et à l'absence d'ordre du jour commun.",
+   "sources": [
+    {
+     "source": "Le Monde International",
+     "link": "https://www.lemonde.fr/idees/article/2026/11/18/sommet-xi-trump-poutine-ceci-n-est-pas-un-yalta_6813109_3232.html"
+    },
+    {
+     "source": "France 24",
+     "link": "https://www.france24.com/fr/vid%C3%A9o/20261118-sommet-de-l-apec-les-chefs-d-%C3%A9tat-trump-poutine-et-jinping-r%C3%A9unis-en-chine"
+    },
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/ae7d1b27-b892-48d6-ad47-41128a4b53a1?syn-25a6b1a6=1"
+    },
+    {
+     "source": "NPR Politics",
+     "link": "https://www.npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin"
+    }
+   ]
+  },
+  {
+   "titre": "Nvidia sous pression après le départ de Jensen Huang",
+   "resume": "Malgré 115 milliards de dollars de revenus trimestriels, Nvidia affronte une crise majeure après la démission de Jensen Huang, visé par une enquête interne et des soupçons liés à la Chine. Le conseil d'administration exclut de le réintégrer et abandonne la vente de puces H200 en Chine. La non-remise du rapport 10-Q à la SEC confirme que l'affaire dépasse la conduite personnelle, alors que Nvidia et Jefferies divergent sur l'impact des nouvelles restrictions d'exportation.",
+   "sources": [
+    {
+     "source": "Next",
+     "link": "https://next.ink/268155/nvidia-tente-de-rassurer-sur-lapres-jensen-sur-fond-de-resultats-records/"
+    },
+    {
+     "source": "TechCrunch",
+     "link": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+    },
+    {
+     "source": "The Verge",
+     "link": "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo"
+    },
+    {
+     "source": "MarketWatch",
+     "link": "https://www.marketwatch.com/story/why-nvidia-broke-with-its-usual-practice-in-holding-back-its-quarterly-sec-report-1489d492?mod=mw_rss_topstories"
+    }
+   ]
+  },
+  {
+   "titre": "Java4Shell : faille critique dans OpenJDK trouvée par IA",
+   "resume": "Découverte par Calif via l'IA, la faille Java4Shell (CVE-2026-114938) affecte le décodeur Base64 d'OpenJDK sur processeurs AVX-512 et menace Jira, Jenkins ou Keycloak. Oracle et Amazon ont publié des correctifs, contrairement à Red Hat qui y travaille encore. Les éditeurs divergent sur sa criticité (de 8,1 à 9,8) et son exploitation : si Calif revendique l'exécution de code sans authentification, d'autres laboratoires n'ont reproduit que des plantages et fuites mémoire, sans exploit universel.",
+   "sources": [
+    {
+     "source": "The Record",
+     "link": "https://therecord.media/cisa-issues-java4shell-alert"
+    },
+    {
+     "source": "The Hacker News",
+     "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
+    },
+    {
+     "source": "BleepingComputer",
+     "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
+    },
+    {
+     "source": "Hacker News",
+     "link": "https://calif.io/java4shell/"
+    }
+   ]
+  }
+ ],
+ "concept": {
+  "terme": "Point unique de défaillance (SPOF / Single Point of Failure)",
+  "explication": "Un point unique de défaillance (SPOF) est un composant critique dont la panne suffit à paralyser tout un système. Lorsqu'un équipement réseau ou un service centralisé tombe sans solution de secours, les outils et organisations qui en dépendent s'arrêtent en cascade. Les ingénieurs réduisent ce risque grâce à la redondance, à la distribution des charges et au découplage des architectures. On en parle aujourd'hui après des pannes en série ayant frappé Microsoft, Apple, la NSA, JPMorgan et le contrôle aérien américain.",
+  "link": "https://next.ink/268124/microsoft-apple-nsa-pas-besoin-de-cyberattaque-pour-tout-mettre-en-panne/",
+  "source": "Next"
+ },
+ "art": {
+  "rubrique": "Cinéma",
+  "titre": "« Gabin », portrait d'une jeunesse rurale sur dix ans",
+  "texte": "Présenté au 79e Festival de Cannes, le documentaire Gabin de Maxence Voiseux suit pendant dix ans, de 8 à 18 ans, le benjamin d'une famille rurale de l'Artois. Le réalisateur filme le quotidien du garçon entre la boucherie de son père et la ferme d'élevage de sa mère. Il montre les pressions familiales discrètes autour de sa future succession professionnelle.",
+  "link": "https://www.lemonde.fr/culture/article/2026/11/17/gabin-de-l-enfance-a-l-adolescence-la-naissance-d-un-homme_6813019_3246.html",
+  "source": "Le Monde Cinéma"
+ },
+ "histoire": {
+  "annee": 1803,
+  "titre": "La bataille de Vertières et l'indépendance d'Haïti",
+  "texte": "Le 18 novembre 1803, les révolutionnaires haïtiens défont le corps expéditionnaire français lors de la bataille décisive de Vertières, permettant à la colonie de prendre son indépendance. Cette victoire conclut treize années de conflit armé entamées en août 1791 lors de la cérémonie du Bois-Caïman. La révolution haïtienne constitue la première révolte d'esclaves réussie du monde moderne et aboutit à l'abolition de l'esclavage dans la colonie.",
+  "link": "https://fr.wikipedia.org/wiki/R%C3%A9volution_ha%C3%AFtienne",
+  "source": "Wikipédia"
+ },
+ "pays": {
+  "nom": "Turquie",
+  "capitale": "Ankara",
+  "texte": "Située aux confins de l'Asie et de l'Europe, la Turquie est une république présidentielle voisine notamment de la Grèce, de la Bulgarie, de l'Iran, de l'Irak et de la Syrie. Bordée par les mers Noire, Égée et Méditerranée, cette nation turcophone s'étend de la Thrace orientale à l'Anatolie. Elle fait l'actualité après une descente de police visant la chaîne d'opposition Sözcü TV à Istanbul, suivie d'arrestations et d'une mise sous tutelle.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Turkey_%28orthographic_projection%29.svg/langfr-330px-Turkey_%28orthographic_projection%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wiki": "https://fr.wikipedia.org/wiki/Turquie",
+  "link": "https://www.france24.com/fr/vid%C3%A9o/20261118-turquie-les-directeurs-d-une-cha%C3%AEne-d-opposition-arr%C3%AAt%C3%A9s-par-les-autorit%C3%A9s-turques",
+  "source": "France 24"
+ },
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "bref": "La fragilité des services numériques s'est illustrée par le retrait français du DNS Quad9 face à la justice et par des pannes en série chez Microsoft, la NSA et l'aviation américaine. Tandis que Microsoft intègre Office dans Copilot, la sonde Voyager 1 franchit la barre d'un jour-lumière.",
+   "items": [
+    {
+     "title": "NVIDIA tente de rassurer sur l’après Jensen, sur fond de résultats records",
+     "titre": "NVIDIA tente de rassurer sur l’après Jensen, sur fond de résultats records",
+     "link": "https://next.ink/268155/nvidia-tente-de-rassurer-sur-lapres-jensen-sur-fond-de-resultats-records/",
+     "source": "Next",
+     "resume": "NVIDIA annonce 115 milliards de dollars de revenus trimestriels, portés par les datacenters, malgré le départ de Jensen Huang et une enquête boursière. Colette Kress prévoit 130 milliards au prochain trimestre tout en excluant désormais le marché chinois.",
+     "full": true
+    },
+    {
+     "title": "« La mauvaise approche » : Cloudflare tacle la justice française, qui pousse le résolveur DNS Quad9 à quitter le pays",
+     "titre": "« La mauvaise approche » : Cloudflare tacle la justice française, qui pousse le résolveur DNS Quad9 à quitter le pays",
+     "link": "https://www.numerama.com/tech/2377419-la-mauvaise-approche-cloudflare-tacle-la-justice-francaise-qui-pousse-le-resolveur-dns-quad9-a-quitter-le-pays.html",
+     "source": "Numerama",
+     "resume": "Condamnée à 1 000 euros d'astreinte par jour faute de blocage pour beIN Sports, Quad9 coupera son service en France le 24 novembre. Cloudflare dénonce une décision qui menace des utilisateurs critiques sans empêcher le contournement.",
+     "full": true
+    },
+    {
+     "title": "Microsoft, Apple, NSA : pas besoin de cyberattaque pour tout mettre en panne",
+     "titre": "Microsoft, Apple, NSA : pas besoin de cyberattaque pour tout mettre en panne",
+     "link": "https://next.ink/268124/microsoft-apple-nsa-pas-besoin-de-cyberattaque-pour-tout-mettre-en-panne/",
+     "source": "Next",
+     "resume": "Plusieurs pannes majeures ont frappé Microsoft pendant vingt heures, le contrôle aérien américain, JPMorgan Chase, la NSA et Apple en quelques jours, souvent après des opérations de maintenance. Ces incidents montrent la vulnérabilité des infrastructures critiques face aux défaillances internes.",
+     "full": true
+    },
+    {
+     "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+     "titre": "Copilot est « le nouvel OS du travail », et Office fonctionne désormais à l'intérieur",
+     "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+     "source": "Ars Technica",
+     "resume": "Microsoft intègre Word, Excel et PowerPoint dans Copilot et lance la plateforme Work IQ ainsi que l'agent autonome Copilot Autopilot. Les applications deviennent des modules pilotés par des agents, dont l'accès et l'activité restent contrôlés par les administrateurs.",
+     "full": true
+    },
+    {
+     "title": "La sonde Voyager 1 est à 25,9 milliards de km de la Terre : à quoi cette distance correspond-elle vraiment ?",
+     "titre": "La sonde Voyager 1 est à 25,9 milliards de km de la Terre : à quoi cette distance correspond-elle vraiment ?",
+     "link": "https://www.numerama.com/sciences/2376733-la-sonde-voyager-1-est-a-259-milliards-de-km-de-la-terre-a-quoi-cette-distance-correspond-elle-vraiment.html",
+     "source": "Numerama",
+     "resume": "Lancée en 1977, Voyager 1 a atteint le 18 novembre la distance d'un jour-lumière, soit 25,9 milliards de kilomètres de la Terre. Un simple échange radio aller-retour avec la sonde demande désormais quarante-huit heures, délai qui continuera d'augmenter.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "bref": "L'essor de l'IA agentique s'accompagne de nouveaux modèles moins chers chez OpenAI et d'outils d'isolation pour sécuriser l'exécution de code locale. Côté gouvernance, l'Appel de Paris laisse aux éditeurs le pouvoir d'arrêter leurs systèmes, tandis que les électeurs américains rejettent massivement l'implantation locale de centres de données.",
+   "items": [
+    {
+     "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+     "titre": "GPT‑6.2 Astra et GPT‑6.2 Sol",
+     "link": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+     "source": "Simon Willison",
+     "resume": "OpenAI lance GPT-6.2 Astra à 8/40 dollars par million de jetons, 20 % moins cher que son prédécesseur, et GPT-6.2 Sol à 2/10 dollars. Ces modèles réduisent les coûts pour les sessions agentiques longues, malgré des résultats jugés mitigés face aux concurrents.",
+     "full": true
+    },
+    {
+     "title": "L'Appel de Paris laisse aux développeurs le pouvoir d'arrêter leurs IA",
+     "titre": "L'Appel de Paris laisse aux développeurs le pouvoir d'arrêter leurs IA",
+     "link": "https://www.actuia.com/actualite/lappel-de-paris-laisse-aux-developpeurs-le-pouvoir-darreter-leurs-ia/",
+     "source": "ActuIA",
+     "resume": "Signé par 18 États et 10 entreprises, l'Appel de Paris prévoit l'évaluation des modèles avancés et leur arrêt par les développeurs. Le texte n'offre cependant aucun pouvoir de suspension aux États ni de solution pour les modèles à poids ouverts.",
+     "full": true
+    },
+    {
+     "title": "Data centers : le non des urnes américaines, 46 fois sur 47",
+     "titre": "Data centers : le non des urnes américaines, 46 fois sur 47",
+     "link": "https://www.actuia.com/actualite/data-centers-le-non-des-urnes-americaines-46-fois-sur-47/",
+     "source": "ActuIA",
+     "resume": "Lors de 47 consultations locales américaines cette année, les électeurs ont limité ou refusé les projets de centres de données d'IA dans 46 scrutins, par crainte de hausse des factures électriques. Cette opposition transpartisane entraîne annulations de projets et moratoires dans plusieurs États.",
+     "full": true
+    },
+    {
+     "title": "External sandboxes for coding agents",
+     "titre": "Bacs à sable externes pour les agents de codage",
+     "link": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+     "source": "Simon Willison",
+     "resume": "Simon Willison et Prime Radiant lancent trois serveurs isolant le code exécuté par des agents hors de leur environnement, avec proxy filtrant et remplacement d'identifiants. Cette architecture limite les risques liés aux erreurs ou aux attaques lors de l'usage de modèles locaux.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "bref": "Les attaques ciblent désormais directement les maillons de confiance : des pirates ont compromis le paquet Python agent-framework de Microsoft et injecté des malwares sur 178 sites majeurs via Optimizely. Au Japon, le supercalculateur Fugaku reste également hors ligne après une intrusion visant ses serveurs internes.",
+   "items": [
+    {
+     "title": "CISA warns of ‘Java4Shell,’ an AI-found Java bug touching most of the Fortune 500",
+     "titre": "La CISA alerte sur « Java4Shell », une faille Java trouvée par IA touchant la majorité du Fortune 500",
+     "link": "https://therecord.media/cisa-issues-java4shell-alert",
+     "source": "The Record",
+     "resume": "La CISA appelle à corriger d'urgence la faille CVE-2026-114938 dans Java, notée 8,1 par Oracle et découverte par Calif grâce à l'IA pour moins de 200 dollars. Cette corruption mémoire permet une prise de contrôle sans authentification sur des serveurs critiques exposés.",
+     "full": true
+    },
+    {
+     "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+     "titre": "Des attaquants ont utilisé Optimizely pour tester des malwares en A/B sur des sites majeurs",
+     "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+     "source": "Krebs on Security",
+     "resume": "Le 16 novembre, une faille d'Optimizely a injecté du JavaScript malveillant sur 178 sites dont Zoom et la BBC pour voler des données et exploiter de vieux iPhone. L'incident montre le danger des scripts tiers chargés sans restriction sur les pages web.",
+     "full": true
+    },
+    {
+     "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+     "titre": "Le Japon met le supercalculateur Fugaku hors ligne après une cyberattaque",
+     "link": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+     "source": "BleepingComputer",
+     "resume": "Le centre RIKEN a arrêté le supercalculateur Fugaku le 14 novembre après une intrusion via son tableau de bord public ayant compromis des serveurs internes et des clés d'accès. Les opérations restent suspendues le temps de sécuriser le réseau et de renouveler les identifiants.",
+     "full": true
+    },
+    {
+     "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+     "titre": "Des attaquants compromettent le paquet PyPI Agent Framework de Microsoft pour voler des identifiants cloud",
+     "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+     "source": "The Hacker News",
+     "resume": "Deux versions piégées du paquet Python agent-framework de Microsoft ont été publiées sur PyPI le 17 novembre pour voler des jetons cloud à chaque lancement de Python. Désormais en quarantaine, l'attaque cible directement les environnements et pipelines des développeurs d'agents IA.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "bref": "Le boom de l'IA promet 100 milliards de dollars aux investisseurs d'Anthropic lors de son entrée en Bourse, mais la BCE alerte sur les risques d'endettement hors bilan des géants technologiques. Parallèlement, l'enquête « Inside Deutsche Bank » révèle un vaste réseau de blanchiment russe longtemps négligé.",
+   "items": [
+    {
+     "title": "AI borrowing binge has ‘historic parallels’ with subprime bubble, says ECB",
+     "titre": "La frénésie d'emprunt liée à l'IA présente des « parallèles historiques » avec la bulle des subprimes, selon la BCE",
+     "link": "https://www.ft.com/content/d16475ce-efce-4dc1-b5a3-2f7c79e9dea9?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "La Banque centrale européenne s'inquiète de l'endettement massif lié à l'intelligence artificielle. Les hyperscalers accumulent des milliers de milliards de dollars d'engagements hors bilan via des contrats conclus avec d'autres groupes technologiques.",
+     "full": false
+    },
+    {
+     "title": "« Inside Deutsche Bank » : comment le géant bancaire a découvert qu’il avait servi d’intermédiaire à un gigantesque réseau de blanchiment",
+     "titre": "« Inside Deutsche Bank » : comment le géant bancaire a découvert qu’il avait servi d’intermédiaire à un gigantesque réseau de blanchiment",
+     "link": "https://www.lemonde.fr/les-decodeurs/article/2026/11/18/inside-deutsche-bank-comment-le-geant-bancaire-a-decouvert-qu-il-avait-servi-d-intermediaire-a-un-gigantesque-reseau-de-blanchiment_6813105_4355770.html",
+     "source": "Le Monde Économie",
+     "resume": "Issus d'une fuite de 15 millions de fichiers, des documents révèlent que Deutsche Bank a relayé un blanchiment de plus de 1,7 milliard d'euros lié à Oleg Deripaska. L'enquête met en lumière des failles durables de conformité envers les banques clientes.",
+     "full": true
+    },
+    {
+     "title": "Low-profile VCs set for $100bn windfall from Anthropic IPO",
+     "titre": "Des fonds de capital-risque discrets en voie de réaliser un gain de 100 milliards de dollars grâce à l'entrée en Bourse d'Anthropic",
+     "link": "https://www.ft.com/content/a3430f0d-0080-4970-8eec-2c14c8438b3d?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Des investisseurs peu connus s'apprêtent à dégager un gain combiné de 100 milliards de dollars avec l'introduction en Bourse d'Anthropic. Le groupe d'intelligence artificielle doit fixer le prix de son action mercredi.",
+     "full": false
+    },
+    {
+     "title": "Why Nvidia broke with its usual practice in holding back its quarterly SEC report",
+     "titre": "Pourquoi Nvidia a rompu avec sa pratique habituelle en retenant son rapport trimestriel auprès de la SEC",
+     "link": "https://www.marketwatch.com/story/why-nvidia-broke-with-its-usual-practice-in-holding-back-its-quarterly-sec-report-1489d492?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "resume": "Nvidia a décidé de ne pas déposer son rapport trimestriel 10-Q auprès du gendarme boursier américain, la SEC. Ce choix constitue la première confirmation officielle que la démission de Jensen Huang dépasse une simple question de conduite personnelle.",
+     "full": false
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "bref": "Sur la scène internationale, Washington irrite ses alliés en critiquant les frappes ukrainiennes en Russie et menace la Cour internationale de justice de sanctions avant son arrêt sur le Myanmar. En Turquie, les autorités accentuent la pression sur les médias en arrêtant les dirigeants de Sözcü TV.",
+   "items": [
+    {
+     "title": "Sommet Xi-Trump-Poutine : ceci n’est pas un Yalta",
+     "titre": "Sommet Xi-Trump-Poutine : ceci n’est pas un Yalta",
+     "link": "https://www.lemonde.fr/idees/article/2026/11/18/sommet-xi-trump-poutine-ceci-n-est-pas-un-yalta_6813109_3232.html",
+     "source": "Le Monde International",
+     "resume": "Donald Trump, Xi Jinping et Vladimir Poutine tiennent à Shenzhen un sommet inédit malgré des intérêts divergents sur le commerce, l'Ukraine ou le nucléaire. Affaibli par les élections de mi-mandat, le président américain offre une vitrine diplomatique à Pékin et Moscou sans accord attendu.",
+     "full": true
+    },
+    {
+     "title": "Guerre en Ukraine : un haut dirigeant du Pentagone critique les frappes en Russie",
+     "titre": "Guerre en Ukraine : un haut dirigeant du Pentagone critique les frappes en Russie",
+     "link": "https://www.france24.com/fr/vid%C3%A9o/20261118-guerre-en-ukraine-un-haut-dirigeant-du-pentagone-critique-les-frappes-en-russie",
+     "source": "France 24",
+     "resume": "Devant les alliés de Kiev réunis à l'Otan, le secrétaire adjoint américain à la Défense Elbridge Colby a jugé que les frappes ukrainiennes en profondeur en Russie favorisent l'escalade. L'Allemagne a vivement rejeté cette critique face aux bombardements subis par l'Ukraine.",
+     "full": false
+    },
+    {
+     "title": "Fears grow over US sanctions on ICJ judges ahead of Myanmar genocide ruling",
+     "titre": "Les craintes grandissent face à d'éventuelles sanctions américaines contre les juges de la CIJ avant le jugement sur le génocide au Myanmar",
+     "link": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court",
+     "source": "The Guardian World",
+     "resume": "Les juges de la CIJ craignent des sanctions américaines s'ils qualifient jeudi de génocide les crimes contre les Rohingyas au Myanmar. Washington redoute qu'un tel précédent juridique facilite ensuite une condamnation similaire visant les actions d'Israël à Gaza.",
+     "full": true
+    },
+    {
+     "title": "Turquie : les directeurs d'une chaîne d'opposition arrêtés par les autorités turques",
+     "titre": "Turquie : les directeurs d'une chaîne d'opposition arrêtés par les autorités turques",
+     "link": "https://www.france24.com/fr/vid%C3%A9o/20261118-turquie-les-directeurs-d-une-cha%C3%AEne-d-opposition-arr%C3%AAt%C3%A9s-par-les-autorit%C3%A9s-turques",
+     "source": "France 24",
+     "resume": "La police turque a mené une descente mardi 17 novembre au siège de la chaîne d'opposition Sözcü TV à Istanbul, arrêtant ses dirigeants et plaçant le groupe sous tutelle administrative. Cette opération survient un mois après une intervention similaire visant la chaîne Halk TV.",
+     "full": false
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "bref": "Aux États-Unis, la victoire démocrate en Alaska porte à 56 sièges leur majorité sénatoriale, pendant que le Canadien Mark Carney rencontre Donald Trump en Chine après un accord avec Pékin. En France, Marine Le Pen détaille sa réforme des retraites et la droite prépare une primaire pour 2027.",
+   "items": [
+    {
+     "title": "La Presse en Chine | Carney rencontrera Trump sur le terrain de Xi",
+     "titre": "La Presse en Chine | Carney rencontrera Trump sur le terrain de Xi",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-18/la-presse-en-chine/carney-rencontrera-trump-sur-le-terrain-de-xi.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "source": "La Presse",
+     "resume": "Le premier ministre canadien Mark Carney rencontre aujourd'hui Donald Trump en Chine pour discuter de leurs relations commerciales. Cet entretien suit un accord conclu avec Xi Jinping rétablissant l'accès au marché chinois pour la majorité des produits canadiens frappés de droits punitifs.",
+     "full": false
+    },
+    {
+     "title": "Les démocrates remportent l’Alaska, obtenant leur plus large majorité au Sénat en 16 ans",
+     "titre": "Les démocrates remportent l’Alaska, obtenant leur plus large majorité au Sénat en 16 ans",
+     "link": "https://ici.radio-canada.ca/article/info/2301439/democrates-remportent-alaska-obtenant-plus-large-majorite-senat",
+     "source": "Radio-Canada",
+     "resume": "La victoire de Mary Peltola en Alaska avec 50,12 % des voix porte à 56 sièges la majorité démocrate au Sénat, un record depuis 16 ans. Maîtres des deux chambres dès janvier, les démocrates pourront lancer des enquêtes visant le camp Trump.",
+     "full": true
+    },
+    {
+     "title": "La réforme des retraites de Marine Le Pen décryptée : un départ à 60 ans mais à quelles conditions et à quel prix ?",
+     "titre": "La réforme des retraites de Marine Le Pen décryptée : un départ à 60 ans mais à quelles conditions et à quel prix ?",
+     "link": "https://www.franceinfo.fr/replay-radio/le-decryptage-eco/la-reforme-des-retraites-de-marine-le-pen-decryptee-un-depart-a-60-ans-mais-a-quelles-conditions-et-a-quel-prix_8266760.html#xtor=RSS-3-%5Bpolitique%5D",
+     "source": "Franceinfo Politique",
+     "resume": "Marine Le Pen veut abaisser la retraite à 60 ou 62 ans selon la durée de carrière, tout en supprimant la pénibilité. Pour financer 18 milliards d'euros de surcoût d'ici 2032, elle durcirait la validation des trimestres et instaurerait une part de capitalisation.",
+     "full": true
+    },
+    {
+     "title": "Présidentielle 2027 : la droite et le centre posent la première pierre d’une primaire incertaine, avec ou sans Edouard Philippe",
+     "titre": "Présidentielle 2027 : la droite et le centre posent la première pierre d’une primaire incertaine, avec ou sans Edouard Philippe",
+     "link": "https://www.lemonde.fr/politique/article/2026/11/18/presidentielle-2027-sans-attendre-edouard-philippe-ses-adversaires-posent-la-premiere-pierre-d-une-primaire-de-la-droite-et-du-centre-incertaine_6813083_823448.html",
+     "source": "Le Monde Politique",
+     "resume": "Les équipes de Gabriel Attal, Bruno Retailleau et David Lisnard préparent une primaire ouverte à 2 euros en janvier 2027 pour désigner un candidat unique. Cette alliance vise à pousser Edouard Philippe à rejoindre ce processus encore incertain.",
+     "full": true
+    }
+   ]
+  }
+ ]
+}
