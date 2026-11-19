@@ -1,0 +1,338 @@
+{
+ "date": "2026-11-19",
+ "generated_at": "05:50",
+ "ai": true,
+ "une": [
+  {
+   "titre": "Sommet tripartite inédit entre Trump, Xi et Poutine à Shenzhen",
+   "resume": "En marge du sommet de l'APEC à Shenzhen, Donald Trump, Xi Jinping et Vladimir Poutine ont tenu une rencontre tripartite inédite précédée d'entretiens bilatéraux chaleureux. Les trois dirigeants ont affiché une volonté commune de stabilité et évoqué l'Ukraine et le désarmement nucléaire, Xi appelant à éliminer les armes atomiques. Toutefois, la portée concrète des 55 minutes de discussions à huis clos reste floue et ne devrait pas déboucher sur d'accords majeurs face aux profondes divergences stratégiques.",
+   "sources": [
+    {
+     "source": "Le Monde International",
+     "link": "https://www.lemonde.fr/international/article/2026/11/19/a-shenzhen-les-coulisses-d-une-rencontre-historique-entre-xi-jinping-vladimir-poutine-et-donald-trump_6813276_3210.html"
+    },
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/fcf6d27b-a04c-4cef-8b03-ce2423566f1f"
+    },
+    {
+     "source": "Al Jazeera",
+     "link": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss"
+    },
+    {
+     "source": "Radio-Canada",
+     "link": "https://ici.radio-canada.ca/article/info/2301700/xi-trump-poutine-reunis-sommet"
+    }
+   ]
+  },
+  {
+   "titre": "Anthropic réussit une introduction en Bourse record à 81 milliards de dollars",
+   "resume": "Le créateur de Claude entre jeudi en Bourse à New York après avoir levé 81,3 milliards de dollars à 83 dollars l'action, complétés par 26 milliards auprès d'industriels dont Nvidia et Google. Si l'opération valorise la société environ 1 500 milliards de dollars sur une base diluée, la valeur des seuls titres en circulation est estimée à 1 100 milliards. L'engouement des investisseurs contraste avec 104 milliards de pertes sur neuf mois et de lourdes incertitudes sur la rentabilité future.",
+   "sources": [
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/62c0510b-ca65-441e-9baf-675b93903b9e?syn-25a6b1a6=1"
+    },
+    {
+     "source": "BBC Business",
+     "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "ActuIA",
+     "link": "https://www.actuia.com/actualite/anthropic-fixe-son-prix-dintroduction-a-83-dollars-et-grossit-son-offre/"
+    },
+    {
+     "source": "Le Monde Pixels",
+     "link": "https://www.lemonde.fr/videos/video/2026/11/19/anthropic-pourquoi-son-introduction-en-bourse-est-elle-si-attendue_6813229_1669088.html"
+    }
+   ]
+  },
+  {
+   "titre": "Le Danemark ratifie l'accord de sécurité américano-groenlandais",
+   "resume": "Le Parlement danois a ratifié jeudi à l'unanimité l'accord de sécurité conclu en septembre avec les États-Unis et le Groenland, après son adoption par les élus groenlandais début novembre. Ce texte autorise deux nouvelles bases américaines dans le sud et l'est de l'île et interdit le contrôle de secteurs stratégiques par des acteurs hors UE et OTAN, afin de contrer l'influence chinoise et russe. Une source mentionne également l'installation du système de défense antimissile souhaité par Donald Trump.",
+   "sources": [
+    {
+     "source": "Le Monde International",
+     "link": "https://www.lemonde.fr/international/article/2026/11/19/groenland-le-parlement-danois-ratifie-l-accord-de-securite-avec-les-etats-unis-et-le-territoire-autonome_6813273_3210.html"
+    },
+    {
+     "source": "France 24",
+     "link": "https://www.france24.com/fr/europe/20261119-le-danemark-ratifie-l-accord-de-s%C3%A9curit%C3%A9-avec-les-%C3%A9tats-unis-et-le-groenland"
+    }
+   ]
+  }
+ ],
+ "concept": {
+  "terme": "ASLR (Address Space Layout Randomization)",
+  "explication": "L'ASLR est une protection mémoire du système d'exploitation qui répartit aléatoirement l'adresse de la pile, du tas et des bibliothèques d'un programme à chaque lancement. Ce mécanisme empêche un attaquant exploitant une corruption mémoire de connaître l'emplacement exact des fonctions nécessaires à son code malveillant. Le pirate doit donc contourner cette protection ou exploiter un environnement où elle est désactivée pour aboutir. On en parle aujourd'hui à cause de la faille critique CVE-2026-123007 sur NGINX, qui permet d'exécuter du code à distance si l'ASLR est contourné.",
+  "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+  "source": "The Hacker News"
+ },
+ "art": {
+  "rubrique": "Cinéma",
+  "titre": "Les monstres de L'Odyssée et les limites de l'IA selon Christopher Nolan",
+  "texte": "Lors d'une conférence à Los Angeles animée par Guillermo del Toro, Christopher Nolan et son superviseur des effets visuels Andrew Jackson ont détaillé la conception de L'Odyssée. Ils ont expliqué comment l'animation de marionnettes et les effets numériques ont été intégrés dès la préproduction pour créer le Cyclope. Face à l'essor de l'intelligence artificielle, les cinéastes ont insisté sur le rôle irremplaçable de l'œil humain et de la collaboration artisanale.",
+  "link": "https://www.indiewire.com/news/general-news/christopher-nolan-guillermo-del-toro-the-odyssey-vfx-1235228482/",
+  "source": "IndieWire"
+ },
+ "histoire": {
+  "annee": 1942,
+  "titre": "Début de l'opération Uranus à Stalingrad",
+  "texte": "En 1942, l'Armée rouge lance l'opération Uranus, offensive planifiée depuis septembre pour détruire les forces allemandes autour de Stalingrad. Cette manœuvre entraîne l'encerclement de la 6e armée allemande, des 3e et 4e armées roumaines et d'éléments de la 4e armée de Panzer. Elle permet ainsi de remporter la bataille de Stalingrad, victoire décisive sur le Troisième Reich sur le front de l'Est durant la Seconde Guerre mondiale.",
+  "link": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Uranus",
+  "source": "Wikipédia"
+ },
+ "pays": {
+  "nom": "Danemark",
+  "capitale": "Copenhague",
+  "texte": "Le royaume de Danemark est un pays transcontinental dont le territoire métropolitain se trouve en Europe du Nord et en Scandinavie, avec Copenhague pour capitale et plus grande ville. Il comprend également deux régions autonomes : les îles Féroé en Atlantique Nord et le Groenland en Amérique du Nord. Il fait l'actualité aujourd'hui car son Parlement a ratifié à l'unanimité l'accord de sécurité avec les États-Unis et le Groenland, autorisant deux bases américaines et excluant les acteurs hors UE et OTAN.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Kingdom_of_Denmark_%28orthographic_projection%29.svg/langfr-330px-Kingdom_of_Denmark_%28orthographic_projection%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wiki": "https://fr.wikipedia.org/wiki/Danemark",
+  "link": "https://www.lemonde.fr/international/article/2026/11/19/groenland-le-parlement-danois-ratifie-l-accord-de-securite-avec-les-etats-unis-et-le-territoire-autonome_6813273_3210.html",
+  "source": "Le Monde International"
+ },
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "bref": "Des écoles américaines contestent l'imposition de Gemini, les datacenters cherchent l'acceptabilité locale et la Commission européenne subit une cyberattaque par agents IA. Sur le terrain militaire, l'Ukraine contourne les limites de Starlink par drones maillés tandis que l'Allemagne explore la frappe orbitale de précision.",
+   "items": [
+    {
+     "title": "Une immense cyberattaque frappe la Commission européenne : l’arme des hackers est un outil IA qui a échappé à son propre créateur",
+     "titre": "Une immense cyberattaque frappe la Commission européenne : l’arme des hackers est un outil IA qui a échappé à son propre créateur",
+     "link": "https://www.numerama.com/cyberguerre/2378643-une-immense-cyberattaque-frappe-la-commission-europeenne-larme-des-hackers-est-un-outil-ia-qui-a-echappe-a-son-propre-createur.html",
+     "source": "Numerama",
+     "resume": "Des cybercriminels utilisent l'outil open source ARTEX, piloté par des agents d'IA autonomes, contre la Commission européenne. L'attaque a perturbé pendant plus de dix jours des services internes comme Sysper et MyPMO, sans que le vol de données du personnel ne soit encore écarté.",
+     "full": true
+    },
+    {
+     "title": "Ukraine blew up Putin’s bridge using relay drones to bypass Starlink limits",
+     "titre": "L'Ukraine a fait exploser le pont de Poutine grâce à des drones relais pour contourner les limites de Starlink",
+     "link": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/",
+     "source": "Ars Technica",
+     "resume": "L'Ukraine a détruit une arche routière du pont de Kertch en guidant des missiles Flamingo et des drones sur plus de 250 km via un réseau radio maillé aérien. En évitant Starshield, bridé à 161 km/h par Washington, Kiev complique le ravitaillement russe en Crimée.",
+     "full": true
+    },
+    {
+     "title": "Datacenters : après la course à l’énergie, la bataille de l’acceptabilité",
+     "titre": "Datacenters : après la course à l’énergie, la bataille de l’acceptabilité",
+     "link": "https://next.ink/268399/les-datacenters-face-au-mur-de-lacceptabilite/",
+     "source": "Next",
+     "resume": "Réunis à Paris, les opérateurs de centres de données ont pointé l'acceptabilité locale comme leur principal frein face à l'essor de l'IA générative. En France, le secteur met en avant une électricité nucléaire bas carbone et une faible consommation d'eau pour défendre de nouvelles implantations.",
+     "full": true
+    },
+    {
+     "title": "Frapper la Terre avec précision depuis l’espace : l’Europe se tourne vers une arme orbitale",
+     "titre": "Frapper la Terre avec précision depuis l’espace : l’Europe se tourne vers une arme orbitale",
+     "link": "https://www.numerama.com/tech/2378535-frapper-la-terre-avec-precision-depuis-lespace-leurope-se-tourne-vers-une-arme-orbitale.html",
+     "source": "Numerama",
+     "resume": "Atmos Space Cargo et MBDA Deutschland ont signé le 18 novembre un accord d'étude pour développer PODS, une arme conventionnelle de frappe orbitale de précision. Dérivé de la capsule Phoenix, ce projet reste au stade de la faisabilité technique et exploite un flou juridique spatial.",
+     "full": true
+    },
+    {
+     "title": "The nation’s largest school districts consider ditching Google Search",
+     "titre": "Les plus grands districts scolaires du pays envisagent d’abandonner Google Search",
+     "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+     "source": "The Verge",
+     "resume": "Les districts scolaires de New York, Los Angeles et Chicago envisagent d'abandonner Google, qui lie l'accès à Search à l'activation de Gemini dès l'an prochain. Face aux critiques d'élus et d'enseignants, Google promet de désactiver ces services par défaut jusqu'à validation par les écoles.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "bref": "Malgré le départ de Jensen Huang, Nvidia affiche des résultats records grâce à Vera Rubin. Côté modèles et agents, Microsoft lance MAI Code 2 et Copilot Autopilot, Google sort Gemini 4 Neon à la tarification confuse, tandis que Muse chez Meta soulève des inquiétudes internes sur la vie privée.",
+   "items": [
+    {
+     "title": "Nvidia relève sa prévision et écarte le retour de Jensen Huang",
+     "titre": "Nvidia relève sa prévision et écarte le retour de Jensen Huang",
+     "link": "https://www.actuia.com/actualite/sans-jensen-huang-nvidia-releve-sa-prevision/",
+     "source": "ActuIA",
+     "resume": "Après le départ confirmé de Jensen Huang, Nvidia annonce 115,8 milliards de dollars de revenus trimestriels, tirés par la puce Vera Rubin, et vise 130 milliards au trimestre suivant. L'entreprise relève sa croissance annuelle prévue mais crée un comité de surveillance pour les exportations.",
+     "full": true
+    },
+    {
+     "title": "Microsoft mise sur ses modèles et ses puces maison à Ignite",
+     "titre": "Microsoft mise sur ses modèles et ses puces maison à Ignite",
+     "link": "https://www.actuia.com/actualite/microsoft-mise-sur-ses-modeles-et-ses-puces-maison-a-ignite/",
+     "source": "ActuIA",
+     "resume": "À Ignite, Microsoft a dévoilé MAI Code 2, des modèles audio-image et déployé l'agent autonome Copilot Autopilot dans Microsoft 365. L'éditeur promet des coûts très inférieurs à la concurrence sans publier sa grille tarifaire, tout en dotant chaque agent d'une identité auditée dans Entra.",
+     "full": true
+    },
+    {
+     "title": "llm-gemini 0.38",
+     "titre": "llm-gemini 0.38",
+     "link": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+     "source": "Simon Willison",
+     "resume": "Google lance Gemini 4 Neon à 3 et 15 dollars par million de tokens, tout en omettant Argon de sa gamme. Cette annonce complique davantage une grille tarifaire déjà confuse avant le doublement du prix de Carbon prévu le 1er décembre.",
+     "full": true
+    },
+    {
+     "title": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
+     "titre": "Des échanges internes montrent que les atteintes à la vie privée de Muse inquiètent les employés de Meta",
+     "link": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+     "source": "Ars Technica AI",
+     "resume": "Des employés de Meta ont alerté en interne que l'agent IA Muse accédait à des messages privés chiffrés, mélangeait des conversations et divulguait de supposés soldes bancaires. Meta attribue ces incidents à des hallucinations d'engagement, sans toutefois écarter ni préciser l'ampleur des fuites réelles.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "bref": "Les chaînes logicielles et serveurs subissent de graves alertes : NGINX corrige une faille critique décennale sous HTTP/2 et des paquets PyPI officiels de Microsoft ont été piégés. Parallèlement, N-able subit une intrusion sur son cloud de sécurité mail et la NSA résorbe une panne interne attribuée à PHP.",
+   "items": [
+    {
+     "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+     "titre": "Une faille vieille de 10 ans dans HTTP/2 sur NGINX permet à des attaquants non authentifiés d'exécuter du code sur les serveurs",
+     "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+     "source": "The Hacker News",
+     "resume": "Présente depuis dix ans, la faille critique CVE-2026-123007 permet d'exécuter du code à distance sur NGINX via HTTP/2 en contournant l'ASLR. Les versions 1.31.9 et 1.30.7 corrigent ce défaut et quatre autres, tandis que les paquets Ubuntu et Debian restent attendus.",
+     "full": true
+    },
+    {
+     "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+     "titre": "Le paquet PyPI Agent Framework de Microsoft compromis pour voler des identifiants",
+     "link": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+     "source": "BleepingComputer",
+     "resume": "Les versions malveillantes 1.26.1 et 1.26.2 du paquet PyPI officiel Microsoft Agent Framework volaient des jetons cloud et variables d'environnement dès le démarrage de Python. Quarantinées par PyPI, elles obligent les développeurs touchés à reconstruire leurs environnements et révoquer tous leurs secrets exposés.",
+     "full": true
+    },
+    {
+     "title": "NSA continues response to interruptions in classified internal network",
+     "titre": "La NSA poursuit sa réponse aux interruptions de son réseau interne classifié",
+     "link": "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
+     "source": "The Record",
+     "resume": "Le réseau classifié NSA Net subit depuis mardi des pannes liées selon le renseignement américain à une maintenance sur PHP, forçant l'agence à échelonner l'arrivée de ses employés. Face à une série de pannes majeures aux États-Unis, le sénateur Chuck Schumer réclame une enquête dédiée.",
+     "full": true
+    },
+    {
+     "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+     "titre": "Des pirates compromettent un serveur cloud de N-able, perturbant la gestion de la sécurité des e-mails dans 3 régions",
+     "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+     "source": "The Hacker News",
+     "resume": "N-able confirme qu'une intrusion sur un serveur cloud explique l'incident affectant Mail Assure et SpamExperts depuis le 16 novembre. Le filtrage des courriels continue sans preuve de fuite de données, mais les interfaces de gestion, journaux et API restent désactivés pendant la sécurisation.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "bref": "La Fed redoute l'impact inflationniste et les financements opaques de l'IA, ouvrant la voie à de nouvelles hausses de taux. En France, le Sénat vote un budget de fin de gestion portant le déficit 2026 à 5,4 % et le régulateur approuve sous réserves l'extension d'ADP.",
+   "items": [
+    {
+     "title": "Anthropic raises $81bn in record IPO",
+     "titre": "Anthropic lève 81 milliards de dollars lors d'une introduction en Bourse record",
+     "link": "https://www.ft.com/content/62c0510b-ca65-441e-9baf-675b93903b9e?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Anthropic fait ses débuts en Bourse jeudi après avoir levé un montant record de 81 milliards de dollars. L'opération valorise le géant de l'intelligence artificielle à 1 500 milliards de dollars.",
+     "full": false
+    },
+    {
+     "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+     "titre": "Les responsables de la Fed anticipent d'autres hausses de taux et s'inquiètent de l'impact de l'IA sur l'inflation, montrent les minutes",
+     "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+     "source": "CNBC Finance",
+     "resume": "Les minutes d'octobre de la Fed révèlent que la majorité des responsables jugent de nouvelles hausses de taux nécessaires, maintenant toutefois la fourchette entre 3,75 % et 4 %. La banque centrale redoute les pressions inflationnistes et les financements opaques liés aux investissements dans l'IA.",
+     "full": true
+    },
+    {
+     "title": "Le texte atterrit à un déficit public de 5,4% pour 2026: le Sénat adopte le budget de fin de gestion avec d'ultimes ajustements pour l'armée et les aides face à la crise énergétique",
+     "titre": "Le texte atterrit à un déficit public de 5,4% pour 2026: le Sénat adopte le budget de fin de gestion avec d'ultimes ajustements pour l'armée et les aides face à la crise énergétique",
+     "link": "https://www.bfmtv.com/economie/economie-social/finances-publiques/le-texte-atterrit-a-un-deficit-public-de-5-4-pour-2026-le-senat-adopte-le-budget-de-fin-de-gestion-avec-des-ultimes-ajustements-pour-l-armee-et-les-aides-face-a-la-crise-energetique_AD-202611190475.html",
+     "source": "BFM Business",
+     "resume": "Le Sénat a adopté le projet de loi de fin de gestion 2026 par 228 voix contre 109, finançant les armées et des aides énergétiques. Le texte acte un déficit dégradé à 5,4 % du PIB avant une commission mixte paritaire prévue vendredi.",
+     "full": true
+    },
+    {
+     "title": "L’extension des aéroports de Roissy-Charles-de-Gaulle et d’Orly validée, sous réserve, par le régulateur des transports",
+     "titre": "L’extension des aéroports de Roissy-Charles-de-Gaulle et d’Orly validée, sous réserve, par le régulateur des transports",
+     "link": "https://www.lemonde.fr/economie/article/2026/11/19/l-extension-des-aeroports-de-roissy-charles-de-gaulle-et-d-orly-validee-sous-reserve-par-le-regulateur-des-transports_6813252_3234.html",
+     "source": "Le Monde Économie",
+     "resume": "L'Autorité de régulation des transports a rendu le 18 novembre un avis conforme favorable au plan d'extension de 8,2 milliards d'euros d'ADP pour 2027-2034. Ce feu vert vise 130 millions de passagers annuels, mais exige la levée de cinq réserves protégeant les compagnies aériennes.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "bref": "Au-delà des sommets diplomatiques, les foyers de tension demeurent actifs. La Corée du Nord agrandit son installation d'enrichissement d'uranium à Yongbyon selon l'AIEA, tandis qu'à Gaza une rare incursion terrestre israélienne au-delà de la Ligne jaune ravive les accusations de violation du cessez-le-feu.",
+   "items": [
+    {
+     "title": "A Shenzhen, les coulisses d’une rencontre historique entre Xi Jinping, Vladimir Poutine et Donald Trump",
+     "titre": "A Shenzhen, les coulisses d’une rencontre historique entre Xi Jinping, Vladimir Poutine et Donald Trump",
+     "link": "https://www.lemonde.fr/international/article/2026/11/19/a-shenzhen-les-coulisses-d-une-rencontre-historique-entre-xi-jinping-vladimir-poutine-et-donald-trump_6813276_3210.html",
+     "source": "Le Monde International",
+     "resume": "En marge du sommet de l'APEC à Shenzhen, Xi Jinping, Vladimir Poutine et Donald Trump ont tenu le 19 novembre une rencontre tripartite inédite. Si l'entrevue ne règle aucun différend stratégique, elle place symboliquement les trois dirigeants sur un pied d'égalité protocolaire.",
+     "full": true
+    },
+    {
+     "title": "Groenland : le Parlement danois ratifie l’accord de sécurité avec les Etats-Unis et le territoire autonome",
+     "titre": "Groenland : le Parlement danois ratifie l’accord de sécurité avec les Etats-Unis et le territoire autonome",
+     "link": "https://www.lemonde.fr/international/article/2026/11/19/groenland-le-parlement-danois-ratifie-l-accord-de-securite-avec-les-etats-unis-et-le-territoire-autonome_6813273_3210.html",
+     "source": "Le Monde International",
+     "resume": "Le Folketing danois a ratifié à l'unanimité l'accord de sécurité signé avec les États-Unis et le Groenland, après le feu vert groenlandais début novembre. Le traité autorise deux nouvelles bases américaines et exclut tout acteur hors UE et OTAN des secteurs stratégiques.",
+     "full": true
+    },
+    {
+     "title": "North Korea expanding uranium enrichment facility, UN nuclear watchdog says",
+     "titre": "La Corée du Nord agrandit son installation d'enrichissement d'uranium, selon l'agence nucléaire de l'ONU",
+     "link": "https://www.aljazeera.com/news/2026/11/19/north-korea-expanding-uranium-enrichment-facility-un-nuclear-watchdog-says?traffic_source=rss",
+     "source": "Al Jazeera",
+     "resume": "Selon l'AIEA, la Corée du Nord a achevé fin octobre une nouvelle extension de son site d'enrichissement d'uranium à Yongbyon. Cette montée en puissance nucléaire intervient alors que Donald Trump se dit prêt à rencontrer Kim Jong Un, sans qu'aucune entrevue ne soit programmée.",
+     "full": true
+    },
+    {
+     "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+     "titre": "L'armée israélienne lance une rare opération terrestre à Gaza au-delà de la Ligne jaune",
+     "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "resume": "L'armée israélienne mène une rare incursion terrestre près de Nuseirat pour détruire un tunnel au-delà de la Ligne jaune, fermant une route clé. Tandis que le Hamas dénonce une violation du cessez-le-feu d'octobre 2025, des frappes et tirs provoquent de nouvelles évacuations.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "bref": "Les Européens cherchent à Berlin à peser sur la paix en Ukraine, alors que le scandale Nvidia embarrasse Washington et pousse le Canada à diversifier ses partenariats vers Pékin. En France, l'ouverture de Marine Tondelier envers LFI pour 2027 fracture les écologistes.",
+   "items": [
+    {
+     "title": "The Coalition of the Willing’s chance to deliver",
+     "titre": "L'occasion pour la Coalition des volontaires d'obtenir des résultats",
+     "link": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-coalition-of-the-willings-chance-to-deliver/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "source": "Politico Europe",
+     "resume": "Les dirigeants européens se réunissent à Berlin sur l'Ukraine alors que Donald Trump, Vladimir Poutine et Xi Jinping échangent en Chine. Face aux signaux contradictoires de Washington et Moscou, l'Europe cherche à peser dans les négociations et à financer l'effort de guerre ukrainien.",
+     "full": true
+    },
+    {
+     "title": "\"Un reniement existentiel\" : les écologistes divisés, les socialistes navrés après la main tendue de Marine Tondelier à LFI pour la présidentielle 2027",
+     "titre": "\"Un reniement existentiel\" : les écologistes divisés, les socialistes navrés après la main tendue de Marine Tondelier à LFI pour la présidentielle 2027",
+     "link": "https://www.franceinfo.fr/elections/presidentielle/un-reniement-existentiel-les-ecologistes-divises-les-socialistes-navres-apres-la-main-tendue-de-marine-tondelier-a-lfi-pour-la-presidentielle-2027_8289569.html#xtor=RSS-3-%5Bpolitique%5D",
+     "source": "Franceinfo Politique",
+     "resume": "Marine Tondelier s'est dite prête le 18 novembre à négocier une coalition autour de Jean-Luc Mélenchon pour 2027. Saluée par LFI, cette main tendue conditionnelle ravive les tensions chez les écologistes avant le vote interne des militants prévu du 10 au 13 décembre.",
+     "full": true
+    },
+    {
+     "title": "Why the Nvidia scandal is a national security issue",
+     "titre": "Pourquoi le scandale Nvidia est un enjeu de sécurité nationale",
+     "link": "https://www.npr.org/2026/11/18/nx-s1-6044275/why-the-nvidia-scandal-is-a-national-security-issue",
+     "source": "NPR Politics",
+     "resume": "Le scandale Nvidia rejaillit sur l'administration Trump, désormais soumise à un examen intense. Elle doit expliquer comment les meilleures puces d'IA américaines ont pu se retrouver entre les mains de la Chine.",
+     "full": true
+    },
+    {
+     "title": "Carney contrasts ‘very professional’ Chinese trade talks with still-elusive U.S. deal",
+     "titre": "Carney oppose le caractère « très professionnel » des négociations commerciales avec la Chine à un accord américain toujours hors de portée",
+     "link": "https://www.theglobeandmail.com/politics/article-carney-trump-apec-meeting/",
+     "source": "The Globe and Mail",
+     "resume": "Après un accord avec Pékin sur 400 millions de dollars d'exportations agroalimentaires, Mark Carney oppose le sérieux chinois à l'impasse commerciale avec Washington. Il défend aussi une réduction de la dépendance canadienne envers des technologies américaines jugées peu fiables comme Starlink.",
+     "full": true
+    }
+   ]
+  }
+ ]
+}
