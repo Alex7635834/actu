@@ -1,0 +1,346 @@
+{
+ "date": "2026-11-20",
+ "generated_at": "05:50",
+ "ai": true,
+ "une": [
+  {
+   "titre": "Anthropic réussit une entrée record à Wall Street mais inquiète la tech",
+   "resume": "Anthropic a réalisé une entrée historique sur le Nasdaq, passant de 83 dollars à un pic de 111,53 dollars avant de clôturer à 97,17 dollars. Selon les méthodes de calcul, sa valorisation oscille entre 1 500 et 1 760 milliards de dollars. Malgré cet accueil, le Nasdaq a reculé de 2,3 % et entraîné l'Europe et l'Asie. Les analystes restent incertains quant à la valeur réelle du secteur face aux pertes et aux risques d'agents autonomes.",
+   "sources": [
+    {
+     "source": "ActuIA",
+     "link": "https://www.actuia.com/actualite/anthropic-fixe-son-prix-dintroduction-a-83-dollars-et-grossit-son-offre/"
+    },
+    {
+     "source": "The Verge AI",
+     "link": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq"
+    },
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b?syn-25a6b1a6=1"
+    },
+    {
+     "source": "BBC Business",
+     "link": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss"
+    }
+   ]
+  },
+  {
+   "titre": "Sommet inédit à Shenzhen entre Xi, Poutine et Trump",
+   "resume": "Réunis 90 minutes à Shenzhen, Xi Jinping, Vladimir Poutine et Donald Trump ont signé une déclaration de paix prônant la réforme de l'ONU, l'offre pétrolière et la primauté souveraine face à la CPI. Le texte omet les guerres en Ukraine et en Iran, pourtant évoquées oralement. Si les dirigeants saluent un tournant, les analystes y voient un succès symbolique pour Pékin et Moscou, sans garantie d'avancées concrètes, notamment sur le désarmement nucléaire.",
+   "sources": [
+    {
+     "source": "The Guardian World",
+     "link": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars"
+    },
+    {
+     "source": "BBC World",
+     "link": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/c1c540af-f9ba-479a-8473-4b7619859453?syn-25a6b1a6=1"
+    },
+    {
+     "source": "Radio-Canada",
+     "link": "https://ici.radio-canada.ca/article/info/2301996/shenzhen-trump-poutine-xi-sommet-vainqueurs"
+    }
+   ]
+  },
+  {
+   "titre": "Frappes russes massives sur les ponts et l'énergie en Ukraine",
+   "resume": "En représailles à l'attaque du pont de Crimée, la Russie a lancé près de 100 missiles et 400 drones sur l'Ukraine, touchant trois ponts à Kiev et le réseau électrique. Les bilans divergent, faisant état de trois à six morts à Kiev et jusqu'à huit au total, tandis qu'un projectile a violé l'espace polonais. Ces hostilités contrastent avec l'optimisme américain sur la paix, Moscou excluant toute garantie de type OTAN.",
+   "sources": [
+    {
+     "source": "Al Jazeera",
+     "link": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges?traffic_source=rss"
+    },
+    {
+     "source": "BBC World",
+     "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "Le Monde International",
+     "link": "https://www.lemonde.fr/international/live/2026/11/20/en-direct-guerre-en-ukraine-des-frappes-russes-sur-kiev-une-usine-chimique-ciblee-en-russie-les-dernieres-informations_6810982_3210.html"
+    },
+    {
+     "source": "Politico Europe",
+     "link": "https://www.politico.eu/article/russia-hits-3-kyiv-bridges-in-major-attack-while-poland-reports-airspace-violation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+    }
+   ]
+  }
+ ],
+ "concept": {
+  "terme": "Use-after-free",
+  "explication": "Un use-after-free est une faille de gestion mémoire survenant lorsqu'un programme continue d'utiliser un pointeur vers une zone mémoire déjà libérée. Si le système réalloue cet espace à d'autres données, l'ancien pointeur permet de lire ou d'écraser des informations imprévues. Un attaquant peut exploiter ce mécanisme pour corrompre le flux d'exécution et exécuter du code arbitraire sur le serveur. Ce mécanisme explique notamment la faille critique NGINX2Root (CVE-2026-123633) qui libère une connexion encore utilisée.",
+  "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+  "source": "BleepingComputer"
+ },
+ "art": {
+  "rubrique": "Cinéma",
+  "titre": "L'ascension de Sandra Hüller",
+  "texte": "Originaire d'ex-RDA et formée au théâtre, l'actrice allemande Sandra Hüller enchaîne depuis vingt ans les succès en Europe jusqu'à Hollywood. Révélée au public français en 2016 par le film Toni Erdmann de Maren Ade, elle a aussi sorti un album musical en 2020. Ce portrait revient sur sa personnalité exigeante alors qu'elle est à l'affiche de Fatherland de Paweł Pawlikowski et attendue dans le prochain Avengers.",
+  "link": "https://www.lemonde.fr/m-le-mag/article/2026/11/20/l-actrice-sandra-huller-anatomie-d-une-irresistible-ascension_6813585_4500055.html",
+  "source": "Le Monde Cinéma"
+ },
+ "histoire": {
+  "annee": 1945,
+  "titre": "Ouverture du procès de Nuremberg",
+  "texte": "Le 20 novembre 1945 s'ouvre au palais de justice de Nuremberg le procès intenté par les Alliés contre 24 hauts responsables de l'Allemagne nazie. Accusés de complot, de crimes contre la paix, de crimes de guerre et de crimes contre l'humanité, ils sont jugés jusqu'au 1er octobre 1946. Cet événement historique constitue la première étape concrète vers la mise en œuvre d'une juridiction pénale internationale.",
+  "link": "https://fr.wikipedia.org/wiki/Proc%C3%A8s_de_Nuremberg",
+  "source": "Wikipédia"
+ },
+ "pays": {
+  "nom": "Birmanie",
+  "capitale": "Naypyidaw",
+  "texte": "Située en Asie du Sud-Est continentale, la Birmanie partage ses frontières avec la Chine, le Laos, la Thaïlande, le Bangladesh et l'Inde, et possède environ 2 000 kilomètres de côtes sur le golfe du Bengale et la mer d'Andaman. Dirigé par une junte militaire depuis le coup d'État de 2021, le pays fait face aujourd'hui à une décision historique. La Cour internationale de justice l'a reconnu coupable de génocide pour les exactions commises par son armée en 2017 contre la minorité musulmane rohingya.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Myanmar_%28orthographic_projection%29.svg/langfr-330px-Myanmar_%28orthographic_projection%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wiki": "https://fr.wikipedia.org/wiki/Birmanie",
+  "link": "https://www.lemonde.fr/idees/article/2026/11/20/rohingya-le-courage-de-la-cour-internationale-de-justice_6813621_3232.html",
+  "source": "Le Monde International"
+ },
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "bref": "La sécurité occupe le devant de la scène, entre un correctif débattu dans OpenSSL, le socle Baseline de Windows 11 et une fuite chez des sous-traitants financiers. Côté infrastructures, PostgreSQL 19 modernise l'administration des bases, tandis que les pannes américaines font d'Ariane 6 l'unique recours d'Amazon.",
+   "items": [
+    {
+     "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+     "titre": "OpenSSL : débordement de tampon dans EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+     "link": "https://github.com/openssl/openssl/pull/33652",
+     "source": "Hacker News",
+     "resume": "Un correctif pour CVE-2026-121481 fait retourner -1 à EVP_EncodeBlock() face aux entrées invalides, mais ce choix divise les développeurs d'OpenSSL. Certains redoutent que des programmes tiers ne vérifient pas les valeurs négatives et préféreraient un retour à 0.",
+     "full": true
+    },
+    {
+     "title": "PostgreSQL 19",
+     "titre": "PostgreSQL 19",
+     "link": "https://www.postgresql.org/docs/release/19.0/",
+     "source": "Hacker News",
+     "resume": "PostgreSQL 19 introduit la commande REPACK non bloquante, des extensions de contrôle du planificateur et une réplication logique activable sans redémarrage. Cette version majeure désactive aussi le JIT par défaut et durcit la sécurité, rendant une migration des anciens clusters nécessaire.",
+     "full": true
+    },
+    {
+     "title": "Deux fusées américaines clouées au sol, 40 satellites perdus : Amazon n’a qu’un espoir à court terme pour sa constellation, et il s’appelle Ariane 6",
+     "titre": "Deux fusées américaines clouées au sol, 40 satellites perdus : Amazon n’a qu’un espoir à court terme pour sa constellation, et il s’appelle Ariane 6",
+     "link": "https://www.numerama.com/tech/2379573-deux-fusees-americaines-clouees-au-sol-40-satellites-perdus-amazon-na-quun-espoir-a-court-terme-pour-sa-constellation-et-il-sappelle-ariane-6.html",
+     "source": "Numerama",
+     "resume": "L'échec de Vulcan Centaur en novembre, après l'immobilisation de New Glenn, prive Amazon de ses principaux lanceurs américains pour sa constellation Leo. Avec seulement 396 satellites lancés sur 3 232, Ariane 6 reste son unique option programmée en 2026.",
+     "full": true
+    },
+    {
+     "title": "Ce que la future « Baseline protection » de Windows 11 signifie pour les applications",
+     "titre": "Ce que la future « Baseline protection » de Windows 11 signifie pour les applications",
+     "link": "https://next.ink/268739/ce-que-la-future-baseline-protection-de-windows-11-signifie-pour-les-applications/",
+     "source": "Next",
+     "resume": "Microsoft a présenté « Windows baseline protection », une fonction regroupant huit critères de sécurité existants en un indicateur booléen unique. Les applications tierces pourront interroger cet état et refuser de s'exécuter si l'appareil n'est pas conforme.",
+     "full": true
+    },
+    {
+     "title": "Un gang cybercriminel revendique le vol de données chez Visa, Mastercard et JPMorgan",
+     "titre": "Un gang cybercriminel revendique le vol de données chez Visa, Mastercard et JPMorgan",
+     "link": "https://www.numerama.com/cyberguerre/2379511-un-gang-cybercriminel-revendique-le-vol-de-donnees-chez-visa-mastercard-et-jpmorgan.html",
+     "source": "Numerama",
+     "resume": "Le groupe d'extorsion n0n menace de publier des données dérobées à Visa, Mastercard et JPMorgan Chase sous 48 heures. Les trois institutions financières confirment des incidents limités à des sous-traitants, assurant qu'aucun numéro de carte ni système interne n'a été compromis.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "bref": "Au-delà de la Bourse, le secteur est secoué par le départ du patron de Nvidia sur fond de soupçons d'espionnage chinois et par des fuites entre comptes dans l'agent Muse de Meta. Parallèlement, l'Europe affirme sa puissance en plaçant quatre supercalculateurs dans le top 10 mondial.",
+   "items": [
+    {
+     "title": "Anthropic starts trading on Wall Street",
+     "titre": "Anthropic fait son entrée à Wall Street",
+     "link": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+     "source": "The Verge AI",
+     "resume": "Anthropic a débuté sur le Nasdaq à 111,50 dollars, au-dessus des 83 dollars initiaux qui la valorisaient 1 500 milliards. Son PDG Dario Amodei promet de prioriser la sûreté malgré des pertes de 80,7 milliards et des incidents d'agents autonomes.",
+     "full": true
+    },
+    {
+     "title": "The unfolding Jensen Huang scandal: a timeline",
+     "titre": "Le scandale Jensen Huang en cours : chronologie",
+     "link": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+     "source": "TechCrunch AI",
+     "resume": "Le cofondateur de Nvidia Jensen Huang a quitté la direction après des révélations de liaisons, dont une avec une cadre de Megaspeed soupçonnée d'espionnage chinois. Malgré ce départ et l'arrêt des ventes de puces H200 en Chine, Nvidia annonce 115,8 milliards de revenus trimestriels.",
+     "full": true
+    },
+    {
+     "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+     "titre": "L'agent IA Muse de Meta mélangerait des conversations et pourrait exposer des données privées, selon un rapport",
+     "link": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+     "source": "TechCrunch AI",
+     "resume": "Des employés de Meta rapportent que l'agent Muse mélange les discussions entre comptes, exposant soldes bancaires ou messages Signal privés. Meta explique que les employés testent des versions internes différentes de l'application grand public.",
+     "full": true
+    },
+    {
+     "title": "L'Europe place quatre supercalculateurs dans le top 10 mondial",
+     "titre": "L'Europe place quatre supercalculateurs dans le top 10 mondial",
+     "link": "https://www.actuia.com/actualite/leurope-place-quatre-supercalculateurs-dans-le-top-10-mondial/",
+     "source": "ActuIA",
+     "resume": "Quatre machines européennes figurent dans le top 10 du TOP500, menées par JUPITER à 1 exaflop, tandis que le toulousain KAIROS domine le Green500. Avec 29 % de la puissance mondiale contre 38 % aux États-Unis, l'Europe prépare le futur supercalculateur français Alice Recoque.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "bref": "Les serveurs d'entreprise subissent une vague de failles critiques dans VMware vCenter, déjà exploitée par l'espionnage chinois, ainsi que dans NGINX et PHP-FPM. Parallèlement, la Commission européenne confirme une intrusion menée grâce à l'outil d'IA open source ARTEX, illustrant l'automatisation croissante des cyberattaques.",
+   "items": [
+    {
+     "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+     "titre": "Des pirates liés à la Chine exploitent une faille zero-day critique dans VMware vCenter pour obtenir un accès administrateur et voler des données",
+     "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+     "source": "The Hacker News",
+     "resume": "Le groupe chinois Armory Castle a exploité la faille zero-day CVE-2026-123890 dans VMware vCenter dès septembre, corrigée le 19 novembre. Avec l'utilitaire BONESAW, les pirates ont contourné l'authentification pour créer des comptes administrateurs et voler des données ESXi.",
+     "full": true
+    },
+    {
+     "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+     "titre": "Des failles critiques NGINX « NGINX2Root » permettent à des attaquants de détourner des serveurs",
+     "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+     "source": "BleepingComputer",
+     "resume": "Deux failles HTTP/2 critiques dans NGINX, baptisées « nginx2root », permettent une exécution de code à distance et une élévation root via Linux. F5 a corrigé ces vulnérabilités touchant jusqu'à 8,8 millions de services selon Censys.",
+     "full": true
+    },
+    {
+     "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+     "titre": "Des mises à jour de sécurité PHP corrigent 18 failles, dont des bugs RCE critiques",
+     "link": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+     "source": "BleepingComputer",
+     "resume": "L'équipe PHP a corrigé 18 vulnérabilités sur ses branches supportées, dont une faille critique dans PHP-FPM notée 9,2 sur l'échelle CVSS. Des mainteneurs tiers proposent aussi des correctifs rétroportés pour les versions obsolètes dès PHP 5.6.",
+     "full": true
+    },
+    {
+     "title": "European Commission confirms cyberattack, says hackers used AI tool",
+     "titre": "La Commission européenne confirme une cyberattaque et affirme que les pirates ont utilisé un outil d'IA",
+     "link": "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+     "source": "The Record",
+     "resume": "La Commission européenne confirme une cyberattaque détectée le 22 octobre ayant perturbé ses systèmes RH plus de dix jours. Selon Politico, les pirates ont utilisé le cadre open source d'IA ARTEX pour automatiser l'exploitation de failles.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "bref": "Sur les marchés, la corrélation entre pétrole et taux obligataires se rompt face aux craintes inflationnistes, tandis que la flambée du kérosène pousse Lufthansa à supprimer 1 000 postes. À contre-courant, le divertissement bat des records avec les 2,36 milliards de dollars générés dès son lancement par GTA 6.",
+   "items": [
+    {
+     "title": "Tech stocks fall as Anthropic IPO fails to reignite AI trade",
+     "titre": "Les valeurs technologiques chutent alors que l'introduction en Bourse d'Anthropic ne parvient pas à relancer le secteur de l'IA",
+     "link": "https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Les marchés boursiers en Europe et en Asie reculent dans le sillage de Wall Street malgré l'entrée en Bourse record du créateur de Claude. Cette opération majeure n'a pas suffi à raviver l'engouement boursier pour les valeurs technologiques liées à l'IA.",
+     "full": false
+    },
+    {
+     "title": "Oil loses grip on bond markets as inflation ‘virus’ spreads",
+     "titre": "Le pétrole perd son emprise sur les marchés obligataires alors que le « virus » de l'inflation se propage",
+     "link": "https://www.ft.com/content/562e278e-1e12-49d2-b7f7-91a289ffd660?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "L'étroite corrélation qui liait jusqu'ici les cours du pétrole brut aux coûts d'emprunt sur les marchés obligataires s'est rompue. Cette dissociation intervient alors que les craintes liées à la propagation de l'inflation s'intensifient.",
+     "full": false
+    },
+    {
+     "title": "GTA 6 breaks records as estimated sales top $2.3bn",
+     "titre": "GTA 6 bat des records avec des ventes estimées à plus de 2,3 milliards de dollars",
+     "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "resume": "GTA 6 a réalisé le plus gros lancement du divertissement avec 24,5 millions d'unités et 2,36 milliards de dollars estimés le premier jour. Ce titre à plus d'un milliard de budget pourrait dépasser 3 milliards cette année avant ses versions PC et multijoueur.",
+     "full": true
+    },
+    {
+     "title": "\"Les mesures initiales ne suffisent plus à assurer notre avenir\": Lufthansa va supprimer 1.000 postes au sein de sa principale compagnie aérienne",
+     "titre": "\"Les mesures initiales ne suffisent plus à assurer notre avenir\": Lufthansa va supprimer 1.000 postes au sein de sa principale compagnie aérienne",
+     "link": "https://www.bfmtv.com/economie/entreprises/aeronautique/les-mesures-initiales-ne-suffisent-plus-a-assurer-notre-avenir-lufthansa-va-supprimer-1-000-postes-au-sein-de-sa-principale-compagnie-aerienne_AD-202611200460.html",
+     "source": "BFM Business",
+     "resume": "Confrontée à 180 millions d'euros de pertes opérationnelles sur neuf mois et à l'envolée du kérosène, Lufthansa va supprimer 1 000 postes à Francfort et Munich. La compagnie prévoit aussi de réduire sa flotte moyen-courrier d'Airbus A320 et d'équiper ses appareils avec Starlink.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "bref": "En marge des grands sommets, la justice internationale marque un tournant avec la condamnation de la Birmanie par la CIJ pour génocide contre les Rohingya. Parallèlement, la Californie enquête sur Nvidia pour d'éventuelles exportations illégales de puces vers la Chine et une possible tromperie des investisseurs.",
+   "items": [
+    {
+     "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
+     "titre": "La Chine, la Russie et les États-Unis s'accordent sur une déclaration de paix sans mentionner les guerres en Ukraine et en Iran",
+     "link": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
+     "source": "The Guardian World",
+     "resume": "Lors du sommet de l'Apec, Xi Jinping, Vladimir Poutine et Donald Trump ont signé une déclaration prônant la réforme de l'ONU, l'offre pétrolière et la retenue de la CPI. Le texte omet l'Ukraine et l'Iran, privilégiant la portée symbolique.",
+     "full": true
+    },
+    {
+     "title": "Three Kyiv bridges hit during major Russian missile attack",
+     "titre": "Trois ponts de Kiev touchés lors d'une importante attaque de missiles russe",
+     "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "resume": "La Russie a lancé près de 100 missiles et 400 drones sur l'Ukraine, tuant huit personnes et fermant trois ponts à Kiev après l'attaque du pont de Crimée. Un projectile a atteint la Pologne alors que Moscou rejette toute quasi-adhésion ukrainienne à l'OTAN.",
+     "full": true
+    },
+    {
+     "title": "Rohingya : le courage de la Cour internationale de justice",
+     "titre": "Rohingya : le courage de la Cour internationale de justice",
+     "link": "https://www.lemonde.fr/idees/article/2026/11/20/rohingya-le-courage-de-la-cour-internationale-de-justice_6813621_3232.html",
+     "source": "Le Monde International",
+     "resume": "La Cour internationale de justice a jugé le 19 novembre la Birmanie coupable de génocide contre la minorité rohingya pour les atrocités de 2017. Cette décision historique, rendue malgré des pressions américaines, affirme la portée du droit international face à l'impunité des États.",
+     "full": true
+    },
+    {
+     "title": "California investigates Nvidia over whether chip exports ended up in China",
+     "titre": "La Californie enquête sur Nvidia pour savoir si des exportations de puces ont fini en Chine",
+     "link": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+     "source": "The Guardian World",
+     "resume": "La Californie a assigné Nvidia pour vérifier si des puces restreintes ou des secrets ont gagné la Chine et si les investisseurs ont été trompés. L'enquête suit le départ de Jensen Huang et fragilise le titre d'AMD.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "bref": "En France, Dominique de Villepin se lance pour 2027 alors que l'exécutif cherche six milliards d'économies au Sénat et enquête sur des fuites du ministère de l'Intérieur vers le RN. À l'échelle européenne, Berlin et Vienne veulent réunir 25 milliards d'euros pour racheter TikTok Europe.",
+   "items": [
+    {
+     "title": "Dominique de Villepin annonce sa candidature à l’élection présidentielle de 2027",
+     "titre": "Dominique de Villepin annonce sa candidature à l’élection présidentielle de 2027",
+     "link": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/11/20/dominique-de-villepin-annonce-sa-candidature-a-l-election-presidentielle-de-2027_6813622_6205049.html",
+     "source": "Le Monde Politique",
+     "resume": "L'ancien premier ministre Dominique de Villepin a officialisé sa candidature à la présidentielle de 2027 avec son mouvement La France humaniste. Dénonçant un « pourrissement » social et financier, il revendique 300 promesses sur les 500 parrainages requis et met en avant sa stature internationale.",
+     "full": true
+    },
+    {
+     "title": "Fuites en provenance du ministère de l’intérieur vers le RN : des faits « extrêmement graves » s’ils sont avérés, juge Laurent Nuñez",
+     "titre": "Fuites en provenance du ministère de l’intérieur vers le RN : des faits « extrêmement graves » s’ils sont avérés, juge Laurent Nuñez",
+     "link": "https://www.lemonde.fr/societe/article/2026/11/20/fuites-en-provenance-du-ministere-de-l-interieur-vers-le-rn-des-faits-extremement-graves-s-ils-sont-averes-juge-laurent-nunez_6813604_3224.html",
+     "source": "Le Monde Politique",
+     "resume": "Le ministre de l'intérieur Laurent Nuñez a convoqué le préfet Hugues Moutouh, soupçonné d'avoir transmis des informations confidentielles sur des enquêtes visant le Rassemblement national. Des perquisitions ont déjà eu lieu au ministère et au siège du RN dans le cadre d'une information judiciaire.",
+     "full": true
+    },
+    {
+     "title": "Germany says investors ready to spend €25B to buy TikTok Europe",
+     "titre": "L'Allemagne affirme que des investisseurs sont prêts à dépenser 25 milliards d'euros pour racheter TikTok Europe",
+     "link": "https://www.politico.eu/article/germany-says-investors-ready-to-spend-e25b-to-buy-tiktok-europe/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "source": "Politico Europe",
+     "resume": "Berlin affirme disposer d'investisseurs de cinq pays prêts à mobiliser 25 milliards d'euros pour racheter jusqu'à 80 % de TikTok Europe. Inspirée du modèle américain contre l'influence chinoise, cette initiative austro-allemande est rejetée par TikTok.",
+     "full": true
+    },
+    {
+     "title": "Au moins 6 milliards d'euros d'économies supplémentaires sont nécessaires pour boucler le budget 2027, affirme le ministre des Comptes publics",
+     "titre": "Au moins 6 milliards d'euros d'économies supplémentaires sont nécessaires pour boucler le budget 2027, affirme le ministre des Comptes publics",
+     "link": "https://www.franceinfo.fr/economie/budget/au-moins-6-milliards-d-euros-d-economies-supplementaires-sont-necessaires-pour-boucler-le-budget-2027-reconnait-le-ministre-des-comptes-publics_8291879.html#xtor=RSS-3-%5Bpolitique%5D",
+     "source": "Franceinfo Politique",
+     "resume": "Alors que le Sénat entame l'examen du budget 2027 après son rejet à l'Assemblée, le ministre David Amiel juge nécessaires au moins six milliards d'euros d'économies supplémentaires. Ces coupes doivent compenser les risques pesant sur la croissance et financer les urgences sociales apparues depuis septembre.",
+     "full": true
+    }
+   ]
+  }
+ ]
+}
