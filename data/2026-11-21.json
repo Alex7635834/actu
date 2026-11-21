@@ -1,0 +1,346 @@
+{
+ "date": "2026-11-21",
+ "generated_at": "05:50",
+ "ai": true,
+ "une": [
+  {
+   "titre": "Le secteur technologique plie sous une vague de ventes massives",
+   "resume": "Les marchés nord-américains et européens ont connu une forte correction, le Nasdaq effaçant l'intégralité de ses gains pour l'année 2026. Cette chute est alimentée par des inquiétudes persistantes sur la rentabilité des investissements colossaux dans l'intelligence artificielle et par la volatilité post-introduction en bourse d'Anthropic. Les investisseurs s'interrogent également sur les répercussions des enquêtes réglementaires visant Nvidia et sur le durcissement du contrôle des exportations de puces vers la Chine.",
+   "sources": [
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/9f3c6ed6-c08f-4710-9683-ee2f5eb25841?syn-25a6b1a6=1"
+    },
+    {
+     "source": "BBC Business",
+     "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "CBC Business",
+     "link": "https://www.cbc.ca/news/business/anthropic-ipo-markets-today-9.7429534?cmp=rss"
+    },
+    {
+     "source": "The Guardian World",
+     "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+    }
+   ]
+  },
+  {
+   "titre": "L'intelligence artificielle bouscule les mathématiques fondamentales",
+   "resume": "L'utilisation de grands modèles d'intelligence artificielle pour résoudre des problèmes mathématiques historiques s'accélère, suscitant à la fois fascination et scepticisme académique. Après les avancées annoncées par OpenAI sur les équations de Navier-Stokes, un mathématicien d'Anthropic affirme avoir prouvé l'hypothèse de Riemann à l'aide de l'assistant Claude. Cependant, la nécessité de valider rigoureusement ces démonstrations formelles, souvent longues et complexes, demeure un défi majeur pour la communauté scientifique.",
+   "sources": [
+    {
+     "source": "Le Monde Pixels",
+     "link": "https://www.lemonde.fr/sciences/article/2026/11/21/la-probable-resolution-de-l-hypothese-de-riemann-par-une-intelligence-artificielle-marque-une-bascule-pour-les-mathematiques_6813962_1650684.html"
+    },
+    {
+     "source": "TechCrunch",
+     "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+    },
+    {
+     "source": "The Verge AI",
+     "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
+    },
+    {
+     "source": "BBC World",
+     "link": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss"
+    }
+   ]
+  },
+  {
+   "titre": "Sommet trilatéral en Chine et perspectives géopolitiques incertaines",
+   "resume": "Le président américain Donald Trump a rencontré en Chine Vladimir Putin et Xi Jinping lors d'un sommet trilatéral inédit axé sur la réduction des risques nucléaires et la production pétrolière, bien que les résultats tangibles restent limités. De retour à Washington, Trump a défendu ses relations diplomatiques tout en annonçant de futures régulations sur l'intelligence artificielle avec Pékin. Parallèlement, l'administration américaine fait face à l'opposition de la future majorité démocrate au Congrès et aux tensions persistantes au sujet des centres de données.",
+   "sources": [
+    {
+     "source": "CNBC Finance",
+     "link": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html"
+    },
+    {
+     "source": "Radio-Canada",
+     "link": "https://ici.radio-canada.ca/article/info/2302251/trump-fantastiques-relations-poutine-xi"
+    },
+    {
+     "source": "The Globe and Mail",
+     "link": "https://www.theglobeandmail.com/politics/article-politics-insider-nuclear-powers-gather-around-the-table-in-china/"
+    },
+    {
+     "source": "NPR Politics",
+     "link": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference"
+    }
+   ]
+  }
+ ],
+ "concept": {
+  "terme": "Zéro-day (Zero-day)",
+  "explication": "Une vulnérabilité zéro-day désigne une faille de sécurité logicielle inconnue des développeurs et pour laquelle aucun correctif n'existe. Les attaquants l'exploitent avant qu'elle ne soit découverte ou publiquement divulguée. Son nom vient du fait que les créateurs du logiciel ont zéro jour pour corriger le problème. On en parle aujourd'hui car des outils d'IA autonomes sont désormais utilisés pour automatiser la découverte de telles failles.",
+  "link": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+  "source": "The Record"
+ },
+ "art": {
+  "rubrique": "Cinéma",
+  "titre": "Le biopic 'Michael' évite les Bafta",
+  "texte": "Le film biographique à succès sur Michael Jackson ne sera pas soumis aux prix Bafta par ses producteurs. Cette décision intervient après des tensions culturelles et des controverses passées impliquant l'institution britannique et la BBC.",
+  "link": "https://deadline.com/2026/11/michael-jackson-biopic-michael-skipping-baftas-1237230863/",
+  "source": "Deadline"
+ },
+ "histoire": {
+  "annee": 1806,
+  "titre": "Le décret de Berlin et le blocus continental",
+  "texte": "En 1806, Napoléon Ier promulgue le décret de Berlin instaurant le blocus continental contre le Royaume-Uni. Cette mesure économique visait à asphyxier l'économie britannique en interdisant tout commerce avec le continent européen. Elle constitua un tournant majeur dans les guerres napoléoniennes et la politique étrangère de l'Empire.",
+  "link": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier",
+  "source": "Wikipédia"
+ },
+ "pays": {
+  "nom": "Royaume-Uni",
+  "capitale": "Londres",
+  "texte": "Le Royaume-Uni est un État insulaire d'Europe du Nord-Ouest composé de l'Angleterre, de l'Écosse, du pays de Galles et de l'Irlande du Nord. Il s'agit d'une puissance économique majeure dotée d'une monarchie constitutionnelle et d'un régime parlementaire. Le pays fait actuellement l'actualité en raison de discussions avancées avec l'Union européenne pour resserrer ses liens post-Brexit à travers de nouveaux accords sectoriels.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Europe-UK.svg/langfr-330px-Europe-UK.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wiki": "https://fr.wikipedia.org/wiki/Royaume-Uni",
+  "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+  "source": "BBC Business"
+ },
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "bref": "YouTube s'oriente vers un accord de trois milliards de dollars pour régler des plaintes liées à l'addiction des mineurs. Parallèlement, Windows 11 est touché par une faille critique permettant de contourner l'écran de verrouillage via le Narrateur.",
+   "items": [
+    {
+     "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
+     "titre": "YouTube s'apprête à régler des poursuites pour addiction aux réseaux sociaux pour 3 milliards de dollars",
+     "link": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+     "source": "The Verge",
+     "resume": "YouTube versera 3 milliards de dollars à des districts scolaires américains pour clore des plaintes concernant sa conception addictive nuisant aux mineurs. Cet accord inclura de nouvelles garanties pour les adolescents.",
+     "full": true
+    },
+    {
+     "title": "Rockstar says GTA VI made $3.79 billion in its first day",
+     "titre": "Rockstar annonce que GTA VI a généré 3,79 milliards de dollars dès son premier jour",
+     "link": "https://www.theverge.com/games/1036279/gta-vi-sales",
+     "source": "The Verge",
+     "resume": "GTA VI a rapporté 3,79 milliards de dollars lors de son premier jour de commercialisation, établissant un record pour le divertissement. Le titre s'est également vendu à 32,5 millions d'exemplaires en précommande.",
+     "full": true
+    },
+    {
+     "title": "Windows 11 : une faille permet de contourner l’écran de connexion grâce au Narrateur",
+     "titre": "Windows 11 : une faille permet de contourner l'écran de connexion grâce au Narrateur",
+     "link": "https://next.ink/268851/windows-11-une-faille-permet-de-contourner-lecran-de-connexion-grace-au-narrateur/",
+     "source": "Next",
+     "resume": "Une faille non corrigée nommée FastUnlock permet d'exécuter du code depuis l'écran de verrouillage de Windows 11 en exploitant le Narrateur. Cette vulnérabilité nécessite d'avoir la machine en main et qu'un compte Microsoft soit associé.",
+     "full": true
+    },
+    {
+     "title": "SpaceX's Starshield troubles in Ukraine could threaten its broader military business",
+     "titre": "Les déboires de Starshield en Ukraine menacent les contrats militaires de SpaceX",
+     "link": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
+     "source": "Ars Technica",
+     "resume": "Des interruptions du service Starshield en Ukraine ont entraîné des menaces du Congrès américain de bloquer le financement des systèmes spatiaux de SpaceX. Un élu clé exige des explications sur ces modifications contractuelles unilatérales.",
+     "full": true
+    },
+    {
+     "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+     "titre": "Meta réexamine son objectif de neutralité carbone pour 2030 face aux émissions records de ses centres de données",
+     "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+     "source": "Ars Technica",
+     "resume": "Meta réévalue ses objectifs climatiques pour 2030 après une hausse fulgurante de ses émissions de gaz à effet de serre liée aux infrastructures d'IA. Ses émissions totales ont atteint 21,7 millions de tonnes de dioxyde de carbone équivalent.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "bref": "Meta réévalue ses objectifs de neutralité carbone pour 2030 face à l'explosion de ses émissions de GES. En outre, de nouveaux rapports soulignent les limites des modèles d'IA dans les tâches de jugement et les risques liés à la contrôlabilité du raisonnement.",
+   "items": [
+    {
+     "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+     "titre": "Un mathématicien d'Anthropic affirme avoir résolu un prestigieux problème du prix du millénaire avec Claude",
+     "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+     "source": "The Verge AI",
+     "resume": "Le mathématicien Levent Alpöge affirme avoir prouvé l'hypothèse de Riemann avec l'aide de l'intelligence artificielle Claude. Cette solution formelle en langage Lean doit désormais être vérifiée par la communauté scientifique internationale.",
+     "full": true
+    },
+    {
+     "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+     "titre": "Les retombées du scandale de Jensen Huang chez Nvidia se poursuivent",
+     "link": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+     "source": "TechCrunch AI",
+     "resume": "Nvidia a publié de bons résultats financiers tout en annonçant l'arrêt de la vente de ses puces H200 en Chine et le rejet des appels à réitérer Jensen Huang. L'entreprise fait face aux conséquences de l'éviction de son ancien PDG.",
+     "full": true
+    },
+    {
+     "title": "The most misunderstood graph in AI just got a major update",
+     "titre": "Le graphique le plus mal compris de l'IA vient de recevoir une mise à jour majeure",
+     "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+     "source": "MIT Technology Review",
+     "resume": "Un rapport de METR montre que les modèles d'IA progressent rapidement en codage mais montrent des faiblesses dans les tâches nécessitant du jugement. Les nouveaux tests incluent des situations plus complexes pour évaluer l'automatisation de la R&D.",
+     "full": true
+    },
+    {
+     "title": "Styliser son raisonnement rend un modèle d'IA moins surveillable",
+     "titre": "Styliser son raisonnement rend un modèle d'IA moins surveillable",
+     "link": "https://www.actuia.com/actualite/styliser-son-raisonnement-rend-un-modele-dia-moins-surveillable/",
+     "source": "ActuIA",
+     "resume": "Des chercheurs ont montré que faire réécrire ses raisonnements mathématiques à un modèle d'IA avec la voix de personnages réduit la capacité des moniteurs à détecter un objectif caché. L'indicateur de surveillance est passé de 0,94 à 0,68 après cet affinage.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "bref": "Une faille critique dans Linux KVM permet à des machines virtuelles d'accéder à la mémoire de l'hôte sur les processeurs AMD. Par ailleurs, des acteurs malveillants exploitent des frameworks d'IA autonomes pour automatiser des cyberattaques à grande vitesse.",
+   "items": [
+    {
+     "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+     "titre": "Une faille de Linux KVM CVE-2026-99312 permet aux machines virtuelles invitées d'accéder à la mémoire de l'hôte sur les processeurs AMD",
+     "link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+     "source": "The Hacker News",
+     "resume": "Une vulnérabilité dans KVM affecte les hôtes AMD avec virtualisation nichée activée, permettant à des machines virtuelles d'accéder à la mémoire physique. Les correctifs du noyau Linux ont été publiés pour contrer ce problème de fuite de mémoire.",
+     "full": true
+    },
+    {
+     "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+     "titre": "Bell Canada déclare qu'un pirate informatique « agentique » a volé des données de clients professionnels",
+     "link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+     "source": "BleepingComputer",
+     "resume": "Un pirate informatique utilisant des outils d'IA a pénétré dans un environnement de test de Bell Canada pour voler des données de clients professionnels. L'entreprise indique qu'aucun service client n'a été perturbé et partage des indicateurs de compromis.",
+     "full": true
+    },
+    {
+     "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+     "titre": "Amazon indique que des pirates chinois ont utilisé l'outil Cairn pour découvrir un zero-day lors d'une attaque contre une université",
+     "link": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+     "source": "The Record",
+     "resume": "Des hackers chinois ont exploité le cadre de test d'intrusion open source Cairn pour découvrir une vulnérabilité zero-day dans une application médicale. L'attaque automatisée a mené à des brèches dans des universités d'Asie de l'Est à vitesse machine.",
+     "full": true
+    },
+    {
+     "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+     "titre": "Signal bloque la lecture des chats privés par les agents IA via des captures d'écran sur Android et iOS",
+     "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+     "source": "The Hacker News",
+     "resume": "Signal restreint par défaut les captures d'écran pour empêcher les agents d'IA intégrés aux systèmes mobiles de lire les discussions privées. La plateforme concède toutefois que cette protection reste incomplète.",
+     "full": false
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "bref": "Les marchés boursiers mondiaux subissent un net recul dans le sillage de la tech. En Europe, un accord a été conclu pour resserrer les liens avec le Royaume-Uni sur fond de projets budgétaires communautaires révisés.",
+   "items": [
+    {
+     "title": "US tech stocks plunge into bear market in worst week since Covid-19 crisis",
+     "titre": "Les actions technologiques américaines plongent dans un marché baissier lors de la pire semaine depuis la crise du Covid-19",
+     "link": "https://www.ft.com/content/9f3c6ed6-c08f-4710-9683-ee2f5eb25841?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Les actions d'Anthropic et de Nvidia ont chuté alors que les craintes liées à la frénésie de dépenses dans l'intelligence artificielle s'emparent de Wall Street.",
+     "full": false
+    },
+    {
+     "title": "Nvidia faces US regulator’s probe into its accounting",
+     "titre": "Nvidia fait face à une enquête du régulateur américain sur sa comptabilité",
+     "link": "https://www.ft.com/content/9b28ed72-aac4-4291-9734-bf60b66645ab?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "L'enquête de la Securities and Exchange Commission s'ajoute aux difficultés du fabricant de puces après la démission de Jensen Huang.",
+     "full": false
+    },
+    {
+     "title": "Trump threatens ban on US firms building AI data centres overseas",
+     "titre": "Trump menace d'interdire aux entreprises américaines de construire des centres de données d'IA à l'étranger",
+     "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "resume": "Donald Trump a annoncé son intention d'interdire la construction de centres de données par des entreprises américaines hors des frontières nationales. Cette mesure vise à contrer l'influence de la Chine dans le domaine de l'intelligence artificielle.",
+     "full": true
+    },
+    {
+     "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+     "titre": "Le Royaume-Uni explorera des liens encore plus étroits avec l'UE après avoir conclu un accord, déclare Burnham",
+     "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "resume": "Le Royaume-Uni et l'Union européenne ont conclu un accord portant sur les exportations alimentaires, le système d'échange de quotas d'émission et la mobilité des jeunes. Ce pacte pourrait stimuler l'économie britannique selon le Trésor, bien qu'il suscite de vives critiques politiques.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "bref": "Les négociations de la COP31 piétinent en raison de désaccords sur les énergies fossiles. En parallèle, les tensions persistent autour du détroit d'Hormuz après l'interception d'un drone américain par l'Iran.",
+   "items": [
+    {
+     "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+     "titre": "La lutte autour des énergies fossiles laisse les négociations climatiques de la COP31 dans une impasse",
+     "link": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "resume": "Les négociations de la COP31 en Turquie sont bloquées en raison de désaccords sur l'inclusion de mesures visant à réduire la demande mondiale de combustibles fossiles. Un groupe de pays mené par la France s'oppose à un projet d'accord évitant de mentionner le pétrole et le charbon.",
+     "full": true
+    },
+    {
+     "title": "Iran’s IRGC downs US drone over Hormuz as efforts to end war remain stalled",
+     "titre": "L'Iran abat un drone américain au-dessus d'Hormuz alors que les efforts pour mettre fin à la guerre restent au point mort",
+     "link": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss",
+     "source": "Al Jazeera",
+     "resume": "Les forces iraniennes ont abattu un drone de reconnaissance américain au-dessus du détroit d'Hormuz, tandis que Washington a imposé de nouvelles sanctions financières. Les conditions pour rouvrir la voie maritime restent au centre d'un conflit enlisé.",
+     "full": true
+    },
+    {
+     "title": "En Pologne, la coalition pour l'Ukraine s'exerce à l'ombre de la guerre",
+     "titre": "En Pologne, la coalition pour l'Ukraine s'exerce à l'ombre de la guerre",
+     "link": "https://www.france24.com/fr/vid%C3%A9o/20261121-en-pologne-la-coalition-pour-l-ukraine-s-exerce-%C3%A0-l-ombre-de-la-guerre",
+     "source": "France 24",
+     "resume": "Une coalition militaire pilotée par Paris et Londres mène des exercices en Pologne afin de pouvoir se déployer rapidement après un éventuel cessez-le-feu en Ukraine.",
+     "full": false
+    },
+    {
+     "title": "Race to be next UN secretary general exposes divisions among world powers",
+     "titre": "La course pour le prochain secrétaire général de l'ONU expose les divisions entre les grandes puissances",
+     "link": "https://www.theguardian.com/world/2026/nov/20/race-to-be-next-un-secretary-general-exposes-divisions-among-world-powers",
+     "source": "The Guardian World",
+     "resume": "Un vote crucial au Conseil de sécurité de l'ONU pourrait déterminer si la candidate costaricienne Rebeca Grynspan est bloquée par les membres permanents. Cette élection ravive les débats sur la domination des grandes puissances et l'implication diplomatique des Émirats arabes unis.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "bref": "Le Parlement français a définitivement adopté la loi sur la présomption d'usage légal des armes par les forces de l'ordre. Sur la scène européenne, les discussions s'intensifient autour du prochain cadre budgétaire pluriannuel.",
+   "items": [
+    {
+     "title": "Costa cuts proposed EU budget by €44B",
+     "titre": "Costa réduit le budget proposé de l'UE de 44 milliards d'euros",
+     "link": "https://www.politico.eu/article/costa-cuts-proposed-eu-budget-by-44billion-euros/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "source": "Politico Europe",
+     "resume": "António Costa a présenté un nouveau projet de budget européen de sept ans réduisant les dépenses de cohésion et l'aide extérieure tout en instaurant une taxe sur les géants du tech. Ces propositions visent à dégager des consensus avant le sommet de décembre.",
+     "full": true
+    },
+    {
+     "title": "France and Germany complete political deal for ECB leadership",
+     "titre": "La France et l'Allemagne concluent un accord politique pour la direction de la BCE",
+     "link": "https://www.politico.eu/article/france-germany-complete-political-deal-for-ecb-leadership/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "source": "Politico Europe",
+     "resume": "Paris et Berlin ont proposé leurs candidats pour le directoire de la Banque centrale européenne, plaçant Laurence Boone aux opérations de marché et Markus Brunnermeier comme chef économiste. Ce compromis prépare la succession de Christine Lagarde.",
+     "full": true
+    },
+    {
+     "title": "Présomption d'usage légal des armes par les forces de l'ordre : la loi définitivement adoptée",
+     "titre": "Présomption d'usage légal des armes par les forces de l'ordre : la loi définitivement adoptée",
+     "link": "https://www.franceinfo.fr/faits-divers/police/violences-policieres/presomption-d-usage-legal-des-armes-par-les-forces-de-l-ordre-la-loi-definitivement-adoptee_8293631.html#xtor=RSS-3-%5Bpolitique%5D",
+     "source": "Franceinfo Politique",
+     "resume": "Le Parlement a définitivement adopté la loi instaurant une présomption d'usage légal des armes pour les forces de l'ordre après un vote du Sénat. La gauche sénatoriale a d'ores et déjà annoncé qu'elle saisirait le Conseil constitutionnel.",
+     "full": true
+    },
+    {
+     "title": "Une pluie de missiles et de drones russes s’abat sur l’Ukraine, au moins 11 morts",
+     "titre": "Une pluie de missiles et de drones russes s'abat sur l'Ukraine, au moins 11 morts",
+     "link": "https://ici.radio-canada.ca/article/info/2302019/missiles-drones-ukraine-russie-guerre",
+     "source": "Radio-Canada",
+     "resume": "La Russie a mené une attaque massive de plus de 110 missiles et 400 drones contre l'Ukraine, faisant au moins 11 morts et endommageant des infrastructures énergétiques. Trois projectiles sont également tombés en territoire polonais, qualifiés de provocation par Varsovie.",
+     "full": true
+    }
+   ]
+  }
+ ]
+}
