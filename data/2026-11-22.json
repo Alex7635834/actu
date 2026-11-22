@@ -1,0 +1,314 @@
+{
+ "date": "2026-11-22",
+ "generated_at": "05:50",
+ "ai": true,
+ "une": [
+  {
+   "titre": "Vague de cyberattaques contre les agences fédérales américaines",
+   "resume": "Le FBI et le département de l'Agriculture ont été la cible de cyberattaques récentes aux États-Unis, mettant en lumière la vulnérabilité de leurs bases de données, notamment le fichier national des criminels NCIC. Ces intrusions successives surviennent dans un climat de tensions institutionnelles et de départs au sein de la direction nationale de la cybersécurité. Tandis que l'administration réagit aux failles de sécurité, Donald Trump suggère que ces piratages pourraient révéler des informations inédites.",
+   "sources": [
+    {
+     "source": "BleepingComputer",
+     "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/"
+    },
+    {
+     "source": "The Verge",
+     "link": "https://www.theverge.com/tech/1039543/fbi-usda-hacked"
+    },
+    {
+     "source": "TechCrunch",
+     "link": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/"
+    },
+    {
+     "source": "BBC World",
+     "link": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss"
+    }
+   ]
+  },
+  {
+   "titre": "Échec des négociations internationales sur l'encadrement des armes autonomes",
+   "resume": "La conférence de l'ONU à Genève s'est achevée sans accord contraignant sur l'interdiction des robots tueurs et des systèmes d'armes autonomes létaux. L'opposition de la Russie et les réticences d'autres puissances comme les États-Unis ont bloqué l'adoption d'un traité international. Alors que les technologies progressent rapidement sur le terrain militaire en Ukraine, les ONG déplorent le manque d'actions urgentes pour protéger les civils.",
+   "sources": [
+    {
+     "source": "Le Monde Pixels",
+     "link": "https://www.lemonde.fr/international/article/2026/11/21/a-geneve-la-communaute-internationale-echoue-a-interdire-les-robots-tueurs_6814012_3210.html"
+    },
+    {
+     "source": "The Verge",
+     "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+    },
+    {
+     "source": "Numerama",
+     "link": "https://www.numerama.com/tech/2379739-robots-tueurs-autonomes-ou-en-sommes-nous-vraiment.html"
+    },
+    {
+     "source": "Politico Europe",
+     "link": "https://www.politico.eu/article/effort-regulate-killer-robots-delayed-until-2028-ai-un/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+    }
+   ]
+  },
+  {
+   "titre": "Tensions et compromis autour des objectifs climatiques lors de la COP31",
+   "resume": "La COP31 en Turquie aborde sa phase finale dans un climat d'incertitude quant à la signature d'un accord final. La France a dénoncé un texte de compromis jugé insuffisant en raison de l'absence de mention claire sur la sortie des énergies fossiles. En parallèle, la Chine a endossé des objectifs d'électrification bas carbone tout en soulignant la difficulté d'appliquer une trajectoire unique à tous les pays.",
+   "sources": [
+    {
+     "source": "France 24",
+     "link": "https://www.france24.com/fr/asie-pacifique/20261122-climat-accord-incertain-%C3%A0-la-cop31-des-pays-d%C3%A9noncent-l-absence-de-sortie-des-%C3%A9nergies-fossiles"
+    },
+    {
+     "source": "The Guardian World",
+     "link": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve"
+    }
+   ]
+  }
+ ],
+ "concept": {
+  "terme": "Canary token",
+  "explication": "Un canary token est un jeton ou un identifiant secret unique, comme une URL ou une clé API factice, disséminé dans des données pour détecter des accès non autorisés. Lorsqu'un attaquant consulte ou utilise ce jeton, une alerte est déclenchée en signalant l'activité suspecte. Cette technique permet de repérer des intrusions au cœur d'infrastructures tierces ou de systèmes de stockage.",
+  "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+  "source": "The Hacker News"
+ },
+ "art": {
+  "rubrique": "Cinéma",
+  "titre": "Jupiter, le thriller géopolitique d'Alexandre Smia",
+  "texte": "À 45 ans, le réalisateur français Alexandre Smia sort son premier long-métrage, Jupiter, après une sélection à la Mostra de Venise. Ce thriller diplomatique met en scène un président français confronté à une menace d'attaque nucléaire russe. Inspiré par le déclenchement du conflit en Ukraine, le film explore des enjeux géopolitiques de haute tension.",
+  "link": "https://www.lemonde.fr/culture/article/2026/11/21/alexandre-smia-realisateur-de-jupiter-specialiste-des-histoires-a-haute-tension_6814011_3246.html",
+  "source": "Le Monde Cinéma"
+ },
+ "histoire": {
+  "annee": 2005,
+  "titre": "Angela Merkel devient chancelière d'Allemagne",
+  "texte": "En novembre 2005, Angela Merkel accède au poste de chancelière fédérale d'Allemagne à la tête de la coalition de la CDU. Première femme à exercer cette fonction, elle dirige le pays jusqu'en décembre 2021. Son long magistère a profondément marqué la vie politique allemande et européenne.",
+  "link": "https://fr.wikipedia.org/wiki/Angela_Merkel",
+  "source": "Wikipédia"
+ },
+ "pays": {
+  "nom": "Corée du Sud",
+  "capitale": "Séoul",
+  "texte": "La Corée du Sud est un État d'Asie de l'Est occupant la moitié sud de la péninsule coréenne, bordé par la mer Jaune et la mer du Japon. Ce pays industrialisé et densément peuplé fait face à une actualité marquée par la démission de son ministre de l'Éducation à la suite d'un vaste scandale de tricherie aux examens universitaires nationaux.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Republic_of_Korea_%28orthographic_projection%29.svg/langfr-330px-Republic_of_Korea_%28orthographic_projection%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wiki": "https://fr.wikipedia.org/wiki/Cor%C3%A9e_du_Sud",
+  "link": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+  "source": "The Guardian World"
+ },
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "bref": "L'intelligence artificielle bouscule les mathématiques avec la résolution de l'hypothèse de Riemann, tandis qu'Anthropic fait son entrée historique en bourse et que GTA VI bat des records de vente.",
+   "items": [
+    {
+     "title": "La probable résolution de l’hypothèse de Riemann par une intelligence artificielle marque une bascule pour les mathématiques",
+     "titre": "La probable résolution de l’hypothèse de Riemann par une intelligence artificielle marque une bascule pour les mathématiques",
+     "link": "https://www.lemonde.fr/sciences/article/2026/11/21/la-probable-resolution-de-l-hypothese-de-riemann-par-une-intelligence-artificielle-marque-une-bascule-pour-les-mathematiques_6813962_1650684.html",
+     "source": "Le Monde Pixels",
+     "resume": "L'hypothèse de Riemann, un problème mathématique posé en 1859 et assorti d'un prix d'un million de dollars, a été résolue par une intelligence artificielle le 20 novembre. Cette avancée permet de mieux comprendre la densité des nombres premiers.",
+     "full": true
+    },
+    {
+     "title": "Can Anthropic afford to put safety first?",
+     "titre": "Can Anthropic afford to put safety first?",
+     "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+     "source": "The Verge",
+     "resume": "L'introduction en bourse d'Anthropic sur le Nasdaq soulève des questions sur la conciliation entre sécurité de l'IA et exigences capitalistes. L'entreprise doit faire face à des factures de calcul astronomiques tout en maintenant ses engagements éthiques.",
+     "full": true
+    },
+    {
+     "title": "« GTA VI » s’offre un lancement record avec 3,79 milliards de dollars de ventes dès le premier jour",
+     "titre": "« GTA VI » s’offre un lancement record avec 3,79 milliards de dollars de ventes dès le premier jour",
+     "link": "https://www.lemonde.fr/pixels/article/2026/11/21/gta-vi-s-offre-un-lancement-record-avec-3-79-milliards-de-dollars-de-ventes-des-le-premier-jour_6813745_4408996.html",
+     "source": "Le Monde Pixels",
+     "resume": "Le jeu vidéo Grand Theft Auto VI a généré 3,79 milliards de dollars de ventes dès son premier jour, pulvérisant les records précédents. Cette superproduction de Rockstar Games est disponible sur consoles et attendue sur PC.",
+     "full": true
+    },
+    {
+     "title": "The UN fails to agree on rules regulating ‘killer robots’",
+     "titre": "The UN fails to agree on rules regulating 'killer robots'",
+     "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+     "source": "The Verge",
+     "resume": "Réunis à Genève, les diplomates de l'ONU n'ont pas réussi à s'accorder sur des règles contraignantes pour encadrer les armes autonomes. Les discussions ont été reportées, malgré les pressions d'organisations humanitaires face aux ravages de ces technologies.",
+     "full": true
+    },
+    {
+     "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+     "titre": "Signal restricts mobile screenshots as it confronts 'existential threat' of AI surveillance",
+     "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+     "source": "TechCrunch",
+     "resume": "Signal restreint la capture d'écran sur mobiles pour contrer la menace des agents IA espionnant les interfaces. Cette mesure vise à protéger la vie privée des conversations face aux systèmes d'exploitation.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "bref": "",
+   "items": [
+    {
+     "title": "Muru",
+     "titre": "Muru",
+     "link": "https://simonwillison.net/2026/Nov/21/muru/",
+     "source": "Simon Willison",
+     "resume": "Graham Dumpleton lance Muru, un serveur Rust assisté par l'IA conçu pour exécuter des applications Python WSGI et ASGI. Ce projet s'accompagne d'un suivi détaillé du développement par son auteur.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "bref": "Les incidents de sécurité se multiplient avec des failles critiques exploitées sur de grands logiciels d'infrastructure et des vols de données chez des fournisseurs d'IA et de services cloud.",
+   "items": [
+    {
+     "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+     "titre": "FBI reportedly hacked again, this time targeting nationwide police database",
+     "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+     "source": "BleepingComputer",
+     "resume": "Le FBI a été victime d'une intrusion présumée visant son fichier national des centres d'information criminelle, le NCIC. Il s'agit de la seconde cyberattaque en deux mois contre l'agence fédérale.",
+     "full": true
+    },
+    {
+     "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+     "titre": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emers",
+     "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+     "source": "The Hacker News",
+     "resume": "La CISA a ajouté quatre vulnérabilités critiques touchant Apache, Cisco, SAP et VMware à son catalogue de failles exploitées. Ces failles sont utilisées dans des attaques de cyberespionnage pour infiltrer des réseaux.",
+     "full": true
+    },
+    {
+     "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+     "titre": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+     "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+     "source": "BleepingComputer",
+     "resume": "Des attaquants ont exploité une faille dans le service Microsoft Entra Connect Health pour accéder à des métadonnées de configuration et des courriels d'administrateurs. Microsoft a déployé un correctif et prévenu les clients touchés.",
+     "full": true
+    },
+    {
+     "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+     "titre": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+     "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+     "source": "The Hacker News",
+     "resume": "OpenRouter a exclu trois fournisseurs après la découverte de vols de requêtes et de prompts confidentiels pendant des mois. Les attaquants ont récupéré des clés AWS et exploité des failles de journalisation.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "bref": "Les prix des serveurs IA flambent pour les entreprises, l'Argentine fait face à des coûts d'emprunt en hausse et la France se mobilise contre la vie chère.",
+   "items": [
+    {
+     "title": "Tech suppliers raise AI server prices up to 45% months after deals are signed",
+     "titre": "Tech suppliers raise AI server prices up to 45% months after deals are signed",
+     "link": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Dell, HPE, Supermicro et Lenovo augmentent leurs prix pour les serveurs IA de plus de 45 %. Cette hausse du coût des équipements pèse directement sur les activités des entreprises de trading.",
+     "full": false
+    },
+    {
+     "title": "Argentina’s borrowing costs jump as Milei’s falling popularity rattles investors",
+     "titre": "Argentina's borrowing costs jump as Milei's falling popularity rattles investors",
+     "link": "https://www.ft.com/content/f3ecede4-74a3-431a-89c5-a06fcd30812a?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Les coûts d'emprunt de l'Argentine augmentent en raison de la baisse de popularité du président Javier Milei. Cette situation inquiète les investisseurs quant à l'avenir des plans financiers du gouvernement.",
+     "full": false
+    },
+    {
+     "title": "Manifestations du 21 novembre : entre 80 000 et 150 000 personnes se sont mobilisées en France",
+     "titre": "Manifestations du 21 novembre : entre 80 000 et 150 000 personnes se sont mobilisées en France",
+     "link": "https://www.lemonde.fr/societe/article/2026/11/21/manifestations-du-21-novembre-le-nombre-de-personnes-mobilisees-en-baisse-dans-l-apres-midi-le-cortege-parisien-est-arrive-place-de-la-nation_6813913_3225.html",
+     "source": "Le Monde Économie",
+     "resume": "Entre 82 500 et 150 000 personnes ont manifesté en France le 21 novembre pour protester contre la vie chère et défendre les services publics. La journée a été marquée par des tensions et des heurts dans plusieurs grandes villes.",
+     "full": true
+    },
+    {
+     "title": "Les offres d'emploi au Smic de plus en plus nombreuses",
+     "titre": "Les offres d'emploi au Smic de plus en plus nombreuses",
+     "link": "https://www.bfmtv.com/economie/video-les-offres-d-emploi-au-smic-de-plus-en-plus-nombreuses_VN-202611220116.html",
+     "source": "BFM Business",
+     "resume": "À l'approche de la revalorisation du Smic au 1er décembre pour dépasser 1 500 euros net, la proportion d'offres d'emploi payées au salaire minimum atteint un niveau record. Cette tendance illustre la smicardisation croissante de l'économie.",
+     "full": false
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "bref": "La mission BepiColombo atteint Mercure après huit ans de voyage, un navire russe est attaqué dans le golfe de Finlande et la Corée du Sud fait face à un scandale de tricherie aux examens.",
+   "items": [
+    {
+     "title": "COP31 : la France dénonce un texte qui \"nous ramène en arrière\"",
+     "titre": "COP31 : la France dénonce un texte qui 'nous ramène en arrière'",
+     "link": "https://www.france24.com/fr/asie-pacifique/20261122-climat-accord-incertain-%C3%A0-la-cop31-des-pays-d%C3%A9noncent-l-absence-de-sortie-des-%C3%A9nergies-fossiles",
+     "source": "France 24",
+     "resume": "À l'approche de la fin de la COP31 en Turquie, la France a dénoncé un projet de compromis absent de toute mention sur la sortie des énergies fossiles. L'incertitude plane quant à la signature d'un accord climatique global.",
+     "full": false
+    },
+    {
+     "title": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+     "titre": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+     "link": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+     "source": "The Guardian World",
+     "resume": "Le ministre sud-coréen de l'Éducation a démissionné après un scandale de tricherie aux examens universitaires impliquant l'intelligence artificielle. Le gouvernement avait mis en place un dispositif de sécurité strict pour contrer l'usage de mini-caméras.",
+     "full": true
+    },
+    {
+     "title": "La mission BepiColombo est entrée dans l'orbite de Mercure après huit ans de voyage",
+     "titre": "La mission BepiColombo est entrée dans l'orbite de Mercure après huit ans de voyage",
+     "link": "https://www.france24.com/fr/info-en-continu/20261122-la-mission-bepicolombo-est-entr%C3%A9e-dans-l-orbite-de-mercure-apr%C3%A8s-huit-ans-de-voyage",
+     "source": "France 24",
+     "resume": "La sonde européo-japonaise BepiColombo s'est insérée avec succès dans l'orbite de Mercure après un périple de huit ans. Elle doit étudier la plus petite planète du Système solaire.",
+     "full": false
+    },
+    {
+     "title": "Russia-bound ship attacked in Gulf of Finland",
+     "titre": "Russia-bound ship attacked in Gulf of Finland",
+     "link": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+     "source": "BBC World",
+     "resume": "Un cargo russe naviguant vers Kaliningrad a été touché par une attaque de drones dans le golfe de Finlande avant de dériver dans les eaux finlandaises. L'équipage a été évacué et les autorités locales enquêtent sur cet incident.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "bref": "L'Ukraine subit de nouvelles frappes russes intensives près de Kiev, la Maison-Blanche restreint les communications des contractants fédéraux avec le Congrès et la haute administration française est secouée par une enquête sur des fuites.",
+   "items": [
+    {
+     "title": "14 missing after Russian strike as Zelenskyy presses US over Patriot missiles",
+     "titre": "14 missing after Russian strike as Zelenskyy presses US over Patriot missiles",
+     "link": "https://www.politico.eu/article/14-missing-after-russian-strike-zelenskyy-presses-us-patriot-missiles/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+     "source": "Politico Europe",
+     "resume": "Une frappe de drone russe a partiellement détruit un immeuble près de Kiev, faisant 14 disparus. Le président ukrainien Volodymyr Zelensky a exhorté Washington à autoriser la livraison de missiles Patriot financés par les alliés.",
+     "full": true
+    },
+    {
+     "title": "Trump orders federal contractors to check with White House before responding to Congress",
+     "titre": "Trump orders federal contractors to check with White House before responding to Congress",
+     "link": "https://www.npr.org/2026/11/21/g-s1-154966/trump-contractors-congress",
+     "source": "NPR Politics",
+     "resume": "Le président Donald Trump ordonne aux entreprises sous contrat fédéral de consulter la Maison-Blanche avant de répondre aux demandes du Congrès. Cette mesure vise à limiter les enquêtes démocrates anticipées.",
+     "full": true
+    },
+    {
+     "title": "Hegseth reportedly moves to restrict defence ties with Canada, but Ottawa sees no change",
+     "titre": "Hegseth reportedly moves to restrict defence ties with Canada, but Ottawa sees no change",
+     "link": "https://www.cbc.ca/news/politics/canada-us-pentagon-restrictions-hegseth-9.7431302?cmp=rss",
+     "source": "CBC Politics",
+     "resume": "Un mémo classifié américain prévoie de restreindre la coopération militaire avec le Canada pour faire pression sur ses dépenses de défense. Les autorités canadiennes affirment cependant ne pas avoir constaté de changement opérationnel.",
+     "full": true
+    },
+    {
+     "title": "Fuites de Beauvau vers le RN : d’un email trouvé au domicile d’un ami de Marine Le Pen aux suspicions visant le préfet Hugues Moutouh, itinéraire d’une enquête sensible",
+     "titre": "Fuites de Beauvau vers le RN : d’un email trouvé au domicile d’un ami de Marine Le Pen aux suspicions visant le préfet Hugues Moutouh, itinéraire d’une enquête sensible",
+     "link": "https://www.lemonde.fr/societe/article/2026/11/21/fuites-de-beauvau-vers-le-rn-d-un-email-trouve-au-domicile-d-un-ami-de-marine-le-pen-aux-suspicions-visant-le-prefet-moutouh-itineraire-d-une-enquete-sensible_6814067_3224.html",
+     "source": "Le Monde Politique",
+     "resume": "Le préfet Hugues Moutouh a demandé à être relevé de ses fonctions suite à une enquête judiciaire sur des fuites d'informations du ministère de l'Intérieur vers le Rassemblement national. Il dénonce une campagne de déstabilisation visant à atteindre l'autorité de l'État.",
+     "full": true
+    }
+   ]
+  }
+ ]
+}
