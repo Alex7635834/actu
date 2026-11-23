@@ -1,0 +1,334 @@
+{
+ "date": "2026-11-23",
+ "generated_at": "05:50",
+ "ai": true,
+ "une": [
+  {
+   "titre": "Frappes de drones en Libye contre des navires russes",
+   "resume": "Des drones navals ont coulé la corvette russe Merkury et touché un cargo russe dimanche près de Benghazi, marquant une extension du conflit en Méditerranée. Volodymyr Zelensky a revendiqué cette opération impliquant sept drones, mais les sources divergent sur le nom du cargo, Ascalon ou MV ANGARA. Il reste incertain si les blessés secourus proviennent du même bâtiment. L'ONU et les autorités libyennes dénoncent une menace pour la sécurité maritime.",
+   "sources": [
+    {
+     "source": "The Guardian World",
+     "link": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
+    },
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/b3f020fc-2617-4432-bced-af2a0b120133?syn-25a6b1a6=1"
+    },
+    {
+     "source": "BBC World",
+     "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "France 24",
+     "link": "https://www.france24.com/fr/vid%C3%A9o/20261123-frappes-ukrainiennes-en-libye-bombardements-%C3%A0-plus-de-1000-km-de-kiev"
+    }
+   ]
+  },
+  {
+   "titre": "Échec historique de la COP31 en Turquie",
+   "resume": "La COP31 en Turquie s'est achevée sans accord au terme des plus longues négociations climatiques de l'ONU. L'Union européenne et des États insulaires ont rejeté le texte final qui omettait toute mention directe des énergies fossiles face aux pays pétroliers, tandis que les pays pauvres déplorent l'absence de financements chiffrés. En Australie, co-organisatrice, l'opposition exige la démission du ministre Chris Bowen, défendu par Anthony Albanese. L'avenir du processus multilatéral onusien et de ces aides financières demeure ainsi incertain.",
+   "sources": [
+    {
+     "source": "France 24",
+     "link": "https://www.france24.com/fr/%C3%A9missions/info-%C3%A9co/20261123-cop31-les-raisons-d-un-fiasco-le-p%C3%A9trole-au-c%C5%93ur-du-blocage"
+    },
+    {
+     "source": "BBC World",
+     "link": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "source": "The Guardian World",
+     "link": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb"
+    }
+   ]
+  },
+  {
+   "titre": "Déroute des Bourses asiatiques liée à l'IA",
+   "resume": "Le dégonflement de la bulle IA frappe durement les Bourses asiatiques, exposées aux fabricants de puces comme TSMC, Samsung et SK Hynix. Après le recul du Nasdaq, le Kospi sud-coréen perd près de 50 % depuis juin et Taïwan approche les 30 %. Séoul et Taipei interdisent la vente à découvert tandis que Pékin libère 60 milliards de dollars. Lundi, le rebond taïwanais contrastait avec la chute coréenne, laissant l'efficacité des mesures incertaine.",
+   "sources": [
+    {
+     "source": "Le Monde Économie",
+     "link": "https://www.lemonde.fr/economie/article/2026/11/23/la-chute-des-bourses-asiatiques-ressemble-plus-a-un-krach-qu-a-une-simple-correction_6814369_3234.html"
+    },
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/69459363-8299-4555-a39c-8980ee6c3590?syn-25a6b1a6=1"
+    }
+   ]
+  }
+ ],
+ "concept": {
+  "terme": "Désérialisation non sécurisée",
+  "explication": "La désérialisation non sécurisée survient lorsqu'une application reconstruit des objets en mémoire à partir de données externes sans vérifier leur signature cryptographique. Un attaquant peut alors injecter une chaîne de gadgets, détournant des classes existantes du programme pour exécuter du code arbitraire dès le décodage. On en parle aujourd'hui avec la faille critique CVE-2026-131914 touchant l'ancienne bibliothèque ASP.NET Idunno.AntiCsrf. Activement exploitée sans correctif via une simple requête POST, elle compromet entièrement le serveur web ciblé.",
+  "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+  "source": "The Hacker News"
+ },
+ "art": {
+  "rubrique": "Cinéma",
+  "titre": "Retour gagnant pour « Hunger Games »",
+  "texte": "Le préquel « The Hunger Games: Sunrise on the Reaping » a récolté 120 millions de dollars dès son démarrage nord-américain et 225 millions au niveau mondial. Soutenu par des apparitions d'anciens acteurs phares et un large casting, il dépasse nettement le précédent film. Ce succès relance la franchise et offre un nouveau pilier financier au studio Lionsgate.",
+  "link": "https://www.indiewire.com/news/box-office/hunger-games-sunrise-on-the-reaping-revives-franchise-1235229881/",
+  "source": "IndieWire"
+ },
+ "histoire": {
+  "annee": 1407,
+  "titre": "Assassinat de Louis Ier d'Orléans",
+  "texte": "Le 23 novembre 1407, Louis Ier d'Orléans, frère cadet du roi de France Charles VI, est assassiné à Paris par Raoul d'Anquetonville. Ce meurtre a été commandité par Jean Ier de Bourgogne, dit « Jean sans Peur », propre cousin du duc d'Orléans. L'événement déclenche la guerre civile entre les Armagnacs et les Bourguignons, qui plonge la France dans les troubles jusqu'au traité d'Arras en 1435.",
+  "link": "https://fr.wikipedia.org/wiki/Assassinat_de_Louis_Ier_d'Orl%C3%A9ans",
+  "source": "Wikipédia"
+ },
+ "pays": {
+  "nom": "Soudan",
+  "capitale": "Khartoum",
+  "texte": "Située en Afrique de l'Est, la république du Soudan a pour langues officielles l'arabe et l'anglais depuis 2005. Le pays s'ouvre sur la mer Rouge et jouxte sept voisins, dont l'Égypte, la Libye, le Tchad, la République centrafricaine, le Soudan du Sud, l'Éthiopie et l'Érythrée. Il est dans l'actualité suite à des frappes de drones sur des habitations et un bâtiment onusien à Khartoum, reprise par l'armée aux paramilitaires des FSR en mars 2025.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Sudan_%28orthographic_projection%29_highlighted.svg/langfr-330px-Sudan_%28orthographic_projection%29_highlighted.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wiki": "https://fr.wikipedia.org/wiki/Soudan",
+  "link": "https://www.france24.com/fr/vid%C3%A9o/20261123-soudan-frappes-de-drones-%C3%A0-khartoum-sur-des-habitations-et-un-b%C3%A2timent-de-l-onu",
+  "source": "France 24"
+ },
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "bref": "L'infrastructure numérique montre ses fragilités, entre la cyberattaque paralysant le CHU de Guadeloupe, les alertes sur de futures pannes et des pilotes AMD et NVIDIA usant les SSD. Côté produits et règles, Microsoft sacrifie To Do pour Planner et Bruxelles encadre les monnaies virtuelles.",
+   "items": [
+    {
+     "title": "Guadeloupe : le CHU victime d’une « cyberattaque de grande ampleur », le plan blanc déclenché",
+     "titre": "Guadeloupe : le CHU victime d’une « cyberattaque de grande ampleur », le plan blanc déclenché",
+     "link": "https://www.lemonde.fr/outre-mer/article/2026/11/22/guadeloupe-le-chu-victime-d-une-cyberattaque-de-grande-ampleur-le-plan-blanc-declenche_6814248_1840826.html",
+     "source": "Le Monde Pixels",
+     "resume": "Une cyberattaque survenue samedi soir a chiffré les bases de données et coupé la téléphonie des trois sites de l'hôpital, contraignant les équipes au papier et à déprogrammer l'activité. L'Anssi soupçonne un fournisseur piraté tandis que le transfert vers le nouveau bâtiment se poursuit.",
+     "full": true
+    },
+    {
+     "title": "We haven’t seen the last of the major tech outages",
+     "titre": "Nous n'en avons pas fini avec les grandes pannes technologiques",
+     "link": "https://www.theverge.com/tech/1039851/major-tech-outages",
+     "source": "The Verge",
+     "resume": "Après les pannes de la FAA, d'Outlook et de JPMorgan Chase, Microsoft et Washington préviennent que d'autres incidents majeurs surviendront prochainement. La mise à niveau mondiale des infrastructures et l'IA qui facilite la recherche de failles multiplient les risques d'erreurs et de piratages.",
+     "full": true
+    },
+    {
+     "title": "[MàJ] À cause d’un bug, les pilotes AMD et NVIDIA écrivent constamment sur le disque",
+     "titre": "[MàJ] À cause d’un bug, les pilotes AMD et NVIDIA écrivent constamment sur le disque",
+     "link": "https://next.ink/268322/a-cause-dun-bug-les-pilotes-amd-et-nvidia-ecrivent-constamment-sur-le-disque/",
+     "source": "Next",
+     "resume": "Des services Windows liés aux pilotes AMD et NVIDIA génèrent des écritures continues, usant les SSD avec des dizaines de gigaoctets quotidiens. AMD a résolu le défaut mais le correctif 621.35 de NVIDIA échoue parfois, obligeant à rétrograder ou désactiver le service.",
+     "full": true
+    },
+    {
+     "title": "Le Digital Fairness Act, un projet de règlement européen qui affole l’industrie du jeu vidéo",
+     "titre": "Le Digital Fairness Act, un projet de règlement européen qui affole l’industrie du jeu vidéo",
+     "link": "https://www.lemonde.fr/pixels/article/2026/11/23/le-digital-fairness-act-un-projet-de-reglement-europeen-qui-affole-l-industrie-du-jeu-video_6814350_4408996.html",
+     "source": "Le Monde Pixels",
+     "resume": "Présenté le 11 novembre, ce projet européen prévoit des amendes atteignant 6 % du chiffre d'affaires mondial contre les interfaces trompeuses et fonctionnalités addictives. Il imposerait notamment d'afficher en euros le prix réel des monnaies virtuelles et microtransactions.",
+     "full": true
+    },
+    {
+     "title": "Microsoft fusionne ses gestions de tâches dans Planner, To Do va disparaître",
+     "titre": "Microsoft fusionne ses gestions de tâches dans Planner, To Do va disparaître",
+     "link": "https://next.ink/269199/microsoft-fusionne-ses-gestions-de-taches-dans-planner-to-do-va-disparaitre/",
+     "source": "Next",
+     "resume": "Microsoft unifie To Do et Planner sur Azure et supprimera To Do le 30 juin 2027 sans migration prévue. Planner étant réservé aux professionnels, les particuliers perdent une application gratuite tandis que l'accès aux nouvelles fonctions d'IA dépendra de cette bascule.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "bref": "L'IA oscille entre paris financiers et bricolage logiciel. Tandis qu'AMD mise jusqu'à 2,9 milliards sur les puces à modèle figé de Taalas et qu'Anthropic glisse en Bourse, les LLM permettent déjà de détourner des appareils grand public ou générer du CSS.",
+   "items": [
+    {
+     "title": "AMD mise jusqu'à 2,9 milliards de dollars sur les puces à modèle unique",
+     "titre": "AMD mise jusqu'à 2,9 milliards de dollars sur les puces à modèle unique",
+     "link": "https://www.actuia.com/actualite/amd-mise-jusqua-29-milliards-de-dollars-sur-les-puces-a-modele-unique/",
+     "source": "ActuIA",
+     "resume": "AMD a finalisé le rachat de Taalas, dont la puce HC1 grave les poids d'un modèle d'IA dans le silicium sans HBM ni refroidissement liquide. L'architecture atteint 17 000 tokens par seconde sur Llama 3.1 8B, au prix d'une précision réduite et figée.",
+     "full": true
+    },
+    {
+     "title": "L'action Anthropic frôle son prix d'introduction à sa deuxième séance",
+     "titre": "L'action Anthropic frôle son prix d'introduction à sa deuxième séance",
+     "link": "https://www.actuia.com/actualite/laction-anthropic-frole-son-prix-dintroduction-a-sa-deuxieme-seance/",
+     "source": "ActuIA",
+     "resume": "Entrée au Nasdaq à 83 dollars avec 93,5 milliards levés, l'action Anthropic a reculé de 8,5 % vendredi à 88,91 dollars dans un marché en repli. Ce cours la valorise environ 1 190 milliards de dollars, face à une défiance boursière généralisée.",
+     "full": true
+    },
+    {
+     "title": "The vibe-coding revolution is coming to all the gadgets",
+     "titre": "La révolution du vibe-coding arrive sur tous les gadgets",
+     "link": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+     "source": "The Verge AI",
+     "resume": "Des utilisateurs détournent des outils comme Claude Code ou Codex pour modifier les firmwares de téléviseurs Android, d'appareils photo ou d'autres équipements matériels. En simplifiant le déblocage et le reconditionnement logiciel, ces modèles de langage démocratisent la personnalisation d'objets du quotidien.",
+     "full": true
+    },
+    {
+     "title": "Select Styling Specimens",
+     "titre": "Spécimens de stylisation de Select",
+     "link": "https://simonwillison.net/2026/Nov/22/select-styling/",
+     "source": "Simon Willison",
+     "resume": "Face aux disparités d'affichage des balises HTML select selon les navigateurs, Simon Willison a fait générer par Claude Fable 5.2 une page recensant leurs options de stylisation. Il publie ensuite son CSS favori après comparaison sur trois navigateurs.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "bref": "Les attaquants visent les infrastructures critiques et composants hérités. Une faille ASP.NET non corrigée, une brèche Cisco exploitée avec l'IA, le vol de secrets Kubernetes chez Rackspace Spot et des malwares via le cloud GL.iNet rappellent l'urgence de renouveler clés et équipements.",
+   "items": [
+    {
+     "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+     "titre": "Des pirates exploitent une faille critique d'une bibliothèque anti-CSRF ASP.NET permettant une RCE sans authentification",
+     "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+     "source": "The Hacker News",
+     "resume": "La faille CVE-2026-131914 (CVSS 9,3) dans l'ancienne bibliothèque Idunno.AntiCsrf permet d'exécuter du code à distance via une simple requête POST exploitant une désérialisation non vérifiée. Activement exploitée et sans correctif prévu, elle impose le retrait du module et la rotation des secrets.",
+     "full": true
+    },
+    {
+     "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+     "titre": "La CISA signale une faille critique RCE de Cisco comme activement exploitée lors d'attaques",
+     "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+     "source": "BleepingComputer",
+     "resume": "La CISA impose aux agences fédérales de corriger sous trois jours la faille CVE-2026-76466 de Cisco Expressway, issue d'identifiants codés en dur donnant un accès root. Selon F6, des pirates ont déjà exploité cette vulnérabilité à l'aide d'un assistant IA.",
+     "full": true
+    },
+    {
+     "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+     "titre": "Une brèche de Rackspace Spot a permis à des pirates d'accéder aux secrets Kubernetes des clients",
+     "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+     "source": "BleepingComputer",
+     "resume": "Le 17 novembre, des intrus utilisant des identifiants compromis ont créé des pods et lu les Secrets Kubernetes de clients sur Rackspace Spot. L'hébergeur a suspendu la console jusqu'au 21 novembre pour assainir l'infrastructure et exige la rotation des clés.",
+     "full": true
+    },
+    {
+     "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+     "titre": "Des pirates ont exploité une faille cloud de GL.iNet pour installer des malwares sur des routeurs et appareils KVM",
+     "link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+     "source": "The Hacker News",
+     "resume": "Une vulnérabilité dans GoodCloud a permis d'ouvrir des shells root sur des routeurs et KVM GL.iNet afin d'y déployer des malwares. Bien que le vecteur cloud soit bloqué, les propriétaires doivent vérifier leurs équipements et mettre à jour le firmware.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "bref": "Hors turbulences boursières, les équilibres industriels et fiscaux se redessinent. L'offensive électrique chinoise menace les constructeurs occidentaux chez eux, le rachat de SFR doit redistribuer les télécoms d'entreprise en France et l'Espagne débat d'un impôt visant les très grandes fortunes.",
+   "items": [
+    {
+     "title": "« La chute des Bourses asiatiques ressemble plus à un krach qu’à une simple correction »",
+     "titre": "« La chute des Bourses asiatiques ressemble plus à un krach qu’à une simple correction »",
+     "link": "https://www.lemonde.fr/economie/article/2026/11/23/la-chute-des-bourses-asiatiques-ressemble-plus-a-un-krach-qu-a-une-simple-correction_6814369_3234.html",
+     "source": "Le Monde Économie",
+     "resume": "Après la chute du Nasdaq, l'éclatement de la bulle IA fait plonger les Bourses asiatiques, le Kospi cédant près de 50 % depuis juin et Taïwan 30 %. Séoul et Taipei interdisent les ventes à découvert, tandis que Pékin libère 60 milliards de dollars.",
+     "full": true
+    },
+    {
+     "title": "China is winning the car war",
+     "titre": "La Chine est en train de gagner la guerre automobile",
+     "link": "https://www.ft.com/content/d279b04d-1fb7-49c7-a191-d34cf6467681?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Les constructeurs automobiles occidentaux ont été évincés du marché chinois par la généralisation des véhicules électriques. Ils doivent désormais défendre leurs propres marchés domestiques face à cette concurrence.",
+     "full": false
+    },
+    {
+     "title": "La recomposition du marché des télécoms pour les entreprises, l’autre enjeu du rachat de SFR",
+     "titre": "La recomposition du marché des télécoms pour les entreprises, l’autre enjeu du rachat de SFR",
+     "link": "https://www.lemonde.fr/economie/article/2026/11/23/la-recomposition-du-marche-des-telecoms-pour-les-entreprises-l-autre-enjeu-du-rachat-de-sfr_6814355_3234.html",
+     "source": "Le Monde Économie",
+     "resume": "Pesant 7,4 milliards d'euros, le marché des télécoms d'entreprise sera rebattu par le rachat collectif de SFR par ses trois concurrents. Orange détient environ 50 % de ce secteur critique, devant SFR et Bouygues à 20 % chacun et Free à 5 %.",
+     "full": true
+    },
+    {
+     "title": "La \"taxe Zucman\" fait débat en France mais elle franchit les Pyrénées: le Premier ministre espagnol veut taxer les fortunes de plus de 100 millions d'euros pour récupérer 2 milliards",
+     "titre": "La \"taxe Zucman\" fait débat en France mais elle franchit les Pyrénées: le Premier ministre espagnol veut taxer les fortunes de plus de 100 millions d'euros pour récupérer 2 milliards",
+     "link": "https://www.bfmtv.com/economie/economie-social/union-europeenne/la-taxe-zucman-fait-debat-en-france-mais-elle-franchit-les-pyrenees-le-premier-ministre-espagnol-veut-taxer-les-fortunes-de-plus-de-100-millions-d-euros-pour-recuperer-2-milliards_AD-202611230435.html",
+     "source": "BFM Business",
+     "resume": "À l'approche des législatives, Pedro Sánchez propose de taxer les patrimoines supérieurs à 100 millions d'euros pour financer logements et services publics. Inspirée de la taxe Zucman, cette mesure le démarque du Parti populaire, favori qui promet des allègements fiscaux.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "bref": "Outre les fronts climatique et maritime, l'actualité internationale est marquée par deux tournants politique et judiciaire. Aux États-Unis, les démocrates décrochent leur plus large majorité à la Chambre depuis 1992. Parallèlement, la condamnation birmane à la CIJ pourrait peser sur la procédure visant Israël.",
+   "items": [
+    {
+     "title": "COP31 : les raisons d'un fiasco, le pétrole au cœur du blocage",
+     "titre": "COP31 : les raisons d'un fiasco, le pétrole au cœur du blocage",
+     "link": "https://www.france24.com/fr/%C3%A9missions/info-%C3%A9co/20261123-cop31-les-raisons-d-un-fiasco-le-p%C3%A9trole-au-c%C5%93ur-du-blocage",
+     "source": "France 24",
+     "resume": "La conférence climatique COP31 en Turquie s'est achevée sans accord après le refus européen d'un texte excluant la mention d'une sortie des énergies fossiles. Cet échec traduit l'affrontement économique entre pays producteurs de pétrole et Européens.",
+     "full": false
+    },
+    {
+     "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+     "titre": "Un navire de guerre russe coule à Benghazi après une attaque présumée de drones ukrainiens",
+     "link": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+     "source": "The Guardian World",
+     "resume": "La corvette russe Merkury et le cargo Ascalon ont été touchés dimanche par des drones marins à Benghazi, à plus de 1 000 miles du sud ukrainien. L'ONU demande une enquête tandis que les autorités de l'Est libyen dénoncent une atteinte à leur souveraineté.",
+     "full": true
+    },
+    {
+     "title": "Aux Etats-Unis, les démocrates obtiennent la plus large majorité depuis 1992 à la Chambre des représentants",
+     "titre": "Aux Etats-Unis, les démocrates obtiennent la plus large majorité depuis 1992 à la Chambre des représentants",
+     "link": "https://www.lemonde.fr/international/article/2026/11/23/avec-258-sieges-remportes-les-democrates-decrochent-la-plus-large-majorite-depuis-1992-a-la-chambre-des-representants_6814364_3210.html",
+     "source": "Le Monde International",
+     "resume": "La victoire de Chuck Hubbard en Caroline du Nord porte les démocrates à 258 sièges à la Chambre, s'ajoutant à leurs 56 sénateurs. Cette majorité historique permettra de bloquer l'agenda de Donald Trump et d'ouvrir des enquêtes sur son administration.",
+     "full": true
+    },
+    {
+     "title": "Eliav Lieblich : après l’arrêt de la CIJ reconnaissant la responsabilité birmane dans le génocide des Rohingya, « il est fort probable qu’Israël soit condamné » pour Gaza",
+     "titre": "Eliav Lieblich : après l’arrêt de la CIJ reconnaissant la responsabilité birmane dans le génocide des Rohingya, « il est fort probable qu’Israël soit condamné » pour Gaza",
+     "link": "https://www.lemonde.fr/international/article/2026/11/23/eliav-lieblich-apres-l-arret-de-la-cij-reconnaissant-la-responsabilite-birmane-dans-le-genocide-des-rohingya-il-est-fort-probable-qu-israel-soit-condamne-pour-gaza_6814372_3210.html",
+     "source": "Le Monde International",
+     "resume": "Le 19 novembre, la CIJ a établi la responsabilité de la Birmanie dans le génocide des Rohingya par neuf voix contre six. Pour le juriste Eliav Lieblich, la prise en compte des discours d'incitation fragilise désormais la position d'Israël devant la Cour.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "bref": "Entre France et Canada, investissements, climat et justice dominent les débats. Paris défend l'investissement national en berne, alors que Marine Le Pen suspend sa campagne 2027 à la Cour de cassation. Ottawa peine sur ses cibles carbone et heurte la tech sur les données.",
+   "items": [
+    {
+     "title": "Pour Emmanuel Macron, un Choose France 100 % tricolore sur fond de morosité pour les entreprises françaises",
+     "titre": "Pour Emmanuel Macron, un Choose France 100 % tricolore sur fond de morosité pour les entreprises françaises",
+     "link": "https://www.lemonde.fr/economie/article/2026/11/23/pour-emmanuel-macron-un-choose-france-100-tricolore-sur-fond-de-morosite-des-entreprises-francaises_6814341_3234.html",
+     "source": "Le Monde Politique",
+     "resume": "L'Élysée tient le 23 novembre un sommet consacré aux investissements des groupes nationaux, piliers de l'économie française, entre Toulouse et Paris. Emmanuel Macron réunit plus de 150 dirigeants tandis que l'investissement des entreprises non financières se contracte depuis fin 2025.",
+     "full": true
+    },
+    {
+     "title": "Big tech, law enforcement make final pitches as Senate considers data access bill's future",
+     "titre": "Les géants de la tech et les forces de l'ordre plaident une dernière fois alors que le Sénat examine l'avenir du projet de loi sur l'accès aux données",
+     "link": "https://www.cbc.ca/news/politics/bill-c-22-lawful-access-privacy-senate-9.7430455?cmp=rss",
+     "source": "CBC Politics",
+     "resume": "Le Sénat canadien étudie le projet C-22 facilitant l'accès policier aux données, malgré des amendements limitant le stockage à six mois. Apple, Google, Meta et Signal critiquent les ordres ministériels secrets menaçant le chiffrement, envisageant même de quitter le pays.",
+     "full": true
+    },
+    {
+     "title": "Ottawa unlikely to meet 2030 emissions target, despite official statements",
+     "titre": "Ottawa peu susceptible d'atteindre son objectif d'émissions pour 2030, malgré les déclarations officielles",
+     "link": "https://www.theglobeandmail.com/canada/article-climate-carney-2030-paris-emissions-target/",
+     "source": "The Globe and Mail",
+     "resume": "Malgré l'affichage d'une neutralité carbone en 2050, les reculs climatiques du gouvernement Carney rendent inatteignable la cible 2030 de -40 à -45 %. La ministre Julie Dabrusin esquive les questions sur ce palier face aux critiques écologistes.",
+     "full": true
+    },
+    {
+     "title": "Présidentielle 2027 : Marine Le Pen et le RN, cernés par les procédures, misent sur l’indifférence présumée des électeurs pour les affaires judiciaires",
+     "titre": "Présidentielle 2027 : Marine Le Pen et le RN, cernés par les procédures, misent sur l’indifférence présumée des électeurs pour les affaires judiciaires",
+     "link": "https://www.lemonde.fr/politique/article/2026/11/23/presidentielle-2027-marine-le-pen-une-campagne-au-defi-de-la-justice_6814312_823448.html",
+     "source": "Le Monde Politique",
+     "resume": "Condamnée en appel à un an de prison ferme aménageable sous bracelet électronique pour détournement de fonds publics, Marine Le Pen maintient sa candidature pour 2027 via un pourvoi en cassation. La décision attendue début avril 2027 décidera de sa liberté de campagne.",
+     "full": true
+    }
+   ]
+  }
+ ]
+}
