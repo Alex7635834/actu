@@ -1,0 +1,254 @@
+{
+ "date": "2026-11-24",
+ "generated_at": "15:24",
+ "ai": false,
+ "une": [],
+ "concept": null,
+ "art": null,
+ "histoire": null,
+ "pays": null,
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "bref": "",
+   "items": [
+    {
+     "title": "☕️ Le lancement de tous les records pour GTA VI",
+     "titre": "☕️ Le lancement de tous les records pour GTA VI",
+     "link": "https://next.ink/brief-article/le-lancement-de-tous-les-records-pour-gta-vi/",
+     "source": "Next",
+     "resume": "Il va être compliqué d’aller chercher GTA VI, qui fait tomber les records depuis son lancement jeudi 19 novembre. Le lendemain, l’éditeur Take-Two annonçait ainsi que le jeu avait enregistré 32,5 millions de…",
+     "full": null
+    },
+    {
+     "title": "GTA VI démarre sur PC avant même l’annonce d’un portage officiel",
+     "titre": "GTA VI démarre sur PC avant même l’annonce d’un portage officiel",
+     "link": "https://next.ink/269712/gta-vi-demarre-sur-pc-avant-meme-lannonce-dun-portage-officiel/",
+     "source": "Next",
+     "resume": "GTA VI sur les consoles fait saliver d’envie tous les joueurs PC. Rockstar n’a encore rien annoncé sur cette version, mais le studio serait bien avisé de ne pas trop traîner : il est d’ores et déjà possible de démarrer…",
+     "full": null
+    },
+    {
+     "title": "GTA 6 : Rockstar a caché un très gros secret qui vient d’être découvert par les joueurs",
+     "titre": "GTA 6 : Rockstar a caché un très gros secret qui vient d’être découvert par les joueurs",
+     "link": "https://www.numerama.com/pop-culture/2383323-gta-6-rockstar-a-cache-un-portail-secret-qui-plaira-aux-fans-des-vieux-gta.html",
+     "source": "Numerama",
+     "resume": "Cinq jours seulement après sa sortie, GTA 6 n’a pas fini de révéler ce qu’il cache sous le capot. Au milieu des clins d’œil disséminés dans Vice City, un youtubeur australien vient de mettre la main sur un easter egg…",
+     "full": null
+    },
+    {
+     "title": "Cet accessoire PlayStation vous permet de jouer à GTA 6 sans PS5 et il tombe en promo pour le Black Friday",
+     "titre": "Cet accessoire PlayStation vous permet de jouer à GTA 6 sans PS5 et il tombe en promo pour le Black Friday",
+     "link": "https://www.numerama.com/tech/2383905-cet-accessoire-playstation-vous-permet-de-jouer-a-gta-6-sans-ps5-et-il-tombe-en-promo-pour-le-black-friday.html",
+     "source": "Numerama",
+     "resume": "[Deal du jour] Depuis lundi, GTA 6 se joue en streaming cloud sur le PlayStation Portal, sans PS5 à la maison. Ça tombe bien : l'accessoire de Sony profite d'une petite remise chez Cdiscount pour le Black Friday.",
+     "full": null
+    },
+    {
+     "title": "Amazon is knocking almost $50 off six months of Apple TV",
+     "titre": "Amazon is knocking almost $50 off six months of Apple TV",
+     "link": "https://www.theverge.com/gadgets/1040046/apple-tv-subscription-streaming-sale-deal-black-friday",
+     "source": "The Verge",
+     "resume": "Streaming deals aren’t as plentiful as they used to be, but they’re still around if you know where to look. One that caught our eye is an offer for Apple TV for those with an Amazon account in the US. Apple’s streaming…",
+     "full": null
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "bref": "",
+   "items": [
+    {
+     "title": "Raising the stakes for enterprise networks with AI modernization",
+     "titre": "Raising the stakes for enterprise networks with AI modernization",
+     "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+     "source": "MIT Technology Review",
+     "resume": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load.…",
+     "full": null
+    },
+    {
+     "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+     "titre": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+     "link": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+     "source": "The Verge AI",
+     "resume": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job…",
+     "full": null
+    },
+    {
+     "title": "How Gemini is changing the game for Golden State's organization and fans.",
+     "titre": "How Gemini is changing the game for Golden State's organization and fans.",
+     "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+     "source": "Google AI",
+     "resume": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+     "full": null
+    },
+    {
+     "title": "GPT 6.2 Astra Solves a Historical Mystery",
+     "titre": "GPT 6.2 Astra Solves a Historical Mystery",
+     "link": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+     "source": "Simon Willison",
+     "resume": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to…",
+     "full": null
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "bref": "",
+   "items": [
+    {
+     "title": "New Inception extortion gang launches large-scale vishing campaign",
+     "titre": "New Inception extortion gang launches large-scale vishing campaign",
+     "link": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+     "source": "BleepingComputer",
+     "resume": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
+     "full": null
+    },
+    {
+     "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+     "titre": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+     "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+     "source": "The Hacker News",
+     "resume": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a…",
+     "full": null
+    },
+    {
+     "title": "California privacy agency director Kemp to leave after two-year tenure",
+     "titre": "California privacy agency director Kemp to leave after two-year tenure",
+     "link": "https://therecord.media/california-privacy-agency-kemp",
+     "source": "The Record",
+     "resume": "The director of the trailblazing California Privacy Protection Agency announced his departure following implementation of a first-in-the-nation platform allowing consumers to easily opt out of data sharing.",
+     "full": null
+    },
+    {
+     "title": "Cybersécurité : des failles Bluetooth permettent de contrôler à distance les freins de remorques",
+     "titre": "Cybersécurité : des failles Bluetooth permettent de contrôler à distance les freins de remorques",
+     "link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cybersecurite-des-failles-bluetooth-permettent-de-controler-a-distance-les-freins-de-remorques",
+     "source": "Le Monde Informatique",
+     "resume": "Des chercheurs en cybersécurité ont découvert plusieurs vulnérabilités critiques dans les contrôleurs de freinage Bluetooth du fabricant australien Elecbrakes. Ces failles permettent à une personne située à portée du…",
+     "full": null
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "bref": "",
+   "items": [
+    {
+     "title": "Huang says he still doesn’t believe in Nvidia succession planning",
+     "titre": "Huang says he still doesn’t believe in Nvidia succession planning",
+     "link": "https://www.ft.com/content/cd1831d0-c3f1-4705-b8e2-badfb5e39764?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Chief executive speaks to staff for first time after returning to chipmaker",
+     "full": null
+    },
+    {
+     "title": "Le Parlement adopte définitivement le projet de loi de fin de gestion 2026, avec un déficit public maintenu à 5,4 % du PIB",
+     "titre": "Le Parlement adopte définitivement le projet de loi de fin de gestion 2026, avec un déficit public maintenu à 5,4 % du PIB",
+     "link": "https://www.bfmtv.com/economie/economie-social/finances-publiques/le-parlement-adopte-definitivement-le-projet-de-loi-de-fin-de-gestion-2026-avec-un-deficit-public-maintenu-a-5-4-du-pib_AD-202611240919.html",
+     "source": "BFM Business",
+     "resume": "Adopté sans recours au 49.3, le projet de loi de fin de gestion 2026 a obtenu le soutien du Sénat et de l'Assemblée nationale, grâce notamment à l'abstention des socialistes et du RN. Il prévoit plusieurs ajustements…",
+     "full": null
+    },
+    {
+     "title": "La Commission européenne se montre indulgente sur la situation budgétaire française",
+     "titre": "La Commission européenne se montre indulgente sur la situation budgétaire française",
+     "link": "https://www.lemonde.fr/economie/article/2026/11/24/la-commission-europeenne-se-montre-indulgente-sur-la-situation-budgetaire-francaise_6814840_3234.html",
+     "source": "Le Monde Économie",
+     "resume": "Le commissaire chargé de la planification, Valdis Dombrovskis, écoutant le ministre de l’économie Roland Lescure, table sur l’adoption du budget 2027 par le Parlement français. Avant les élections, la Commission marche…",
+     "full": null
+    },
+    {
+     "title": "Faisal Islam: Fears over the AI boom haven't gone away",
+     "titre": "Faisal Islam: Fears over the AI boom haven't gone away",
+     "link": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "resume": "There were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it",
+     "full": null
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "bref": "",
+   "items": [
+    {
+     "title": "EN DIRECT, guerre en Ukraine : Kiev répond aux menaces de Poutine sur les raffineries : « Mettez fin à la guerre »",
+     "titre": "EN DIRECT, guerre en Ukraine : Kiev répond aux menaces de Poutine sur les raffineries : « Mettez fin à la guerre »",
+     "link": "https://www.lemonde.fr/international/live/2026/11/24/en-direct-guerre-en-ukraine-kiev-repond-aux-menaces-de-poutine-sur-les-raffineries-mettez-fin-a-la-guerre_6814183_3210.html",
+     "source": "Le Monde International",
+     "resume": "« Si Poutine n’aime pas que l’Ukraine frappe ses raffineries de pétrole, il peut ordonner la fin de la guerre. S’il ne veut pas que ses navires militaires soient frappés, il peut ordonner la fin de la guerre », a dit…",
+     "full": null
+    },
+    {
+     "title": "Ukraine : une guerre sans frontières ?",
+     "titre": "Ukraine : une guerre sans frontières ?",
+     "link": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261124-ukraine-une-guerre-sans-fronti%C3%A8res",
+     "source": "France 24",
+     "resume": "Le Président ukrainien Volodymyr Zelensky a revendiqué lundi l'attaque de deux navires russes au large de Benghazi, dans l'est de la Libye. Un nouvel épisode dans la guerre menée par la Russie contre l’Ukraine. De son…",
+     "full": null
+    },
+    {
+     "title": "More than 300 Russians killed as Moscow props up Mali’s junta, leaked data reveals",
+     "titre": "More than 300 Russians killed as Moscow props up Mali’s junta, leaked data reveals",
+     "link": "https://www.theguardian.com/world/2026/nov/24/russian-fighters-killed-in-mali-africa-leaked-data",
+     "source": "The Guardian World",
+     "resume": "Exclusive: Records list 349 deaths in three years in Mali and also shed light on Russia’s military activity elsewhere in Africa When the attack on Kidal began before dawn on 25 April this year, the Russian fighters were…",
+     "full": null
+    },
+    {
+     "title": "Turkish military helicopter crash kills five in western Turkiye",
+     "titre": "Turkish military helicopter crash kills five in western Turkiye",
+     "link": "https://www.aljazeera.com/news/2026/11/24/turkish-military-helicopter-crash-kills-five-in-western-turkiye?traffic_source=rss",
+     "source": "Al Jazeera",
+     "resume": "The Defence Ministry did not elaborate on the cause of the crash, days after another deadly army helicopter accident.",
+     "full": null
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "bref": "",
+   "items": [
+    {
+     "title": "C’est quoi, le projet « Arrow » de l’armée canadienne?",
+     "titre": "C’est quoi, le projet « Arrow » de l’armée canadienne?",
+     "link": "https://ici.radio-canada.ca/en-bref/90-17990/projet-arrow-defense-nationale",
+     "source": "Radio-Canada",
+     "resume": "Un nouveau plan pour l’avenir de la flotte canadienne d’avions de chasse mise sur le F-35 américain et semble écarter l’achat d’appareils suédois Gripen.",
+     "full": null
+    },
+    {
+     "title": "Souveraineté | St-Pierre Plamondon fait miroiter des « ambassades » et des « organismes internationaux » à Québec",
+     "titre": "Souveraineté | St-Pierre Plamondon fait miroiter des « ambassades » et des « organismes internationaux » à Québec",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-24/souverainete/st-pierre-plamondon-fait-miroiter-des-ambassades-et-des-organismes-internationaux-a-quebec.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "source": "La Presse",
+     "resume": "Paul St-Pierre Plamondon a fait miroiter mardi les avantages de l’indépendance pour la ville de Québec, qui pourrait attirer des « ambassades » et les sièges « d’organismes internationaux ». La région n’a fait élire…",
+     "full": null
+    },
+    {
+     "title": "Ottawa proposes sweeping new land-seizure powers for Alto high-speed rail project",
+     "titre": "Ottawa proposes sweeping new land-seizure powers for Alto high-speed rail project",
+     "link": "https://www.cbc.ca/news/politics/alto-expropriation-changes-9.7433464?cmp=rss",
+     "source": "CBC Politics",
+     "resume": "The federal government is proposing to scrap standard expropriation rules for Canada's first high-speed rail project.",
+     "full": null
+    },
+    {
+     "title": "Committee votes to send major projects bill back to the House after rejecting amendments",
+     "titre": "Committee votes to send major projects bill back to the House after rejecting amendments",
+     "link": "https://www.theglobeandmail.com/politics/article-bill-c-39-legislative-committee-hearings-labour-environment-november/",
+     "source": "The Globe and Mail",
+     "resume": "Legislation includes substantial changes that had been called for by labour and environmental organizations",
+     "full": null
+    }
+   ]
+  }
+ ]
+}
