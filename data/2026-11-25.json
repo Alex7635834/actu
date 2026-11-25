@@ -1,0 +1,322 @@
+{
+ "date": "2026-11-25",
+ "generated_at": "05:50",
+ "ai": true,
+ "une": [
+  {
+   "titre": "Le retour de Jensen Huang à la tête de Nvidia validé sous pression politique",
+   "resume": "Jensen Huang a fait un retour spectaculaire à la tête de Nvidia après un week-end de lobbying intense mené par ses alliés de la Silicon Valley et l'administration Trump. Cette réintégration intervient alors que le fabricant de puces fait face à de multiples enquêtes fédérales, des actions en justice et des controverses liées à des transferts technologiques vers la Chine. Malgré l'enthousiasme boursier initial, des voix académiques critiquent l'impact de l'entreprise sur la puissance industrielle américaine.",
+   "sources": [
+    {
+     "source": "TechCrunch",
+     "link": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/"
+    },
+    {
+     "source": "Ars Technica AI",
+     "link": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/"
+    }
+   ]
+  },
+  {
+   "titre": "Vagues de cyberattaques critiques sur Drupal et le registre Hex.pm",
+   "resume": "Des failles de sécurité majeures ont touché des infrastructures open source critiques, contraignant les équipes à réagir d'urgence. Un bug de réinstallation dans le CMS Drupal a ainsi conduit à des piratages actifs et à une alerte de la CISA. Parallèlement, un bogue historique dans le parseur de la plateforme Elixir Hex.pm a permis à un attaquant d'exécuter des commandes sur plusieurs serveurs de production, poussant les mainteneurs à invalider les sessions.",
+   "sources": [
+    {
+     "source": "BleepingComputer",
+     "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/"
+    },
+    {
+     "source": "The Hacker News",
+     "link": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html"
+    }
+   ]
+  },
+  {
+   "titre": "Menaces budgétaires européennes et perspectives de sanctions pour la Bulgarie",
+   "resume": "La Commission européenne envisage de sanctionner la Bulgarie pour un déficit public excessif atteignant 5 % du PIB, moins d'un an après son adoption de l'euro. Les règles communautaires prévoient des amendes et un possible gel des fonds pour ce pays. En comparaison, la France échappe pour l'instant aux sanctions malgré un déficit prévu plus élevé, la Commission estimant que son trajectoire budgétaire va dans la bonne direction.",
+   "sources": [
+    {
+     "source": "BFM Business",
+     "link": "https://www.bfmtv.com/economie/economie-social/union-europeenne/moins-d-un-an-apres-son-entree-dans-la-zone-euro-la-bulgarie-risque-d-etre-le-premier-pays-sanctionne-pour-deficit-excessif-la-france-devrait-y-echapper_AV-202611250507.html"
+    },
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/c72a8e34-13c2-4336-90b1-e59bac95c78b?syn-25a6b1a6=1"
+    }
+   ]
+  }
+ ],
+ "concept": {
+  "terme": "Environnement d'exécution de confiance (TEE)",
+  "explication": "Un TEE est un environnement sécurisé et isolé au sein du processeur qui garantit la confidentialité et l'intégrité du code et des données en cours d'exécution. Il repose sur du chiffrement matériel pour empêcher l'accès aux données, même par le système d'exploitation ou l'administrateur de la machine hôte. On en parle aujourd'hui pour concevoir des applications d'intelligence artificielle garantissant aux utilisateurs que leurs informations personnelles restent strictement privées.",
+  "link": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+  "source": "TechCrunch AI"
+ },
+ "art": {
+  "rubrique": "Cinéma",
+  "titre": "The Mosquito Bowl",
+  "texte": "Le nouveau film de guerre de Peter Berg, inspiré d'une histoire vraie de la Seconde Guerre mondiale, est disponible dès aujourd'hui sur Netflix. Le long-métrage retrace le destin de jeunes soldats américains engagés dans le Pacifique tout en revisitant un tournoi de football historique. Cette production offre une nouvelle exposition à cette fresque dramatique après une sortie en salle confidentielle aux États-Unis.",
+  "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000234013.html",
+  "source": "AlloCiné"
+ },
+ "histoire": {
+  "annee": 1999,
+  "titre": "Journée pour l'élimination de la violence à l'égard des femmes",
+  "texte": "L'Assemblée générale des Nations unies a institué en 1999 cette journée internationale observée chaque 25 novembre. Cette date commémore l'assassinat politique des sœurs Mirabal en République dominicaine. Elle invite les gouvernements et organisations à mener des actions de sensibilisation contre les violences faites aux femmes.",
+  "link": "https://fr.wikipedia.org/wiki/Journ%C3%A9e_internationale_pour_l'%C3%A9limination_de_la_violence_%C3%A0_l'%C3%A9gard_des_femmes",
+  "source": "Wikipédia"
+ },
+ "pays": {
+  "nom": "Colombie",
+  "capitale": "Bogota",
+  "texte": "La Colombie est une république unitaire située dans le nord-ouest de l'Amérique du Sud, bordée par l'océan Pacifique et la mer des Caraïbes. Comptant plus de 51 millions d'habitants, le pays dispose de la quatrième économie d'Amérique latine, portée notamment par le café, le pétrole et le charbon. Le pays fait l'actualité suite à une prise d'otages dans un supermarché à Carthagène, qui s'est soldée par l'intervention des forces de sécurité.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/COL_orthographic_%28San_Andr%C3%A9s_and_Providencia_special%29.svg/langfr-330px-COL_orthographic_%28San_Andr%C3%A9s_and_Providencia_special%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wiki": "https://fr.wikipedia.org/wiki/Colombie",
+  "link": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+  "source": "The Guardian World"
+ },
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "bref": "Les agences fédérales américaines et le FinCEN font face à des incidents informatiques, tandis que la flotte spatiale martienne de la NASA subit des pannes critiques. En parallèle, Suzuki relance l'Ignis en version électrique et le gouvernement français cherche à rattacher l'IRD au CNRS.",
+   "items": [
+    {
+     "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
+     "titre": "Le bureau américain des crimes financiers dévoile un incident de cybersécurité",
+     "link": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
+     "source": "The Verge",
+     "resume": "Le FinCEN enquête sur un accès non autorisé à un sous-ensemble restreint de ses systèmes et a mis certains services hors ligne. Cette alerte intervient après une violation de données dans des agences de renseignement, dont la CIA.",
+     "full": true
+    },
+    {
+     "title": "Half of NASA's aging Mars fleet knocked offline by technical issues",
+     "titre": "La moitié de la flotte martienne vieillissante de la NASA mise hors ligne par des problèmes techniques",
+     "link": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/",
+     "source": "Ars Technica",
+     "resume": "Le rover Perseverance et l'orbiteur Odyssey ont suspendu leurs opérations scientifiques suite à des pannes de communication et d'alimentation. Ces incidents menacent la poursuite de leurs missions au-delà de leurs durées de vie initiales.",
+     "full": true
+    },
+    {
+     "title": "Suzuki relance l’Ignis en électrique pour concurrencer la Twingo, avec beaucoup de questions sans réponse",
+     "titre": "Suzuki relance l’Ignis en électrique pour concurrencer la Twingo, avec beaucoup de questions sans réponse",
+     "link": "https://www.numerama.com/vroom/2384331-suzuki-relance-lignis-en-electrique-pour-concurrencer-la-twingo-avec-beaucoup-de-questions-sans-reponse.html",
+     "source": "Numerama",
+     "resume": "Suzuki dévoile sa première mini-citadine électrique, l'Ignis, prévue en Europe pour l'été 2027 avec une batterie de 26 kWh. Le constructeur n'a cependant communiqué ni l'autonomie, ni le lieu de fabrication, ni le prix officiel.",
+     "full": true
+    },
+    {
+     "title": "☕️ Le gouvernement veut précipiter le rattachement de l’IRD au CNRS pour fin mars 2027",
+     "titre": "Le gouvernement veut précipiter le rattachement de l’IRD au CNRS pour fin mars 2027",
+     "link": "https://next.ink/brief-article/le-gouvernement-veut-precipiter-le-rattachement-de-lird-au-cnrs-pour-fin-mars-2027/",
+     "source": "Next",
+     "resume": "L'exécutif impose un rattachement administratif de l'IRD au CNRS d'ici mars 2027 malgré l'étonnement de la direction face à l'absence de concertation. Cette décision unilatérale suscite de vives critiques syndicales sur le code de la recherche.",
+     "full": true
+    },
+    {
+     "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+     "titre": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+     "link": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+     "source": "TechCrunch",
+     "resume": "Jensen Huang is back as Nvidia's CEO after intense political lobbying, despite scrutiny over smuggling and ongoing federal investigations. Academic Jeffrey Sonnenfeld argues the company harms US industrial might by supplying advanced tech to adversaries.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "bref": "L'automatisation et l'usage d'outils d'intelligence artificielle pèsent sur les systèmes de registres publics américains face à la multiplication des requêtes. Sur le plan technique, de nouvelles architectures comme les transformateurs bouclés émergent pour optimiser le codage et les agents autonomes.",
+   "items": [
+    {
+     "title": "AI is straining America’s open records systems",
+     "titre": "AI is straining America’s open records systems",
+     "link": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+     "source": "MIT Technology Review",
+     "resume": "Startups and individuals use AI tools to mine public data and draft broader records requests at unprecedented rates. Local government offices struggle to cope with the increased administrative burden, prompting some states to consider restricting access.",
+     "full": true
+    },
+    {
+     "title": "De la stratégie aux usages métiers : quelles compétences pour piloter et déployer l’intelligence artificielle ?",
+     "titre": "De la stratégie aux usages métiers : quelles compétences pour piloter et déployer l’intelligence artificielle ?",
+     "link": "https://www.actuia.com/actualite/de-la-strategie-aux-usages-metiers-quelles-competences-pour-piloter-et-deployer-lintelligence-artificielle-1/",
+     "source": "ActuIA",
+     "resume": "L'Institut Mines-Télécom Business School refond son Executive Master en IA pour former les managers non techniques à superviser et intégrer ces technologies. Cette formation articule compétences métier et conduite du changement face aux enjeux de transformation.",
+     "full": true
+    },
+    {
+     "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+     "titre": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+     "link": "https://simonwillison.net/2026/Nov/23/glm-54/",
+     "source": "Simon Willison",
+     "resume": "Z.ai releases GLM 5.4, utilizing a looped transformer architecture where weight-shared layers run iteratively. This approach increases network depth and reasoning quality for tasks like coding without expanding the parameter count.",
+     "full": true
+    },
+    {
+     "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+     "titre": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+     "link": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+     "source": "TechCrunch AI",
+     "resume": "Maple secured $5.3 million to expand its privacy-focused AI assistant running inside secure trusted execution environments. User data remains encrypted and inaccessible to the company, providing an alternative to traditional data-harvesting business models.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "bref": "Des groupes criminels exploitent des vulnérabilités critiques de type ransomware et des outils offensifs automatisés pour cibler de grandes entreprises et des serveurs de gestion. Les attaques touchent des acteurs majeurs comme Ipsos et Check Point.",
+   "items": [
+    {
+     "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+     "titre": "Les pirates exploitent désormais une faille RCE critique de Drupal pour détourner des sites",
+     "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+     "source": "BleepingComputer",
+     "resume": "Une vulnérabilité critique de exécution de code à distance dans le cœur de Drupal est activement exploitée depuis la mi-novembre. La CISA a ordonné aux agences fédérales de sécuriser leurs systèmes face à ces attaques.",
+     "full": true
+    },
+    {
+     "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+     "titre": "Des pirates ont exploité une faille RCE critique sur Hex.pm pour compromettre 6 serveurs de registres de paquets",
+     "link": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+     "source": "The Hacker News",
+     "resume": "Un attaquant a exécuté des commandes système sur six serveurs de production de Hex.pm via une faille présente depuis 2016. Les mainteneurs ont appliqué un correctif et déconnecté tous les utilisateurs pour réinitialiser les sessions.",
+     "full": true
+    },
+    {
+     "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+     "titre": "Des pirates compromettent 24 serveurs de gestion Check Point dans le cadre d'une campagne d'attaque présumée pilotée par l'IA",
+     "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+     "source": "The Hacker News",
+     "resume": "Un acteur malveillant a exploité des serveurs de gestion Check Point à l'aide d'outils offensifs automatisés et d'agents intelligents. Cette campagne multisectorielle mondiale s'appuie sur une infrastructure distribuée et des scripts de rebond.",
+     "full": true
+    },
+    {
+     "title": "Cyberattaque contre Ipsos : le groupe Qilin revendique un vol de données sensibles",
+     "titre": "Cyberattaque contre Ipsos : le groupe Qilin revendique un vol de données sensibles",
+     "link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-contre-ipsos-le-groupe-qilin-revendique-un-vol-de-donnees-sensibles",
+     "source": "Le Monde Informatique",
+     "resume": "Le groupe de ransomware Qilin revendique une intrusion chez Ipsos et publie des extraits de documents commerciaux et contractuels. Ipsos confirme une attaque interne sans impact sur ses opérations, tandis que l'étendue de la fuite est évaluée.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "bref": "Les marchés énergétiques européens réagissent vivement aux tensions géopolitiques au Moyen-Orient avec une forte hausse des factures au Royaume-Uni. De son côté, la RDC suspend à nouveau ses exportations de cobalt pour tenter d'enrayer l'effondrement des cours.",
+   "items": [
+    {
+     "title": "Moins d'un an après son entrée dans la zone euro, la Bulgarie risque d'être le premier pays sanctionné pour \"déficit excessif\" (la France devrait y échapper)",
+     "titre": "Moins d'un an après son entrée dans la zone euro, la Bulgarie risque d'être le premier pays sanctionné pour déficit excessif",
+     "link": "https://www.bfmtv.com/economie/economie-social/union-europeenne/moins-d-un-an-apres-son-entree-dans-la-zone-euro-la-bulgarie-risque-d-etre-le-premier-pays-sanctionne-pour-deficit-excessif-la-france-devrait-y-echapper_AV-202611250507.html",
+     "source": "BFM Business",
+     "resume": "La Commission européenne menace la Bulgarie de sanctions financières pour un déficit public estimé à 5 % du PIB. La France, malgré un déficit plus élevé, bénéficie quant à elle d'un sursis de Bruxelles.",
+     "full": true
+    },
+    {
+     "title": "Energy bills to rise by 26% from January after gas prices surge",
+     "titre": "Energy bills to rise by 26% from January after gas prices surge",
+     "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
+     "source": "BBC Business",
+     "resume": "Ofgem announced a 26% increase in UK energy price caps starting January due to wholesale gas price surges driven by the Iran war. Households face an average monthly cost increase of £37, prompting emergency government support measures.",
+     "full": true
+    },
+    {
+     "title": "La RDC impose un nouvel embargo sur les exportations de cobalt pour faire monter les cours",
+     "titre": "La RDC impose un nouvel embargo sur les exportations de cobalt pour faire monter les cours",
+     "link": "https://www.lemonde.fr/afrique/article/2026/11/25/la-rdc-impose-un-nouvel-embargo-sur-les-exportations-de-cobalt-pour-faire-monter-les-cours_6815079_3212.html",
+     "source": "Le Monde Économie",
+     "resume": "La République démocratique du Congo suspend temporairement ses exportations de cobalt à partir du 30 novembre afin d'enrayer la chute des prix mondiaux. Cette mesure vise à résorber l'excédent de l'offre et à réajuster les quotas miniers.",
+     "full": true
+    },
+    {
+     "title": "This strategist’s bond-trading model is outperforming by a wide margin. The Fed slowing the economy is a good thing, he argues",
+     "titre": "This strategist’s bond-trading model is outperforming by a wide margin. The Fed slowing the economy is a good thing, he argues",
+     "link": "https://www.marketwatch.com/story/this-strategists-bond-trading-model-is-outperforming-by-a-wide-margin-the-fed-slowing-the-economy-is-a-good-thing-he-argues-f39dfc5f?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "resume": "Michael Darda argues that markets should welcome the Federal Reserve's restrictive stance to curb high inflation and demand. His bond-trading model significantly outperforms peers by supporting aggressive economic slowdown measures.",
+     "full": false
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "bref": "L'actualité internationale est marquée par des alertes sur un possible déploiement d'une arme nucléaire russe dans l'espace et par une purge politique de premier plan en Chine. L'ONU alerte également sur l'ampleur des violences mortelles subies par les femmes.",
+   "items": [
+    {
+     "title": "Violences faites aux femmes : 129 femmes tuées par un proche chaque jour dans le monde en 2025",
+     "titre": "Violences faites aux femmes : 129 femmes tuées par un proche chaque jour dans le monde en 2025",
+     "link": "https://www.france24.com/fr/france/20261125-violences-vss-129-femmes-tu%C3%A9es-proche-chaque-jour-monde-2025",
+     "source": "France 24",
+     "resume": "Un rapport de l'ONU révèle que près de 47 000 femmes et filles ont été tuées par un proche en 2025 à travers le monde. Soixante pour cent des homicides féminins ont lieu au sein de la sphère privée.",
+     "full": false
+    },
+    {
+     "title": "All hostages rescued after Colombian security forces storm supermarket, says president",
+     "titre": "Tous les otages secourus après l'assaut des forces de sécurité colombiennes dans un supermarché, selon le président",
+     "link": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+     "source": "The Guardian World",
+     "resume": "Les forces de sécurité colombiennes ont donné l'assaut dans un supermarché de Carthagène pour mettre fin à une prise d'otages de dix-sept heures. L'opération s'est soldée par la libération de tous les otages sains et saufs et la mort d'un ravisseur.",
+     "full": true
+    },
+    {
+     "title": "Envoi d’une arme nucléaire russe dans l’espace d’ici deux mois : un risque jugé sérieux",
+     "titre": "Envoi d’une arme nucléaire russe dans l’espace d’ici deux mois : un risque jugé sérieux",
+     "link": "https://www.lemonde.fr/international/article/2026/11/25/envoi-d-une-arme-nucleaire-russe-dans-l-espace-d-ici-deux-mois-un-risque-juge-serieux_6815074_3210.html",
+     "source": "Le Monde International",
+     "resume": "Des services de renseignement occidentaux redoutent un lancement imminent d'un satellite militaire russe potentiellement doté d'une arme nucléaire. Ce projet fait courir des risques majeurs aux systèmes de défense spatiaux mondiaux.",
+     "full": true
+    },
+    {
+     "title": "China investigates politburo star in Xi Jinping’s latest purge",
+     "titre": "China investigates politburo star in Xi Jinping’s latest purge",
+     "link": "https://www.theguardian.com/world/2026/nov/25/china-investigates-politburo-chen-jining-xi-jinping-purge",
+     "source": "The Guardian World",
+     "resume": "China's anti-graft watchdog has launched a corruption investigation into Shanghai party chief Chen Jining. This high-profile probe highlights the ongoing crackdown within senior party ranks.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "bref": "Le Canada fait face à de fortes pressions du Pentagone concernant ses investissements militaires et ses engagements au sein de l'OTAN. En France, le congrès des maires bat son plein à Paris dans la perspective de l'élection présidentielle.",
+   "items": [
+    {
+     "title": "Chambre des communes | La ministre Mélanie Joly sacrée parlementaire de l’année par ses pairs",
+     "titre": "Chambre des communes : La ministre Mélanie Joly sacrée parlementaire de l’année par ses pairs",
+     "link": "https://www.lapresse.ca/actualites/politique/2026-11-25/chambre-des-communes/la-ministre-melanie-joly-sacree-parlementaire-de-l-annee-par-ses-pairs.php?utm_source=rss&utm_medium=fil&utm_campaign=actualites&utm_content=politique",
+     "source": "La Presse",
+     "resume": "La ministre de l'Industrie Mélanie Joly a été désignée parlementaire de l'année par ses collègues de la Chambre des communes. Cette distinction salue sa maîtrise des débats face aux critiques de l'opposition.",
+     "full": false
+    },
+    {
+     "title": "EN DIRECT, congrès des maires 2026 : suivez la journée et l’élection de son président, à cinq mois de la présidentielle",
+     "titre": "EN DIRECT, congrès des maires 2026 : suivez la journée et l’élection de son président, à cinq mois de la présidentielle",
+     "link": "https://www.lemonde.fr/politique/live/2026/11/25/en-direct-congres-des-maires-2026-suivez-l-election-du-president-de-l-association-des-maires-de-france-a-cinq-mois-de-l-election-presidentielle_6815062_823448.html",
+     "source": "Le Monde Politique",
+     "resume": "Le 108e congrès des maires de France rassemble des milliers d'élus à Paris dans un contexte marqué par l'élection de la présidence de l'AMF. Ce rendez-vous institutionnel sert également de plateforme pour les prétendants à l'élection présidentielle.",
+     "full": true
+    },
+    {
+     "title": "Pentagon prepared to 'up the ante' in defence dispute with Canada",
+     "titre": "Pentagon prepared to 'up the ante' in defence dispute with Canada",
+     "link": "https://www.cbc.ca/news/politics/defence-canada-us-pentagon-spending-9.7434887?cmp=rss",
+     "source": "CBC Politics",
+     "resume": "The Pentagon warned of potential mitigation measures against Canada over insufficient defense spending and readiness. U.S. officials criticized Ottawa's gap between rhetoric and reality regarding North American defense commitments.",
+     "full": true
+    },
+    {
+     "title": "First Nations in B.C. to acquire stake in Coastal GasLink pipeline",
+     "titre": "First Nations in B.C. to acquire stake in Coastal GasLink pipeline",
+     "link": "https://www.theglobeandmail.com/politics/article-bc-first-nations-coastal-gaslink-pipeline-november-24/",
+     "source": "The Globe and Mail",
+     "resume": "A group of twelve First Nations in northern British Columbia is acquiring an 11 percent stake in the Coastal GasLink pipeline entity. The transaction is supported by a federal loan guarantee to bridge financial barriers.",
+     "full": true
+    }
+   ]
+  }
+ ]
+}
