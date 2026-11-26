@@ -1,0 +1,334 @@
+{
+ "date": "2026-11-26",
+ "generated_at": "14:18",
+ "ai": true,
+ "une": [
+  {
+   "titre": "Feu vert conditionnel de la FCC aux data centers spatiaux de SpaceX",
+   "resume": "La FCC a autorisé SpaceX à déployer d'ici 2040 jusqu'à un million de satellites pour sa constellation de centres de données Starmind reliée à Starlink. Les sources varient sur le calendrier des premiers lancements (2027 pour Musk, exigence FCC d'ici 2033) et les puces prévues (Nvidia ou future usine Terafab). De plus, le plan de gestion des débris au-delà de 600 km reste bloqué, et la viabilité face aux radiations, au refroidissement et aux coûts demeure incertaine.",
+   "sources": [
+    {
+     "source": "TechCrunch",
+     "link": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
+    },
+    {
+     "source": "Le Monde Pixels",
+     "link": "https://www.lemonde.fr/sciences/article/2026/11/26/spacex-recoit-l-autorisation-de-lancer-jusqu-a-un-million-de-satellites-pour-ses-centres-de-donnees-spatiaux_6815331_1650684.html"
+    },
+    {
+     "source": "The Verge AI",
+     "link": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+    },
+    {
+     "source": "BFM Business",
+     "link": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/data-centers-dans-l-espace-feu-vert-pour-elon-musk-26-11_EN-202611260918.html"
+    }
+   ]
+  },
+  {
+   "titre": "1Password piraté via le compte GitHub d'un employé",
+   "resume": "1Password a révélé une intrusion débutée le 19 novembre via le compte GitHub d'un employé, permettant d'injecter du code malveillant et d'accéder à l'environnement CI/CD. Les pirates ont volé du code source, des données administratives clients et certains jetons, sans toutefois atteindre les coffres-forts chiffrés ni les clés maîtresses. L'éditeur a renouvelé ses identifiants internes et allongé les codes de vérification. Le nombre exact de clients affectés reste inconnu, laissant craindre des attaques de phishing ciblées.",
+   "sources": [
+    {
+     "source": "The Hacker News",
+     "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
+    },
+    {
+     "source": "Le Monde Informatique",
+     "link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/1password-victime-d-une-intrusion-via-github"
+    },
+    {
+     "source": "BleepingComputer",
+     "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
+    }
+   ]
+  },
+  {
+   "titre": "Cap monétaire incertain pour la Fed et consensus à la BCE",
+   "resume": "Les banques centrales naviguent entre tensions économiques et recomposition politique. Aux États-Unis, la Fed envisage une hausse des taux face à l'inflation, malgré une chute des valeurs technologiques qui fait craindre pour l'économie. En Europe, les dirigeants de l'UE ont trouvé un consensus pour nommer l'Espagnol Pablo Hernández de Cos à la tête de la BCE, épaulé par Markus Brunnermeier et Laurence Boone. Cet accord reste toutefois conditionné aux auditions parlementaires et à sa validation formelle le 17 décembre.",
+   "sources": [
+    {
+     "source": "Financial Times",
+     "link": "https://www.ft.com/content/3890f725-66dd-4613-8a60-d9e3ea38d25a?syn-25a6b1a6=1"
+    },
+    {
+     "source": "Politico Europe",
+     "link": "https://www.politico.eu/article/eu-leaders-clear-path-for-spains-pablo-hernandez-de-cos-to-lead-ecb/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+    }
+   ]
+  }
+ ],
+ "concept": {
+  "terme": "Attaque de la chaîne logistique (Supply Chain Attack)",
+  "explication": "Une attaque de la chaîne logistique consiste à compromettre un composant logiciel tiers ou un outil de développement plutôt que de viser directement la victime finale. Les attaquants infectent une dépendance ou un compte légitime pour que leur code malveillant soit automatiquement téléchargé et exécuté. Cette méthode permet d'infiltrer à grande échelle des postes de développeurs et des environnements cloud. On en parle aujourd'hui avec la campagne nord-coréenne PolinRider, qui empoisonne des dépôts GitHub pour diffuser des malwares.",
+  "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+  "source": "The Hacker News"
+ },
+ "art": {
+  "rubrique": "Cinéma",
+  "titre": "Un bon petit soldat",
+  "texte": "Prix du scénario à la Mostra de Venise 2026, le film de Stéphane Brizé réunit Alba Rohrwacher et Vincent Lindon au cinéma. Il suit une DRH d'une compagnie d'assurances prise entre objectifs de performance et bien-être des salariés face à un management toxique. Noté 4 sur 5 sur AlloCiné, ce long métrage séduit le public par son réalisme et sa charge acide contre le monde de l'entreprise.",
+  "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000234062.html",
+  "source": "AlloCiné"
+ },
+ "histoire": {
+  "annee": 2018,
+  "titre": "La sonde InSight atteint le sol martien",
+  "texte": "En novembre 2018, la sonde InSight, développée par l'agence spatiale américaine NASA, atteint le sol de la planète Mars. Cette mission d'exploration est la première à réussir une étude sismique de cette planète. Sa phase scientifique, qui s'est déroulée jusqu'en décembre 2022, a constitué une étape inédite dans l'étude de la sismicité martienne.",
+  "link": "https://fr.wikipedia.org/wiki/InSight",
+  "source": "Wikipédia"
+ },
+ "pays": {
+  "nom": "Libye",
+  "capitale": "Tripoli",
+  "texte": "Située en Afrique du Nord et en partie au Maghreb, la Libye donne sur la mer Méditerranée et jouxte la Tunisie, l'Algérie, le Niger, le Tchad, le Soudan et l'Égypte. Le pays est divisé depuis 2014 entre le gouvernement de Tripoli, reconnu par l'ONU, et le maréchal Haftar à l'est et au sud. Il fait aujourd'hui l'actualité avec la première visite officielle du maréchal à Ankara, scellant un rapprochement inédit avec le président turc Recep Tayyip Erdogan.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Libya_%28orthographic_projection%29.svg/langfr-330px-Libya_%28orthographic_projection%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wiki": "https://fr.wikipedia.org/wiki/Libye",
+  "link": "https://www.lemonde.fr/afrique/article/2026/11/26/en-turquie-le-marechal-haftar-concretise-son-rapprochement-avec-recep-tayyip-erdogan_6815587_3212.html",
+  "source": "Le Monde International"
+ },
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "bref": "Les Pays-Bas s'opposent aux pressions américaines sur les ventes d'ASML en Chine, tandis que l'OTAN simule des opérations pilotées par l'IA de Palantir. Côté données, le Danemark subit une nouvelle intrusion dans son registre national et la Cour des comptes exige une stratégie hospitalière, pendant que Ford dévoile sa GT41.",
+   "items": [
+    {
+     "title": "Ford unveils the GT41 as it hopes to win Le Mans again",
+     "titre": "Ford dévoile la GT41 dans l'espoir de remporter à nouveau Le Mans",
+     "link": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
+     "source": "Ars Technica",
+     "resume": "Ford rejoindra le championnat du monde d'endurance en 2027 avec la GT41, un prototype hybride LMDh conçu avec Oreca et équipé d'un V8 de 5,4 litres. Soixante ans après la GT40, la marque vise un nouveau succès au Mans.",
+     "full": true
+    },
+    {
+     "title": "Données de santé : la Cour des comptes déplore l’absence de stratégie nationale",
+     "titre": "Données de santé : la Cour des comptes déplore l’absence de stratégie nationale",
+     "link": "https://next.ink/270315/donnees-de-sante-la-cour-des-comptes-deplore-labsence-de-strategie-nationale/",
+     "source": "Next",
+     "resume": "Dans un rapport du 26 novembre, la Cour des comptes dénonce le déploiement sans cohérence territoriale des entrepôts de données de santé hospitaliers. Elle presse le ministère de la Santé de clarifier sa stratégie dès 2027 et invite la CNIL à renforcer ses contrôles.",
+     "full": true
+    },
+    {
+     "title": "Le virage au forceps des alliés de l’OTAN vers des opérations militaires dopées à l’IA de Palantir",
+     "titre": "Le virage au forceps des alliés de l’OTAN vers des opérations militaires dopées à l’IA de Palantir",
+     "link": "https://www.lemonde.fr/international/article/2026/11/26/le-virage-au-forceps-des-allies-de-l-otan-vers-des-operations-militaires-dopees-a-l-ia-de-palantir_6815581_3210.html",
+     "source": "Le Monde Pixels",
+     "resume": "Du 19 au 30 octobre en Lettonie, l'OTAN a conduit à Adazi une simulation de défense coordonnée par l'IA de Palantir mêlant drones, chars et robots. Cet exercice illustre les tensions autour de la souveraineté entre armées, industriels et acteurs de la DefTech.",
+     "full": true
+    },
+    {
+     "title": "ASML en Chine : les Pays-Bas haussent le ton face à Washington",
+     "titre": "ASML en Chine : les Pays-Bas haussent le ton face à Washington",
+     "link": "https://next.ink/270335/asml-en-chine-les-pays-bas-haussent-le-ton-face-a-washington/",
+     "source": "Next",
+     "resume": "Le 26 novembre, La Haye a pressé le Congrès américain de retirer le MATCH Act du NDAA afin d'éviter de nouvelles restrictions sur les machines DUV d'ASML en Chine. Le texte menace environ 20 % du chiffre d'affaires du groupe prévu en 2026.",
+     "full": true
+    },
+    {
+     "title": "Danemark : une nouvelle fuite de données touche 11 000 personnes",
+     "titre": "Danemark : une nouvelle fuite de données touche 11 000 personnes",
+     "link": "https://www.lemonde.fr/pixels/article/2026/11/26/danemark-une-nouvelle-fuite-de-donnees-touche-11-000-personnes_6815509_4408996.html",
+     "source": "Le Monde Pixels",
+     "resume": "Le ministère danois du Numérique a annoncé le 26 novembre une nouvelle intrusion dans le registre national CPR, exposant les données de 11 000 personnes après celle de 8,8 millions en octobre. Un nouveau dispositif de surveillance a permis d'interrompre rapidement l'incident.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "bref": "L'intelligence artificielle bouscule autant la recherche que la régulation. Tandis qu'un modèle d'IA sature un benchmark inédit de physique théorique à moindre coût, les autorités réagissent aux dérives grand public : New York interdit les jouets dotés de chatbots et 42 procureurs américains bloquent la vente des conversations de Character.AI.",
+   "items": [
+    {
+     "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+     "titre": "42 procureurs généraux d'États tentent d'empêcher Character.AI de vendre les conversations de ses utilisateurs",
+     "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+     "source": "The Verge AI",
+     "resume": "Une coalition de 42 procureurs généraux américains bloque la mise aux enchères par Character.AI, en faillite, des discussions de 21 millions d'utilisateurs, dont 2,1 millions de mineurs. Ils dénoncent l'absence de garanties empêchant l'acquéreur, une entité récente et opaque, de revendre ces données.",
+     "full": true
+    },
+    {
+     "title": "AI may soon change what it means to be a theoretical physicist",
+     "titre": "L'IA pourrait bientôt changer ce que signifie être physicien théoricien",
+     "link": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+     "source": "Ars Technica AI",
+     "resume": "Sur un benchmark inédit de 50 problèmes complexes de physique théorique, GPT-6 Astra en a résolu 49 pour moins de trois dollars par calcul. Ce score sature d'emblée l'évaluation et pousse les physiciens à déléguer davantage les calculs pour privilégier les concepts.",
+     "full": true
+    },
+    {
+     "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+     "titre": "La FCC approuve le projet de SpaceX d'envoyer jusqu'à un million de satellites de centres de données dans l'espace",
+     "link": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+     "source": "The Verge AI",
+     "resume": "La FCC a autorisé SpaceX à déployer jusqu'à un million de satellites équipés de puces d'IA pour sa constellation Starmind d'ici 2040. Cette première approbation pour un centre de données orbital diffère toutefois la décision sur l'élimination des satellites au-delà de 600 kilomètres.",
+     "full": true
+    },
+    {
+     "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+     "titre": "Vous voulez acheter un jouet IA à votre enfant pour Noël ? Pas à New York",
+     "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+     "source": "TechCrunch AI",
+     "resume": "New York interdit pour cinq ans la fabrication et la vente de jouets équipés de chatbots d'IA, sous peine d'amendes de 15 000 dollars par jour. Après la Californie, cette loi vise à protéger les enfants de conversations inappropriées et d'atteintes à la vie privée.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "bref": "La chaîne logistique logicielle et les équipements réseau restent sous forte pression. Des pirates nord-coréens dissimulent du code malveillant sur GitHub via Ethereum, tandis que la faille Fragnesia cible les pare-feu PAN-OS. Par ailleurs, la justice américaine inculpe un prestataire floridien qui payait secrètement les rançons de ses clients.",
+   "items": [
+    {
+     "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+     "titre": "La campagne PolinRider liée à la Corée du Nord empoisonne plus de 7 600 dépôts GitHub pour diffuser des malwares",
+     "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+     "source": "The Hacker News",
+     "resume": "Active depuis février 2025, la campagne nord-coréenne PolinRider cache un chargeur Python dans 375 dépôts GitHub identifiés par SafeDep pour exécuter du JavaScript via Ethereum. L'attaque altère des outils comme VS Code ou Cursor afin de déployer des malwares voleurs d'informations.",
+     "full": true
+    },
+    {
+     "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+     "titre": "1Password piraté, des données clients et du code source volés lors d'une compromission de compte GitHub",
+     "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+     "source": "The Hacker News",
+     "resume": "1Password a révélé le vol de données administratives de certains clients et de code source après le piratage du compte GitHub d'un employé le 19 novembre. Les coffres-forts chiffrés et clés maîtresses restent intacts, mais les utilisateurs sont exposés à un risque accru d'hameçonnage.",
+     "full": true
+    },
+    {
+     "title": "Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms",
+     "titre": "Un PDG floridien spécialisé dans la récupération après rançongiciel inculpé pour avoir versé des rançons aux pirates",
+     "link": "https://therecord.media/ransomware-doj-indictment-recovery",
+     "source": "The Record",
+     "resume": "Juan Ricardo Palacio Escobar, dirigeant de Ransomwarehelp.com, a été inculpé de fraude électronique pour avoir secrètement versé des rançons en bitcoins aux pirates tout en facturant plus cher ses clients. Piégé par le FBI, il risque jusqu'à 60 ans de prison.",
+     "full": true
+    },
+    {
+     "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+     "titre": "Palo Alto Networks alerte sur l'exploitation de la faille Fragnesia dans des attaques contre PAN-OS",
+     "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+     "source": "BleepingComputer",
+     "resume": "Palo Alto Networks confirme que des pirates exploitent la faille PHP2Shell avec la vulnérabilité noyau Linux Fragnesia pour obtenir un accès root sur des pare-feu PAN-OS exposés sur Internet. Des correctifs sont disponibles pour cinq versions du système et le filtrage IP est recommandé.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "bref": "Le secteur technologique redéfinit les équilibres financiers tout en exposant de nouveaux risques. Les semi-conducteurs surpassent désormais le pétrole dans les exportations mondiales, mais la forte volatilité de Nvidia pénalise lourdement les ETF à effet de levier. En parallèle, Andrew Bailey s'inquiète des menaces de l'IA sur le chiffrement bancaire.",
+   "items": [
+    {
+     "title": "Hawkish Fed poised to raise rates despite stock market turmoil",
+     "titre": "Une Fed offensive prête à relever ses taux malgré les turbulences boursières",
+     "link": "https://www.ft.com/content/3890f725-66dd-4613-8a60-d9e3ea38d25a?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "L'inflation demeure la priorité absolue des responsables de la banque centrale américaine. Cette orientation restrictive persiste alors même que la chute des valeurs technologiques alimente les craintes pour l'économie.",
+     "full": false
+    },
+    {
+     "title": "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
+     "titre": "Acheteurs, méfiez-vous ? Les fortes fluctuations de Nvidia exposent les risques des ETF sur action unique",
+     "link": "https://www.cnbc.com/2026/11/26/nvidias-volatile-swings-expose-risks-of-single-stock-etfs.html",
+     "source": "CNBC Finance",
+     "resume": "Après un bond de 31 % de l'action Nvidia lundi suite au retour de Jensen Huang, l'ETF inverse 2x NVD a plongé de 63 % tandis que le NVDL gagnait près de 62 %. Ces écarts soulignent les dangers de l'effet de levier pour les investisseurs particuliers.",
+     "full": true
+    },
+    {
+     "title": "Semiconductor chips are the new oil. Here's why",
+     "titre": "Les puces semi-conductrices sont le nouveau pétrole. Voici pourquoi",
+     "link": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
+     "source": "CNBC Finance",
+     "resume": "Selon Deutsche Bank, les exportations mondiales de semi-conducteurs ont dépassé le pétrole et le gaz au premier trimestre 2026 avec 1 610 milliards de dollars contre 1 530 milliards. Malgré la volatilité boursière, ce « chip dollar » pourrait réorienter les capitaux vers les entreprises technologiques américaines.",
+     "full": true
+    },
+    {
+     "title": "Andrew Bailey says unreleased AI models have raised encryption concerns",
+     "titre": "Andrew Bailey affirme que des modèles d'IA non publiés suscitent des inquiétudes sur le chiffrement",
+     "link": "https://www.ft.com/content/450920b9-82b8-4a66-960b-5740aa7f94ae?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Des avancées mathématiques réalisées par des modèles d'IA non encore rendus publics alimentent les craintes pour la sécurité des systèmes financiers. Ces progrès laissent redouter une menace directe sur le chiffrement protégeant les données bancaires.",
+     "full": false
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "bref": "La diplomatie et les crises sécuritaires marquent l'actualité internationale. Ankara scelle son rapprochement avec le maréchal libyen Haftar, tandis que Pyongyang expulse un diplomate suisse en réponse aux sanctions liées aux enfants ukrainiens. Parallèlement, les troupes salvadoriennes font reculer les gangs en Haïti et un grave incendie endeuille Le Caire.",
+   "items": [
+    {
+     "title": "En Turquie, le maréchal Haftar concrétise son rapprochement avec Recep Tayyip Erdogan",
+     "titre": "En Turquie, le maréchal Haftar concrétise son rapprochement avec Recep Tayyip Erdogan",
+     "link": "https://www.lemonde.fr/afrique/article/2026/11/26/en-turquie-le-marechal-haftar-concretise-son-rapprochement-avec-recep-tayyip-erdogan_6815587_3212.html",
+     "source": "Le Monde International",
+     "resume": "Le 25 novembre, le maréchal libyen Khalifa Haftar a rencontré Recep Tayyip Erdogan à Ankara lors d'une première visite officielle inimaginable avant 2025. Ce rapprochement confirme le rôle diplomatique central de la Turquie dans la crise divisant la Libye depuis 2014.",
+     "full": true
+    },
+    {
+     "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+     "titre": "Au moins 31 morts dans l'incendie provoqué par l'accident d'un camion-citerne sur une autoroute du Caire",
+     "link": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+     "source": "The Guardian World",
+     "resume": "Le renversement d'un camion-citerne sur le périphérique du Caire a déclenché un grave incendie tuant au moins 31 personnes et faisant 21 blessés dans le quartier de Waraq. Plus de deux douzaines de véhicules ont été calcinés, illustrant la dangerosité persistante des routes égyptiennes.",
+     "full": true
+    },
+    {
+     "title": "De l’Ukraine à la Corée au Nord : le camp Songdowon mêlé au scandale des enfants déportés",
+     "titre": "De l’Ukraine à la Corée au Nord : le camp Songdowon mêlé au scandale des enfants déportés",
+     "link": "https://www.france24.com/fr/asie-pacifique/20261126-de-l-ukraine-a-la-coree-au-nord-le-camp-songdowon-m%C3%AAl%C3%A9-au-scandale-des-enfants-deportes",
+     "source": "France 24",
+     "resume": "Pyongyang a expulsé l'attaché diplomatique suisse en représailles aux sanctions de Berne contre le camp pour enfants de Songdowon, également visé par l'UE et le Royaume-Uni. Ce centre nord-coréen est accusé d'aider la Russie à déporter et rééduquer de force des enfants ukrainiens.",
+     "full": false
+    },
+    {
+     "title": "En Haïti, “les gangs ont peur” face aux troupes salvadoriennes",
+     "titre": "En Haïti, “les gangs ont peur” face aux troupes salvadoriennes",
+     "link": "https://www.france24.com/fr/%C3%A9missions/les-observateurs/20261126-en-ha%C3%AFti-les-gangs-ont-peur-face-aux-troupes-salvadoriennes",
+     "source": "France 24",
+     "resume": "Déployées fin octobre à Port-au-Prince à l'initiative du président Nayib Bukele, les troupes salvadoriennes suscitent l'espoir des habitants face aux violences des gangs. Selon des témoignages locaux, cette présence militaire met les groupes armés en difficulté et leur fait perdre du terrain.",
+     "full": false
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "bref": "Au Canada, Ottawa avance des fonds pour des F-35 tout en révisant son contrat, la Cour suprême s'apprête à trancher sur la laïcité québécoise et la Saskatchewan veut punir les blocages d'infrastructures. À Porto Rico, la justice autorise le renvoi de l'opérateur électrique LUMA Energy.",
+   "items": [
+    {
+     "title": "Canada puts more money down on F-35s as fighter review drags on",
+     "titre": "Le Canada avance de nouveaux fonds pour des F-35 alors que la révision du contrat s'éternise",
+     "link": "https://www.cbc.ca/news/politics/f35-canada-us-trade-war-fighters-9.7437398?cmp=rss",
+     "source": "CBC Politics",
+     "resume": "Ottawa a versé des acomptes pour des pièces de 18 chasseurs F-35 supplémentaires, portant à 48 le nombre d'appareils partiellement financés sur les 88 initialement prévus. Le gouvernement de Mark Carney réexamine toujours ce contrat de 27,9 milliards de dollars face à une offre concurrente de Saab.",
+     "full": true
+    },
+    {
+     "title": "What's at stake as Canada's top court ruling on Quebec secularism law looms",
+     "titre": "Les enjeux à l'approche de la décision de la Cour suprême du Canada sur la loi québécoise sur la laïcité",
+     "link": "https://www.cbc.ca/news/canada/montreal/supreme-court-bill-21-quebec-9.7436487?cmp=rss",
+     "source": "CBC Politics",
+     "resume": "La Cour suprême du Canada rendra vendredi matin sa décision très attendue sur la loi 21 du Québec interdisant le port de signes religieux à certains agents publics. L'arrêt doit déterminer si les tribunaux peuvent encadrer l'usage de la clause dérogatoire protégeant ce texte.",
+     "full": true
+    },
+    {
+     "title": "La province veut protéger les infrastructures jugées essentielles contre les blocages",
+     "titre": "La province veut protéger les infrastructures jugées essentielles contre les blocages",
+     "link": "https://ici.radio-canada.ca/article/info/2303208/loi-blocages-occupations-illegales-manifestations",
+     "source": "Radio-Canada",
+     "resume": "La Saskatchewan propose des amendes quotidiennes de 25 000 dollars aux particuliers et de 200 000 dollars aux entreprises qui bloqueraient des infrastructures économiques. L'opposition dénonce une loi inutile alors que le gouvernement promet de préserver le droit de manifester légalement.",
+     "full": true
+    },
+    {
+     "title": "Court lets Puerto Rico governor fire firm that runs the island's troubled power grid",
+     "titre": "La justice autorise le gouverneur de Porto Rico à licencier l'entreprise gérant le réseau électrique défaillant de l'île",
+     "link": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
+     "source": "NPR Politics",
+     "resume": "Un tribunal a annulé le contrat de LUMA Energy, qui exploitait depuis cinq ans le réseau électrique instable de Porto Rico. Cette décision autorise le gouverneur à écarter l'opérateur et accorde un an au gouvernement local pour lui trouver un successeur.",
+     "full": true
+    }
+   ]
+  }
+ ]
+}
