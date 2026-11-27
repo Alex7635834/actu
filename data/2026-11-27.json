@@ -1,0 +1,334 @@
+{
+ "date": "2026-11-27",
+ "generated_at": "05:50",
+ "ai": true,
+ "une": [
+  {
+   "titre": "Nvidia suspend ses livraisons de serveurs en Asie du Sud-Est",
+   "resume": "Nvidia a demandé à ses partenaires de suspendre les livraisons de serveurs vers plusieurs pays d'Asie du Sud-Est afin d'évaluer le respect des exigences d'exportation américaines. Cette décision intervient alors que la région joue un rôle stratégique majeur dans l'écosystème mondial de l'intelligence artificielle et des centres de données. Les marchés financiers locaux ont réagi fortement à ces incertitudes réglementaires, soulignant la dépendance étroite de ces économies aux puces de l'entreprise.",
+   "sources": [
+    {
+     "source": "TechCrunch",
+     "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+    },
+    {
+     "source": "BBC Business",
+     "link": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss"
+    }
+   ]
+  },
+  {
+   "titre": "Incident de sécurité et restructuration chez SAP",
+   "resume": "Le géant allemand SAP fait face à des activités suspectes dans son environnement GitHub, des attaquants ayant potentiellement dérobé des jetons d'authentification pour modifier du code source. Cet incident coïncide avec des révélations de presse concernant un projet de restructuration majeur prévoyant la suppression de milliers de postes. L'entreprise indique qu'aucune donnée métier de ses clients n'a été compromise à ce stade de l'enquête.",
+   "sources": [
+    {
+     "source": "Next",
+     "link": "https://next.ink/brief-article/sap-envisage-jusqua-10-000-suppressions-de-postes-au-nom-de-la-transformation-par-lia/"
+    },
+    {
+     "source": "Numerama",
+     "link": "https://www.numerama.com/cyberguerre/2385947-a-garder-strictement-au-sein-de-sap-un-message-interne-trahit-une-cyberattaque-contre-le-geant-allemand-du-logiciel.html"
+    },
+    {
+     "source": "BleepingComputer",
+     "link": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/"
+    },
+    {
+     "source": "Le Monde Informatique",
+     "link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-chez-sap-des-soupcons-d-acces-au-code-source-sur-github"
+    }
+   ]
+  },
+  {
+   "titre": "La France entre en récession économique au troisième trimestre",
+   "resume": "L'Insee a confirmé que la croissance française a reculé de 0,2 % au troisième trimestre, marquant deux trimestres consécutifs de contraction et confirmant l'entrée en récession du pays. Cette dégradation de l'activité pèse sur les comptes publics, aggravant le déficit à 5,6 % du PIB en raison du ralentissement des recettes fiscales et de la progression des dépenses sociales.",
+   "sources": [
+    {
+     "source": "Le Monde Pixels",
+     "link": "https://www.lemonde.fr/politique/article/2026/11/27/jeu-video-en-crise-le-secteur-interpelle-les-candidats-a-l-election-presidentielle_6815838_823448.html"
+    },
+    {
+     "source": "Le Monde Économie",
+     "link": "https://www.lemonde.fr/economie/article/2026/11/27/la-france-entre-en-recession-apres-deux-trimestres-de-recul-du-pib_6815824_3234.html"
+    },
+    {
+     "source": "France 24",
+     "link": "https://www.france24.com/fr/france/20261127-la-france-entre-en-r%C3%A9cession-le-pib-continue-de-reculer"
+    }
+   ]
+  }
+ ],
+ "concept": {
+  "terme": "Cache KV",
+  "explication": "Le cache KV est une technique d'optimisation essentielle pour les grands modèles de langage lors de la génération de texte. Il stocke en mémoire les clés et les valeurs calculées pour les couches d'attention des tokens précédents afin d'éviter de les recalculer à chaque étape. Cela accélère considérablement la vitesse de réponse du modèle. On en parle aujourd'hui car l'optimisation de sa taille est cruciale pour permettre l'inférence efficace de modèles d'intelligence artificielle sur des processeurs classiques ou à faible mémoire vive.",
+  "link": "https://next.ink/268574/olala-on-a-teste-des-ia-generatives-sur-cpu-avec-5-machines-et-plus-de-1-000-prompts/",
+  "source": "Next"
+ },
+ "art": {
+  "rubrique": "Cinéma",
+  "titre": "Un bon petit soldat de Stéphane Brizé",
+  "texte": "Le nouveau film de Stéphane Brizé, récompensé à la Mostra de Venise, plonge dans les dilemmes d'une DRH face au management toxique d'une grande entreprise. Porté par Alba Rohrwacher et Vincent Lindon, le long-métrage séduit les spectateurs par sa critique acerbe et réaliste du monde du travail contemporain.",
+  "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000234062.html",
+  "source": "AlloCiné"
+ },
+ "histoire": {
+  "annee": 1942,
+  "titre": "Le sabordage de la flotte française à Toulon",
+  "texte": "En 1942, la Marine nationale française ordonne le sabordage de ses navires de guerre dans le port de Toulon pour empêcher l'occupant allemand de s'en emparer. Cet événement tragique met un terme définitif à la présence opérationnelle de la flotte de haute mer sous le régime de Vichy.",
+  "link": "https://fr.wikipedia.org/wiki/Toulon",
+  "source": "Wikipédia"
+ },
+ "pays": {
+  "nom": "Afrique du Sud",
+  "capitale": "Pretoria",
+  "texte": "Situé à l'extrémité australe du continent africain, ce pays est bordé par plusieurs voisins comme la Namibie, le Botswana et le Mozambique, tout en englobant le Lesotho. Longtemps terre d'accueil pour les personnes fuyant les persécutions, il connaît aujourd'hui une montée des mouvements anti-immigration sur fond de chômage persistant.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/South_Africa_%28orthographic_projection%29.svg/langfr-330px-South_Africa_%28orthographic_projection%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wiki": "https://fr.wikipedia.org/wiki/Afrique_du_Sud",
+  "link": "https://www.france24.com/fr/%C3%A9missions/reporters/20261127-afrique-du-sud-fin-eldorado-pour-les-%C3%A9trangers-r%C3%A9fugi%C3%A9s-xenophobie",
+  "source": "France 24"
+ },
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "bref": "Volvo met à niveau ses hybrides rechargeables avec de plus grandes batteries, tandis que l'évaluation de modèles d'IA sur processeurs classiques met en lumière les limites de performance des CPU.",
+   "items": [
+    {
+     "title": "Volvo's big batteries: We drive its updated 2028 plug-in hybrids",
+     "titre": "Les hybrides rechargeables de Volvo pour 2028 reçoivent de nouvelles batteries",
+     "link": "https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/",
+     "source": "Ars Technica",
+     "resume": "Volvo met à jour ses SUV hybrides rechargeables XC60 et XC90 pour le modèle 2028 avec une plus grande autonomie électrique et des habitacles modernisés. Cela permet aux conducteurs de parcourir plus de 100 kilomètres sans émissions à l'échappement au quotidien.",
+     "full": true
+    },
+    {
+     "title": "Olala ! On a testé des IA génératives sur CPU, avec 5 machines et plus de 1 000 prompts",
+     "titre": "Tests d'IA génératives sur CPU avec cinq machines et plus de 1 000 prompts",
+     "link": "https://next.ink/268574/olala-on-a-teste-des-ia-generatives-sur-cpu-avec-5-machines-et-plus-de-1-000-prompts/",
+     "source": "Next",
+     "resume": "Next a mesuré la vitesse de traitement du modèle Olala-v1.0-mini-7A1B, développé par OVH pour fonctionner sur processeur. L'évaluation montre la lenteur de ces inférences sur CPU par rapport aux cartes graphiques traditionnelles.",
+     "full": true
+    },
+    {
+     "title": "Jeu vidéo : en crise, le secteur interpelle les candidats à l’élection présidentielle",
+     "titre": "Jeu vidéo : en crise, le secteur interpelle les candidats à l’élection présidentielle",
+     "link": "https://www.lemonde.fr/politique/article/2026/11/27/jeu-video-en-crise-le-secteur-interpelle-les-candidats-a-l-election-presidentielle_6815838_823448.html",
+     "source": "Le Monde Pixels",
+     "resume": "Face à la fermeture de studios et aux difficultés de financement, les syndicats professionnels demandent un renforcement du crédit d'impôt. Cette mesure vise à redynamiser une industrie où près d'un studio sur deux se déclare déficitaire.",
+     "full": true
+    },
+    {
+     "title": "Einstein, mécanique quantique et trous noirs : ce physicien propose une nouvelle théorie et GPT-6 Astra y est pour quelque chose",
+     "titre": "Einstein, mécanique quantique et trous noirs : ce physicien propose une nouvelle théorie et GPT-6 Astra y est pour quelque chose",
+     "link": "https://www.numerama.com/sciences/2385919-einstein-mecanique-quantique-et-trous-noirs-ce-physicien-propose-une-nouvelle-theorie-et-gpt-6-astra-y-est-pour-quelque-chose.html",
+     "source": "Numerama",
+     "resume": "Un physicien de Stanford a déposé une prépublication visant à réconcilier la gravité et la mécanique quantique en s'appuyant sur des calculs menés avec GPT-6 Astra. Cette nouvelle approche mathématique contourne l'utilisation d'un espace-temps fixe.",
+     "full": true
+    },
+    {
+     "title": "« On est vraiment sur de l’achat compulsif » : Whatnot, la plateforme de téléachat 2.0 au rythme effréné",
+     "titre": "On est vraiment sur de l'achat compulsif : Whatnot, la plateforme de téléachat 2.0 au rythme effréné",
+     "link": "https://www.lemonde.fr/pixels/article/2026/11/27/on-est-vraiment-sur-de-l-achat-compulsif-whatnot-la-plateforme-de-teleachat-2-0-au-rythme-effrene_6815812_4408996.html",
+     "source": "Le Monde Pixels",
+     "resume": "La plateforme de live shopping Whatnot supprime ses commissions pour le Black Friday afin d'amplifier son hypercroissance en France. Ce format de téléachat interactif génère un chiffre d'affaires important pour les vendeurs de cartes et objets de collection.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "bref": "Les avancées en intelligence artificielle soulèvent des questions économiques sur la valeur du travail et l'optimisation mathématique des calculs matriciels. La prolifération de contenus automatisés pose également un défi pour la gestion de l'attention.",
+   "items": [
+    {
+     "title": "Quoting Jack Despain Zhou",
+     "titre": "Quotation of Jack Despain Zhou par Simon Willison",
+     "link": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+     "source": "Simon Willison",
+     "resume": "Une citation collectée met en lumière la standardisation des contenus et la perte d'individualisation engendrée par l'utilisation massive de l'intelligence artificielle. Les courriels et les communications publiques tendent à adopter le même style uniforme.",
+     "full": true
+    },
+    {
+     "title": "L'IA moins chère peut-elle appauvrir tout le monde ?",
+     "titre": "L'IA moins chère peut-elle appauvrir tout le monde ?",
+     "link": "https://www.actuia.com/actualite/si-lia-produit-moins-cher-comment-peut-elle-detruire-de-la-valeur/",
+     "source": "ActuIA",
+     "resume": "Une étude montre que la démocratisation des lettres de motivation générées par l'IA a fait disparaître la prime salariale liée à cet effort initial. Cette surabondance de contenus dégradant la valeur de l'information peut détruire de la richesse globale.",
+     "full": true
+    },
+    {
+     "title": "OpenAI revendique une limite de vitesse pour le calcul qui fait tourner l'IA",
+     "titre": "OpenAI revendique une limite de vitesse pour le calcul qui fait tourner l'IA",
+     "link": "https://www.actuia.com/actualite/openai-revendique-une-limite-de-vitesse-pour-le-calcul-qui-fait-tourner-lia/",
+     "source": "ActuIA",
+     "resume": "Un document d'OpenAI démontre qu'aucun algorithme exact ne peut multiplier deux matrices en dessous d'une certaine borne inférieure. Cette limite mathématique fixe un seuil théorique aux performances des calculs matriciels essentiels aux modèles d'IA.",
+     "full": true
+    },
+    {
+     "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+     "titre": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+     "link": "https://huggingface.co/blog/training-swarms",
+     "source": "Hugging Face",
+     "resume": "Cette série d'articles explore la construction et l'entraînement de systèmes multi-agents capables de communiquer entre eux. L'objectif est de mesurer si la coordination apporte un gain réel de performance face au coût de calcul.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "bref": "Les infrastructures critiques font face à une recrudescence d'attaques automatisées menées par des agents intelligents. Les failles logistiques et la sécurité des accès dans le cloud peinent à suivre l'autonomie croissante accordée à ces outils.",
+   "items": [
+    {
+     "title": "Drupal warns of new site takeover flaw exploited in attacks",
+     "titre": "Drupal met en garde contre une nouvelle faille d'attaque de sites exploitée",
+     "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+     "source": "BleepingComputer",
+     "resume": "L'équipe de sécurité de Drupal avertit qu'une seconde vulnérabilité critique permettant de pirater des sites non corrigés est activement exploitée. Les administrateurs sont invités à sécuriser les installateurs pour contrer ces compromissions.",
+     "full": true
+    },
+    {
+     "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+     "titre": "La Suisse confirme que des cyberattaques assistées par IA ont visé des opérateurs d'infrastructures critiques",
+     "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+     "source": "The Hacker News",
+     "resume": "Le Centre national pour la cybersécurité en Suisse rapporte que des agents autonomes ont réussi à pénétrer les systèmes informatiques d'organisations clés. Ces outils automatisent l'exploitation des failles avec une rapidité inédite.",
+     "full": true
+    },
+    {
+     "title": "SAP confirms security incident after suspicious GitHub activity",
+     "titre": "SAP confirme un incident de sécurité après une activité suspecte sur GitHub",
+     "link": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+     "source": "BleepingComputer",
+     "resume": "Le géant du logiciel SAP a pris des mesures d'urgence pour protéger ses clients après la découverte d'un accès suspect à son environnement GitHub. Des employés auraient vu leurs jetons d'authentification dérobés pour modifier du code.",
+     "full": true
+    },
+    {
+     "title": "Cybersécurité : les agents IA prennent le contrôle du cloud plus vite que les entreprises ne sécurisent leurs accès",
+     "titre": "Cybersécurité : les agents IA prennent le contrôle du cloud plus vite que les entreprises ne sécurisent leurs accès",
+     "link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cybersecurite-les-agents-ia-prennent-le-controle-du-cloud-plus-vite-que-les-entreprises-ne-securisent-leurs-acces",
+     "source": "Le Monde Informatique",
+     "resume": "Une étude de Palo Alto Networks révèle que 99 % des entreprises utilisent des agents IA dans leurs processus de développement sans appliquer tous les contrôles de sécurité. Cette autonomie accrue favorise les risques de mauvaise gestion des identités non humaines.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "bref": "Les marchés boursiers asiatiques réagissent aux tensions réglementaires autour de l'intelligence artificielle. Par ailleurs, la Suisse évalue des options de défense aérienne pour moderniser ses capacités militaires.",
+   "items": [
+    {
+     "title": "Chinese households shed billions in consumer debt",
+     "titre": "Chinese households shed billions in consumer debt",
+     "link": "https://www.ft.com/content/8c5e0298-58f0-47e9-a843-513178d9fa2e?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "A three-year decline in mortgages in China is now spreading to consumer loans",
+     "full": false
+    },
+    {
+     "title": "Chinese shares soar after Beijing signals more support",
+     "titre": "Chinese shares soar after Beijing signals more support",
+     "link": "https://www.ft.com/content/fedc6392-ad25-43e4-9d9f-20216cbf331e?syn-25a6b1a6=1",
+     "source": "Financial Times",
+     "resume": "Biggest one-day rise for CSI 300 index in two years following months of weakness",
+     "full": false
+    },
+    {
+     "title": "Pour convaincre la Suisse d'acheter son bouclier antimissile plutôt que celui d'Israël, la France lui propose de participer à son développement",
+     "titre": "Pour convaincre la Suisse d'acheter son bouclier antimissile plutôt que celui d'Israël, la France lui propose de participer à son développement",
+     "link": "https://www.bfmtv.com/economie/entreprises/defense/pour-convaincre-la-suisse-d-acheter-son-bouclier-antimissile-plutot-que-celui-d-israel-la-france-lui-propose-de-participer-a-son-developpement_AN-202611270469.html",
+     "source": "BFM Business",
+     "resume": "La France propose à la Suisse de s'associer au développement du système de défense aérienne SAMP/T NG en cas d'achat. Berne doit choisir prochainement entre ce système franco-italien et l'offre israélienne concurrente.",
+     "full": true
+    },
+    {
+     "title": "Fin de l’interdiction des passoires thermiques à la location : aux Assises de la rénovation énergétique, la consternation des professionnels du secteur",
+     "titre": "Fin de l’interdiction des passoires thermiques à la location : aux Assises de la rénovation énergétique, la consternation des professionnels du secteur",
+     "link": "https://www.lemonde.fr/societe/article/2026/11/27/fin-de-l-interdiction-des-passoires-thermiques-a-la-location-aux-assises-de-la-renovation-energetique-la-consternation-des-professionnels-du-secteur_6815833_3224.html",
+     "source": "Le Monde Économie",
+     "resume": "L'adoption d'un amendement parlementaire mettant fin à l'interdiction de louer des passoires thermiques suscite la consternation des acteurs de la rénovation énergétique. Le diagnostic de performance énergétique se trouve ainsi relégué au rang de simple indicateur.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "bref": "Le conflit en Ukraine continue de générer des pertes humaines massives et des frappes nocturnes contre les infrastructures énergétiques. En Afrique du Sud, la précarité alimente des tensions croissantes à l'encontre des étrangers.",
+   "items": [
+    {
+     "title": "Guerre en Ukraine : pour arrêter la boucherie, il faut désigner le boucher",
+     "titre": "Guerre en Ukraine : pour arrêter la boucherie, il faut désigner le boucher",
+     "link": "https://www.lemonde.fr/idees/article/2026/11/27/guerre-en-ukraine-pour-arreter-la-boucherie-il-faut-designer-le-boucher_6815842_3232.html",
+     "source": "Le Monde International",
+     "resume": "L'invasion de l'Ukraine par la Russie a entraîné des pertes humaines considérables sans victoire décisive sur le terrain. L'article critique l'indulgence de certains dirigeants internationaux face au responsable de ce conflit meurtrier.",
+     "full": true
+    },
+    {
+     "title": "EN DIRECT, guerre en Ukraine : la Russie a frappé des infrastructures civiles et énergétiques dans neuf oblasts pendant la nuit, déplore le premier ministre ukrainien",
+     "titre": "Guerre en Ukraine : la Russie a frappé des infrastructures civiles et énergétiques dans neuf oblasts pendant la nuit",
+     "link": "https://www.lemonde.fr/international/live/2026/11/27/en-direct-guerre-en-ukraine-la-russie-a-frappe-des-infrastructures-civiles-et-energetiques-dans-neuf-oblasts-pendant-la-nuit-deplore-le-premier-ministre-ukrainien_6814183_3210.html",
+     "source": "Le Monde International",
+     "resume": "Des frappes nocturnes russes ont touché plusieurs installations énergétiques et ferroviaires en Ukraine, causant des victimes civiles. En parallèle, Moscou prolonge ses restrictions sur les exportations de kérosène pour stabiliser son marché intérieur.",
+     "full": true
+    },
+    {
+     "title": "Afrique du Sud : la fin de l'Eldorado pour les étrangers",
+     "titre": "Afrique du Sud : la fin de l'Eldorado pour les étrangers",
+     "link": "https://www.france24.com/fr/%C3%A9missions/reporters/20261127-afrique-du-sud-fin-eldorado-pour-les-%C3%A9trangers-r%C3%A9fugi%C3%A9s-xenophobie",
+     "source": "France 24",
+     "resume": "Longtemps terre d'accueil pour ceux qui fuyaient les conflits et les persécutions, l'Afrique du Sud est devenue un pays de plus en plus hostile aux étrangers. Sur fond de chômage et de précarité, les mouvements…",
+     "full": false
+    },
+    {
+     "title": "PFAS dans les aliments : une ONG dénonce des \"failles\" réglementaires",
+     "titre": "PFAS dans les aliments : une ONG dénonce des \"failles\" réglementaires",
+     "link": "https://www.france24.com/fr/vid%C3%A9o/20261127-pfas-dans-les-aliments-une-ong-d%C3%A9nonce-des-failles-r%C3%A9glementaires",
+     "source": "France 24",
+     "resume": "Les limites réglementaires qui fixent les seuils de \"polluants éternels\" (PFAS) autorisés dans les aliments présentent des \"failles\" et ne \"garantissent pas une protection suffisante\" des consommateurs, déplore…",
+     "full": false
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "bref": "Le paysage politique est marqué par des batailles judiciaires et parlementaires sur l'immigration et la laïcité. Au Canada, des scrutins partiels et des demandes de transparence ébranlent les formations en place.",
+   "items": [
+    {
+     "title": "Le PCC veut que l’épouse de Carney témoigne sur son rôle dans la gestion des océans",
+     "titre": "Le PCC veut que l’épouse de Carney témoigne sur son rôle dans la gestion des océans",
+     "link": "https://ici.radio-canada.ca/article/info/2303399/pcc-veut-epouse-carney-temoigne-role-gestion-oceans",
+     "source": "Radio-Canada",
+     "resume": "Le Parti conservateur du Canada demande la comparution parlementaire de Diana Fox Carney concernant ses fonctions d'envoyée spéciale pour les océans. Les oppositions réclament davantage de transparence sur ses priorités et les financements de ses déplacements.",
+     "full": true
+    },
+    {
+     "title": "Supreme Court to render its decision on Quebec's secularism law today",
+     "titre": "La Cour suprême du Canada va rendre sa décision sur la loi sur la laïcité au Québec",
+     "link": "https://www.cbc.ca/news/politics/supreme-court-decison-bill-21-9.7437512?cmp=rss",
+     "source": "CBC Politics",
+     "resume": "La Cour suprême s'apprête à statuer sur la constitutionnalité de la loi 21 encadrant le port de signes religieux dans la fonction publique québécoise. Ce jugement historique pourrait redéfinir l'utilisation de la clause dérogatoire.",
+     "full": true
+    },
+    {
+     "title": "Trump effectively ended asylum. Advocates look to the Supreme Court to restore it",
+     "titre": "Trump a effectivement mis fin à l'asile. Les défenseurs se tournent vers la Cour suprême pour le rétablir",
+     "link": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court",
+     "source": "NPR Politics",
+     "resume": "La Cour suprême américaine doit examiner les restrictions unilatérales imposées par l'administration Trump sur les demandes d'asile à la frontière. Ces mesures ont entraîné une chute drastique des interceptions et une forte hausse des taux de rejet.",
+     "full": true
+    },
+    {
+     "title": "This Independent is giving Poilievre's Conservatives the jitters ahead of a crucial byelection",
+     "titre": "Cet indépendant donne des sueurs froides aux conservateurs de Poilievre avant une élection partielle cruciale",
+     "link": "https://www.cbc.ca/news/politics/brantford-byelection-dave-carrol-independent-conservative-9.7438039?cmp=rss",
+     "source": "CBC Politics",
+     "resume": "Un candidat indépendant mène une campagne remarquée dans un bastion conservateur en vue d'une élection partielle importante. Cette candidature perturbe la stratégie du parti après le choix unipersonnel d'un autre candidat par la direction.",
+     "full": true
+    }
+   ]
+  }
+ ]
+}
