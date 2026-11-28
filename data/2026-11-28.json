@@ -1,0 +1,326 @@
+{
+ "date": "2026-11-28",
+ "generated_at": "05:50",
+ "ai": true,
+ "une": [
+  {
+   "titre": "Ruptures de stock sur les consoles de jeu avant Noël",
+   "resume": "À l'approche de Noël, les PlayStation et Xbox se font rares dans les rayons et boutiques en ligne en France, plusieurs enseignes ne pouvant déjà plus passer de commandes. Si Le Monde Pixels cite « GTA VI » comme déclencheur, les causes exactes et la durée de cette pénurie restent incertaines. En parallèle, un épisode de BFM Business retrace le lancement mouvementé de la Xbox One, sans lien direct avec les ruptures actuelles.",
+   "sources": [
+    {
+     "source": "Le Monde Pixels",
+     "link": "https://www.lemonde.fr/pixels/article/2026/11/28/gta-vi-joue-un-role-de-declencheur-pourquoi-la-playstation-5-est-en-rupture-de-stock_6816081_4408996.html"
+    },
+    {
+     "source": "BFM Business",
+     "link": "https://www.bfmtv.com/economie/podcasts/la-saga-xbox/episode-3-la-xbox-one-quand-microsoft-revait-plus-de-salon-que-de-jeu_EN-202611280176.html"
+    }
+   ]
+  },
+  {
+   "titre": "Souveraineté numérique : Paris crée Ariane, Varsovie signe avec Palantir",
+   "resume": "En France, un décret transforme la DINUM en Ariane dès 2027 pour piloter l'IA de l'État et imposer des outils partagés aux ministères. À l'inverse, la Pologne a signé un contrat de 300 millions de dollars sur cinq ans pour déployer le système Maven de l'américain Palantir. Varsovie assure conserver les clés et serveurs tout en développant les alternatives AIRON et NEFRYT, mais leur capacité à supplanter Palantir dans ce délai reste incertaine.",
+   "sources": [
+    {
+     "source": "Next",
+     "link": "https://next.ink/270519/ariane-succede-officiellement-a-la-dinum-et-pourra-imposer-ses-outils-aux-ministeres/"
+    },
+    {
+     "source": "Le Monde Pixels",
+     "link": "https://www.lemonde.fr/international/article/2026/11/27/en-pologne-l-armee-choisit-l-ia-de-palantir-pour-l-aide-a-la-decision_6815890_3210.html"
+    },
+    {
+     "source": "Politico Europe",
+     "link": "https://www.politico.eu/article/wed-be-stupid-not-to-poland-defends-300m-military-ai-deal-with-palantir/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+    }
+   ]
+  },
+  {
+   "titre": "La France en récession technique et sous avertissement de S&P",
+   "resume": "L'Insee a révisé la croissance française du troisième trimestre à -0,2 %, plaçant le pays en récession technique. Dans ce contexte, S&P Global a maintenu la note souveraine à A+ mais abaissé sa perspective à négative, anticipant un déficit de 5,3 % en 2027 sans nouvelles économies. Les appréciations divergent : un économiste juge l'économie à l'arrêt, alors que Roland Lescure mise sur un rebond et maintient les 5 %, suspendus au vote du budget.",
+   "sources": [
+    {
+     "source": "BFM Business",
+     "link": "https://www.bfmtv.com/economie/video-la-france-en-recession-l-economie-du-pays-est-a-l-arret-explique-michael-zemmour-enseignant-chercheur-en-economie_VN-202611280234.html"
+    },
+    {
+     "source": "Franceinfo Politique",
+     "link": "https://www.franceinfo.fr/economie/crise/crise-de-la-dette/roland-lescure-voit-un-avertissement-dans-la-decision-de-s-p-et-maintient-l-objectif-d-un-deficit-public-a-5-en-2027_8304339.html#xtor=RSS-3-%5Bpolitique%5D"
+    }
+   ]
+  }
+ ],
+ "concept": {
+  "terme": "AMSI (Antimalware Scan Interface)",
+  "explication": "L'AMSI est une interface standard de Windows permettant aux applications de soumettre des scripts à l'antivirus installé avant leur exécution. Elle inspecte directement en mémoire les commandes PowerShell ou JavaScript afin de repérer du code malveillant, même obfusqué sur disque. Comme cette interface tourne dans l'espace utilisateur, des attaquants tentent de la neutraliser pour masquer leurs charges. Ce mécanisme revient dans l'actualité avec Vinci RAT, dont le lanceur PowerShell désactive AMSI pour opérer furtivement.",
+  "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+  "source": "The Hacker News"
+ },
+ "art": {
+  "rubrique": "Cinéma",
+  "titre": "Woody Harrelson a failli refuser Hunger Games",
+  "texte": "À l'occasion de la sortie de « Hunger Games : Lever de soleil sur la moisson », fort de 790 050 entrées en France en une semaine, Woody Harrelson revient sur ses hésitations. L'acteur a refusé deux fois le rôle d'Haymitch Abernathy, craignant qu'il manque de matière. Convaincu par téléphone par Gary Ross, il a finalement incarné ce personnage dans cinq films.",
+  "link": "https://www.allocine.fr/article/fichearticle_gen_carticle=1000234005.html",
+  "source": "AlloCiné"
+ },
+ "histoire": {
+  "annee": 1943,
+  "titre": "La conférence de Téhéran réunit les dirigeants alliés",
+  "texte": "Le 28 novembre 1943, Winston Churchill, Franklin Delano Roosevelt et Joseph Staline se rencontrent lors de la conférence de Téhéran. Ce sommet réunit les trois principaux dirigeants des Alliés, opposés aux forces de l'Axe durant la Seconde Guerre mondiale. Désignée depuis janvier 1942 comme les Nations unies, cette coalition fonda ensuite l'Organisation des Nations unies.",
+  "link": "https://fr.wikipedia.org/wiki/Alli%C3%A9s_de_la_Seconde_Guerre_mondiale",
+  "source": "Wikipédia"
+ },
+ "pays": {
+  "nom": "Afghanistan",
+  "capitale": "Kaboul",
+  "texte": "Pays enclavé d'Asie du Sud ou centrale, l'Afghanistan est bordé par l'Ouzbékistan, la Chine, le Tadjikistan, le Pakistan, l'Iran et le Turkménistan. De facto émirat islamique gouverné par les talibans, il demeure reconnu internationalement comme république islamique. Une explosion près d'une école à Asadabad, dans la province de Kunar, y a tué au moins sept élèves et blessé 99 personnes. Selon les autorités, l'accident proviendrait d'une négligence dans un dépôt d'explosifs minier.",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Afghanistan_%28orthographic_projection%29.svg/langfr-330px-Afghanistan_%28orthographic_projection%29.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "wiki": "https://fr.wikipedia.org/wiki/Afghanistan",
+  "link": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+  "source": "BBC World"
+ },
+ "categories": [
+  {
+   "id": "tech",
+   "name": "Tech",
+   "bref": "Washington accroît son emprise sur les fabricants de puces, contraignant Intel à céder 10 % de son capital et appuyant le retour de Jensen Huang chez Nvidia malgré les critiques. Côté système, le projet xnulinux exécute macOS 27 dans le noyau Linux sans virtualisation.",
+   "items": [
+    {
+     "title": "Ariane succède officiellement à la DINUM et pourra imposer ses outils aux ministères",
+     "titre": "Ariane succède officiellement à la DINUM et pourra imposer ses outils aux ministères",
+     "link": "https://next.ink/270519/ariane-succede-officiellement-a-la-dinum-et-pourra-imposer-ses-outils-aux-ministeres/",
+     "source": "Next",
+     "resume": "Un décret transforme la DINUM en Ariane dès le 1er janvier 2027, autorité chargée du numérique et de l'IA de l'État sous l'égide du Premier ministre. Elle élaborera la doctrine technique et pourra obliger les ministères à adopter ses outils partagés.",
+     "full": true
+    },
+    {
+     "title": "« “GTA VI” joue un rôle de déclencheur » : pourquoi la PlayStation 5 est en rupture de stock",
+     "titre": "« “GTA VI” joue un rôle de déclencheur » : pourquoi la PlayStation 5 est en rupture de stock",
+     "link": "https://www.lemonde.fr/pixels/article/2026/11/28/gta-vi-joue-un-role-de-declencheur-pourquoi-la-playstation-5-est-en-rupture-de-stock_6816081_4408996.html",
+     "source": "Le Monde Pixels",
+     "resume": "Les consoles PlayStation et Xbox se raréfient depuis quelques jours dans les boutiques en ligne et magasins français, comme à Paris, Maubeuge ou Sainte-Eulalie. À l'approche de Noël, les enseignes spécialisées et hypermarchés ne peuvent plus passer de commandes.",
+     "full": true
+    },
+    {
+     "title": "Oui, on peut faire tourner macOS sur une base Linux",
+     "titre": "Oui, on peut faire tourner macOS sur une base Linux",
+     "link": "https://next.ink/270674/oui-on-peut-faire-tourner-macos-sur-une-base-linux/",
+     "source": "Next",
+     "resume": "Le projet libre xnulinux exécute le bureau de macOS 27 dans Linux sans virtualisation en compilant le noyau XNU comme module noyau. Encore au stade de preuve de concept, il exige une puce Arm récente, désactive des sécurités et s'avère trois fois plus lent.",
+     "full": true
+    },
+    {
+     "title": "Charles Ferguson, investisseur et actionnaire de Nvidia : « Jensen Huang est déconnecté de la réalité et son ego est totalement hors de contrôle »",
+     "titre": "Charles Ferguson, investisseur et actionnaire de Nvidia : « Jensen Huang est déconnecté de la réalité et son ego est totalement hors de contrôle »",
+     "link": "https://www.lemonde.fr/idees/article/2026/11/27/jensen-huang-le-pdg-de-nvidia-est-deconnecte-de-la-realite-et-son-ego-est-totalement-hors-de-controle_6815895_3232.html",
+     "source": "Le Monde Pixels",
+     "resume": "L'actionnaire Charles Ferguson critique la réintégration de Jensen Huang à la tête de Nvidia, qu'il attribue aux pressions de Donald Trump. Il lui reproche ses ventes à la Chine, ses liaisons dissimulées et un comportement abusif envers les employés.",
+     "full": true
+    },
+    {
+     "title": "Intel faced a choice: Give Trump 10% or face the consequences",
+     "titre": "Intel face à un choix : céder 10 % à Trump ou en subir les conséquences",
+     "link": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/",
+     "source": "Ars Technica",
+     "resume": "Des documents judiciaires révèlent que l'administration Trump a pressé Intel en août 2025 de lui céder gratuitement 10 % de son capital, soit environ 11 milliards de dollars. Après son intervention chez Nvidia, cet épisode illustre une ingérence croissante de l'exécutif américain.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "ia",
+   "name": "IA",
+   "bref": "Du côté de l'IA, Hugging Face génère des vidéos sonorisées avec LTX-2.5 sur Trainium3, tandis que Google déploie sur Android des widgets pilotés par Gemini. En parallèle, Simon Willison améliore ses greffons Datasette pour les graphiques et MCP à l'aide de Claude Opus 5.5.",
+   "items": [
+    {
+     "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+     "titre": "Mettre Trainium3 sur la piste : générer des vidéos avec LTX-2.5",
+     "link": "https://huggingface.co/blog/video-trainium3",
+     "source": "Hugging Face",
+     "resume": "Hugging Face a testé le modèle LTX-2.5 sur une machine AWS Trainium3 pour générer des courts-métrages enchaînant plusieurs plans avec son. Sur la moitié de la machine, un clip de 10 secondes en 2048×1024 prend 22 à 23 secondes, devançant l'API officielle.",
+     "full": true
+    },
+    {
+     "title": "datasette-charts 0.4a0",
+     "titre": "datasette-charts 0.4a0",
+     "link": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+     "source": "Simon Willison",
+     "resume": "Simon Willison publie la version 0.4a0 de datasette-charts après avoir fait tester son crochet d'extension à Claude Opus 5.5 pour en corriger les frictions. Un nouveau site dédié propose désormais un tutoriel et des démonstrations interactives sur Datasette Lite.",
+     "full": true
+    },
+    {
+     "title": "datasette-mcp 0.4",
+     "titre": "datasette-mcp 0.4",
+     "link": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+     "source": "Simon Willison",
+     "resume": "Simon Willison a publié la version 0.4 du greffon datasette-mcp, lié au Model Context Protocol. Cette mise à jour assure sa compatibilité avec Datasette 1.0a44.",
+     "full": false
+    },
+    {
+     "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+     "titre": "Les widgets DIY d’Android offrent un peu de divertissement en vibe-coding",
+     "link": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+     "source": "The Verge AI",
+     "resume": "Déployée en bêta sur Pixel, la fonction Create My Widget d'Android permet de générer des widgets personnalisés via Gemini Intelligence. En pratique, ces tuiles reposent surtout sur des modèles figés et des raccourcis de requête vers Gemini, limitant les usages temps réel.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "cyber",
+   "name": "Cybersécurité",
+   "bref": "Les environnements logiciels et coffres numériques sont ciblés : SAP enquête sur un accès suspect à GitHub, tandis que pCloud Pass subit une attaque exposant des e-mails. Parallèlement, Vinci RAT exploite une application du Microsoft Store pour prendre le contrôle à distance.",
+   "items": [
+    {
+     "title": "Cyberattaque chez SAP : des soupçons d'accès au code source sur GitHub",
+     "titre": "Cyberattaque chez SAP : des soupçons d'accès au code source sur GitHub",
+     "link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-chez-sap-des-soupcons-d-acces-au-code-source-sur-github",
+     "source": "Le Monde Informatique",
+     "resume": "SAP enquête sur l'incident « Project Granite » après la détection d'activités suspectes et des soupçons de vol de jetons GitHub permettant d'accéder au code source. L'éditeur a restreint ses accès et remplacé des clés de signature, sans preuve d'atteinte aux données clients.",
+     "full": true
+    },
+    {
+     "title": "Software giant SAP confirms cyber incident amid reports of source code breach",
+     "titre": "Le géant du logiciel SAP confirme un incident informatique sur fond de soupçons d’accès au code source",
+     "link": "https://therecord.media/sap-germany-cyberattack-github",
+     "source": "The Record",
+     "resume": "SAP a confirmé un incident affectant son environnement de développement après des informations évoquant le vol de jetons d'employés sur GitHub. L'entreprise a suspendu des processus automatisés et changé ses clés numériques, sans confirmer si du code livré aux clients a été altéré.",
+     "full": true
+    },
+    {
+     "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+     "titre": "Le gestionnaire de mots de passe pCloud Pass touché par une cyberattaque impliquant l'exposition d'adresses e-mail et des tentatives de connexion",
+     "link": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+     "source": "The Hacker News",
+     "resume": "pCloud a contenu une attaque visant pCloud Pass ayant exposé des adresses e-mail et déclenché des tentatives de connexion depuis des IP luxembourgeoises. L'éditeur assure que les coffres chiffrés restent protégés par le mot de passe maître, sans préciser l'origine de l'intrusion.",
+     "full": true
+    },
+    {
+     "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+     "titre": "Une application du Microsoft Store repérée en train de diffuser Vinci RAT, capable de prendre le contrôle à distance d'un système",
+     "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+     "source": "The Hacker News",
+     "resume": "Selon eSentire, des pirates redirigent des victimes vers de faux sites pour installer Setup Assistant, une application Electron du Microsoft Store déployant le cheval de Troie Vinci RAT. Ce dernier désactive AMSI et installe une tâche planifiée pour exécuter des charges à distance.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "finance",
+   "name": "Finance",
+   "bref": "Face aux défis économiques, des pistes locales et industrielles émergent : Parlan attire des habitants avec des terrains quasi gratuits, quand l'économie de la fonctionnalité mise sur l'usage durable. Dans le commerce, Arket ouvre à Paris malgré le recul de l'habillement.",
+   "items": [
+    {
+     "title": "Comment ce petit village du Cantal a réussi à doubler sa population et à multiplier les commerces en offrant des terrains gratuits aux nouveaux habitants",
+     "titre": "Comment ce petit village du Cantal a réussi à doubler sa population et à multiplier les commerces en offrant des terrains gratuits aux nouveaux habitants",
+     "link": "https://www.bfmtv.com/economie/comment-ce-petit-village-du-cantal-a-reussi-a-doubler-sa-population-et-a-multiplier-les-commerces-en-offrant-des-terrains-gratuits-aux-nouveaux-habitants_AD-202611280235.html",
+     "source": "BFM Business",
+     "resume": "À Parlan, dans le Cantal, la mairie cède depuis 2008 des terrains à bâtir pour 5 euros les 1 000 m² contre un engagement de résidence de dix ans. La commune est ainsi passée de 280 à 504 habitants et a maintenu son école.",
+     "full": true
+    },
+    {
+     "title": "La France en récession: l'économie du pays est \"à l'arrêt\", explique Michaël Zemmour, enseignant-chercheur en économie",
+     "titre": "La France en récession: l'économie du pays est \"à l'arrêt\", explique Michaël Zemmour, enseignant-chercheur en économie",
+     "link": "https://www.bfmtv.com/economie/video-la-france-en-recession-l-economie-du-pays-est-a-l-arret-explique-michael-zemmour-enseignant-chercheur-en-economie_VN-202611280234.html",
+     "source": "BFM Business",
+     "resume": "L'Insee a révisé à la baisse la croissance française du troisième trimestre, enregistrant un recul de 0,2 % du PIB. Officiellement en récession technique, la France aurait besoin d'un fort rebond d'ici la fin de l'année pour atteindre l'objectif gouvernemental.",
+     "full": false
+    },
+    {
+     "title": "Avec sa marque Arket, H&M mise sur la montée en gamme pour tenter d’enrayer la concurrence de Shein",
+     "titre": "Avec sa marque Arket, H&M mise sur la montée en gamme pour tenter d’enrayer la concurrence de Shein",
+     "link": "https://www.lemonde.fr/economie/article/2026/11/28/face-a-la-concurrence-de-shein-h-m-mise-sur-la-montee-en-gamme-avec-arket_6816096_3234.html",
+     "source": "Le Monde Économie",
+     "resume": "Arket, enseigne créée par H&M, a ouvert le 27 novembre un deuxième magasin parisien de 650 m² rue Tronchet. Cette implantation intervient dans un marché français de l'habillement en recul de 2,7 % sur neuf mois face à la fast-fashion chinoise.",
+     "full": true
+    },
+    {
+     "title": "« Après avoir appris à mieux gérer nos déchets, veillons à rallonger la durée de vie de nos biens »",
+     "titre": "« Après avoir appris à mieux gérer nos déchets, veillons à rallonger la durée de vie de nos biens »",
+     "link": "https://www.lemonde.fr/idees/article/2026/11/28/apres-avoir-appris-a-mieux-gerer-nos-dechets-veillons-a-rallonger-la-duree-de-vie-de-nos-biens_6816086_3232.html",
+     "source": "Le Monde Économie",
+     "resume": "Face à une dette publique attendue près de 122 % du PIB en 2027, l'économie de la fonctionnalité propose de rémunérer l'usage plutôt que la vente. Selon la direction générale des entreprises, huit sociétés sur dix l'ayant adoptée ont amélioré leur rentabilité.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "monde",
+   "name": "International",
+   "bref": "Entre crises sanitaires, climatiques et sécuritaires, la rougeole progresse aux États-Unis sur fond de défiance vaccinale, le lac Trasimène s'assèche en Italie et le Salvador appuie la lutte antigangs à Port-au-Prince. Au Canada, la Cour suprême valide la loi québécoise sur la laïcité.",
+   "items": [
+    {
+     "title": "Haïti : \"Bukele a insufflé aux forces de l’ordre le désir de mener des opérations\"",
+     "titre": "Haïti : \"Bukele a insufflé aux forces de l’ordre le désir de mener des opérations\"",
+     "link": "https://www.france24.com/fr/am%C3%A9riques/20261128-ha%C3%AFti-bukele-salvador-gangs-operation-police",
+     "source": "France 24",
+     "resume": "À Port-au-Prince, l'intervention militaire du Salvador permet le recul des gangs dans certains quartiers, autorisant des habitants à regagner leurs logements dévastés. Les groupes armés maintiennent toutefois leur emprise violente sur une grande partie de la population.",
+     "full": false
+    },
+    {
+     "title": "Aux Etats-Unis, une épidémie de rougeole dopée par l’idéologie",
+     "titre": "Aux Etats-Unis, une épidémie de rougeole dopée par l’idéologie",
+     "link": "https://www.lemonde.fr/idees/article/2026/11/28/aux-etats-unis-une-epidemie-de-rougeole-dopee-par-l-ideologie_6816097_3232.html",
+     "source": "Le Monde International",
+     "resume": "Les États-Unis ont perdu leur statut d'élimination de la rougeole après une vingtaine de décès, avec une couverture vaccinale tombée à 92,4 % en maternelle en 2025 contre un seuil requis de 95 %. Ce recul est lié aux positions antivaccins et aux coupes sanitaires.",
+     "full": true
+    },
+    {
+     "title": "Le lac Trasimène, en Italie, chronique en images d’une disparition annoncée",
+     "titre": "Le lac Trasimène, en Italie, chronique en images d’une disparition annoncée",
+     "link": "https://www.lemonde.fr/m-le-mag/article/2026/11/28/le-lac-trasimene-en-italie-chronique-en-images-d-une-disparition-annoncee_6816094_4500055.html",
+     "source": "Le Monde International",
+     "resume": "En Ombrie, le lac Trasimène, quatrième plan d'eau d'Italie profond de 4 à 6 mètres, souffre de la baisse des précipitations et d'une sécheresse historique. Le photographe Gabriele Cecconi a documenté à l'été 2026 l'assèchement de ce lac menacé à terme de disparition.",
+     "full": true
+    },
+    {
+     "title": "Canada’s top court upholds Quebec law barring public sector workers from wearing religious symbols",
+     "titre": "La Cour suprême du Canada confirme la loi québécoise interdisant aux agents du secteur public de porter des signes religieux",
+     "link": "https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols",
+     "source": "The Guardian World",
+     "resume": "Par six voix contre une, la Cour suprême du Canada a validé l'usage préventif par le Québec de la clause dérogatoire pour la loi 21. Elle maintient l'interdiction des signes religieux dans la fonction publique malgré l'opposition de groupes de défense des droits.",
+     "full": true
+    }
+   ]
+  },
+  {
+   "id": "politique",
+   "name": "Politique",
+   "bref": "En France, le CESE lance une convention citoyenne sur les finances publiques, tandis que Jordan Bardella conteste de nouveaux écrits antisémites avec l'appui de Marine Le Pen. Au Canada, Mark Carney impose la ligne de parti sur C-39.",
+   "items": [
+    {
+     "title": "Convention citoyenne sur les finances publiques : le CESE entend peser sur les débats à l’approche de la présidentielle",
+     "titre": "Convention citoyenne sur les finances publiques : le CESE entend peser sur les débats à l’approche de la présidentielle",
+     "link": "https://www.lemonde.fr/politique/article/2026/11/28/convention-citoyenne-sur-les-finances-publiques-le-cese-entend-peser-sur-les-debats-a-l-approche-de-la-presidentielle_6816088_823448.html",
+     "source": "Le Monde Politique",
+     "resume": "Quelque 150 citoyens ont entamé au CESE, le 27 novembre, une convention citoyenne de quatre mois sur les finances publiques. Fruit d'une autosaisine inédite de l'institution, cette consultation doit remettre ses conclusions le 21 mars 2027 avant l'élection présidentielle.",
+     "full": true
+    },
+    {
+     "title": "Carney says vote on controversial bill to fast-track projects will be whipped for Liberal MPs",
+     "titre": "Carney indique que le vote sur le projet de loi controversé visant à accélérer les projets sera soumis à la ligne de parti pour les députés libéraux",
+     "link": "https://www.cbc.ca/news/politics/bil-c-39-major-projects-vote-9.7439299?cmp=rss",
+     "source": "CBC Politics",
+     "resume": "Le premier ministre canadien Mark Carney impose la discipline de parti aux députés libéraux pour garantir l'adoption du projet de loi C-39 accélérant les projets d'infrastructures. Vivement critiqué pour ses reculs environnementaux et sociaux, le texte est rejeté par l'opposition.",
+     "full": true
+    },
+    {
+     "title": "Ecrits antisémites : Jordan Bardella maintient sa défense",
+     "titre": "Ecrits antisémites : Jordan Bardella maintient sa défense",
+     "link": "https://www.franceinfo.fr/replay-jt/franceinfo/21h-minuit/23-heures/ecrits-antisemites-jordan-bardella-maintient-sa-defense_8304354.html#xtor=RSS-3-%5Bpolitique%5D",
+     "source": "Franceinfo Politique",
+     "resume": "Après la révélation par Le Monde et Mediapart d'une dizaine de nouveaux messages antisémites attribués à Jordan Bardella, le président du RN dénonce une persécution et envisage des poursuites. Marine Le Pen maintient son soutien, tandis que l'opposition réclame des excuses.",
+     "full": true
+    },
+    {
+     "title": "Roland Lescure voit un \"avertissement\" dans la décision de S&P et maintient l'objectif d'un déficit public à 5% en 2027",
+     "titre": "Roland Lescure voit un \"avertissement\" dans la décision de S&P et maintient l'objectif d'un déficit public à 5% en 2027",
+     "link": "https://www.franceinfo.fr/economie/crise/crise-de-la-dette/roland-lescure-voit-un-avertissement-dans-la-decision-de-s-p-et-maintient-l-objectif-d-un-deficit-public-a-5-en-2027_8304339.html#xtor=RSS-3-%5Bpolitique%5D",
+     "source": "Franceinfo Politique",
+     "resume": "S&P Global a maintenu la note A+ de la France mais abaissé sa perspective à négative, prévoyant un déficit de 5,3 % en 2027 sans mesures nouvelles. Roland Lescure juge cet avertissement sérieux, vise toujours 5 % de déficit et réclame des économies.",
+     "full": true
+    }
+   ]
+  }
+ ]
+}
